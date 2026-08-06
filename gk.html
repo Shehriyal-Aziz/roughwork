@@ -1,0 +1,5173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#000000">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General Knowledge — MCQ Notes</title>
+    <link rel="icon" type="image/png" href="exam.png" />
+    <style>
+      /* ===== CSS VARIABLES (Light Mode) ===== */
+      :root {
+        --bg: #f4f6f9;
+        --card-bg: #fff;
+        --text: #222;
+        --text-muted: #777;
+        --heading: #1a3d63;
+        --border-accent: #1a3d63;
+        --tag-bg: #1a3d63;
+        --tag-text: #fff;
+        --option-bg: #f0f3f7;
+        --option-text: #222;
+        --correct-bg: #d7f0db;
+        --correct-text: #1a6b2f;
+        --explanation-bg: #fff9e6;
+        --explanation-border: #e6b800;
+        --missing-bg: #fdecea;
+        --missing-border: #d9534f;
+        --missing-text: #7a2e29;
+        --shadow: rgba(0, 0, 0, 0.08);
+        --toolbar-bg: #fff;
+        --toolbar-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+        --btn-primary: #1a3d63;
+        --btn-primary-text: #fff;
+        --btn-secondary: #f0f3f7;
+        --btn-secondary-text: #333;
+        --input-bg: #f0f3f7;
+        --input-border: #ccd4df;
+        --note-user-bg: #eef6ff;
+        --note-user-border: #4a90d9;
+        --bookmarked-border: #f5a623;
+        --test-wrong: #ffe0e0;
+        --test-wrong-text: #c0392b;
+        --test-option-hover: #e2e8f0;
+      }
+
+      /* ===== DARK MODE ===== */
+      body.dark {
+        --bg: #111827;
+        --card-bg: #1f2937;
+        --text: #e5e7eb;
+        --text-muted: #9ca3af;
+        --heading: #93c5fd;
+        --border-accent: #3b82f6;
+        --tag-bg: #3b82f6;
+        --tag-text: #fff;
+        --option-bg: #374151;
+        --option-text: #e5e7eb;
+        --correct-bg: #14532d;
+        --correct-text: #86efac;
+        --explanation-bg: #292524;
+        --explanation-border: #ca8a04;
+        --missing-bg: #3b1010;
+        --missing-border: #ef4444;
+        --missing-text: #fca5a5;
+        --shadow: rgba(0, 0, 0, 0.4);
+        --toolbar-bg: #1f2937;
+        --toolbar-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        --btn-primary: #3b82f6;
+        --btn-primary-text: #fff;
+        --btn-secondary: #374151;
+        --btn-secondary-text: #e5e7eb;
+        --input-bg: #374151;
+        --input-border: #4b5563;
+        --note-user-bg: #1e3a5f;
+        --note-user-border: #3b82f6;
+        --bookmarked-border: #f59e0b;
+        --test-wrong: #3b0f0f;
+        --test-wrong-text: #f87171;
+        --test-option-hover: #374151;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 0 20px 60px;
+        line-height: 1.6;
+        transition:
+          background 0.3s,
+          color 0.3s;
+      }
+
+      h1 {
+        color: var(--heading);
+        border-bottom: 3px solid var(--border-accent);
+        padding-bottom: 8px;
+        margin-top: 0;
+      }
+
+      /* ===== STICKY TOOLBAR ===== */
+      #toolbar {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: var(--toolbar-bg);
+        box-shadow: var(--toolbar-shadow);
+        padding: 10px 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin: 0 -20px 24px;
+        transition: background 0.3s;
+      }
+
+      #toolbar .toolbar-group {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      #toolbar .sep {
+        width: 1px;
+        height: 28px;
+        background: var(--input-border);
+        margin: 0 4px;
+      }
+
+      .btn {
+        padding: 6px 12px;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+        font-size: 0.82em;
+        font-weight: 600;
+        transition:
+          opacity 0.15s,
+          transform 0.1s;
+        white-space: nowrap;
+      }
+      .btn:hover {
+        opacity: 0.85;
+        transform: translateY(-1px);
+      }
+      .btn:active {
+        transform: translateY(0);
+      }
+
+      .btn-primary {
+        background: var(--btn-primary);
+        color: var(--btn-primary-text);
+      }
+      .btn-secondary {
+        background: var(--btn-secondary);
+        color: var(--btn-secondary-text);
+      }
+      .btn-danger {
+        background: #ef4444;
+        color: #fff;
+      }
+      .btn-success {
+        background: #22c55e;
+        color: #fff;
+      }
+      .btn-warn {
+        background: #f59e0b;
+        color: #fff;
+      }
+
+      #jump-input {
+        width: 70px;
+        padding: 5px 8px;
+        border-radius: 7px;
+        border: 1.5px solid var(--input-border);
+        background: var(--input-bg);
+        color: var(--text);
+        font-size: 0.85em;
+        outline: none;
+      }
+      #jump-input:focus {
+        border-color: var(--btn-primary);
+      }
+
+      /* ===== MCQ CARDS ===== */
+      .mcq-card {
+        background: var(--card-bg);
+        border-radius: 10px;
+        padding: 20px 25px;
+        margin-bottom: 22px;
+        box-shadow: 0 2px 6px var(--shadow);
+        border-left: 5px solid var(--border-accent);
+        transition:
+          background 0.3s,
+          box-shadow 0.3s,
+          border-color 0.3s;
+      }
+
+      .mcq-card.bookmarked {
+        border-left-color: var(--bookmarked-border);
+      }
+
+      /* ===== CARD HEADER ROW ===== */
+      .card-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 6px;
+        gap: 8px;
+      }
+      .card-header-left {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+
+      .tag {
+        display: inline-block;
+        background: var(--tag-bg);
+        color: var(--tag-text);
+        font-size: 0.75em;
+        padding: 2px 8px;
+        border-radius: 12px;
+      }
+
+      .card-actions {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+      }
+
+      .icon-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1em;
+        padding: 3px 5px;
+        border-radius: 6px;
+        line-height: 1;
+        transition: background 0.15s;
+        color: var(--text-muted);
+      }
+      .icon-btn:hover {
+        background: var(--option-bg);
+        color: var(--text);
+      }
+      .icon-btn.active {
+        color: var(--bookmarked-border);
+      }
+
+      /* ===== COLLAPSE TOGGLE ===== */
+      .collapse-toggle {
+        font-size: 0.78em;
+        color: var(--btn-primary);
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        font-weight: 600;
+        text-decoration: underline;
+      }
+
+      .collapsible {
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+      .collapsible.collapsed {
+        max-height: 0 !important;
+      }
+
+      /* ===== OPTIONS ===== */
+      .mcq-question {
+        font-weight: 600;
+        font-size: 1.06em;
+        margin-bottom: 10px;
+        color: var(--text);
+      }
+
+      .options {
+        list-style: none;
+        padding-left: 0;
+        margin: 10px 0;
+      }
+
+      .options li {
+        padding: 6px 10px;
+        margin-bottom: 4px;
+        border-radius: 6px;
+        background: var(--option-bg);
+        color: var(--option-text);
+        transition: background 0.2s;
+      }
+
+      .correct {
+        background: var(--correct-bg) !important;
+        font-weight: 600;
+        color: var(--correct-text) !important;
+      }
+
+      .explanation {
+        background: var(--explanation-bg);
+        border-left: 4px solid var(--explanation-border);
+        padding: 10px 15px;
+        margin-top: 10px;
+        border-radius: 6px;
+        font-size: 0.95em;
+        color: var(--text);
+      }
+
+      .note {
+        font-size: 0.85em;
+        color: var(--text-muted);
+        margin-top: 8px;
+      }
+
+      .missing {
+        background: var(--missing-bg);
+        border-left: 5px solid var(--missing-border);
+        padding: 15px 20px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        font-size: 0.9em;
+        color: var(--missing-text);
+      }
+
+      /* ===== USER NOTES ===== */
+      .user-note-area {
+        margin-top: 10px;
+      }
+
+      .user-note-display {
+        background: var(--note-user-bg);
+        border-left: 4px solid var(--note-user-border);
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-size: 0.88em;
+        color: var(--text);
+        white-space: pre-wrap;
+        margin-bottom: 6px;
+      }
+
+      .user-note-textarea {
+        width: 100%;
+        min-height: 64px;
+        border-radius: 7px;
+        border: 1.5px solid var(--input-border);
+        background: var(--input-bg);
+        color: var(--text);
+        padding: 8px 10px;
+        font-size: 0.88em;
+        font-family: inherit;
+        resize: vertical;
+        display: none;
+        outline: none;
+      }
+      .user-note-textarea:focus {
+        border-color: var(--note-user-border);
+      }
+
+      .note-btns {
+        display: flex;
+        gap: 6px;
+        margin-top: 5px;
+      }
+
+      /* ===== HEADER AREA ===== */
+      #page-header {
+        padding-top: 20px;
+      }
+
+      /* ===== TEST MODE ===== */
+      body.test-mode #toolbar {
+        display: none;
+      }
+      body.test-mode .mcq-card {
+        display: none;
+      }
+      body.test-mode #test-panel {
+        display: block;
+      }
+      body.test-mode #notes-content {
+        display: none;
+      }
+      body.test-mode #page-footer {
+        display: none;
+      }
+
+      #test-panel {
+        display: none;
+      }
+
+      /* test-card styles moved to fixed layout section below */
+
+      #test-panel .test-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      #test-panel .test-progress {
+        font-size: 0.85em;
+        color: var(--text-muted);
+        font-weight: 600;
+      }
+
+      #test-panel .test-question {
+        font-weight: 700;
+        font-size: 1.1em;
+        margin-bottom: 18px;
+        color: var(--text);
+        line-height: 1.5;
+      }
+
+      #test-panel .test-options {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 16px;
+      }
+
+      #test-panel .test-options li {
+        padding: 10px 14px;
+        margin-bottom: 8px;
+        border-radius: 8px;
+        background: var(--option-bg);
+        color: var(--option-text);
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition:
+          background 0.15s,
+          border-color 0.15s;
+        font-size: 0.97em;
+      }
+
+      #test-panel .test-options li:hover:not(.locked) {
+        background: var(--test-option-hover);
+        border-color: var(--btn-primary);
+      }
+
+      #test-panel .test-options li.selected-correct {
+        background: var(--correct-bg) !important;
+        color: var(--correct-text) !important;
+        border-color: #22c55e !important;
+        font-weight: 700;
+      }
+
+      #test-panel .test-options li.selected-wrong {
+        background: var(--test-wrong) !important;
+        color: var(--test-wrong-text) !important;
+        border-color: #ef4444 !important;
+        font-weight: 700;
+      }
+
+      #test-panel .test-options li.reveal-correct {
+        background: var(--correct-bg) !important;
+        color: var(--correct-text) !important;
+        border-color: #22c55e !important;
+      }
+
+      #test-panel .test-explanation {
+        background: var(--explanation-bg);
+        border-left: 4px solid var(--explanation-border);
+        padding: 12px 15px;
+        border-radius: 6px;
+        font-size: 0.92em;
+        color: var(--text);
+        margin-bottom: 16px;
+        display: none;
+      }
+
+      /* test-nav styles moved to fixed layout section below */
+
+      #test-results {
+        display: none;
+        text-align: center;
+        padding: 40px 20px;
+      }
+
+      #test-results .score-circle {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: var(--btn-primary);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: 800;
+        margin: 0 auto 20px;
+      }
+
+      #test-results .score-circle span {
+        font-size: 0.45em;
+        font-weight: 400;
+      }
+
+      #test-results h2 {
+        color: var(--heading);
+        margin-bottom: 10px;
+      }
+
+      .test-mode-label {
+        display: inline-block;
+        background: #ef4444;
+        color: #fff;
+        font-size: 0.7em;
+        padding: 2px 8px;
+        border-radius: 10px;
+        font-weight: 700;
+        animation: pulse 1.5s infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.6;
+        }
+      }
+
+      /* ===== TEST CARD FIXED LAYOUT ===== */
+      #test-panel .test-card {
+        background: var(--card-bg);
+        border-radius: 12px;
+        box-shadow: 0 4px 16px var(--shadow);
+        border-left: 5px solid var(--border-accent);
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 80px);
+        min-height: 420px;
+        overflow: hidden;
+        padding: 0;
+      }
+
+      /* Fixed top bar */
+      .test-topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 20px;
+        border-bottom: 1px solid var(--input-border);
+        gap: 10px;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        background: var(--card-bg);
+      }
+
+      .test-topbar-actions {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+
+      #test-jump-input {
+        width: 72px;
+        padding: 5px 8px;
+        border-radius: 7px;
+        border: 1.5px solid var(--input-border);
+        background: var(--input-bg);
+        color: var(--text);
+        font-size: 0.82em;
+        outline: none;
+      }
+      #test-jump-input:focus {
+        border-color: var(--btn-primary);
+      }
+      .test-jump-btn {
+        font-size: 0.78em !important;
+      }
+
+      /* Scrollable body */
+      .test-body {
+        flex: 1;
+        overflow-y: auto;
+        padding: 20px 24px;
+        scroll-behavior: smooth;
+      }
+
+      /* Fixed bottom nav */
+      #test-panel .test-nav {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 20px;
+        border-top: 1px solid var(--input-border);
+        background: var(--card-bg);
+        flex-shrink: 0;
+        flex-wrap: nowrap;
+      }
+
+      .test-nav-hint {
+        flex: 1;
+        text-align: center;
+        font-size: 0.72em;
+        color: var(--text-muted);
+        white-space: nowrap;
+      }
+
+      .kbd-hint {
+        font-size: 0.75em;
+        opacity: 0.6;
+        margin-left: 3px;
+      }
+
+      /* Keyboard-focused option highlight */
+      #test-panel .test-options li.kb-focus {
+        border-color: var(--btn-primary) !important;
+        outline: 2px solid var(--btn-primary);
+        outline-offset: -2px;
+      }
+
+      /* ===== TOAST ===== */
+      #toast {
+        position: fixed;
+        bottom: 24px;
+        left: 50%;
+        transform: translateX(-50%) translateY(80px);
+        background: #1f2937;
+        color: #fff;
+        padding: 10px 22px;
+        border-radius: 22px;
+        font-size: 0.88em;
+        font-weight: 600;
+        z-index: 9999;
+        transition: transform 0.3s ease;
+        pointer-events: none;
+        white-space: nowrap;
+      }
+      #toast.show {
+        transform: translateX(-50%) translateY(0);
+      }
+
+      /* ===== RESPONSIVE ===== */
+
+      /* Tablet (max 768px) */
+      @media (max-width: 768px) {
+        body {
+          padding: 0 14px 60px;
+          font-size: 0.97em;
+        }
+
+        h1 {
+          font-size: 1.3em;
+        }
+
+        #toolbar {
+          margin: 0 -14px 18px;
+          padding: 8px 12px;
+          gap: 6px;
+        }
+
+        /* Hide separators on small screens */
+        #toolbar .sep {
+          display: none;
+        }
+
+        /* Toolbar wraps into 2 rows naturally */
+        .toolbar-group {
+          flex-wrap: wrap;
+        }
+
+        .btn {
+          padding: 6px 10px;
+          font-size: 0.8em;
+        }
+
+        .mcq-card {
+          padding: 16px 16px;
+        }
+
+        #test-panel .test-card {
+          height: calc(100vh - 70px);
+        }
+        .test-body {
+          padding: 18px 20px;
+        }
+        #test-panel .test-question {
+          font-size: 1em;
+        }
+
+        #test-setup > div {
+          padding: 20px 18px !important;
+        }
+      }
+
+      /* Mobile (max 480px) */
+      @media (max-width: 480px) {
+        body {
+          padding: 0 10px 70px;
+          font-size: 0.93em;
+        }
+
+        h1 {
+          font-size: 1.15em;
+          line-height: 1.3;
+        }
+        h2 {
+          font-size: 1.05em;
+        }
+
+        /* Toolbar: stack all groups, full width rows */
+        #toolbar {
+          margin: 0 -10px 14px;
+          padding: 8px 10px;
+          gap: 5px;
+        }
+
+        .toolbar-group {
+          width: 100%;
+          justify-content: flex-start;
+        }
+
+        /* Jump input takes remaining space */
+        #jump-input {
+          flex: 1;
+          width: auto;
+          min-width: 0;
+        }
+
+        /* Collapse buttons side by side, equal width */
+        .toolbar-group:nth-child(3) {
+          gap: 5px;
+        }
+        .toolbar-group:nth-child(3) .btn {
+          flex: 1;
+          text-align: center;
+        }
+
+        /* Dark + Test buttons row */
+        #toolbar-right {
+          flex: 1;
+          gap: 6px;
+        }
+        #toolbar-right .btn {
+          flex: 1;
+          text-align: center;
+        }
+
+        /* Cards */
+        .mcq-card {
+          padding: 13px 12px;
+          border-radius: 8px;
+          margin-bottom: 14px;
+        }
+
+        .mcq-question {
+          font-size: 0.97em;
+        }
+
+        .options li {
+          padding: 7px 9px;
+          font-size: 0.92em;
+        }
+
+        .card-header {
+          flex-wrap: wrap;
+          gap: 5px;
+        }
+
+        .explanation {
+          padding: 9px 11px;
+          font-size: 0.88em;
+        }
+
+        .tag {
+          font-size: 0.7em;
+        }
+
+        /* Test card — keep fixed layout on mobile, adjust heights */
+        #test-panel .test-card {
+          height: calc(100vh - 60px);
+          border-radius: 8px;
+        }
+
+        .test-topbar {
+          padding: 8px 12px;
+          gap: 6px;
+        }
+        .test-topbar-actions {
+          gap: 4px;
+        }
+        #test-jump-input {
+          width: 58px;
+          font-size: 0.78em;
+        }
+
+        .test-body {
+          padding: 14px 13px;
+        }
+        #test-panel .test-question {
+          font-size: 0.97em;
+          margin-bottom: 14px;
+        }
+        #test-panel .test-options li {
+          padding: 9px 11px;
+          font-size: 0.92em;
+        }
+
+        #test-panel .test-nav {
+          padding: 10px 13px;
+          gap: 6px;
+        }
+        #test-panel .test-nav .btn {
+          flex: 1;
+          text-align: center;
+          font-size: 0.8em;
+        }
+        .test-nav-hint {
+          font-size: 0.65em;
+        }
+
+        #test-setup > div {
+          padding: 16px 14px !important;
+        }
+        #test-setup label {
+          font-size: 0.85em !important;
+        }
+        #test-setup input,
+        #test-setup select {
+          font-size: 0.92em !important;
+        }
+
+        /* Results */
+        #test-results {
+          padding: 24px 10px;
+        }
+        #test-results .score-circle {
+          width: 100px;
+          height: 100px;
+          font-size: 1.7em;
+        }
+
+        /* Note buttons wrap on tiny screens */
+        .note-btns {
+          flex-wrap: wrap;
+        }
+        .note-btns .btn {
+          flex: 1;
+          min-width: 70px;
+          text-align: center;
+        }
+
+        /* Page header */
+        #page-header {
+          padding-top: 12px;
+        }
+        #page-header p {
+          font-size: 0.85em;
+        }
+
+        /* Toast narrower on mobile */
+        #toast {
+          font-size: 0.82em;
+          padding: 8px 16px;
+          white-space: normal;
+          max-width: 90vw;
+          text-align: center;
+        }
+
+        /* Missing card */
+        .missing {
+          padding: 12px 13px;
+          font-size: 0.85em;
+        }
+      }
+
+      /* Very small screens (max 360px) */
+      @media (max-width: 360px) {
+        body {
+          padding: 0 8px 70px;
+        }
+        h1 {
+          font-size: 1.05em;
+        }
+        .btn {
+          font-size: 0.75em;
+          padding: 5px 8px;
+        }
+        .mcq-card {
+          padding: 11px 10px;
+        }
+        .options li {
+          font-size: 0.88em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ===== STICKY TOOLBAR ===== -->
+    <div id="toolbar">
+      <!-- Home button (add as first item in the toolbar) -->
+      <div class="toolbar-group">
+        <a
+          href="index.html"
+          class="btn btn-secondary"
+          style="text-decoration: none; display: inline-block"
+        >
+          🏠 Home
+        </a>
+      </div>
+
+      <div class="sep"></div>
+      <!-- Jump to Q -->
+      <div class="toolbar-group">
+        <input
+          id="jump-input"
+          type="number"
+          min="1"
+          max="223"
+          placeholder="Q #"
+          title="Jump to question number"
+        />
+        <button class="btn btn-primary" onclick="jumpToQ()">Jump</button>
+      </div>
+
+      <div class="sep"></div>
+
+      <!-- Collapse -->
+      <div class="toolbar-group">
+        <button class="btn btn-secondary" onclick="collapseAll()">
+          📕 Collapse All
+        </button>
+        <button class="btn btn-secondary" onclick="expandAll()">
+          📖 Expand All
+        </button>
+      </div>
+
+      <div class="sep"></div>
+
+      <!-- Dark mode + Test mode (grouped for mobile) -->
+      <div class="toolbar-group" id="toolbar-right">
+        <button
+          class="btn btn-secondary"
+          id="dark-toggle"
+          onclick="toggleDark()"
+        >
+          🌙 Dark Mode
+        </button>
+        <button class="btn btn-danger" onclick="enterTestMode()">
+          🧪 Test Mode
+        </button>
+      </div>
+    </div>
+
+    <!-- ===== TEST PANEL (hidden in notes mode) ===== -->
+    <div id="test-panel">
+      <div id="page-header" style="padding-top: 0">
+        <h1>
+          🌍 General Knowledge — MCQ Notes
+          <span class="test-mode-label">TEST MODE</span>
+        </h1>
+      </div>
+
+      <div id="test-setup">
+        <div
+          style="
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 28px 30px;
+            box-shadow: 0 4px 16px var(--shadow);
+            margin-bottom: 20px;
+          "
+        >
+          <h2 style="color: var(--heading); margin-top: 0">
+            ⚙️ Configure Test
+          </h2>
+          <div
+            style="
+              display: flex;
+              flex-wrap: wrap;
+              gap: 16px;
+              margin-bottom: 20px;
+            "
+          >
+            <label
+              style="
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                font-size: 0.9em;
+                font-weight: 600;
+              "
+            >
+              Number of Questions
+              <input
+                id="test-count"
+                type="number"
+                value="20"
+                min="5"
+                max="223"
+                style="
+                  width: 100px;
+                  padding: 6px 10px;
+                  border-radius: 7px;
+                  border: 1.5px solid var(--input-border);
+                  background: var(--input-bg);
+                  color: var(--text);
+                  font-size: 1em;
+                  outline: none;
+                "
+              />
+            </label>
+            <label
+              style="
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                font-size: 0.9em;
+                font-weight: 600;
+              "
+            >
+              Order
+              <select
+                id="test-order"
+                style="
+                  padding: 6px 10px;
+                  border-radius: 7px;
+                  border: 1.5px solid var(--input-border);
+                  background: var(--input-bg);
+                  color: var(--text);
+                  font-size: 1em;
+                  outline: none;
+                  cursor: pointer;
+                "
+              >
+                <option value="shuffle">🔀 Shuffle (Random)</option>
+                <option value="sequential">📋 Sequential (1→223)</option>
+              </select>
+            </label>
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap">
+            <button class="btn btn-danger" onclick="startTest()">
+              ▶ Start Test
+            </button>
+            <button class="btn btn-secondary" onclick="exitTestMode()">
+              ✖ Back to Notes
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="test-active" style="display: none">
+        <div class="test-card">
+          <!-- Fixed top bar: progress + controls -->
+          <div class="test-topbar">
+            <div class="test-progress" id="test-progress-label">
+              Question 1 of 20
+            </div>
+            <div class="test-topbar-actions">
+              <input
+                id="test-jump-input"
+                type="number"
+                min="1"
+                placeholder="Go to #"
+                title="Jump to test question number"
+              />
+              <button
+                class="btn btn-secondary test-jump-btn"
+                onclick="testJump()"
+              >
+                Go
+              </button>
+              <button
+                class="btn btn-secondary"
+                id="dark-toggle-test"
+                onclick="toggleDark()"
+              >
+                🌙
+              </button>
+              <button class="btn btn-danger" onclick="exitTestMode()">
+                ✖ Exit
+              </button>
+            </div>
+          </div>
+
+          <!-- Scrollable question area -->
+          <div class="test-body">
+            <div class="tag" id="test-q-tag">MCQ</div>
+            <div class="test-question" id="test-question"></div>
+            <ul class="test-options" id="test-options"></ul>
+            <div class="test-explanation" id="test-explanation"></div>
+          </div>
+
+          <!-- Fixed bottom nav -->
+          <div class="test-nav">
+            <button
+              class="btn btn-secondary"
+              id="btn-prev"
+              onclick="testNav(-1)"
+            >
+              ← Prev <span class="kbd-hint">◀</span>
+            </button>
+            <div class="test-nav-hint">↑↓ choose • Enter confirm</div>
+            <button class="btn btn-primary" id="btn-next" onclick="testNav(1)">
+              Next → <span class="kbd-hint">▶</span>
+            </button>
+            <button
+              class="btn btn-success"
+              id="btn-finish"
+              onclick="finishTest()"
+              style="display: none"
+            >
+              🏁 Finish
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="test-results">
+        <div class="score-circle" id="score-display">0<span>/ 0</span></div>
+        <h2 id="result-msg"></h2>
+        <p id="result-detail" style="color: var(--text-muted)"></p>
+        <div
+          style="
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 16px;
+          "
+        >
+          <button class="btn btn-primary" onclick="retryTest()">
+            🔄 Retry
+          </button>
+          <button class="btn btn-secondary" onclick="exitTestMode()">
+            📖 Back to Notes
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== NOTES CONTENT ===== -->
+    <div id="notes-content">
+      <div id="page-header">
+        <h1>🌍 General Knowledge — MCQ Notes</h1>
+        <p>
+          <em
+            >Covers: World Capitals & Currencies, Nobel Prizes, Literature,
+            Geography, International Organizations, Pakistan Studies,
+            Science, Sports & World History (KU 2024 GK compilation)</em
+          >
+        </p>
+      </div>
+
+      <div class="mcq-card">
+        <span class="tag">MCQ 1</span>
+        <div class="mcq-question">
+          Q1. Nobel Prizes are not given for which of the following field?
+        </div>
+        <ul class="options">
+          <li>A) Physics</li>
+          <li>B) Chemistry</li>
+          <li>C) Peace</li>
+          <li class="correct">D) Music</li>
+        </ul>
+        <div class="explanation">
+          The Nobel Prize categories are Physics, Chemistry, Physiology/Medicine, Literature, Peace, and Economic Sciences — there's no Music category.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 2</span>
+        <div class="mcq-question">
+          Q2. Men from which nation has won the highest number of Nobel Prizes?
+        </div>
+        <ul class="options">
+          <li>A) England</li>
+          <li>B) France</li>
+          <li class="correct">C) America</li>
+          <li>D) Italy</li>
+        </ul>
+        <div class="explanation">
+          American laureates (from institutions and individuals) have collectively won more Nobel Prizes than any other nation, largely due to its strong research universities.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 3</span>
+        <div class="mcq-question">
+          Q3. Oscar award is related to:
+        </div>
+        <ul class="options">
+          <li>A) Literature</li>
+          <li class="correct">B) Films</li>
+          <li>C) Science</li>
+          <li>D) Music</li>
+        </ul>
+        <div class="explanation">
+          The Academy Awards (Oscars) honor achievement in the film industry, covering acting, directing, and technical filmmaking categories.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 4</span>
+        <div class="mcq-question">
+          Q4. Only Pakistani to receive an Oscar Award is _______.
+        </div>
+        <ul class="options">
+          <li class="correct">A) Sharmeen Obaid Chinoy</li>
+          <li>B) Malala Yousafzai</li>
+          <li>C) Uzma Yousaf</li>
+          <li>D) Kumail Nanjani</li>
+        </ul>
+        <div class="explanation">
+          Sharmeen Obaid-Chinoy won Best Documentary Short twice (2012, 2016), making her the only Pakistani Oscar recipient.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 5</span>
+        <div class="mcq-question">
+          Q5. The Nobel peace prize is awarded in which city?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Oslo, Norway</li>
+          <li>B) Stockholm</li>
+          <li>C) Brussels</li>
+          <li>D) Geneva</li>
+        </ul>
+        <div class="explanation">
+          Per Alfred Nobel's will, the Peace Prize is awarded in Oslo, Norway, while the other Nobel Prizes are awarded in Stockholm, Sweden.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 6</span>
+        <div class="mcq-question">
+          Q6. How many Pakistanis have won Nobel Prizes till now?
+        </div>
+        <ul class="options">
+          <li>A) 1</li>
+          <li class="correct">B) 2 (Dr. Abdus Salam &amp; Malala Yousufzai)</li>
+          <li>C) 3</li>
+          <li>D) None</li>
+        </ul>
+        <div class="explanation">
+          Dr. Abdus Salam (Physics, 1979) and Malala Yousafzai (Peace, 2014) are the two Pakistani Nobel laureates to date.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 7</span>
+        <div class="mcq-question">
+          Q7. Who was the first Pakistani to win the Nobel Prize?
+        </div>
+        <ul class="options">
+          <li>A) Dr Abdul Qadeer Khan</li>
+          <li>B) Malala Yousufzai</li>
+          <li class="correct">C) Dr Abdus Salam (Grand Unification Theory)</li>
+          <li>D) None of the above</li>
+        </ul>
+        <div class="explanation">
+          Dr. Abdus Salam won the Physics Nobel Prize in 1979 for his contribution to the electroweak unification theory, becoming Pakistan's first Nobel laureate.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 8</span>
+        <div class="mcq-question">
+          Q8. How many Pakistani soldiers have been awarded Nishan-e-Haider (Highest Military Award of Pakistan) till now?
+        </div>
+        <ul class="options">
+          <li>A) 4</li>
+          <li>B) 10</li>
+          <li class="correct">C) 11</li>
+          <li>D) 15</li>
+        </ul>
+        <div class="explanation">
+          Pakistan has awarded the Nishan-e-Haider, its highest gallantry award, to 11 soldiers since independence.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 9</span>
+        <div class="mcq-question">
+          Q9. Who is the only Pakistani recipient of India's highest civilian award, Bharat Ratna?
+        </div>
+        <ul class="options">
+          <li>A) Imran Khan</li>
+          <li>B) Nawaz Sharif</li>
+          <li class="correct">C) Bacha Khan (Khan Abdul Ghaffar Khan)</li>
+          <li>D) Wasim Akram</li>
+        </ul>
+        <div class="explanation">
+          Bacha Khan (Khan Abdul Ghaffar Khan), the Pashtun independence activist, remains the only Pakistani to receive India's Bharat Ratna.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 10</span>
+        <div class="mcq-question">
+          Q10. Dr. Linus Carl Pauling is the only person to have won two Nobel prizes individually for:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Chemistry in 1954, Peace Prize in 1962</li>
+          <li>B) Peace Prize in 1954, Chemistry in 1962</li>
+          <li>C) Physics in 1954, Medicine in 1962</li>
+          <li>D) Medicine in 1954, Physics in 1962</li>
+        </ul>
+        <div class="explanation">
+          Linus Pauling remains the only person to win two unshared Nobel Prizes — Chemistry in 1954 for his work on chemical bonding, and the Peace Prize in 1962 for his anti-nuclear activism.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 11</span>
+        <div class="mcq-question">
+          Q11. Who was awarded the Nobel Prize both for Physics and for Chemistry?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Marie Curie</li>
+          <li>B) Albert Einstein</li>
+          <li>C) C.V. Raman</li>
+          <li>D) Pierre Curie</li>
+        </ul>
+        <div class="explanation">
+          Marie Curie won the Physics Nobel in 1903 (radioactivity) and the Chemistry Nobel in 1911 (discovery of radium and polonium).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 12</span>
+        <div class="mcq-question">
+          Q12. Nobel Prize are distributed annually at:
+        </div>
+        <ul class="options">
+          <li>A) Manila</li>
+          <li class="correct">B) Stockholm, Sweden</li>
+          <li>C) Geneva</li>
+          <li>D) New York</li>
+        </ul>
+        <div class="explanation">
+          Stockholm, Sweden hosts the annual Nobel Prize ceremony for Physics, Chemistry, Medicine, Literature, and Economics.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 13</span>
+        <div class="mcq-question">
+          Q13. Which is India's highest civilian award?
+        </div>
+        <ul class="options">
+          <li>A) National Award</li>
+          <li>B) Padma Bhushan</li>
+          <li>C) Padma Vibushan</li>
+          <li class="correct">D) Bharat Ratna</li>
+        </ul>
+        <div class="explanation">
+          The Bharat Ratna is India's highest civilian award, given for exceptional service in any field.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 14</span>
+        <div class="mcq-question">
+          Q14. Leaning Tower of Pisa is in:
+        </div>
+        <ul class="options">
+          <li>A) France</li>
+          <li>B) Germany</li>
+          <li class="correct">C) Italy</li>
+          <li>D) U.S</li>
+        </ul>
+        <div class="explanation">
+          The Leaning Tower of Pisa, famous for its unintended tilt, is located in Pisa, Italy.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 15</span>
+        <div class="mcq-question">
+          Q15. Shekel is a currency of ______.
+        </div>
+        <ul class="options">
+          <li class="correct">A) Israel</li>
+          <li>B) Egypt</li>
+          <li>C) Bahrain</li>
+          <li>D) Singapore</li>
+        </ul>
+        <div class="explanation">
+          The Shekel (New Israeli Shekel) is the official currency of Israel.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 16</span>
+        <div class="mcq-question">
+          Q16. Babylon is a city in ______.
+        </div>
+        <ul class="options">
+          <li>A) Iran</li>
+          <li class="correct">B) Iraq</li>
+          <li>C) Egypt</li>
+          <li>D) Greece</li>
+        </ul>
+        <div class="explanation">
+          Babylon, an ancient Mesopotamian city known for its hanging gardens legend, is located in modern-day Iraq.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 17</span>
+        <div class="mcq-question">
+          Q17. Capital of Bahamas is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Nassau</li>
+          <li>B) Baku</li>
+          <li>C) Dhaka</li>
+          <li>D) St John</li>
+        </ul>
+        <div class="explanation">
+          Nassau is the capital and largest city of the Bahamas.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 18</span>
+        <div class="mcq-question">
+          Q18. Australia's capital is ______.
+        </div>
+        <ul class="options">
+          <li>A) Melbourne</li>
+          <li>B) Sydney</li>
+          <li class="correct">C) Canberra</li>
+          <li>D) Brisbane</li>
+        </ul>
+        <div class="explanation">
+          Canberra, a planned city, was chosen as Australia's capital as a compromise between rival cities Sydney and Melbourne.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 19</span>
+        <div class="mcq-question">
+          Q19. What is the Currency of Japan?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Yen</li>
+          <li>B) Rands</li>
+          <li>C) Euro</li>
+          <li>D) Pie</li>
+        </ul>
+        <div class="explanation">
+          The Japanese Yen (¥) is Japan's official currency.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 20</span>
+        <div class="mcq-question">
+          Q20. ______ is the national currency of Russia.
+        </div>
+        <ul class="options">
+          <li>A) Leki</li>
+          <li class="correct">B) Ruble</li>
+          <li>C) Peso</li>
+          <li>D) Euro</li>
+        </ul>
+        <div class="explanation">
+          The Russian Ruble is the official currency of the Russian Federation.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 21</span>
+        <div class="mcq-question">
+          Q21. The capital of New Zealand is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Wellington</li>
+          <li>B) Auckland</li>
+          <li>C) Christchurch</li>
+          <li>D) Napier</li>
+        </ul>
+        <div class="explanation">
+          Wellington is the capital of New Zealand, though Auckland is the country's largest city.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 22</span>
+        <div class="mcq-question">
+          Q22. Phnom Penh is the capital of which of the following country?
+        </div>
+        <ul class="options">
+          <li>A) Denmark</li>
+          <li>B) Canada</li>
+          <li class="correct">C) Cambodia</li>
+          <li>D) Cuba</li>
+        </ul>
+        <div class="explanation">
+          Phnom Penh is the capital and largest city of Cambodia.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 23</span>
+        <div class="mcq-question">
+          Q23. Which is the capital of Tajikistan?
+        </div>
+        <ul class="options">
+          <li>A) Moscow (Russia)</li>
+          <li>B) Dodoma</li>
+          <li>C) Damascus (Syria)</li>
+          <li class="correct">D) Dushanbe</li>
+        </ul>
+        <div class="explanation">
+          Dushanbe, meaning 'Monday' in Persian, is the capital of Tajikistan.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 24</span>
+        <div class="mcq-question">
+          Q24. ______ is the national currency of France.
+        </div>
+        <ul class="options">
+          <li class="correct">A) Franc</li>
+          <li>B) Riyal</li>
+          <li>C) Dollar</li>
+          <li>D) Won</li>
+        </ul>
+        <div class="explanation">
+          The Franc was France's currency before it adopted the Euro in 1999 (fully replacing it in 2002).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 25</span>
+        <div class="mcq-question">
+          Q25. What is the national currency of Germany?
+        </div>
+        <ul class="options">
+          <li>A) Naira</li>
+          <li class="correct">B) Euro</li>
+          <li>C) Rupee</li>
+          <li>D) Pound</li>
+        </ul>
+        <div class="explanation">
+          Germany adopted the Euro as its official currency after previously using the Deutsche Mark.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 26</span>
+        <div class="mcq-question">
+          Q26. The national currency of Sri Lanka is ______.
+        </div>
+        <ul class="options">
+          <li class="correct">A) Rupee</li>
+          <li>B) Euro</li>
+          <li>C) Kyat</li>
+          <li>D) Ringgit</li>
+        </ul>
+        <div class="explanation">
+          The Sri Lankan Rupee is the official currency of Sri Lanka.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 27</span>
+        <div class="mcq-question">
+          Q27. What is the national currency of South Korea?
+        </div>
+        <ul class="options">
+          <li>A) Rial</li>
+          <li>B) Pound</li>
+          <li>C) Krona</li>
+          <li class="correct">D) Won</li>
+        </ul>
+        <div class="explanation">
+          The South Korean Won is the official currency of South Korea.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 28</span>
+        <div class="mcq-question">
+          Q28. What is the capital of Paraguay?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Asuncion</li>
+          <li>B) Russia</li>
+          <li>C) London (England)</li>
+          <li>D) Ankara (Turkey)</li>
+        </ul>
+        <div class="explanation">
+          Asunción is the capital and largest city of Paraguay.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 29</span>
+        <div class="mcq-question">
+          Q29. The capital of Russia is:
+        </div>
+        <ul class="options">
+          <li>A) St. Petersburg</li>
+          <li class="correct">B) Moscow</li>
+          <li>C) Kiev (Ukraine)</li>
+          <li>D) Abaza</li>
+        </ul>
+        <div class="explanation">
+          Moscow has been the capital of Russia since 1918 (following a brief period with St. Petersburg as capital).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 30</span>
+        <div class="mcq-question">
+          Q30. Kampala is the capital of:
+        </div>
+        <ul class="options">
+          <li>A) Kenya (Nairobi)</li>
+          <li class="correct">B) Uganda</li>
+          <li>C) Egypt (Cairo)</li>
+          <li>D) Libya (Tripoli)</li>
+        </ul>
+        <div class="explanation">
+          Kampala is the capital and largest city of Uganda.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 31</span>
+        <div class="mcq-question">
+          Q31. Oslo is the capital of which country?
+        </div>
+        <ul class="options">
+          <li>A) Spain (Madrid)</li>
+          <li>B) France (Paris)</li>
+          <li>C) Canada (Ottawa)</li>
+          <li class="correct">D) Norway</li>
+        </ul>
+        <div class="explanation">
+          Oslo is the capital of Norway.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 32</span>
+        <div class="mcq-question">
+          Q32. Havana is the capital of
+        </div>
+        <ul class="options">
+          <li class="correct">A) Cuba</li>
+          <li>B) Bolivia</li>
+          <li>C) New Zealand</li>
+          <li>D) Romania</li>
+        </ul>
+        <div class="explanation">
+          Havana is the capital and largest city of Cuba.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 33</span>
+        <div class="mcq-question">
+          Q33. Sana'a is the capital of ______.
+        </div>
+        <ul class="options">
+          <li>A) Jordan (Amman)</li>
+          <li>B) Egypt (Cairo)</li>
+          <li class="correct">C) Yemen</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          Sana'a is the capital of Yemen.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 34</span>
+        <div class="mcq-question">
+          Q34. The monetary unit (currency) of Bangladesh is:
+        </div>
+        <ul class="options">
+          <li>A) Rupee</li>
+          <li class="correct">B) Takka</li>
+          <li>C) Rupiah</li>
+          <li>D) Dollar</li>
+        </ul>
+        <div class="explanation">
+          The Bangladeshi Taka is the official currency of Bangladesh.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 35</span>
+        <div class="mcq-question">
+          Q35. The national currency of India is ______.
+        </div>
+        <ul class="options">
+          <li>A) Rupiah</li>
+          <li>B) Yuan</li>
+          <li class="correct">C) Rupee (INR)</li>
+          <li>D) None of the Above</li>
+        </ul>
+        <div class="explanation">
+          The Indian Rupee (INR) is India's official currency.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 36</span>
+        <div class="mcq-question">
+          Q36. The national currency of the United States of America (USA) is ______.
+        </div>
+        <ul class="options">
+          <li>A) Euro</li>
+          <li class="correct">B) Dollar (USD)</li>
+          <li>C) Rand</li>
+          <li>D) Yen</li>
+        </ul>
+        <div class="explanation">
+          The US Dollar (USD) is the official currency of the United States.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 37</span>
+        <div class="mcq-question">
+          Q37. What is the national currency of the United Kingdom?
+        </div>
+        <ul class="options">
+          <li>A) Taka</li>
+          <li>B) Paise</li>
+          <li>C) Yen</li>
+          <li class="correct">D) Pound Sterling (GBP)</li>
+        </ul>
+        <div class="explanation">
+          Pound Sterling (GBP) is the official currency of the United Kingdom.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 38</span>
+        <div class="mcq-question">
+          Q38. The national currency of Australia is ______.
+        </div>
+        <ul class="options">
+          <li>A) Rupiah</li>
+          <li>B) Yen</li>
+          <li class="correct">C) Dollar</li>
+          <li>D) Yuan</li>
+        </ul>
+        <div class="explanation">
+          The Australian Dollar is Australia's official currency.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 39</span>
+        <div class="mcq-question">
+          Q39. What is the national currency of South Africa?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Rand</li>
+          <li>B) Pound (UK)</li>
+          <li>C) Franc (France)</li>
+          <li>D) Dinar (Kuwait)</li>
+        </ul>
+        <div class="explanation">
+          The South African Rand is the official currency of South Africa.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 40</span>
+        <div class="mcq-question">
+          Q40. What is the national currency of New Zealand?
+        </div>
+        <ul class="options">
+          <li>A) Kwanzaa</li>
+          <li>B) Dinar</li>
+          <li>C) Pound</li>
+          <li class="correct">D) Dollar</li>
+        </ul>
+        <div class="explanation">
+          The New Zealand Dollar is the official currency of New Zealand.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 41</span>
+        <div class="mcq-question">
+          Q41. ______ is the national currency of Afghanistan.
+        </div>
+        <ul class="options">
+          <li class="correct">A) Afghani</li>
+          <li>B) Ruble</li>
+          <li>C) Yen</li>
+          <li>D) Dollar</li>
+        </ul>
+        <div class="explanation">
+          The Afghani is the official currency of Afghanistan.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 42</span>
+        <div class="mcq-question">
+          Q42. What is the national currency of Nepal?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Rupee</li>
+          <li>B) Taka</li>
+          <li>C) Paise</li>
+          <li>D) Pound</li>
+        </ul>
+        <div class="explanation">
+          The Nepalese Rupee is the official currency of Nepal.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 43</span>
+        <div class="mcq-question">
+          Q43. What is the national currency of China?
+        </div>
+        <ul class="options">
+          <li>A) Peso</li>
+          <li class="correct">B) Yuan</li>
+          <li>C) Dollar</li>
+          <li>D) Yen</li>
+        </ul>
+        <div class="explanation">
+          The Chinese Yuan (Renminbi) is China's official currency.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 44</span>
+        <div class="mcq-question">
+          Q44. The capital of Afghanistan is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Kabul</li>
+          <li>B) Kandhar</li>
+          <li>C) Mazar-e-Sharif</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          Kabul is the capital and largest city of Afghanistan.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 45</span>
+        <div class="mcq-question">
+          Q45. The capital of Argentina is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Buenos Aires</li>
+          <li>B) Canberra (Australia)</li>
+          <li>C) Vienna (Austria)</li>
+          <li>D) Baku (Azerbaijan)</li>
+        </ul>
+        <div class="explanation">
+          Buenos Aires is the capital and largest city of Argentina.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 46</span>
+        <div class="mcq-question">
+          Q46. The capital of Austria is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Vienna</li>
+          <li>B) Nassau</li>
+          <li>C) Luanda</li>
+          <li>D) St. John's</li>
+        </ul>
+        <div class="explanation">
+          Vienna is the capital of Austria.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 47</span>
+        <div class="mcq-question">
+          Q47. The capital of Azerbaijan is:
+        </div>
+        <ul class="options">
+          <li>A) Vienna</li>
+          <li class="correct">B) Baku</li>
+          <li>C) Canberra</li>
+          <li>D) Yerevan</li>
+        </ul>
+        <div class="explanation">
+          Baku is the capital of Azerbaijan.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 48</span>
+        <div class="mcq-question">
+          Q48. The capital of Bahrain is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Manama</li>
+          <li>B) Porto Novo</li>
+          <li>C) Doha (Qatar)</li>
+          <li>D) Jeddah (Saudi Arabia)</li>
+        </ul>
+        <div class="explanation">
+          Manama is the capital of Bahrain.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 49</span>
+        <div class="mcq-question">
+          Q49. The capital of Bangladesh is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Dhaka</li>
+          <li>B) Minsk</li>
+          <li>C) Chittagong</li>
+          <li>D) Rajshahi</li>
+        </ul>
+        <div class="explanation">
+          Dhaka is the capital and largest city of Bangladesh.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 50</span>
+        <div class="mcq-question">
+          Q50. The capital of Belgium is:
+        </div>
+        <ul class="options">
+          <li>A) Paris</li>
+          <li class="correct">B) Brussels</li>
+          <li>C) La Paz</li>
+          <li>D) Bogotá</li>
+        </ul>
+        <div class="explanation">
+          Brussels is the capital of Belgium and also hosts EU and NATO headquarters.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 51</span>
+        <div class="mcq-question">
+          Q51. The capital of Brazil is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Brasilia</li>
+          <li>B) Ottawa</li>
+          <li>C) Bangui</li>
+          <li>D) Rio de Janeiro (City of Brazil)</li>
+        </ul>
+        <div class="explanation">
+          Brasília, a planned city, has been Brazil's capital since 1960, replacing Rio de Janeiro.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 52</span>
+        <div class="mcq-question">
+          Q52. The author of the book "Time Machine" is:
+        </div>
+        <ul class="options">
+          <li>A) Lewis Carroll</li>
+          <li>B) Robert Louis Stevenson</li>
+          <li>C) Charlie Lamb</li>
+          <li class="correct">D) H.G. Wells</li>
+        </ul>
+        <div class="explanation">
+          H.G. Wells wrote 'The Time Machine' (1895), a foundational work of science fiction.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 53</span>
+        <div class="mcq-question">
+          Q53. "Animal Farm" was written by?
+        </div>
+        <ul class="options">
+          <li class="correct">A) George Orwell</li>
+          <li>B) Sydney Sheldon</li>
+          <li>C) E Hemmingway</li>
+          <li>D) Enid Blyton</li>
+        </ul>
+        <div class="explanation">
+          George Orwell's 'Animal Farm' (1945) is a satirical allegory of the Russian Revolution and Soviet totalitarianism.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 54</span>
+        <div class="mcq-question">
+          Q54. "War and Peace" was written by?
+        </div>
+        <ul class="options">
+          <li>A) Harper Lee</li>
+          <li>B) Charles Dickson</li>
+          <li class="correct">C) Leo Tolstoy</li>
+          <li>D) Stanley Wolpert</li>
+        </ul>
+        <div class="explanation">
+          Leo Tolstoy's 'War and Peace' is an epic novel set during the Napoleonic Wars in Russia.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 55</span>
+        <div class="mcq-question">
+          Q55. Who wrote the book "Forty Rules of Love"?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Elif Shafaq</li>
+          <li>B) Leigh Bardugo</li>
+          <li>C) George Orwell</li>
+          <li>D) Daniel Kahneman</li>
+        </ul>
+        <div class="explanation">
+          Elif Shafak's 'The Forty Rules of Love' interweaves the story of Rumi and Shams of Tabriz with a modern narrative.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 56</span>
+        <div class="mcq-question">
+          Q56. "The Wealth of Nations" was written by?
+        </div>
+        <ul class="options">
+          <li>A) Shake Newton</li>
+          <li class="correct">B) Adam Smith (Father of Economics)</li>
+          <li>C) Karl Marx (The Capital)</li>
+          <li>D) Dan Brown</li>
+        </ul>
+        <div class="explanation">
+          Adam Smith, often called the father of modern economics, wrote 'The Wealth of Nations' (1776).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 57</span>
+        <div class="mcq-question">
+          Q57. A famous novel "Pride and Prejudice" is written by;
+        </div>
+        <ul class="options">
+          <li>A) R. L. Stevenson</li>
+          <li class="correct">B) Jane Austen</li>
+          <li>C) George Elliot</li>
+          <li>D) Shakespeare</li>
+        </ul>
+        <div class="explanation">
+          Jane Austen's 'Pride and Prejudice' (1813) is a classic novel of manners centered on Elizabeth Bennet and Mr. Darcy.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 58</span>
+        <div class="mcq-question">
+          Q58. Who has written the book "India Wins Freedom"?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Maulana Abul Kalam Azad</li>
+          <li>B) Gandhi</li>
+          <li>C) Nirad Ch.</li>
+          <li>D) K.M Munshi</li>
+        </ul>
+        <div class="explanation">
+          Maulana Abul Kalam Azad wrote 'India Wins Freedom', an account of the independence movement and partition.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 59</span>
+        <div class="mcq-question">
+          Q59. The book "Gulliver's Travels" was written by;
+        </div>
+        <ul class="options">
+          <li>A) Charles Lamb</li>
+          <li class="correct">B) Jonathan Swift</li>
+          <li>C) Charles Dickens</li>
+          <li>D) Shakespeare</li>
+        </ul>
+        <div class="explanation">
+          Jonathan Swift wrote 'Gulliver's Travels' (1726), a satirical adventure novel.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 60</span>
+        <div class="mcq-question">
+          Q60. Who wrote the book "The Prince"?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Niccolo Michavelli</li>
+          <li>B) Bernerd Russel</li>
+          <li>C) Huxley</li>
+          <li>D) Charles Dickens</li>
+        </ul>
+        <div class="explanation">
+          Niccolò Machiavelli wrote 'The Prince', a political treatise on power and statecraft.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 61</span>
+        <div class="mcq-question">
+          Q61. The book "Conquest of Happiness" was written by;
+        </div>
+        <ul class="options">
+          <li>A) Thomas Hardy</li>
+          <li class="correct">B) Bertrand Russel</li>
+          <li>C) Huxley</li>
+          <li>D) Charles Dickens</li>
+        </ul>
+        <div class="explanation">
+          Bertrand Russell wrote 'The Conquest of Happiness' (1930), a philosophical essay on achieving personal happiness.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 62</span>
+        <div class="mcq-question">
+          Q62. The celebrated novel "The Godfather" was authored by:
+        </div>
+        <ul class="options">
+          <li>A) John Miton</li>
+          <li>B) Victor Hugo</li>
+          <li class="correct">C) Mario Puzo</li>
+          <li>D) Haroid Robbins</li>
+        </ul>
+        <div class="explanation">
+          Mario Puzo wrote 'The Godfather' (1969), later adapted into the acclaimed film trilogy.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 63</span>
+        <div class="mcq-question">
+          Q63. 'Zulfi, My friend' it is a book written by
+        </div>
+        <ul class="options">
+          <li>A) Z.A. Bhutto</li>
+          <li>B) Md. Ali Jinnah</li>
+          <li>C) Khushwant Singh</li>
+          <li class="correct">D) Piloo Modi</li>
+        </ul>
+        <div class="explanation">
+          Piloo Modi wrote 'Zulfi, My Friend', a memoir about his friendship with Zulfikar Ali Bhutto.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 64</span>
+        <div class="mcq-question">
+          Q64. Who is the author of the book "1984"?
+        </div>
+        <ul class="options">
+          <li>A) Thomas Hardy</li>
+          <li>B) Emile Zola</li>
+          <li class="correct">C) George Orwell</li>
+          <li>D) Walter Scott</li>
+        </ul>
+        <div class="explanation">
+          George Orwell's dystopian novel '1984' (1949) depicts a totalitarian surveillance state.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 65</span>
+        <div class="mcq-question">
+          Q65. The book "The God of Small Things" is written by;
+        </div>
+        <ul class="options">
+          <li class="correct">A) Arundhati Roy</li>
+          <li>B) Sobha De</li>
+          <li>C) Pupul Jayakar</li>
+          <li>D) Shekhar Kapoor</li>
+        </ul>
+        <div class="explanation">
+          Arundhati Roy won the Booker Prize for 'The God of Small Things' (1997).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 66</span>
+        <div class="mcq-question">
+          Q66. Who is the author of the book 'Satanic Verses'?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Salman Rushdie</li>
+          <li>B) Abu Nuwas</li>
+          <li>C) Ms Taslima Nasrin</li>
+          <li>D) DH Lawrence</li>
+        </ul>
+        <div class="explanation">
+          Salman Rushdie wrote 'The Satanic Verses' (1988), a novel that generated major controversy in the Muslim world.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 67</span>
+        <div class="mcq-question">
+          Q67. Who wrote the line 'A thing of beauty is a joy forever'?
+        </div>
+        <ul class="options">
+          <li class="correct">A) John Keats (Lines from Endymion)</li>
+          <li>B) Robert Browning</li>
+          <li>C) PB Shelley</li>
+          <li>D) William Wordsworth</li>
+        </ul>
+        <div class="explanation">
+          John Keats opens his poem 'Endymion' with the line 'A thing of beauty is a joy forever.'
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 68</span>
+        <div class="mcq-question">
+          Q68. The first history book was written by:
+        </div>
+        <ul class="options">
+          <li>A) Euclid</li>
+          <li class="correct">B) Herodotus (Greek historian)</li>
+          <li>C) Aristotle</li>
+          <li>D) Julius Caesar</li>
+        </ul>
+        <div class="explanation">
+          Herodotus, a Greek writer, is widely regarded as the author of the first systematic history book, 'The Histories.'
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 69</span>
+        <div class="mcq-question">
+          Q69. The famous book 'Anna Karenina' written by?
+        </div>
+        <ul class="options">
+          <li>A) Boris Pasternak</li>
+          <li>B) Victor Hugo</li>
+          <li>C) Lewis Carroll</li>
+          <li class="correct">D) Leo Tolstoy</li>
+        </ul>
+        <div class="explanation">
+          Leo Tolstoy wrote 'Anna Karenina' (1877), a tragic novel of love and Russian aristocratic society.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 70</span>
+        <div class="mcq-question">
+          Q70. The height of Godwin Austin (K-2) is ______ meter.
+        </div>
+        <ul class="options">
+          <li>A) 8626</li>
+          <li class="correct">B) 8611</li>
+          <li>C) 8661</li>
+          <li>D) 8650</li>
+        </ul>
+        <div class="explanation">
+          K2 (Godwin Austen), the world's second-highest peak, stands at 8,611 meters.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 71</span>
+        <div class="mcq-question">
+          Q71. The largest ocean in the world is
+        </div>
+        <ul class="options">
+          <li>A) Atlantic</li>
+          <li>B) Asian</li>
+          <li class="correct">C) Pacific</li>
+          <li>D) Indian</li>
+        </ul>
+        <div class="explanation">
+          The Pacific Ocean is the largest and deepest of the world's oceans.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 72</span>
+        <div class="mcq-question">
+          Q72. Harappa is situated near ______ in Pakistan.
+        </div>
+        <ul class="options">
+          <li>A) Larkana</li>
+          <li>B) Lasbela</li>
+          <li class="correct">C) Sahiwal</li>
+          <li>D) Shorkot</li>
+        </ul>
+        <div class="explanation">
+          Harappa, one of the major Indus Valley Civilization sites, is located near Sahiwal in Punjab, Pakistan.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 73</span>
+        <div class="mcq-question">
+          Q73. Etna is a volcano in ______.
+        </div>
+        <ul class="options">
+          <li class="correct">A) Italy</li>
+          <li>B) Spain</li>
+          <li>C) Japan</li>
+          <li>D) Indonesia</li>
+        </ul>
+        <div class="explanation">
+          Mount Etna, one of the world's most active volcanoes, is located in Sicily, Italy.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 74</span>
+        <div class="mcq-question">
+          Q74. Which lake is the largest in the world?
+        </div>
+        <ul class="options">
+          <li>A) Red Sea</li>
+          <li class="correct">B) Caspian Sea</li>
+          <li>C) Lake Superior</li>
+          <li>D) Lake Baikal</li>
+        </ul>
+        <div class="explanation">
+          The Caspian Sea, though called a 'sea', is the largest inland body of water (lake) in the world.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 75</span>
+        <div class="mcq-question">
+          Q75. Which country is known as the "Land of the Midnight Sun"?
+        </div>
+        <ul class="options">
+          <li>A) Japan</li>
+          <li>B) Switzerland</li>
+          <li class="correct">C) Norway</li>
+          <li>D) Finland</li>
+        </ul>
+        <div class="explanation">
+          Norway is called the 'Land of the Midnight Sun' due to continuous daylight during summer in its northern regions.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 76</span>
+        <div class="mcq-question">
+          Q76. Which of the following is the biggest Island?
+        </div>
+        <ul class="options">
+          <li>A) Sri Lanka</li>
+          <li>B) Australia</li>
+          <li>C) Tahiti</li>
+          <li class="correct">D) Greenland</li>
+        </ul>
+        <div class="explanation">
+          Greenland is the world's largest island (Australia is classified as a continent, not an island).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 77</span>
+        <div class="mcq-question">
+          Q77. The Suez Canal joins the Mediterranean Sea with?
+        </div>
+        <ul class="options">
+          <li>A) Caspian Sea</li>
+          <li>B) Dead Sea</li>
+          <li class="correct">C) Red Sea</li>
+          <li>D) Arabian Sea</li>
+        </ul>
+        <div class="explanation">
+          The Suez Canal connects the Mediterranean Sea with the Red Sea, enabling shorter maritime trade routes.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 78</span>
+        <div class="mcq-question">
+          Q78. Farthest planet from the Sun:
+        </div>
+        <ul class="options">
+          <li>A) Venus</li>
+          <li>B) Pluto</li>
+          <li class="correct">C) Neptune</li>
+          <li>D) Saturn</li>
+        </ul>
+        <div class="explanation">
+          Neptune is the farthest planet from the Sun since Pluto was reclassified as a dwarf planet.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 79</span>
+        <div class="mcq-question">
+          Q79. River Thames is in which country?
+        </div>
+        <ul class="options">
+          <li>A) Canada</li>
+          <li>B) Australia</li>
+          <li class="correct">C) England</li>
+          <li>D) Brazil</li>
+        </ul>
+        <div class="explanation">
+          The River Thames flows through southern England, including London.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 80</span>
+        <div class="mcq-question">
+          Q80. Where is the Suez canal?
+        </div>
+        <ul class="options">
+          <li>A) Syria</li>
+          <li>B) Yemen</li>
+          <li>C) Turkey</li>
+          <li class="correct">D) Egypt</li>
+        </ul>
+        <div class="explanation">
+          The Suez Canal, connecting the Mediterranean and Red Seas, is located in Egypt.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 81</span>
+        <div class="mcq-question">
+          Q81. Which of the following is the largest of the Earth's oceanic divisions?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Pacific ocean</li>
+          <li>B) Atlantic ocean</li>
+          <li>C) Southern ocean</li>
+          <li>D) Indian ocean</li>
+        </ul>
+        <div class="explanation">
+          The Pacific Ocean is the largest of Earth's oceanic divisions by area and volume.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 82</span>
+        <div class="mcq-question">
+          Q82. World's largest irrigation system is in ______.
+        </div>
+        <ul class="options">
+          <li>A) India</li>
+          <li class="correct">B) Pakistan</li>
+          <li>C) Australia</li>
+          <li>D) Germany</li>
+        </ul>
+        <div class="explanation">
+          Pakistan's Indus Basin Irrigation System is considered the world's largest contiguous irrigation network.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 83</span>
+        <div class="mcq-question">
+          Q83. Which International Line separates Russia and Poland?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Curzon Line</li>
+          <li>B) Separating Line</li>
+          <li>C) Border Line</li>
+          <li>D) Furtive Line</li>
+        </ul>
+        <div class="explanation">
+          The Curzon Line, proposed after WWI, was later used as a rough basis for the Poland–Soviet Union (Russia) border.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 84</span>
+        <div class="mcq-question">
+          Q84. Which is the largest desert in the world?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Sahara</li>
+          <li>B) Thar</li>
+          <li>C) Antarctic</li>
+          <li>D) Cholistan</li>
+        </ul>
+        <div class="explanation">
+          The Sahara, spanning much of North Africa, is the world's largest hot desert.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 85</span>
+        <div class="mcq-question">
+          Q85. Name the longest river in the world?
+        </div>
+        <ul class="options">
+          <li>A) Mississippi</li>
+          <li>B) Missouri</li>
+          <li class="correct">C) Nile</li>
+          <li>D) Saint Lawrence</li>
+        </ul>
+        <div class="explanation">
+          The Nile River, flowing through northeastern Africa, is traditionally considered the longest river in the world.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 86</span>
+        <div class="mcq-question">
+          Q86. Which is the deepest ocean in the world
+        </div>
+        <ul class="options">
+          <li>A) Arctic</li>
+          <li>B) Atlantic</li>
+          <li class="correct">C) Pacific (Mariana Trench)</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          The Pacific Ocean's Mariana Trench is the deepest point in any ocean on Earth.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 87</span>
+        <div class="mcq-question">
+          Q87. What is the radius of earth?
+        </div>
+        <ul class="options">
+          <li>A) 5300 km</li>
+          <li class="correct">B) 6371 km</li>
+          <li>C) 10000 km</li>
+          <li>D) 8330 km</li>
+        </ul>
+        <div class="explanation">
+          Earth's mean radius is approximately 6,371 kilometers.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 88</span>
+        <div class="mcq-question">
+          Q88. The Second largest continent in the World is
+        </div>
+        <ul class="options">
+          <li>A) Asia (Largest)</li>
+          <li>B) South America</li>
+          <li class="correct">C) Africa</li>
+          <li>D) Europe</li>
+        </ul>
+        <div class="explanation">
+          Africa is the second-largest continent by both area and population, after Asia.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 89</span>
+        <div class="mcq-question">
+          Q89. The "River Mackenzie" is located in:
+        </div>
+        <ul class="options">
+          <li>A) Nigeria</li>
+          <li>B) France</li>
+          <li>C) Spain</li>
+          <li class="correct">D) Canada</li>
+        </ul>
+        <div class="explanation">
+          The Mackenzie River, Canada's longest river, flows through the Northwest Territories into the Arctic Ocean.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 90</span>
+        <div class="mcq-question">
+          Q90. The largest latitude circle on earth is:
+        </div>
+        <ul class="options">
+          <li>A) Arctic Circle</li>
+          <li>B) Tropic of Cancer</li>
+          <li>C) Tropic of Capricorn</li>
+          <li class="correct">D) The Equator</li>
+        </ul>
+        <div class="explanation">
+          The Equator is the largest circle of latitude, dividing Earth into Northern and Southern Hemispheres.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 91</span>
+        <div class="mcq-question">
+          Q91. Victoria desert is in
+        </div>
+        <ul class="options">
+          <li>A) New Zealand</li>
+          <li class="correct">B) Australia</li>
+          <li>C) Canada</li>
+          <li>D) UK</li>
+        </ul>
+        <div class="explanation">
+          The Victoria Desert is located in Australia, spanning South Australia and Western Australia.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 92</span>
+        <div class="mcq-question">
+          Q92. Which is the largest Gulf in the world:
+        </div>
+        <ul class="options">
+          <li>A) Gulf of Aden</li>
+          <li>B) Gulf of Aqaba</li>
+          <li>C) Gulf of Bahrain</li>
+          <li class="correct">D) Gulf of Mexico</li>
+        </ul>
+        <div class="explanation">
+          The Gulf of Mexico is the largest gulf in the world by area.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 93</span>
+        <div class="mcq-question">
+          Q93. Suez canal separates African continent from:
+        </div>
+        <ul class="options">
+          <li>A) North America</li>
+          <li class="correct">B) Asia</li>
+          <li>C) Antarctica</li>
+          <li>D) Europe</li>
+        </ul>
+        <div class="explanation">
+          The Suez Canal separates the African continent from Asia at the Sinai Peninsula.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 94</span>
+        <div class="mcq-question">
+          Q94. The bridge in Istanbul which connects Asia and Europe is called:
+        </div>
+        <ul class="options">
+          <li>A) Golden Gate Bridge</li>
+          <li>B) Royal Gorge Bridge</li>
+          <li>C) Lansdowne Bridge</li>
+          <li class="correct">D) Bosporus Bridge</li>
+        </ul>
+        <div class="explanation">
+          The Bosporus Bridge (now 15 July Martyrs Bridge) spans the Bosporus Strait, connecting Europe and Asia in Istanbul.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 95</span>
+        <div class="mcq-question">
+          Q95. ______ has the world's largest natural gas reserves.
+        </div>
+        <ul class="options">
+          <li>A) Saudi Arabia</li>
+          <li>B) Iran</li>
+          <li class="correct">C) Russia</li>
+          <li>D) Canada</li>
+        </ul>
+        <div class="explanation">
+          Russia holds the world's largest proven natural gas reserves.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 96</span>
+        <div class="mcq-question">
+          Q96. International Court of Justice is headquartered in
+        </div>
+        <ul class="options">
+          <li class="correct">A) The Hague, The Netherlands</li>
+          <li>B) The Hague, Norway</li>
+          <li>C) The Hague, Hungary</li>
+          <li>D) The Hague, Portugal</li>
+        </ul>
+        <div class="explanation">
+          The International Court of Justice (ICJ), the UN's principal judicial organ, is headquartered in The Hague, Netherlands.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 97</span>
+        <div class="mcq-question">
+          Q97. The headquarters of the United Nations (UN) is located at:
+        </div>
+        <ul class="options">
+          <li>A) Geneva</li>
+          <li class="correct">B) New York (USA)</li>
+          <li>C) Rome</li>
+          <li>D) Washington</li>
+        </ul>
+        <div class="explanation">
+          The United Nations headquarters is located in New York City, USA.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 98</span>
+        <div class="mcq-question">
+          Q98. How many members are there in European Union?
+        </div>
+        <ul class="options">
+          <li>A) 25</li>
+          <li class="correct">B) 27</li>
+          <li>C) 28</li>
+          <li>D) 30</li>
+        </ul>
+        <div class="explanation">
+          The European Union currently has 27 member states following the UK's exit (Brexit) in 2020.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 99</span>
+        <div class="mcq-question">
+          Q99. The largest stock exchange in the world is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) New York Stock Exchange</li>
+          <li>B) Tokyo Stock Exchange</li>
+          <li>C) London Stock Exchange</li>
+          <li>D) Spain Stock Exchange</li>
+        </ul>
+        <div class="explanation">
+          The New York Stock Exchange (NYSE) is the world's largest stock exchange by market capitalization.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 100</span>
+        <div class="mcq-question">
+          Q100. NATO stands for
+        </div>
+        <ul class="options">
+          <li>A) North African Treaty Organisation</li>
+          <li class="correct">B) North Atlantic Treaty Organisation</li>
+          <li>C) North African Treaty Organisation</li>
+          <li>D) North American Treaty Organisation</li>
+        </ul>
+        <div class="explanation">
+          NATO stands for the North Atlantic Treaty Organisation, a military alliance founded in 1949.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 101</span>
+        <div class="mcq-question">
+          Q101. Pakistan is not a member of:
+        </div>
+        <ul class="options">
+          <li>A) OIC</li>
+          <li>B) ECO</li>
+          <li>C) NAM</li>
+          <li class="correct">D) G-8</li>
+        </ul>
+        <div class="explanation">
+          Pakistan is a member of the OIC, ECO, and NAM, but not the G-8 (now G-7 plus Russia's former inclusion).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 102</span>
+        <div class="mcq-question">
+          Q102. Headquarters of Economic Cooperation Organization (ECO) is at:
+        </div>
+        <ul class="options">
+          <li>A) Islamabad</li>
+          <li>B) Ankara</li>
+          <li class="correct">C) Tehran (Iran)</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          The Economic Cooperation Organization (ECO), which includes Pakistan, Iran, and Turkey among others, is headquartered in Tehran, Iran.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 103</span>
+        <div class="mcq-question">
+          Q103. World Bank headquarters are at ______.
+        </div>
+        <ul class="options">
+          <li>A) Paris, France</li>
+          <li>B) Geneva, Switzerland</li>
+          <li class="correct">C) Washington, D.C, USA</li>
+          <li>D) Brussels, Belgium</li>
+        </ul>
+        <div class="explanation">
+          The World Bank is headquartered in Washington, D.C., USA.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 104</span>
+        <div class="mcq-question">
+          Q104. The countries that are part of NAFTA are
+        </div>
+        <ul class="options">
+          <li>A) UK, USA and Israel</li>
+          <li>B) UK, Canada and Australia</li>
+          <li class="correct">C) USA, Mexico and Canada</li>
+          <li>D) UK, Mexico and Canada</li>
+        </ul>
+        <div class="explanation">
+          NAFTA (now replaced by USMCA) was a trade agreement between the USA, Mexico, and Canada.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 105</span>
+        <div class="mcq-question">
+          Q105. Which of the following is not a G-7 country?
+        </div>
+        <ul class="options">
+          <li>A) Japan</li>
+          <li class="correct">B) Russia</li>
+          <li>C) France</li>
+          <li>D) Italy</li>
+        </ul>
+        <div class="explanation">
+          The G-7 comprises Canada, France, Germany, Italy, Japan, the UK, and the USA — Russia is not currently part of it.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 106</span>
+        <div class="mcq-question">
+          Q106. Which of the following is not an agency of the UN:
+        </div>
+        <ul class="options">
+          <li>A) World Health Organization</li>
+          <li>B) International Maritime Organization</li>
+          <li class="correct">C) ASEAN</li>
+          <li>D) International Monetary Fund</li>
+        </ul>
+        <div class="explanation">
+          ASEAN (Association of Southeast Asian Nations) is a regional bloc, not a specialized agency of the United Nations.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 107</span>
+        <div class="mcq-question">
+          Q107. Interpol headquarters are at
+        </div>
+        <ul class="options">
+          <li>A) Paris, France</li>
+          <li>B) Geneva, Switzerland</li>
+          <li class="correct">C) Lyon, France</li>
+          <li>D) Brussels, Belgium</li>
+        </ul>
+        <div class="explanation">
+          Interpol, the international police organization, is headquartered in Lyon, France.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 108</span>
+        <div class="mcq-question">
+          Q108. Which of the following is a Military Alliance?
+        </div>
+        <ul class="options">
+          <li class="correct">A) NATO</li>
+          <li>B) NACTA</li>
+          <li>C) NAFTA</li>
+          <li>D) SCO</li>
+        </ul>
+        <div class="explanation">
+          NATO is a military alliance formed to provide collective defense among its member states.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 109</span>
+        <div class="mcq-question">
+          Q109. Headquarters of ILO (International Labour Organisation)
+        </div>
+        <ul class="options">
+          <li>A) Brussels, Belgium</li>
+          <li class="correct">B) Geneva, Switzerland</li>
+          <li>C) New York, USA</li>
+          <li>D) Paris, France</li>
+        </ul>
+        <div class="explanation">
+          The International Labour Organization (ILO) is headquartered in Geneva, Switzerland.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 110</span>
+        <div class="mcq-question">
+          Q110. Which of the following is not chief organ of the United Nations Organizations?
+        </div>
+        <ul class="options">
+          <li>A) Security Council</li>
+          <li>B) International Court of Justice</li>
+          <li>C) General Assembly</li>
+          <li class="correct">D) Organisation of Islamic Cooperation</li>
+        </ul>
+        <div class="explanation">
+          The UN's six principal (chief) organs are the General Assembly, Security Council, ECOSOC, Trusteeship Council, ICJ, and Secretariat — the OIC is a separate intergovernmental body.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 111</span>
+        <div class="mcq-question">
+          Q111. Amnesty International works for:
+        </div>
+        <ul class="options">
+          <li>A) Peace between India and Pakistan</li>
+          <li>B) Protection of animals</li>
+          <li>C) Protection of wildlife</li>
+          <li class="correct">D) Protection of human rights</li>
+        </ul>
+        <div class="explanation">
+          Amnesty International is a global NGO focused on documenting and campaigning for human rights.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 112</span>
+        <div class="mcq-question">
+          Q112. G-7 is a group of
+        </div>
+        <ul class="options">
+          <li class="correct">A) Seven most advanced economies</li>
+          <li>B) Seven fast growing economies</li>
+          <li>C) Seven atomic power states</li>
+          <li>D) Seven under-developed states</li>
+        </ul>
+        <div class="explanation">
+          The G-7 is a forum of the world's seven largest advanced economies.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 113</span>
+        <div class="mcq-question">
+          Q113. WHO is headquartered in:
+        </div>
+        <ul class="options">
+          <li>A) Singapore</li>
+          <li class="correct">B) Geneva, Switzerland</li>
+          <li>C) Belgium</li>
+          <li>D) Holland</li>
+        </ul>
+        <div class="explanation">
+          The World Health Organization (WHO) is headquartered in Geneva, Switzerland.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 114</span>
+        <div class="mcq-question">
+          Q114. Albert Einstein was a famous:
+        </div>
+        <ul class="options">
+          <li>A) Physician</li>
+          <li>B) Chemist</li>
+          <li class="correct">C) Physicist</li>
+          <li>D) Biologist</li>
+        </ul>
+        <div class="explanation">
+          Albert Einstein was a theoretical physicist best known for the theory of relativity.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 115</span>
+        <div class="mcq-question">
+          Q115. Who is also known as the lady with the lamp?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Florence Nightingale</li>
+          <li>B) Sarojini Naidu</li>
+          <li>C) Rani Lakshmi Bai</li>
+          <li>D) Bachendri Pal</li>
+        </ul>
+        <div class="explanation">
+          Florence Nightingale, a pioneer of modern nursing, earned the nickname 'The Lady with the Lamp' during the Crimean War.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 116</span>
+        <div class="mcq-question">
+          Q116. Qutbuddin Aibak is the founder of which ruling era?
+        </div>
+        <ul class="options">
+          <li>A) Meri Saltanat</li>
+          <li>B) Lodhi dynasty</li>
+          <li class="correct">C) Slave dynasty</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          Qutbuddin Aibak founded the Slave (Mamluk) dynasty, the first dynasty of the Delhi Sultanate.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 117</span>
+        <div class="mcq-question">
+          Q117. Who invented Penicillin?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Fleming</li>
+          <li>B) Einstein</li>
+          <li>C) Darwin</li>
+          <li>D) Edison</li>
+        </ul>
+        <div class="explanation">
+          Alexander Fleming discovered penicillin in 1928, revolutionizing the treatment of bacterial infections.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 118</span>
+        <div class="mcq-question">
+          Q118. Who invented the light bulb?
+        </div>
+        <ul class="options">
+          <li>A) Fleming</li>
+          <li>B) Isaac</li>
+          <li>C) Darwin</li>
+          <li class="correct">D) Edison (Magician of Menlo Park)</li>
+        </ul>
+        <div class="explanation">
+          Thomas Edison is widely credited with inventing the practical incandescent light bulb.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 119</span>
+        <div class="mcq-question">
+          Q119. Daily Dawn was founded by
+        </div>
+        <ul class="options">
+          <li>A) Maulana Jauhar</li>
+          <li>B) Quaid e Azam</li>
+          <li>C) Maulana Azad</li>
+          <li class="correct">D) Mir Khalil ur Rehman</li>
+        </ul>
+        <div class="explanation">
+          Mir Khalil-ur-Rehman founded Daily Dawn, one of Pakistan's most prominent English newspapers.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 120</span>
+        <div class="mcq-question">
+          Q120. Who was the first ruler of the Mughal dynasty?
+        </div>
+        <ul class="options">
+          <li>A) Akbar</li>
+          <li>B) Jahangir</li>
+          <li>C) Aurangzeb</li>
+          <li class="correct">D) Babur</li>
+        </ul>
+        <div class="explanation">
+          Babur founded the Mughal dynasty in India after defeating Ibrahim Lodi in 1526.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 121</span>
+        <div class="mcq-question">
+          Q121. Who made Pakistan's flag?
+        </div>
+        <ul class="options">
+          <li>A) Hafeez Jalandhari</li>
+          <li>B) Ahmed Chaghla</li>
+          <li class="correct">C) Ameer-ud-Din Qudwai</li>
+          <li>D) Ch. Rehmat Ali</li>
+        </ul>
+        <div class="explanation">
+          Ameer-ud-Din Qudwai is credited with designing Pakistan's national flag.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 122</span>
+        <div class="mcq-question">
+          Q122. Taj Mahal was built by?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Shah Jahan</li>
+          <li>B) Aurangzeb</li>
+          <li>C) Babur</li>
+          <li>D) Akbar</li>
+        </ul>
+        <div class="explanation">
+          The Taj Mahal was built by Mughal Emperor Shah Jahan as a mausoleum for his wife Mumtaz Mahal.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 123</span>
+        <div class="mcq-question">
+          Q123. Who is the president of Syria?
+        </div>
+        <ul class="options">
+          <li>A) Tayyab Erdogan</li>
+          <li class="correct">B) Bashar Al-Asad</li>
+          <li>C) Muhammad-al-Asad</li>
+          <li>D) Ibrahim Jafery</li>
+        </ul>
+        <div class="explanation">
+          Bashar al-Assad has served as President of Syria since 2000.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 124</span>
+        <div class="mcq-question">
+          Q124. Who is the PM of Israel?
+        </div>
+        <ul class="options">
+          <li>A) Ariel Sharon</li>
+          <li class="correct">B) Benjamin Netanyahu</li>
+          <li>C) Yasir Arafat</li>
+          <li>D) Ismail Hanya</li>
+        </ul>
+        <div class="explanation">
+          Benjamin Netanyahu has served multiple terms as Prime Minister of Israel.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 125</span>
+        <div class="mcq-question">
+          Q125. Who is the father of Geometry?
+        </div>
+        <ul class="options">
+          <li>A) Aristotle</li>
+          <li class="correct">B) Euclid</li>
+          <li>C) Pythagoras</li>
+          <li>D) Kepler</li>
+        </ul>
+        <div class="explanation">
+          Euclid, an ancient Greek mathematician, is known as the 'Father of Geometry' for his work 'Elements.'
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 126</span>
+        <div class="mcq-question">
+          Q126. The youngest certified Microsoft technology specialist is:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Arfa Karim</li>
+          <li>B) Mauhib Iqbal</li>
+          <li>C) Muhammad Adil</li>
+          <li>D) Shafay Thobani</li>
+        </ul>
+        <div class="explanation">
+          Arfa Karim Randhawa became the world's youngest Microsoft Certified Professional at age 9.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 127</span>
+        <div class="mcq-question">
+          Q127. The first man to set foot on the Moon was ______.
+        </div>
+        <ul class="options">
+          <li>A) Edwin Aldrin</li>
+          <li class="correct">B) Neil Armstrong</li>
+          <li>C) Konarov</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          Neil Armstrong became the first person to walk on the Moon during the Apollo 11 mission in 1969.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 128</span>
+        <div class="mcq-question">
+          Q128. Who built the Eiffel Tower?
+        </div>
+        <ul class="options">
+          <li>A) Newton</li>
+          <li>B) Gustav Casel</li>
+          <li class="correct">C) Gustave Eiffel</li>
+          <li>D) Morris Eiffel</li>
+        </ul>
+        <div class="explanation">
+          Gustave Eiffel's engineering firm designed and built the Eiffel Tower for the 1889 Paris World's Fair.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 129</span>
+        <div class="mcq-question">
+          Q129. Michael Jackson is a distinguished person in the field of?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Pop Music</li>
+          <li>B) Journalism</li>
+          <li>C) Sports</li>
+          <li>D) Acting</li>
+        </ul>
+        <div class="explanation">
+          Michael Jackson, known as the 'King of Pop,' was one of the most influential figures in pop music.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 130</span>
+        <div class="mcq-question">
+          Q130. Mount Everest was ascended in 1953 by:
+        </div>
+        <ul class="options">
+          <li>A) Edmund Hillary</li>
+          <li>B) Tenzing Norgay</li>
+          <li class="correct">C) Both of them</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          Edmund Hillary and Tenzing Norgay together made the first confirmed ascent of Mount Everest in 1953.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 131</span>
+        <div class="mcq-question">
+          Q131. Leonardo da Vinci:
+        </div>
+        <ul class="options">
+          <li>A) Was a great Italian painter, sculptor and architect</li>
+          <li>B) Got universal fame from his masterpiece "Monalisa"</li>
+          <li>C) Drew models of organs such as the heart, lungs and womb</li>
+          <li class="correct">D) All of the above</li>
+        </ul>
+        <div class="explanation">
+          Leonardo da Vinci was a true Renaissance polymath — painter, sculptor, architect, and anatomist, famous for the Mona Lisa.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 132</span>
+        <div class="mcq-question">
+          Q132. Neil Armstrong and Edwin Aldrin were the first to
+        </div>
+        <ul class="options">
+          <li class="correct">A) Step on the moon</li>
+          <li>B) Circle the moon</li>
+          <li>C) Walk in space</li>
+          <li>D) Journey into space</li>
+        </ul>
+        <div class="explanation">
+          Neil Armstrong and Buzz Aldrin became the first humans to step on the Moon's surface in 1969.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 133</span>
+        <div class="mcq-question">
+          Q133. The Law of Natural Selection is associated with
+        </div>
+        <ul class="options">
+          <li>A) Dalton</li>
+          <li class="correct">B) Darwin</li>
+          <li>C) Kepler</li>
+          <li>D) Mendel</li>
+        </ul>
+        <div class="explanation">
+          Charles Darwin proposed the theory of natural selection as the mechanism driving evolution.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 134</span>
+        <div class="mcq-question">
+          Q134. George Bernard Shaw, the great dramatist, was
+        </div>
+        <ul class="options">
+          <li>A) A Welsh</li>
+          <li class="correct">B) An Irishman</li>
+          <li>C) A Scotsman</li>
+          <li>D) An Englishman</li>
+        </ul>
+        <div class="explanation">
+          George Bernard Shaw, the celebrated playwright and Nobel laureate in Literature, was Irish.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 135</span>
+        <div class="mcq-question">
+          Q135. Euclid was
+        </div>
+        <ul class="options">
+          <li>A) Greek mathematician</li>
+          <li>B) Contributor to the use of deductive principles of logic as the basis of geometry</li>
+          <li>C) Propounded the geometrical theorems</li>
+          <li class="correct">D) All of the above</li>
+        </ul>
+        <div class="explanation">
+          Euclid systematized geometry through deductive logic in his work 'Elements,' laying foundations still used today.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 136</span>
+        <div class="mcq-question">
+          Q136. Where was Jesus Christ born?
+        </div>
+        <ul class="options">
+          <li>A) Iraq</li>
+          <li class="correct">B) Jerusalem</li>
+          <li>C) Mecca</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          According to the Bible, Jesus Christ was born in Bethlehem, near Jerusalem in Judea.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 137</span>
+        <div class="mcq-question">
+          Q137. September 11, 1948 - Which of the following events was marked on this day?
+        </div>
+        <ul class="options">
+          <li>A) Kashmir war ended</li>
+          <li class="correct">B) Quaid e Azam died</li>
+          <li>C) Gandhi died</li>
+          <li>D) None</li>
+        </ul>
+        <div class="explanation">
+          Muhammad Ali Jinnah, founder of Pakistan, passed away on September 11, 1948.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 138</span>
+        <div class="mcq-question">
+          Q138. Liaqat Ali Khan was assassinated in Rawalpindi on ---
+        </div>
+        <ul class="options">
+          <li>A) 17 Nov, 1951</li>
+          <li>B) 17 Sep, 1951</li>
+          <li>C) 17 Aug, 1951</li>
+          <li class="correct">D) 16 Oct, 1951</li>
+        </ul>
+        <div class="explanation">
+          Liaquat Ali Khan, Pakistan's first Prime Minister, was assassinated in Rawalpindi on October 16, 1951.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 139</span>
+        <div class="mcq-question">
+          Q139. Prince ______, Duke of Edinburgh, died at age of 99 on 9 April 2021?
+        </div>
+        <ul class="options">
+          <li>A) Harry</li>
+          <li>B) John Mountbatten</li>
+          <li class="correct">C) Philip</li>
+          <li>D) None</li>
+        </ul>
+        <div class="explanation">
+          Prince Philip, Duke of Edinburgh and husband of Queen Elizabeth II, died on 9 April 2021 at age 99.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 140</span>
+        <div class="mcq-question">
+          Q140. When was the first Pakistani constitution drafted?
+        </div>
+        <ul class="options">
+          <li>A) 1947</li>
+          <li class="correct">B) 1956</li>
+          <li>C) 1962</li>
+          <li>D) 1973</li>
+        </ul>
+        <div class="explanation">
+          Pakistan's first constitution was drafted and adopted in 1956.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 141</span>
+        <div class="mcq-question">
+          Q141. Gwadar became part of Pakistan on
+        </div>
+        <ul class="options">
+          <li>A) March 23, 1948</li>
+          <li>B) January 15, 1949</li>
+          <li>C) December 10, 1951</li>
+          <li class="correct">D) September 09, 1958</li>
+        </ul>
+        <div class="explanation">
+          Gwadar was purchased from the Sultanate of Oman and became part of Pakistan on September 8, 1958.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 142</span>
+        <div class="mcq-question">
+          Q142. In which of the following year Pakistan accepted Bangladesh as an Independent country.
+        </div>
+        <ul class="options">
+          <li>A) 1972</li>
+          <li>B) 1973</li>
+          <li class="correct">C) 1974</li>
+          <li>D) 1977</li>
+        </ul>
+        <div class="explanation">
+          Pakistan formally recognized Bangladesh as an independent state in 1974.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 143</span>
+        <div class="mcq-question">
+          Q143. Second constitution was passed in
+        </div>
+        <ul class="options">
+          <li>A) 1958</li>
+          <li>B) 1960</li>
+          <li class="correct">C) 1962</li>
+          <li>D) 1964</li>
+        </ul>
+        <div class="explanation">
+          Pakistan's second constitution was promulgated by President Ayub Khan in 1962.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 144</span>
+        <div class="mcq-question">
+          Q144. Objective Resolution was passed in?
+        </div>
+        <ul class="options">
+          <li>A) 1940</li>
+          <li class="correct">B) 1949</li>
+          <li>C) 1959</li>
+          <li>D) 1965</li>
+        </ul>
+        <div class="explanation">
+          The Objectives Resolution, laying the ideological foundation for Pakistan's constitution, was passed in 1949.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 145</span>
+        <div class="mcq-question">
+          Q145. Simla agreement was signed in the year?
+        </div>
+        <ul class="options">
+          <li>A) 1906</li>
+          <li>B) 1965</li>
+          <li class="correct">C) 1972</li>
+          <li>D) 1977</li>
+        </ul>
+        <div class="explanation">
+          The Simla Agreement between Pakistan and India was signed in 1972 following the 1971 war.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 146</span>
+        <div class="mcq-question">
+          Q146. Who was the youngest Nishan-e-Haider of Pakistan?
+        </div>
+        <ul class="options">
+          <li>A) Raja Aziz Bhatti</li>
+          <li>B) Tufail Muhammad</li>
+          <li class="correct">C) Rashid Minhas</li>
+          <li>D) Raja Muhammad Sarwar</li>
+        </ul>
+        <div class="explanation">
+          Rashid Minhas, a PAF pilot who died in 1971, is the youngest recipient of the Nishan-e-Haider.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 147</span>
+        <div class="mcq-question">
+          Q147. Which pass connects Pakistan with Afghanistan?
+        </div>
+        <ul class="options">
+          <li>A) Tochi pass</li>
+          <li>B) Khunjerab pass</li>
+          <li>C) Gomal pass</li>
+          <li class="correct">D) Khyber pass</li>
+        </ul>
+        <div class="explanation">
+          The Khyber Pass, through the Spin Ghar mountains, is the main historic route connecting Pakistan and Afghanistan.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 148</span>
+        <div class="mcq-question">
+          Q148. In which year Pakistan became nuclear power?
+        </div>
+        <ul class="options">
+          <li>A) 1997</li>
+          <li class="correct">B) 1998</li>
+          <li>C) 2002</li>
+          <li>D) 2000</li>
+        </ul>
+        <div class="explanation">
+          Pakistan conducted its nuclear tests and became a declared nuclear power in 1998.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 149</span>
+        <div class="mcq-question">
+          Q149. The first constructed barrage of Pakistan is
+        </div>
+        <ul class="options">
+          <li>A) Jinnah barrage</li>
+          <li class="correct">B) Sukkur barrage</li>
+          <li>C) Tunssa barrage</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          The Sukkur Barrage, completed in 1932, was Pakistan's (British India's) first major barrage on the Indus.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 150</span>
+        <div class="mcq-question">
+          Q150. Pakistan Steel mill founded with the help and cooperation of
+        </div>
+        <ul class="options">
+          <li class="correct">A) Russia</li>
+          <li>B) China</li>
+          <li>C) USA</li>
+          <li>D) Iran</li>
+        </ul>
+        <div class="explanation">
+          China provided significant assistance in establishing the Pakistan Steel Mills in Karachi.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 151</span>
+        <div class="mcq-question">
+          Q151. Gwadar Port is constructed in the province of
+        </div>
+        <ul class="options">
+          <li>A) Punjab</li>
+          <li>B) Sindh</li>
+          <li>C) KPK</li>
+          <li class="correct">D) Baluchistan</li>
+        </ul>
+        <div class="explanation">
+          Gwadar Port, a deep-sea port and key CPEC project, is located in Balochistan.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 152</span>
+        <div class="mcq-question">
+          Q152. One of the founders of Indian National Congress was
+        </div>
+        <ul class="options">
+          <li class="correct">A) Allan O. Hume</li>
+          <li>B) Gandhi</li>
+          <li>C) Nehru</li>
+          <li>D) AK Azad</li>
+        </ul>
+        <div class="explanation">
+          Allan Octavian Hume, a British civil servant, was a key founder of the Indian National Congress in 1885.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 153</span>
+        <div class="mcq-question">
+          Q153. Liaqat Ali Khan was born in
+        </div>
+        <ul class="options">
+          <li>A) Kasur</li>
+          <li class="correct">B) Karnal</li>
+          <li>C) Lucknow</li>
+          <li>D) Shansi</li>
+        </ul>
+        <div class="explanation">
+          Liaquat Ali Khan was born in Karnal, in present-day Haryana, India.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 154</span>
+        <div class="mcq-question">
+          Q154. Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940?
+        </div>
+        <ul class="options">
+          <li>A) Allama Iqbal</li>
+          <li>B) Liaquat Ali Khan</li>
+          <li class="correct">C) Quaid e Azam Muhammad Ali Jinnah</li>
+          <li>D) A.K Fazlul-Haq</li>
+        </ul>
+        <div class="explanation">
+          The Lahore Resolution (Pakistan Resolution) was moved by A.K. Fazlul Haq, with Quaid-e-Azam Muhammad Ali Jinnah presiding over the 1940 session.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 155</span>
+        <div class="mcq-question">
+          Q155. The gas predominantly responsible for global warming is
+        </div>
+        <ul class="options">
+          <li class="correct">A) Carbon dioxide</li>
+          <li>B) Carbon monoxide (Smog formation)</li>
+          <li>C) Nitrous oxide</li>
+          <li>D) Nitrogen peroxide</li>
+        </ul>
+        <div class="explanation">
+          Carbon dioxide, released mainly from burning fossil fuels, is the primary greenhouse gas driving global warming.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 156</span>
+        <div class="mcq-question">
+          Q156. Electric current is measured by
+        </div>
+        <ul class="options">
+          <li>A) Voltmeter</li>
+          <li>B) Anemometer</li>
+          <li>C) Commutator</li>
+          <li class="correct">D) Ammeter</li>
+        </ul>
+        <div class="explanation">
+          An ammeter is the instrument used to measure electric current in a circuit.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 157</span>
+        <div class="mcq-question">
+          Q157. The dynamo is the device for converting:
+        </div>
+        <ul class="options">
+          <li>A) Heat energy into electrical energy</li>
+          <li class="correct">B) Mechanical energy into electrical energy</li>
+          <li>C) Magnetic energy into electrical energy</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          A dynamo (generator) converts mechanical energy into electrical energy through electromagnetic induction.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 158</span>
+        <div class="mcq-question">
+          Q158. The hardest substance available on earth is:
+        </div>
+        <ul class="options">
+          <li>A) Platinum</li>
+          <li class="correct">B) Diamond</li>
+          <li>C) Quartz</li>
+          <li>D) Gold</li>
+        </ul>
+        <div class="explanation">
+          Diamond, a crystalline form of carbon, is the hardest naturally occurring substance.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 159</span>
+        <div class="mcq-question">
+          Q159. Washing soda is the common name for:
+        </div>
+        <ul class="options">
+          <li>A) Calcium carbonate</li>
+          <li>B) Calcium bicarbonate</li>
+          <li class="correct">C) Sodium carbonate</li>
+          <li>D) Sodium bicarbonate</li>
+        </ul>
+        <div class="explanation">
+          Washing soda is the common name for sodium carbonate (Na₂CO₃).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 160</span>
+        <div class="mcq-question">
+          Q160. Which of the following order is given to the planets of solar system on the basis of their sizes:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Jupiter, Saturn, Earth, Mercury</li>
+          <li>B) Saturn, Jupiter, Mercury, Earth</li>
+          <li>C) Mercury, Earth, Jupiter, Saturn</li>
+          <li>D) Earth, Mercury, Saturn, Jupiter</li>
+        </ul>
+        <div class="explanation">
+          By size, the order from largest is Jupiter, Saturn, Earth, then Mercury (the smallest planet).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 161</span>
+        <div class="mcq-question">
+          Q161. The solar eclipse occurs when:
+        </div>
+        <ul class="options">
+          <li>A) The sun comes between the moon and the earth</li>
+          <li>B) The earth comes in between the sun and the moon</li>
+          <li class="correct">C) The moon comes in between the sun and the earth</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          A solar eclipse occurs when the Moon passes between the Sun and Earth, blocking sunlight.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 162</span>
+        <div class="mcq-question">
+          Q162. Who invented the telephone?
+        </div>
+        <ul class="options">
+          <li>A) Thomas Alva Edison</li>
+          <li>B) Galileo</li>
+          <li class="correct">C) Alexander Graham Bell</li>
+          <li>D) G. Marconi</li>
+        </ul>
+        <div class="explanation">
+          Alexander Graham Bell is credited with inventing and patenting the first practical telephone in 1876.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 163</span>
+        <div class="mcq-question">
+          Q163. What is the boiling temperature of water?
+        </div>
+        <ul class="options">
+          <li>A) 37°C</li>
+          <li>B) 100°F</li>
+          <li class="correct">C) 100°C</li>
+          <li>D) 105°C</li>
+        </ul>
+        <div class="explanation">
+          Water boils at 100°C (212°F) at standard atmospheric pressure.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 164</span>
+        <div class="mcq-question">
+          Q164. Which of these is not a mosquito borne disease:
+        </div>
+        <ul class="options">
+          <li>A) Dengue fever</li>
+          <li>B) Malaria</li>
+          <li>C) Filariasis</li>
+          <li class="correct">D) Goitre</li>
+        </ul>
+        <div class="explanation">
+          Goitre is caused by iodine deficiency, not mosquito transmission — unlike dengue, malaria, and filariasis.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 165</span>
+        <div class="mcq-question">
+          Q165. Oranges are a rich source of:
+        </div>
+        <ul class="options">
+          <li>A) Carbohydrates</li>
+          <li>B) Fats</li>
+          <li>C) Proteins</li>
+          <li class="correct">D) Vitamins C</li>
+        </ul>
+        <div class="explanation">
+          Oranges are well known as a rich source of Vitamin C.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 166</span>
+        <div class="mcq-question">
+          Q166. Which acid is produced when milk gets sour?
+        </div>
+        <ul class="options">
+          <li>A) Tartaric acid</li>
+          <li>B) Butyric acid</li>
+          <li class="correct">C) Lactic acid</li>
+          <li>D) Acetic acid</li>
+        </ul>
+        <div class="explanation">
+          Lactic acid is produced by bacteria fermenting lactose when milk turns sour.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 167</span>
+        <div class="mcq-question">
+          Q167. People with which blood group are called universal donors?
+        </div>
+        <ul class="options">
+          <li>A) AB</li>
+          <li>B) A</li>
+          <li class="correct">C) O</li>
+          <li>D) B</li>
+        </ul>
+        <div class="explanation">
+          People with blood group O (specifically O-negative) are considered universal donors since their red cells lack A/B antigens.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 168</span>
+        <div class="mcq-question">
+          Q168. Thermometer is related to degree in the same way as clock is related to:
+        </div>
+        <ul class="options">
+          <li>A) Wall</li>
+          <li>B) Tower</li>
+          <li class="correct">C) Hour</li>
+          <li>D) Cock</li>
+        </ul>
+        <div class="explanation">
+          Just as a thermometer measures degrees, a clock measures hours — both are instruments for measuring their respective units.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 169</span>
+        <div class="mcq-question">
+          Q169. Which instrument is used to measure pressure?
+        </div>
+        <ul class="options">
+          <li>A) Saccharimeter</li>
+          <li>B) Ammeter</li>
+          <li class="correct">C) Manometer</li>
+          <li>D) Lactometer</li>
+        </ul>
+        <div class="explanation">
+          A manometer is used to measure the pressure of gases and liquids.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 170</span>
+        <div class="mcq-question">
+          Q170. The unit of current is
+        </div>
+        <ul class="options">
+          <li>A) Ohm</li>
+          <li>B) Watt</li>
+          <li class="correct">C) Ampere</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          The ampere (A) is the SI unit of electric current.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 171</span>
+        <div class="mcq-question">
+          Q171. The scientist who first discovered that the earth revolves around the sun was:
+        </div>
+        <ul class="options">
+          <li>A) Newton</li>
+          <li>B) Dalton</li>
+          <li class="correct">C) Copernicus</li>
+          <li>D) Einstein</li>
+        </ul>
+        <div class="explanation">
+          Nicolaus Copernicus proposed the heliocentric model, showing that Earth revolves around the Sun.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 172</span>
+        <div class="mcq-question">
+          Q172. Study of earthquakes is known as
+        </div>
+        <ul class="options">
+          <li>A) Ecology</li>
+          <li class="correct">B) Seismology</li>
+          <li>C) Numismatics</li>
+          <li>D) None of these</li>
+        </ul>
+        <div class="explanation">
+          Seismology is the scientific study of earthquakes and the propagation of seismic waves.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 173</span>
+        <div class="mcq-question">
+          Q173. Meteorology is the science of
+        </div>
+        <ul class="options">
+          <li class="correct">A) Weather</li>
+          <li>B) Meteors</li>
+          <li>C) Metals</li>
+          <li>D) Earthquakes</li>
+        </ul>
+        <div class="explanation">
+          Meteorology is the scientific study of the atmosphere and weather patterns.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 174</span>
+        <div class="mcq-question">
+          Q174. Oncology is the study of:
+        </div>
+        <ul class="options">
+          <li>A) Birds</li>
+          <li class="correct">B) Cancer</li>
+          <li>C) Mammals</li>
+          <li>D) Soil</li>
+        </ul>
+        <div class="explanation">
+          Oncology is the branch of medicine dealing with the diagnosis and treatment of cancer.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 175</span>
+        <div class="mcq-question">
+          Q175. Study of life in outer space is known as:
+        </div>
+        <ul class="options">
+          <li>A) Endobiology</li>
+          <li class="correct">B) Exobiology</li>
+          <li>C) Enterobiology</li>
+          <li>D) Neobiology</li>
+        </ul>
+        <div class="explanation">
+          Exobiology (astrobiology) is the study of the possibility of life beyond Earth.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 176</span>
+        <div class="mcq-question">
+          Q176. Which does not contain carbon?
+        </div>
+        <ul class="options">
+          <li>A) Diamond</li>
+          <li class="correct">B) Clay</li>
+          <li>C) Graphite</li>
+          <li>D) Coal</li>
+        </ul>
+        <div class="explanation">
+          Clay is composed mainly of silicate minerals and does not contain carbon, unlike diamond, graphite, and coal.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 177</span>
+        <div class="mcq-question">
+          Q177. Blindness is caused by the deficiency of
+        </div>
+        <ul class="options">
+          <li>A) Vitamin C</li>
+          <li class="correct">B) Vitamin A</li>
+          <li>C) Vitamin D</li>
+          <li>D) Vitamin B</li>
+        </ul>
+        <div class="explanation">
+          Vitamin A deficiency can cause night blindness and, if severe, permanent blindness.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 178</span>
+        <div class="mcq-question">
+          Q178. Ornithology is study of
+        </div>
+        <ul class="options">
+          <li>A) Cats</li>
+          <li class="correct">B) Birds</li>
+          <li>C) Bone</li>
+          <li>D) Eye</li>
+        </ul>
+        <div class="explanation">
+          Ornithology is the scientific study of birds.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 179</span>
+        <div class="mcq-question">
+          Q179. Galvanised iron sheets have a coating of:
+        </div>
+        <ul class="options">
+          <li>A) Tin</li>
+          <li>B) Lead</li>
+          <li class="correct">C) Zinc</li>
+          <li>D) Chromium</li>
+        </ul>
+        <div class="explanation">
+          Galvanized iron sheets are coated with a layer of zinc to prevent rusting.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 180</span>
+        <div class="mcq-question">
+          Q180. The injection of antitoxin is given to prevent:
+        </div>
+        <ul class="options">
+          <li class="correct">A) Tetanus</li>
+          <li>B) Tuberculosis</li>
+          <li>C) Typhoid</li>
+          <li>D) Filariasis</li>
+        </ul>
+        <div class="explanation">
+          Antitoxin injections (like tetanus antitoxin) are given to prevent tetanus infection.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 181</span>
+        <div class="mcq-question">
+          Q181. Filament of an electric bulb is made of:
+        </div>
+        <ul class="options">
+          <li>A) Carbon</li>
+          <li>B) Iron</li>
+          <li class="correct">C) Tungsten</li>
+          <li>D) Copper</li>
+        </ul>
+        <div class="explanation">
+          The filament in an incandescent bulb is made of tungsten due to its high melting point.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 182</span>
+        <div class="mcq-question">
+          Q182. Joule is the unit of
+        </div>
+        <ul class="options">
+          <li>A) Temperature</li>
+          <li>B) Pressure</li>
+          <li class="correct">C) Energy</li>
+          <li>D) Heat</li>
+        </ul>
+        <div class="explanation">
+          The joule is the SI unit of energy (and work).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 183</span>
+        <div class="mcq-question">
+          Q183. The term 'Butterfly Stroke' refers to which game?
+        </div>
+        <ul class="options">
+          <li>A) Tennis</li>
+          <li>B) Table Tennis</li>
+          <li class="correct">C) Swimming</li>
+          <li>D) Football</li>
+        </ul>
+        <div class="explanation">
+          The 'Butterfly Stroke' is one of the four competitive swimming strokes.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 184</span>
+        <div class="mcq-question">
+          Q184. Who won the last football world cup?
+        </div>
+        <ul class="options">
+          <li>A) France</li>
+          <li>B) Spain</li>
+          <li>C) Germany</li>
+          <li class="correct">D) Argentina</li>
+        </ul>
+        <div class="explanation">
+          Argentina won the 2022 FIFA World Cup, defeating France in the final.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 185</span>
+        <div class="mcq-question">
+          Q185. In chess, which is the only piece able to jump over other pieces?
+        </div>
+        <ul class="options">
+          <li>A) King</li>
+          <li>B) Queen</li>
+          <li class="correct">C) Knight</li>
+          <li>D) Elephant</li>
+        </ul>
+        <div class="explanation">
+          In chess, the knight is the only piece that can jump over other pieces on the board.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 186</span>
+        <div class="mcq-question">
+          Q186. The term, L.B.W. is associated with which of the following games?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Cricket</li>
+          <li>B) Hockey</li>
+          <li>C) Football</li>
+          <li>D) Polo</li>
+        </ul>
+        <div class="explanation">
+          L.B.W. (Leg Before Wicket) is a dismissal rule specific to the game of cricket.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 187</span>
+        <div class="mcq-question">
+          Q187. Davis Cup is a tournament of
+        </div>
+        <ul class="options">
+          <li>A) Hockey</li>
+          <li>B) Golf</li>
+          <li class="correct">C) Tennis</li>
+          <li>D) Badminton</li>
+        </ul>
+        <div class="explanation">
+          The Davis Cup is the premier international team competition in men's tennis.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 188</span>
+        <div class="mcq-question">
+          Q188. How many times has Pakistan won the hockey World Cup?
+        </div>
+        <ul class="options">
+          <li>A) 2</li>
+          <li>B) 3</li>
+          <li class="correct">C) 4</li>
+          <li>D) 5</li>
+        </ul>
+        <div class="explanation">
+          Pakistan has won the Hockey World Cup a record four times (1971, 1978, 1982, 1994).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 189</span>
+        <div class="mcq-question">
+          Q189. How many times has Pakistan won the ICC Champions Trophy?
+        </div>
+        <ul class="options">
+          <li class="correct">A) 1</li>
+          <li>B) 2</li>
+          <li>C) 3</li>
+          <li>D) 4</li>
+        </ul>
+        <div class="explanation">
+          Pakistan won the ICC Champions Trophy once, in 2017, defeating India in the final.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 190</span>
+        <div class="mcq-question">
+          Q190. The fastest century record in ODI of Shahid Afridi was broken by
+        </div>
+        <ul class="options">
+          <li>A) Sachin Tendulkar</li>
+          <li>B) Chris Gayle</li>
+          <li class="correct">C) AB de Villiers</li>
+          <li>D) Corey Anderson</li>
+        </ul>
+        <div class="explanation">
+          AB de Villiers scored an ODI century off just 31 balls in 2015, breaking Shahid Afridi's earlier record.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 191</span>
+        <div class="mcq-question">
+          Q191. Duration of a football game is ______ minutes
+        </div>
+        <ul class="options">
+          <li>A) 60</li>
+          <li class="correct">B) 90</li>
+          <li>C) 120</li>
+          <li>D) 150</li>
+        </ul>
+        <div class="explanation">
+          A standard football (soccer) match lasts 90 minutes, split into two 45-minute halves.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 192</span>
+        <div class="mcq-question">
+          Q192. Who is known as "Father of History"?
+        </div>
+        <ul class="options">
+          <li>A) Mark Antony</li>
+          <li>B) Nero</li>
+          <li class="correct">C) Herodotus</li>
+          <li>D) Homer</li>
+        </ul>
+        <div class="explanation">
+          Herodotus, the ancient Greek writer, is known as the 'Father of History' for his work 'The Histories.'
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 193</span>
+        <div class="mcq-question">
+          Q193. Adolf Hitler committed suicide in?
+        </div>
+        <ul class="options">
+          <li>A) 1944</li>
+          <li class="correct">B) 1945</li>
+          <li>C) 1946</li>
+          <li>D) 1947</li>
+        </ul>
+        <div class="explanation">
+          Adolf Hitler died by suicide on April 30, 1945, as Berlin fell to Allied forces.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 194</span>
+        <div class="mcq-question">
+          Q194. Before independence Ukraine was part of?
+        </div>
+        <ul class="options">
+          <li>A) USA</li>
+          <li>B) Britain</li>
+          <li>C) China</li>
+          <li class="correct">D) USSR</li>
+        </ul>
+        <div class="explanation">
+          Ukraine was a constituent republic of the Soviet Union (USSR) before gaining independence in 1991.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 195</span>
+        <div class="mcq-question">
+          Q195. The First World War started in which year?
+        </div>
+        <ul class="options">
+          <li class="correct">A) 1914</li>
+          <li>B) 1916</li>
+          <li>C) 1918</li>
+          <li>D) 1920</li>
+        </ul>
+        <div class="explanation">
+          World War I began in 1914, triggered by the assassination of Archduke Franz Ferdinand.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 196</span>
+        <div class="mcq-question">
+          Q196. Renaissance started first in ______.
+        </div>
+        <ul class="options">
+          <li>A) Russia</li>
+          <li class="correct">B) Italy</li>
+          <li>C) England</li>
+          <li>D) None of the above</li>
+        </ul>
+        <div class="explanation">
+          The Renaissance, a cultural and intellectual movement, originated in Italy in the 14th century.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 197</span>
+        <div class="mcq-question">
+          Q197. The Statue of Liberty of New York was a gift from ______.
+        </div>
+        <ul class="options">
+          <li>A) Egypt</li>
+          <li class="correct">B) France</li>
+          <li>C) Russia</li>
+          <li>D) Japan</li>
+        </ul>
+        <div class="explanation">
+          The Statue of Liberty was a gift from France to the United States, dedicated in 1886.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 198</span>
+        <div class="mcq-question">
+          Q198. In ______ America got Independence from England.
+        </div>
+        <ul class="options">
+          <li>A) 1775</li>
+          <li class="correct">B) 1776</li>
+          <li>C) 1767</li>
+          <li>D) 1770</li>
+        </ul>
+        <div class="explanation">
+          The United States declared independence from Britain on July 4, 1776.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 199</span>
+        <div class="mcq-question">
+          Q199. Taj Mahal was constructed by a famous Mughal emperor?
+        </div>
+        <ul class="options">
+          <li>A) Aurangzeb</li>
+          <li>B) Akbar</li>
+          <li>C) Humayun</li>
+          <li class="correct">D) Shah Jahan</li>
+        </ul>
+        <div class="explanation">
+          Emperor Shah Jahan commissioned the Taj Mahal as a mausoleum for his wife Mumtaz Mahal.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 200</span>
+        <div class="mcq-question">
+          Q200. Babur was the king of ______ at the time of his invasion of India.
+        </div>
+        <ul class="options">
+          <li>A) Turkmenistan</li>
+          <li class="correct">B) Afghanistan</li>
+          <li>C) Iran</li>
+          <li>D) Tajikistan</li>
+        </ul>
+        <div class="explanation">
+          Babur ruled from Kabul, Afghanistan, before launching his invasion of India in 1526.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 201</span>
+        <div class="mcq-question">
+          Q201. First battle of Panipat was fought between?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Babur and Ibrahim Lodi</li>
+          <li>B) Akbar and Lal Singh</li>
+          <li>C) Ahmed Shah and Balaji Baji Rao</li>
+          <li>D) Tamerlane and Bahlol Lodi</li>
+        </ul>
+        <div class="explanation">
+          The First Battle of Panipat (1526) was fought between Babur and Ibrahim Lodi, establishing Mughal rule in India.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 202</span>
+        <div class="mcq-question">
+          Q202. Who is called the first emperor of China?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Qin Shi Huang</li>
+          <li>B) Zheng He</li>
+          <li>C) Qin Er Shi</li>
+          <li>D) Shang Zhou</li>
+        </ul>
+        <div class="explanation">
+          Qin Shi Huang unified China and became its first emperor in 221 BC, founding the Qin dynasty.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 203</span>
+        <div class="mcq-question">
+          Q203. Name of the Mongol dynasty that ruled China?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Yuan</li>
+          <li>B) Ming</li>
+          <li>C) Qin</li>
+          <li>D) Shun</li>
+        </ul>
+        <div class="explanation">
+          The Yuan dynasty, founded by Kublai Khan, was the Mongol-ruled dynasty of China (1271–1368).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 204</span>
+        <div class="mcq-question">
+          Q204. WW-1 was started in which year?
+        </div>
+        <ul class="options">
+          <li class="correct">A) 1914</li>
+          <li>B) 1912</li>
+          <li>C) 1917</li>
+          <li>D) 1919</li>
+        </ul>
+        <div class="explanation">
+          World War I began in 1914 following a chain of alliances triggered by the assassination in Sarajevo.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 205</span>
+        <div class="mcq-question">
+          Q205. World War II began with the German invasion on ______.
+        </div>
+        <ul class="options">
+          <li>A) Russia</li>
+          <li>B) France</li>
+          <li>C) United Kingdom</li>
+          <li class="correct">D) Poland</li>
+        </ul>
+        <div class="explanation">
+          World War II began in 1939 when Germany invaded Poland, prompting Britain and France to declare war.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 206</span>
+        <div class="mcq-question">
+          Q206. The Indus Valley Civilization was famous for
+        </div>
+        <ul class="options">
+          <li>A) Well-planned cities</li>
+          <li>B) Efficient civil organisation</li>
+          <li>C) Development of Art and Architecture</li>
+          <li class="correct">D) All of these</li>
+        </ul>
+        <div class="explanation">
+          The Indus Valley Civilization is renowned for its well-planned cities, efficient civic organization, and advanced art and architecture.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 207</span>
+        <div class="mcq-question">
+          Q207. When did Vasco-da-Gama come to India?
+        </div>
+        <ul class="options">
+          <li>A) 1492</li>
+          <li class="correct">B) 1498</li>
+          <li>C) 1398</li>
+          <li>D) 1542</li>
+        </ul>
+        <div class="explanation">
+          Vasco da Gama reached India (Calicut) by sea route in 1498, opening direct European trade with Asia.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 208</span>
+        <div class="mcq-question">
+          Q208. The steam engine was invented by
+        </div>
+        <ul class="options">
+          <li class="correct">A) James Watt</li>
+          <li>B) James Prescott Joule</li>
+          <li>C) Thomas Newcomen</li>
+          <li>D) Isaac Newton</li>
+        </ul>
+        <div class="explanation">
+          James Watt significantly improved the steam engine in the 1760s-70s, driving the Industrial Revolution.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 209</span>
+        <div class="mcq-question">
+          Q209. In which year did Columbus discover America?
+        </div>
+        <ul class="options">
+          <li>A) 1616</li>
+          <li>B) 1599</li>
+          <li>C) 1598</li>
+          <li class="correct">D) 1499</li>
+        </ul>
+        <div class="explanation">
+          Christopher Columbus reached the Americas in 1492, though some older quiz keys cite 1499 in error.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 210</span>
+        <div class="mcq-question">
+          Q210. Which is considered the oldest civilization of the world?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Mesopotamian Civilization</li>
+          <li>B) Egyptian Civilization</li>
+          <li>C) Harappan Civilization</li>
+          <li>D) Chinese Civilization</li>
+        </ul>
+        <div class="explanation">
+          Mesopotamian civilization, in the Tigris-Euphrates region, is generally regarded as the oldest known civilization.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 211</span>
+        <div class="mcq-question">
+          Q211. Rome was founded around?
+        </div>
+        <ul class="options">
+          <li class="correct">A) 1000 BC</li>
+          <li>B) 1200 BC</li>
+          <li>C) 1400 BC</li>
+          <li>D) 1600 BC</li>
+        </ul>
+        <div class="explanation">
+          Rome's founding is traditionally dated to 753 BC, though this MCQ set lists an earlier approximate range.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 212</span>
+        <div class="mcq-question">
+          Q212. Vasco da Gama reached India in the year?
+        </div>
+        <ul class="options">
+          <li>A) 1495</li>
+          <li>B) 1496</li>
+          <li>C) 1497</li>
+          <li class="correct">D) 1498</li>
+        </ul>
+        <div class="explanation">
+          Vasco da Gama's fleet reached Calicut, India, on the western coast in May 1498.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 213</span>
+        <div class="mcq-question">
+          Q213. Brazil was discovered in?
+        </div>
+        <ul class="options">
+          <li class="correct">A) 1500</li>
+          <li>B) 1505</li>
+          <li>C) 1510</li>
+          <li>D) 1515</li>
+        </ul>
+        <div class="explanation">
+          Portuguese explorer Pedro Álvares Cabral is credited with discovering Brazil in 1500.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 214</span>
+        <div class="mcq-question">
+          Q214. Who discovered the North Pole?
+        </div>
+        <ul class="options">
+          <li>A) Captain James</li>
+          <li>B) Magellan</li>
+          <li>C) Amundsen</li>
+          <li class="correct">D) Robert Peary</li>
+        </ul>
+        <div class="explanation">
+          Robert Peary claimed to reach the North Pole in 1909, though the claim has faced historical dispute.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 215</span>
+        <div class="mcq-question">
+          Q215. In which year the American Revolution started?
+        </div>
+        <ul class="options">
+          <li>A) 1774</li>
+          <li class="correct">B) 1775</li>
+          <li>C) 1776</li>
+          <li>D) 1777</li>
+        </ul>
+        <div class="explanation">
+          The American Revolution (Revolutionary War) began in 1775 with the battles of Lexington and Concord.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 216</span>
+        <div class="mcq-question">
+          Q216. In which year American Independence was acknowledged by England?
+        </div>
+        <ul class="options">
+          <li>A) 1782</li>
+          <li class="correct">B) 1783</li>
+          <li>C) 1784</li>
+          <li>D) 1785</li>
+        </ul>
+        <div class="explanation">
+          Britain formally acknowledged American independence via the Treaty of Paris in 1783.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 217</span>
+        <div class="mcq-question">
+          Q217. The French Revolution started in the Year?
+        </div>
+        <ul class="options">
+          <li>A) 1786</li>
+          <li>B) 1787</li>
+          <li>C) 1788</li>
+          <li class="correct">D) 1789</li>
+        </ul>
+        <div class="explanation">
+          The French Revolution began in 1789 with the storming of the Bastille.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 218</span>
+        <div class="mcq-question">
+          Q218. Rome was liberated by the Italian soldiers in the year?
+        </div>
+        <ul class="options">
+          <li>A) 1869</li>
+          <li class="correct">B) 1870</li>
+          <li>C) 1871</li>
+          <li>D) 1872</li>
+        </ul>
+        <div class="explanation">
+          Rome was annexed by the Kingdom of Italy in 1870, completing Italian unification.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 219</span>
+        <div class="mcq-question">
+          Q219. When did World War 2 start?
+        </div>
+        <ul class="options">
+          <li>A) 1937</li>
+          <li>B) 1938</li>
+          <li class="correct">C) 1939</li>
+          <li>D) 1940</li>
+        </ul>
+        <div class="explanation">
+          World War II began in 1939 with Germany's invasion of Poland.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 220</span>
+        <div class="mcq-question">
+          Q220. Who is known as Man of Blood and Iron?
+        </div>
+        <ul class="options">
+          <li>A) Napoleon</li>
+          <li class="correct">B) Bismarck</li>
+          <li>C) Ho Chi Minh</li>
+          <li>D) Sir Walter Scott</li>
+        </ul>
+        <div class="explanation">
+          Otto von Bismarck, the Prussian/German statesman, was known as the 'Man of Blood and Iron' for his unification policies.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 221</span>
+        <div class="mcq-question">
+          Q221. In which year Hitler became the Chancellor of Germany?
+        </div>
+        <ul class="options">
+          <li>A) 1932</li>
+          <li class="correct">B) 1933</li>
+          <li>C) 1944</li>
+          <li>D) 1945</li>
+        </ul>
+        <div class="explanation">
+          Adolf Hitler became Chancellor of Germany in January 1933.
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 222</span>
+        <div class="mcq-question">
+          Q222. Who was the author of the "American Declaration of Independence"?
+        </div>
+        <ul class="options">
+          <li class="correct">A) Jefferson</li>
+          <li>B) Lafayette</li>
+          <li>C) George Washington</li>
+          <li>D) Thomas Paine</li>
+        </ul>
+        <div class="explanation">
+          Thomas Jefferson was the principal author of the American Declaration of Independence (1776).
+        </div>
+      </div>
+      <div class="mcq-card">
+        <span class="tag">MCQ 223</span>
+        <div class="mcq-question">
+          Q223. Russian revolutionary, who founded the Communist Party was
+        </div>
+        <ul class="options">
+          <li>A) Karl Marx</li>
+          <li>B) Stalin</li>
+          <li class="correct">C) Lenin</li>
+          <li>D) Trotsky</li>
+        </ul>
+        <div class="explanation">
+          Vladimir Lenin led the Bolsheviks and founded the Communist Party that took power in the 1917 Russian Revolution.
+        </div>
+      </div>
+      <hr />
+      <p
+        style="
+          text-align: center;
+          color: #6366f1;
+          font-size: 0.9em;
+          font-weight: bold;
+        "
+        id="page-footer"
+      >
+        🎓 Total: 223 MCQs | Topics: World Capitals & Currencies • Nobel
+        Prizes & Awards • Literature • Geography • International
+        Organizations • Pakistan Studies • General Science • Sports •
+        World History
+      </p>
+    </div>
+    <!-- end notes-content -->
+
+    <!-- TOAST -->
+    <div id="toast"></div>
+
+    <script>
+      // =====================================================
+      //  DATA EXTRACTION — read all .mcq-card elements
+      // =====================================================
+      const allCards = Array.from(document.querySelectorAll(".mcq-card"));
+
+      // Build a structured data array from the DOM cards
+      const mcqData = allCards.map((card, idx) => {
+        const tagEl = card.querySelector(".tag");
+        const qEl = card.querySelector(".mcq-question");
+        const expEl = card.querySelector(".explanation");
+        const opts = Array.from(card.querySelectorAll(".options li"));
+
+        const tag = tagEl ? tagEl.innerText.trim() : `MCQ ${idx + 1}`;
+        const qNum = parseInt(tag.replace(/\D/g, "")) || idx + 1;
+        const question = qEl ? qEl.innerText.trim() : "(no question text)";
+        const explanation = expEl ? expEl.innerHTML : "";
+
+        // Inline answer divs (some cards use .correct div instead of li)
+        const inlineAnswerEl = card.querySelector("div.correct");
+
+        let options = [];
+        let correctIndex = -1;
+
+        if (opts.length > 0) {
+          opts.forEach((li, i) => {
+            const isCorrect = li.classList.contains("correct");
+            const text = li.innerText.trim();
+            options.push({ text, correct: isCorrect });
+            if (isCorrect) correctIndex = i;
+          });
+        } else if (inlineAnswerEl) {
+          // Cards with only an answer div (no multiple choice listed)
+          const ansText = inlineAnswerEl.innerText.trim();
+          options = [{ text: ansText, correct: true }];
+          correctIndex = 0;
+        }
+
+        return { idx, qNum, tag, question, options, correctIndex, explanation };
+      });
+
+      // =====================================================
+      //  INIT — enhance each card in notes mode
+      // =====================================================
+      allCards.forEach((card, i) => {
+        const data = mcqData[i];
+
+        // Assign an id for jump-to
+        card.id = `card-q${data.qNum}`;
+
+        // ---- Build card-header ----
+        const tagEl = card.querySelector(".tag");
+
+        const headerDiv = document.createElement("div");
+        headerDiv.className = "card-header";
+
+        const leftDiv = document.createElement("div");
+        leftDiv.className = "card-header-left";
+        if (tagEl) leftDiv.appendChild(tagEl);
+
+        // Collapse toggle button
+        const colBtn = document.createElement("button");
+        colBtn.className = "collapse-toggle";
+        colBtn.textContent = "▼ Hide";
+        colBtn.onclick = () => toggleCard(card, colBtn);
+        leftDiv.appendChild(colBtn);
+
+        const actionsDiv = document.createElement("div");
+        actionsDiv.className = "card-actions";
+
+        // Bookmark button
+        const bmBtn = document.createElement("button");
+        bmBtn.className = "icon-btn";
+        bmBtn.title = "Bookmark this question";
+        bmBtn.innerHTML = "🔖";
+        bmBtn.onclick = () => toggleBookmark(data.qNum, card, bmBtn);
+        actionsDiv.appendChild(bmBtn);
+
+        // Note button
+        const noteBtn = document.createElement("button");
+        noteBtn.className = "icon-btn";
+        noteBtn.title = "Add/edit note";
+        noteBtn.innerHTML = "📝";
+        noteBtn.onclick = () => toggleNoteEditor(data.qNum, card);
+        actionsDiv.appendChild(noteBtn);
+
+        headerDiv.appendChild(leftDiv);
+        headerDiv.appendChild(actionsDiv);
+        card.insertBefore(headerDiv, card.firstChild);
+
+        // ---- Collapsible body ----
+        const body = document.createElement("div");
+        body.className = "collapsible";
+
+        // Pull question out BEFORE the loop so it never gets moved into body
+        const questionEl = card.querySelector(".mcq-question");
+        if (questionEl) card.insertBefore(questionEl, headerDiv.nextSibling);
+
+        // Now move all remaining children (except headerDiv and questionEl) into body
+        while (card.children.length > 1) {
+          const child = card.children[1];
+          if (child === questionEl) {
+            // Skip it — grab the next sibling instead
+            if (card.children[2]) {
+              body.appendChild(card.children[2]);
+            } else {
+              break;
+            }
+          } else {
+            body.appendChild(child);
+          }
+        }
+
+        // ---- User note area ----
+        const noteArea = document.createElement("div");
+        noteArea.className = "user-note-area";
+        noteArea.id = `note-area-${data.qNum}`;
+
+        const noteDisplay = document.createElement("div");
+        noteDisplay.className = "user-note-display";
+        noteDisplay.id = `note-display-${data.qNum}`;
+        noteDisplay.style.display = "none";
+
+        const noteTA = document.createElement("textarea");
+        noteTA.className = "user-note-textarea";
+        noteTA.id = `note-ta-${data.qNum}`;
+        noteTA.placeholder = "Type your note here…";
+
+        const noteBtns = document.createElement("div");
+        noteBtns.className = "note-btns";
+        noteBtns.id = `note-btns-${data.qNum}`;
+        noteBtns.style.display = "none";
+
+        const saveNoteBtn = document.createElement("button");
+        saveNoteBtn.className = "btn btn-primary";
+        saveNoteBtn.style.fontSize = "0.78em";
+        saveNoteBtn.textContent = "💾 Save";
+        saveNoteBtn.onclick = () => saveNote(data.qNum);
+
+        const delNoteBtn = document.createElement("button");
+        delNoteBtn.className = "btn btn-danger";
+        delNoteBtn.style.fontSize = "0.78em";
+        delNoteBtn.textContent = "🗑 Delete";
+        delNoteBtn.onclick = () => deleteNote(data.qNum);
+
+        const cancelNoteBtn = document.createElement("button");
+        cancelNoteBtn.className = "btn btn-secondary";
+        cancelNoteBtn.style.fontSize = "0.78em";
+        cancelNoteBtn.textContent = "Cancel";
+        cancelNoteBtn.onclick = () => closeNoteEditor(data.qNum);
+
+        noteBtns.append(saveNoteBtn, delNoteBtn, cancelNoteBtn);
+        noteArea.append(noteDisplay, noteTA, noteBtns);
+        body.appendChild(noteArea);
+
+        // Final card order: [headerDiv] [questionEl] [body]
+        // questionEl is already positioned after headerDiv; just append body at the end
+        card.appendChild(body);
+
+        // ---- Restore state ----
+        loadBookmark(data.qNum, card, bmBtn);
+        loadNote(data.qNum, noteDisplay);
+      });
+
+      // =====================================================
+      //  COLLAPSE / EXPAND
+      // =====================================================
+      function setCardCollapsed(card, collapsed) {
+        const body = card.querySelector(".collapsible");
+        const btn = card.querySelector(".collapse-toggle");
+        if (!body || !btn) return;
+        // Set max-height based on content
+        if (collapsed) {
+          body.style.maxHeight = body.scrollHeight + "px"; // trigger from expanded
+          requestAnimationFrame(() => {
+            body.style.maxHeight = body.scrollHeight + "px";
+            requestAnimationFrame(() => {
+              body.classList.add("collapsed");
+            });
+          });
+          btn.textContent = "▶ Show";
+        } else {
+          body.classList.remove("collapsed");
+          body.style.maxHeight = body.scrollHeight + "px";
+          setTimeout(() => {
+            body.style.maxHeight = "none";
+          }, 320);
+          btn.textContent = "▼ Hide";
+        }
+      }
+
+      function toggleCard(card, btn) {
+        const body = card.querySelector(".collapsible");
+        if (!body) return;
+        const isCollapsed = body.classList.contains("collapsed");
+        setCardCollapsed(card, !isCollapsed);
+      }
+
+      function collapseAll() {
+        allCards.forEach((c) => setCardCollapsed(c, true));
+        showToast("All explanations collapsed");
+      }
+
+      function expandAll() {
+        allCards.forEach((c) => setCardCollapsed(c, false));
+        showToast("All explanations expanded");
+      }
+
+      // =====================================================
+      //  JUMP TO QUESTION
+      // =====================================================
+      function jumpToQ() {
+        const val = parseInt(document.getElementById("jump-input").value);
+        if (!val) {
+          showToast("Enter a question number");
+          return;
+        }
+
+        const target = document.getElementById(`card-q${val}`);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "center" });
+          // Flash highlight
+          target.style.transition = "box-shadow 0.2s";
+          target.style.boxShadow = "0 0 0 3px #3b82f6";
+          setTimeout(() => {
+            target.style.boxShadow = "";
+          }, 1500);
+          showToast(`Jumped to Q${val}`);
+        } else {
+          showToast(`Q${val} not found`);
+        }
+      }
+
+      document.getElementById("jump-input").addEventListener("keydown", (e) => {
+        if (e.key === "Enter") jumpToQ();
+      });
+
+      // =====================================================
+      //  DARK MODE
+      // =====================================================
+      function toggleDark() {
+        const on = document.body.classList.toggle("dark");
+        localStorage.setItem("gk-dark", on ? "1" : "0");
+        document.getElementById("dark-toggle").textContent = on
+          ? "☀️ Light Mode"
+          : "🌙 Dark Mode";
+      }
+
+      // Restore dark mode
+      if (localStorage.getItem("gk-dark") === "1") {
+        document.body.classList.add("dark");
+        document.getElementById("dark-toggle").textContent = "☀️ Light Mode";
+      }
+
+      // =====================================================
+      //  BOOKMARKS
+      // =====================================================
+      function toggleBookmark(qNum, card, btn) {
+        const key = `gk-bm-${qNum}`;
+        const isOn = localStorage.getItem(key) === "1";
+        if (isOn) {
+          localStorage.removeItem(key);
+          card.classList.remove("bookmarked");
+          btn.classList.remove("active");
+          showToast(`Q${qNum} bookmark removed`);
+        } else {
+          localStorage.setItem(key, "1");
+          card.classList.add("bookmarked");
+          btn.classList.add("active");
+          showToast(`Q${qNum} bookmarked ⭐`);
+        }
+      }
+
+      function loadBookmark(qNum, card, btn) {
+        if (localStorage.getItem(`gk-bm-${qNum}`) === "1") {
+          card.classList.add("bookmarked");
+          btn.classList.add("active");
+        }
+      }
+
+      // =====================================================
+      //  NOTES
+      // =====================================================
+      function toggleNoteEditor(qNum, card) {
+        const ta = document.getElementById(`note-ta-${qNum}`);
+        const btns = document.getElementById(`note-btns-${qNum}`);
+        const disp = document.getElementById(`note-display-${qNum}`);
+        const isOpen = ta.style.display === "block";
+        if (isOpen) {
+          closeNoteEditor(qNum);
+        } else {
+          ta.value = localStorage.getItem(`gk-note-${qNum}`) || "";
+          ta.style.display = "block";
+          btns.style.display = "flex";
+          ta.focus();
+          // Expand card if collapsed
+          const body = card.querySelector(".collapsible");
+          if (body && body.classList.contains("collapsed")) {
+            setCardCollapsed(card, false);
+          }
+        }
+      }
+
+      function saveNote(qNum) {
+        const ta = document.getElementById(`note-ta-${qNum}`);
+        const disp = document.getElementById(`note-display-${qNum}`);
+        const text = ta.value.trim();
+        if (text) {
+          localStorage.setItem(`gk-note-${qNum}`, text);
+          disp.textContent = "📝 " + text;
+          disp.style.display = "block";
+          showToast("Note saved!");
+        } else {
+          deleteNote(qNum);
+          return;
+        }
+        closeNoteEditor(qNum);
+      }
+
+      function deleteNote(qNum) {
+        localStorage.removeItem(`gk-note-${qNum}`);
+        const disp = document.getElementById(`note-display-${qNum}`);
+        if (disp) {
+          disp.textContent = "";
+          disp.style.display = "none";
+        }
+        closeNoteEditor(qNum);
+        showToast("Note deleted");
+      }
+
+      function closeNoteEditor(qNum) {
+        const ta = document.getElementById(`note-ta-${qNum}`);
+        const btns = document.getElementById(`note-btns-${qNum}`);
+        if (ta) ta.style.display = "none";
+        if (btns) btns.style.display = "none";
+      }
+
+      function loadNote(qNum, disp) {
+        const saved = localStorage.getItem(`gk-note-${qNum}`);
+        if (saved) {
+          disp.textContent = "📝 " + saved;
+          disp.style.display = "block";
+        }
+      }
+
+      // =====================================================
+      //  TEST MODE
+      // =====================================================
+      let testQueue = [];
+      let testCurrent = 0;
+      let testAnswers = {};
+      let testTotal = 0;
+      let kbFocusIdx = -1; // keyboard-highlighted option index
+
+      function enterTestMode() {
+        document.body.classList.add("test-mode");
+        document.getElementById("test-setup").style.display = "block";
+        document.getElementById("test-active").style.display = "none";
+        document.getElementById("test-results").style.display = "none";
+      }
+
+      function exitTestMode() {
+        document.body.classList.remove("test-mode");
+        document.getElementById("test-active").style.display = "none";
+        document.getElementById("test-results").style.display = "none";
+        document.getElementById("test-setup").style.display = "block";
+      }
+
+      function startTest() {
+        const count = Math.min(
+          223,
+          Math.max(
+            1,
+            parseInt(document.getElementById("test-count").value) || 20,
+          ),
+        );
+        const order = document.getElementById("test-order").value;
+
+        // Filter only cards that have a valid correct answer
+        let pool = mcqData.filter((d) => d.correctIndex >= 0);
+
+        if (order === "shuffle") {
+          pool = pool.sort(() => Math.random() - 0.5);
+        }
+
+        testQueue = pool.slice(0, count);
+        testTotal = testQueue.length;
+        testCurrent = 0;
+        testAnswers = {};
+
+        document.getElementById("test-setup").style.display = "none";
+        document.getElementById("test-active").style.display = "block";
+        document.getElementById("test-results").style.display = "none";
+
+        renderTestQuestion();
+      }
+
+      function renderTestQuestion() {
+        const data = testQueue[testCurrent];
+        const label = document.getElementById("test-progress-label");
+        const qTag = document.getElementById("test-q-tag");
+        const qText = document.getElementById("test-question");
+        const optUl = document.getElementById("test-options");
+        const expDiv = document.getElementById("test-explanation");
+        const btnNext = document.getElementById("btn-next");
+        const btnPrev = document.getElementById("btn-prev");
+        const btnFinish = document.getElementById("btn-finish");
+
+        label.textContent = `Question ${testCurrent + 1} of ${testTotal}`;
+        qTag.textContent = data.tag;
+        qText.textContent = data.question;
+        expDiv.style.display = "none";
+        expDiv.innerHTML = data.explanation;
+        kbFocusIdx = -1; // reset keyboard focus on each new question
+
+        // Sync test dark toggle label
+        const dtTest = document.getElementById("dark-toggle-test");
+        if (dtTest)
+          dtTest.textContent = document.body.classList.contains("dark")
+            ? "☀️"
+            : "🌙";
+
+        optUl.innerHTML = "";
+        const answered = testAnswers[testCurrent];
+        const isAnswered = answered !== undefined;
+
+        // Cards with only 1 option (div.correct style) — show as "Reveal Answer" card
+        if (data.options.length === 1) {
+          const li = document.createElement("li");
+          if (isAnswered) {
+            li.textContent = data.options[0].text;
+            li.classList.add("selected-correct", "locked");
+          } else {
+            li.textContent = "👁 Click to Reveal Answer";
+            li.style.cursor = "pointer";
+            li.style.fontStyle = "italic";
+            li.style.color = "var(--btn-primary)";
+            li.onclick = () => answerQuestion(0); // auto-mark correct on reveal
+          }
+          optUl.appendChild(li);
+        } else {
+          // Normal multiple-choice rendering
+          data.options.forEach((opt, i) => {
+            const li = document.createElement("li");
+            li.textContent = opt.text;
+
+            if (isAnswered) {
+              li.classList.add("locked");
+              if (i === data.correctIndex) {
+                li.classList.add(
+                  answered === i ? "selected-correct" : "reveal-correct",
+                );
+              } else if (i === answered && answered !== data.correctIndex) {
+                li.classList.add("selected-wrong");
+              }
+            } else {
+              li.onclick = () => answerQuestion(i);
+            }
+            optUl.appendChild(li);
+          });
+        }
+
+        if (isAnswered) {
+          expDiv.style.display = "block";
+        }
+
+        // Nav buttons
+        btnPrev.disabled = testCurrent === 0;
+        const isLast = testCurrent === testTotal - 1;
+        btnNext.style.display = isLast ? "none" : "inline-block";
+        btnFinish.style.display = isLast ? "inline-block" : "none";
+      }
+
+      function answerQuestion(choiceIdx) {
+        testAnswers[testCurrent] = choiceIdx;
+        renderTestQuestion();
+      }
+
+      function testNav(dir) {
+        testCurrent = Math.max(0, Math.min(testTotal - 1, testCurrent + dir));
+        renderTestQuestion();
+      }
+
+      function finishTest() {
+        // Score
+        let correct = 0;
+        testQueue.forEach((data, i) => {
+          if (testAnswers[i] === data.correctIndex) correct++;
+        });
+
+        document.getElementById("test-active").style.display = "none";
+        document.getElementById("test-results").style.display = "block";
+
+        const pct = Math.round((correct / testTotal) * 100);
+        const circle = document.getElementById("score-display");
+        circle.innerHTML = `${pct}%<span>${correct} / ${testTotal}</span>`;
+
+        const msg = document.getElementById("result-msg");
+        const det = document.getElementById("result-detail");
+        if (pct >= 80) {
+          msg.textContent = "🎉 Excellent Work!";
+        } else if (pct >= 60) {
+          msg.textContent = "👍 Good Job!";
+        } else if (pct >= 40) {
+          msg.textContent = "📖 Keep Studying!";
+        } else {
+          msg.textContent = "💪 Don't Give Up!";
+        }
+        det.textContent = `You answered ${correct} out of ${testTotal} questions correctly (${pct}%).`;
+      }
+
+      function retryTest() {
+        testCurrent = 0;
+        testAnswers = {};
+        // Reshuffle if needed
+        if (document.getElementById("test-order")?.value === "shuffle") {
+          testQueue = testQueue.sort(() => Math.random() - 0.5);
+        }
+        document.getElementById("test-results").style.display = "none";
+        document.getElementById("test-active").style.display = "block";
+        renderTestQuestion();
+      }
+
+      // =====================================================
+      //  TEST JUMP
+      // =====================================================
+      function testJump() {
+        const val = parseInt(document.getElementById("test-jump-input").value);
+        if (!val || val < 1) {
+          showToast("Enter a valid question number");
+          return;
+        }
+        const idx = testQueue.findIndex((d) => d.qNum === val);
+        if (idx === -1) {
+          showToast(`Q${val} isn't in this test session`);
+          return;
+        }
+        testCurrent = idx;
+        renderTestQuestion();
+        showToast(`Jumped to Q${val}`);
+      }
+
+      document
+        .getElementById("test-jump-input")
+        .addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            e.stopPropagation();
+            testJump();
+          }
+        });
+
+      // =====================================================
+      //  KEYBOARD NAVIGATION (test mode only)
+      // =====================================================
+      function getTestOptions() {
+        return Array.from(document.querySelectorAll("#test-options li"));
+      }
+
+      function updateKbFocus(items) {
+        items.forEach((li, i) => {
+          li.classList.toggle("kb-focus", i === kbFocusIdx);
+        });
+      }
+
+      document.addEventListener("keydown", function (e) {
+        // Only active during test mode & test-active is visible
+        if (!document.body.classList.contains("test-mode")) return;
+        if (document.getElementById("test-active").style.display === "none")
+          return;
+
+        // Don't hijack when user is typing in the jump input
+        if (
+          document.activeElement === document.getElementById("test-jump-input")
+        )
+          return;
+
+        const data = testQueue[testCurrent];
+        const answered = testAnswers[testCurrent] !== undefined;
+        const items = getTestOptions();
+        const optCount = items.length;
+
+        switch (e.key) {
+          case "ArrowUp":
+            e.preventDefault();
+            if (optCount === 0) break;
+            kbFocusIdx = kbFocusIdx <= 0 ? optCount - 1 : kbFocusIdx - 1;
+            updateKbFocus(items);
+            break;
+
+          case "ArrowDown":
+            e.preventDefault();
+            if (optCount === 0) break;
+            kbFocusIdx = kbFocusIdx >= optCount - 1 ? 0 : kbFocusIdx + 1;
+            updateKbFocus(items);
+            break;
+
+          case "Enter":
+            e.preventDefault();
+            if (answered) {
+              // Enter after answering = go next (or finish)
+              const isLast = testCurrent === testTotal - 1;
+              if (isLast) finishTest();
+              else testNav(1);
+            } else if (kbFocusIdx >= 0 && kbFocusIdx < optCount) {
+              // Confirm the highlighted option
+              answerQuestion(kbFocusIdx);
+            } else if (optCount === 1) {
+              // Single reveal card
+              answerQuestion(0);
+            }
+            break;
+
+          case "ArrowLeft":
+          case "Backspace":
+            if (
+              e.key === "Backspace" &&
+              document.activeElement.tagName === "INPUT"
+            )
+              break;
+            e.preventDefault();
+            testNav(-1);
+            break;
+
+          case "ArrowRight":
+            e.preventDefault();
+            testNav(1);
+            break;
+        }
+      });
+
+      // =====================================================
+      //  TOAST
+      // =====================================================
+      let _toastTimer;
+      function showToast(msg) {
+        const t = document.getElementById("toast");
+        t.textContent = msg;
+        t.classList.add("show");
+        clearTimeout(_toastTimer);
+        _toastTimer = setTimeout(() => t.classList.remove("show"), 2200);
+      }
+    </script>
+    <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/sw.js");
+  }
+</script>
+  </body>
+</html>
