@@ -1,0 +1,890 @@
+      /* ===== CSS VARIABLES (Light Mode) ===== */
+      :root {
+        --bg: #f4f6f9;
+        --card-bg: #fff;
+        --text: #222;
+        --text-muted: #777;
+        --heading: #1a3d63;
+        --border-accent: #1a3d63;
+        --tag-bg: #1a3d63;
+        --tag-text: #fff;
+        --option-bg: #f0f3f7;
+        --option-text: #222;
+        --correct-bg: #d7f0db;
+        --correct-text: #1a6b2f;
+        --explanation-bg: #fff9e6;
+        --explanation-border: #e6b800;
+        --missing-bg: #fdecea;
+        --missing-border: #d9534f;
+        --missing-text: #7a2e29;
+        --shadow: rgba(0, 0, 0, 0.08);
+        --toolbar-bg: #fff;
+        --toolbar-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+        --btn-primary: #1a3d63;
+        --btn-primary-text: #fff;
+        --btn-secondary: #f0f3f7;
+        --btn-secondary-text: #333;
+        --input-bg: #f0f3f7;
+        --input-border: #ccd4df;
+        --note-user-bg: #eef6ff;
+        --note-user-border: #4a90d9;
+        --bookmarked-border: #f5a623;
+        --test-wrong: #ffe0e0;
+        --test-wrong-text: #c0392b;
+        --test-option-hover: #e2e8f0;
+      }
+
+      /* ===== DARK MODE ===== */
+      body.dark {
+        --bg: #111827;
+        --card-bg: #1f2937;
+        --text: #e5e7eb;
+        --text-muted: #9ca3af;
+        --heading: #93c5fd;
+        --border-accent: #3b82f6;
+        --tag-bg: #3b82f6;
+        --tag-text: #fff;
+        --option-bg: #374151;
+        --option-text: #e5e7eb;
+        --correct-bg: #14532d;
+        --correct-text: #86efac;
+        --explanation-bg: #292524;
+        --explanation-border: #ca8a04;
+        --missing-bg: #3b1010;
+        --missing-border: #ef4444;
+        --missing-text: #fca5a5;
+        --shadow: rgba(0, 0, 0, 0.4);
+        --toolbar-bg: #1f2937;
+        --toolbar-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        --btn-primary: #3b82f6;
+        --btn-primary-text: #fff;
+        --btn-secondary: #374151;
+        --btn-secondary-text: #e5e7eb;
+        --input-bg: #374151;
+        --input-border: #4b5563;
+        --note-user-bg: #1e3a5f;
+        --note-user-border: #3b82f6;
+        --bookmarked-border: #f59e0b;
+        --test-wrong: #3b0f0f;
+        --test-wrong-text: #f87171;
+        --test-option-hover: #374151;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 0 20px 60px;
+        line-height: 1.6;
+        transition:
+          background 0.3s,
+          color 0.3s;
+      }
+
+      h1 {
+        color: var(--heading);
+        border-bottom: 3px solid var(--border-accent);
+        padding-bottom: 8px;
+        margin-top: 0;
+      }
+
+      /* ===== STICKY TOOLBAR ===== */
+      #toolbar {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: var(--toolbar-bg);
+        box-shadow: var(--toolbar-shadow);
+        padding: 10px 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin: 0 -20px 24px;
+        transition: background 0.3s;
+      }
+
+      #toolbar .toolbar-group {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      #toolbar .sep {
+        width: 1px;
+        height: 28px;
+        background: var(--input-border);
+        margin: 0 4px;
+      }
+
+      .btn {
+        padding: 6px 12px;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+        font-size: 0.82em;
+        font-weight: 600;
+        transition:
+          opacity 0.15s,
+          transform 0.1s;
+        white-space: nowrap;
+      }
+      .btn:hover {
+        opacity: 0.85;
+        transform: translateY(-1px);
+      }
+      .btn:active {
+        transform: translateY(0);
+      }
+
+      .btn-primary {
+        background: var(--btn-primary);
+        color: var(--btn-primary-text);
+      }
+      .btn-secondary {
+        background: var(--btn-secondary);
+        color: var(--btn-secondary-text);
+      }
+      .btn-danger {
+        background: #ef4444;
+        color: #fff;
+      }
+      .btn-success {
+        background: #22c55e;
+        color: #fff;
+      }
+      .btn-warn {
+        background: #f59e0b;
+        color: #fff;
+      }
+
+      #jump-input {
+        width: 70px;
+        padding: 5px 8px;
+        border-radius: 7px;
+        border: 1.5px solid var(--input-border);
+        background: var(--input-bg);
+        color: var(--text);
+        font-size: 0.85em;
+        outline: none;
+      }
+      #jump-input:focus {
+        border-color: var(--btn-primary);
+      }
+
+      /* ===== MCQ CARDS ===== */
+      .mcq-card {
+        background: var(--card-bg);
+        border-radius: 10px;
+        padding: 20px 25px;
+        margin-bottom: 22px;
+        box-shadow: 0 2px 6px var(--shadow);
+        border-left: 5px solid var(--border-accent);
+        transition:
+          background 0.3s,
+          box-shadow 0.3s,
+          border-color 0.3s;
+      }
+
+      .mcq-card.bookmarked {
+        border-left-color: var(--bookmarked-border);
+      }
+
+      /* ===== CARD HEADER ROW ===== */
+      .card-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 6px;
+        gap: 8px;
+      }
+      .card-header-left {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+
+      .tag {
+        display: inline-block;
+        background: var(--tag-bg);
+        color: var(--tag-text);
+        font-size: 0.75em;
+        padding: 2px 8px;
+        border-radius: 12px;
+      }
+
+      .card-actions {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+      }
+
+      .icon-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1em;
+        padding: 3px 5px;
+        border-radius: 6px;
+        line-height: 1;
+        transition: background 0.15s;
+        color: var(--text-muted);
+      }
+      .icon-btn:hover {
+        background: var(--option-bg);
+        color: var(--text);
+      }
+      .icon-btn.active {
+        color: var(--bookmarked-border);
+      }
+
+      /* ===== COLLAPSE TOGGLE ===== */
+      .collapse-toggle {
+        font-size: 0.78em;
+        color: var(--btn-primary);
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        font-weight: 600;
+        text-decoration: underline;
+      }
+
+      .collapsible {
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+      .collapsible.collapsed {
+        max-height: 0 !important;
+      }
+
+      /* ===== OPTIONS ===== */
+      .mcq-question {
+        font-weight: 600;
+        font-size: 1.06em;
+        margin-bottom: 10px;
+        color: var(--text);
+      }
+
+      .options {
+        list-style: none;
+        padding-left: 0;
+        margin: 10px 0;
+      }
+
+      .options li {
+        padding: 6px 10px;
+        margin-bottom: 4px;
+        border-radius: 6px;
+        background: var(--option-bg);
+        color: var(--option-text);
+        transition: background 0.2s;
+      }
+
+      .correct {
+        background: var(--correct-bg) !important;
+        font-weight: 600;
+        color: var(--correct-text) !important;
+      }
+
+      .explanation {
+        background: var(--explanation-bg);
+        border-left: 4px solid var(--explanation-border);
+        padding: 10px 15px;
+        margin-top: 10px;
+        border-radius: 6px;
+        font-size: 0.95em;
+        color: var(--text);
+      }
+
+      .note {
+        font-size: 0.85em;
+        color: var(--text-muted);
+        margin-top: 8px;
+      }
+
+      .missing {
+        background: var(--missing-bg);
+        border-left: 5px solid var(--missing-border);
+        padding: 15px 20px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        font-size: 0.9em;
+        color: var(--missing-text);
+      }
+
+      /* ===== USER NOTES ===== */
+      .user-note-area {
+        margin-top: 10px;
+      }
+
+      .user-note-display {
+        background: var(--note-user-bg);
+        border-left: 4px solid var(--note-user-border);
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-size: 0.88em;
+        color: var(--text);
+        white-space: pre-wrap;
+        margin-bottom: 6px;
+      }
+
+      .user-note-textarea {
+        width: 100%;
+        min-height: 64px;
+        border-radius: 7px;
+        border: 1.5px solid var(--input-border);
+        background: var(--input-bg);
+        color: var(--text);
+        padding: 8px 10px;
+        font-size: 0.88em;
+        font-family: inherit;
+        resize: vertical;
+        display: none;
+        outline: none;
+      }
+      .user-note-textarea:focus {
+        border-color: var(--note-user-border);
+      }
+
+      .note-btns {
+        display: flex;
+        gap: 6px;
+        margin-top: 5px;
+      }
+
+      /* ===== HEADER AREA ===== */
+      #page-header {
+        padding-top: 20px;
+      }
+
+      /* ===== TEST MODE ===== */
+      body.test-mode #toolbar {
+        display: none;
+      }
+      body.test-mode .mcq-card {
+        display: none;
+      }
+      body.test-mode #test-panel {
+        display: block;
+      }
+      body.test-mode #notes-content {
+        display: none;
+      }
+      body.test-mode #page-footer {
+        display: none;
+      }
+
+      #test-panel {
+        display: none;
+      }
+
+      /* test-card styles moved to fixed layout section below */
+
+      #test-panel .test-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      #test-panel .test-progress {
+        font-size: 0.85em;
+        color: var(--text-muted);
+        font-weight: 600;
+      }
+
+      #test-panel .test-question {
+        font-weight: 700;
+        font-size: 1.1em;
+        margin-bottom: 18px;
+        color: var(--text);
+        line-height: 1.5;
+      }
+
+      #test-panel .test-options {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 16px;
+      }
+
+      #test-panel .test-options li {
+        padding: 10px 14px;
+        margin-bottom: 8px;
+        border-radius: 8px;
+        background: var(--option-bg);
+        color: var(--option-text);
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition:
+          background 0.15s,
+          border-color 0.15s;
+        font-size: 0.97em;
+      }
+
+      #test-panel .test-options li:hover:not(.locked) {
+        background: var(--test-option-hover);
+        border-color: var(--btn-primary);
+      }
+
+      #test-panel .test-options li.selected-correct {
+        background: var(--correct-bg) !important;
+        color: var(--correct-text) !important;
+        border-color: #22c55e !important;
+        font-weight: 700;
+      }
+
+      #test-panel .test-options li.selected-wrong {
+        background: var(--test-wrong) !important;
+        color: var(--test-wrong-text) !important;
+        border-color: #ef4444 !important;
+        font-weight: 700;
+      }
+
+      #test-panel .test-options li.reveal-correct {
+        background: var(--correct-bg) !important;
+        color: var(--correct-text) !important;
+        border-color: #22c55e !important;
+      }
+
+      #test-panel .test-explanation {
+        background: var(--explanation-bg);
+        border-left: 4px solid var(--explanation-border);
+        padding: 12px 15px;
+        border-radius: 6px;
+        font-size: 0.92em;
+        color: var(--text);
+        margin-bottom: 16px;
+        display: none;
+      }
+
+      /* test-nav styles moved to fixed layout section below */
+
+      #test-results {
+        display: none;
+        text-align: center;
+        padding: 40px 20px;
+      }
+
+      #test-results .score-circle {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: var(--btn-primary);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: 800;
+        margin: 0 auto 20px;
+      }
+
+      #test-results .score-circle span {
+        font-size: 0.45em;
+        font-weight: 400;
+      }
+
+      #test-results h2 {
+        color: var(--heading);
+        margin-bottom: 10px;
+      }
+
+      .test-mode-label {
+        display: inline-block;
+        background: #ef4444;
+        color: #fff;
+        font-size: 0.7em;
+        padding: 2px 8px;
+        border-radius: 10px;
+        font-weight: 700;
+        animation: pulse 1.5s infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.6;
+        }
+      }
+
+      /* ===== TEST CARD FIXED LAYOUT ===== */
+      #test-panel .test-card {
+        background: var(--card-bg);
+        border-radius: 12px;
+        box-shadow: 0 4px 16px var(--shadow);
+        border-left: 5px solid var(--border-accent);
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 80px);
+        min-height: 420px;
+        overflow: hidden;
+        padding: 0;
+      }
+
+      /* Fixed top bar */
+      .test-topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 20px;
+        border-bottom: 1px solid var(--input-border);
+        gap: 10px;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        background: var(--card-bg);
+      }
+
+      .test-topbar-actions {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+
+      #test-jump-input {
+        width: 72px;
+        padding: 5px 8px;
+        border-radius: 7px;
+        border: 1.5px solid var(--input-border);
+        background: var(--input-bg);
+        color: var(--text);
+        font-size: 0.82em;
+        outline: none;
+      }
+      #test-jump-input:focus {
+        border-color: var(--btn-primary);
+      }
+      .test-jump-btn {
+        font-size: 0.78em !important;
+      }
+
+      /* Scrollable body */
+      .test-body {
+        flex: 1;
+        overflow-y: auto;
+        padding: 20px 24px;
+        scroll-behavior: smooth;
+      }
+
+      /* Fixed bottom nav */
+      #test-panel .test-nav {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 20px;
+        border-top: 1px solid var(--input-border);
+        background: var(--card-bg);
+        flex-shrink: 0;
+        flex-wrap: nowrap;
+      }
+
+      .test-nav-hint {
+        flex: 1;
+        text-align: center;
+        font-size: 0.72em;
+        color: var(--text-muted);
+        white-space: nowrap;
+      }
+
+      .kbd-hint {
+        font-size: 0.75em;
+        opacity: 0.6;
+        margin-left: 3px;
+      }
+
+      /* Keyboard-focused option highlight */
+      #test-panel .test-options li.kb-focus {
+        border-color: var(--btn-primary) !important;
+        outline: 2px solid var(--btn-primary);
+        outline-offset: -2px;
+      }
+
+      /* ===== TOAST ===== */
+      #toast {
+        position: fixed;
+        bottom: 24px;
+        left: 50%;
+        transform: translateX(-50%) translateY(80px);
+        background: #1f2937;
+        color: #fff;
+        padding: 10px 22px;
+        border-radius: 22px;
+        font-size: 0.88em;
+        font-weight: 600;
+        z-index: 9999;
+        transition: transform 0.3s ease;
+        pointer-events: none;
+        white-space: nowrap;
+      }
+      #toast.show {
+        transform: translateX(-50%) translateY(0);
+      }
+
+      /* ===== RESPONSIVE ===== */
+
+      /* Tablet (max 768px) */
+      @media (max-width: 768px) {
+        body {
+          padding: 0 14px 60px;
+          font-size: 0.97em;
+        }
+
+        h1 {
+          font-size: 1.3em;
+        }
+
+        #toolbar {
+          margin: 0 -14px 18px;
+          padding: 8px 12px;
+          gap: 6px;
+        }
+
+        /* Hide separators on small screens */
+        #toolbar .sep {
+          display: none;
+        }
+
+        /* Toolbar wraps into 2 rows naturally */
+        .toolbar-group {
+          flex-wrap: wrap;
+        }
+
+        .btn {
+          padding: 6px 10px;
+          font-size: 0.8em;
+        }
+
+        .mcq-card {
+          padding: 16px 16px;
+        }
+
+        #test-panel .test-card {
+          height: calc(100vh - 70px);
+        }
+        .test-body {
+          padding: 18px 20px;
+        }
+        #test-panel .test-question {
+          font-size: 1em;
+        }
+
+        #test-setup > div {
+          padding: 20px 18px !important;
+        }
+      }
+
+      /* Mobile (max 480px) */
+      @media (max-width: 480px) {
+        body {
+          padding: 0 10px 70px;
+          font-size: 0.93em;
+        }
+
+        h1 {
+          font-size: 1.15em;
+          line-height: 1.3;
+        }
+        h2 {
+          font-size: 1.05em;
+        }
+
+        /* Toolbar: stack all groups, full width rows */
+        #toolbar {
+          margin: 0 -10px 14px;
+          padding: 8px 10px;
+          gap: 5px;
+        }
+
+        .toolbar-group {
+          width: 100%;
+          justify-content: flex-start;
+        }
+
+        /* Jump input takes remaining space */
+        #jump-input {
+          flex: 1;
+          width: auto;
+          min-width: 0;
+        }
+
+        /* Collapse buttons side by side, equal width */
+        .toolbar-group:nth-child(3) {
+          gap: 5px;
+        }
+        .toolbar-group:nth-child(3) .btn {
+          flex: 1;
+          text-align: center;
+        }
+
+        /* Dark + Test buttons row */
+        #toolbar-right {
+          flex: 1;
+          gap: 6px;
+        }
+        #toolbar-right .btn {
+          flex: 1;
+          text-align: center;
+        }
+
+        /* Cards */
+        .mcq-card {
+          padding: 13px 12px;
+          border-radius: 8px;
+          margin-bottom: 14px;
+        }
+
+        .mcq-question {
+          font-size: 0.97em;
+        }
+
+        .options li {
+          padding: 7px 9px;
+          font-size: 0.92em;
+        }
+
+        .card-header {
+          flex-wrap: wrap;
+          gap: 5px;
+        }
+
+        .explanation {
+          padding: 9px 11px;
+          font-size: 0.88em;
+        }
+
+        .tag {
+          font-size: 0.7em;
+        }
+
+        /* Test card — keep fixed layout on mobile, adjust heights */
+        #test-panel .test-card {
+          height: calc(100vh - 60px);
+          border-radius: 8px;
+        }
+
+        .test-topbar {
+          padding: 8px 12px;
+          gap: 6px;
+        }
+        .test-topbar-actions {
+          gap: 4px;
+        }
+        #test-jump-input {
+          width: 58px;
+          font-size: 0.78em;
+        }
+
+        .test-body {
+          padding: 14px 13px;
+        }
+        #test-panel .test-question {
+          font-size: 0.97em;
+          margin-bottom: 14px;
+        }
+        #test-panel .test-options li {
+          padding: 9px 11px;
+          font-size: 0.92em;
+        }
+
+        #test-panel .test-nav {
+          padding: 10px 13px;
+          gap: 6px;
+        }
+        #test-panel .test-nav .btn {
+          flex: 1;
+          text-align: center;
+          font-size: 0.8em;
+        }
+        .test-nav-hint {
+          font-size: 0.65em;
+        }
+
+        #test-setup > div {
+          padding: 16px 14px !important;
+        }
+        #test-setup label {
+          font-size: 0.85em !important;
+        }
+        #test-setup input,
+        #test-setup select {
+          font-size: 0.92em !important;
+        }
+
+        /* Results */
+        #test-results {
+          padding: 24px 10px;
+        }
+        #test-results .score-circle {
+          width: 100px;
+          height: 100px;
+          font-size: 1.7em;
+        }
+
+        /* Note buttons wrap on tiny screens */
+        .note-btns {
+          flex-wrap: wrap;
+        }
+        .note-btns .btn {
+          flex: 1;
+          min-width: 70px;
+          text-align: center;
+        }
+
+        /* Page header */
+        #page-header {
+          padding-top: 12px;
+        }
+        #page-header p {
+          font-size: 0.85em;
+        }
+
+        /* Toast narrower on mobile */
+        #toast {
+          font-size: 0.82em;
+          padding: 8px 16px;
+          white-space: normal;
+          max-width: 90vw;
+          text-align: center;
+        }
+
+        /* Missing card */
+        .missing {
+          padding: 12px 13px;
+          font-size: 0.85em;
+        }
+      }
+
+      /* Very small screens (max 360px) */
+      @media (max-width: 360px) {
+        body {
+          padding: 0 8px 70px;
+        }
+        h1 {
+          font-size: 1.05em;
+        }
+        .btn {
+          font-size: 0.75em;
+          padding: 5px 8px;
+        }
+        .mcq-card {
+          padding: 11px 10px;
+        }
+        .options li {
+          font-size: 0.88em;
+        }
+      }
+    
