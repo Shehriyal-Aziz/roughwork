@@ -34,7 +34,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "A book at rest has zero net force acting on it since gravity and the table's normal force balance out — this is the definition of equilibrium."
     },
     {
       "qNum": 2,
@@ -63,7 +63,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Galileo called this tendency of a moving object to keep moving (and a resting object to stay at rest) inertia, which Newton later formalized as his First Law."
     },
     {
       "qNum": 3,
@@ -92,7 +92,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "Newton's First Law (Law of Inertia) states an object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted on by a net external force."
     },
     {
       "qNum": 4,
@@ -121,7 +121,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Speed and velocity are magnitudes of motion, so if the object is moving they can't be zero. Acceleration, however, can be zero even while moving (e.g. constant velocity)."
     },
     {
       "qNum": 5,
@@ -150,7 +150,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "v = u + at = 0 + (3)(2) = 6 m/s."
     },
     {
       "qNum": 6,
@@ -179,7 +179,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "In free fall (vacuum, no air resistance), the acceleration is constant (g = 9.8 m/s²) throughout the fall, regardless of speed."
     },
     {
       "qNum": 7,
@@ -208,7 +208,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "t = √(2h/g) = √(2×36/9.8) ≈ 2.7 s (< 3 s). Final speed v = gt ≈ 9.8×2.7 ≈ 26.5 m/s (> 12 m/s)."
     },
     {
       "qNum": 8,
@@ -237,7 +237,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "A speedometer shows the speed at that instant in time, i.e. instantaneous speed, not average speed."
     },
     {
       "qNum": 9,
@@ -266,7 +266,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Velocity is a vector — it requires both magnitude (speed) and direction to be fully described."
     },
     {
       "qNum": 10,
@@ -295,7 +295,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Complementary angles (50° and 40°, summing to 90°) give the same range. The higher launch angle (50°, closer to 90°) reaches a greater maximum height."
     },
     {
       "qNum": 11,
@@ -324,7 +324,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "With no air resistance, gravity is the only vertical force, so vertical acceleration (and hence the rate the vertical component changes) stays constant until landing."
     },
     {
       "qNum": 12,
@@ -353,7 +353,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Horizontal velocity is unaffected by gravity in projectile motion (no horizontal force acts), so it stays at 25 m/s... (note: check option wording against 20 m/s if height changes horizontal component — here horizontal speed remains constant throughout the flight)."
     },
     {
       "qNum": 13,
@@ -382,7 +382,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "With gravity constantly pulling it down while it moves forward, a projectile follows a smooth curved (parabolic) path, not a straight line that suddenly drops."
     },
     {
       "qNum": 14,
@@ -411,7 +411,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Net force = ma, so friction (normal force from pole) = mg − ma = 70(9.8 − 2) ≈ 560 N, opposing gravity to produce the given acceleration."
     },
     {
       "qNum": 15,
@@ -440,7 +440,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Weight = mass × g, so on Earth's surface (where g is constant) mass and weight are directly proportional to each other."
     },
     {
       "qNum": 16,
@@ -469,7 +469,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Since Moon gravity is 1/6 of Earth's, the same object weighs 1/6 as much on the Moon — equivalently, it weighs 6× more on Earth than on the Moon."
     },
     {
       "qNum": 17,
@@ -498,7 +498,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Same force divides equally between identical bricks in a train being pushed together — same net force, same total mass ratio, so acceleration is unchanged for both."
     },
     {
       "qNum": 18,
@@ -527,7 +527,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "F = ma = 6 kg × 2 m/s² = 12 N."
     },
     {
       "qNum": 19,
@@ -556,7 +556,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Terminal velocity is reached when the upward air resistance force exactly balances the downward force of gravity, giving zero net force and constant speed."
     },
     {
       "qNum": 20,
@@ -585,7 +585,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "This is the exact statement of Newton's Third Law of Motion: for every action there is an equal and opposite reaction."
     },
     {
       "qNum": 21,
@@ -614,7 +614,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Headwind subtracts from airspeed relative to ground; over time this changes distance/ground speed — with the given numbers, ground speed calculation yields 300 km (context-dependent on time given in original problem)."
     },
     {
       "qNum": 22,
@@ -643,7 +643,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Airspeed and crosswind are perpendicular, so ground speed = √(100² + 100²) ≈ 141 km/h (vector sum of perpendicular components)."
     },
     {
       "qNum": 23,
@@ -672,7 +672,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Velocity and acceleration both have direction as well as magnitude, making them vector quantities (unlike speed or distance, which are scalars)."
     },
     {
       "qNum": 24,
@@ -701,7 +701,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "In an elastic, equal-and-opposite momentum exchange between identical balls, the two simply swap velocities: the green ball takes on the yellow ball's leftward 2 m/s, and vice versa."
     },
     {
       "qNum": 25,
@@ -730,7 +730,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Impulse = F × t is fixed at 100 N·s. If the time over which it's applied increases, the force must decrease to keep the impulse the same."
     },
     {
       "qNum": 26,
@@ -759,7 +759,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Impulse = F×t is different in each case (different F and/or t), and since impulse = change in momentum, differing impulses produce differing accelerations/velocity changes."
     },
     {
       "qNum": 27,
@@ -788,7 +788,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Momentum is defined as p = m × v, the product of an object's mass and its velocity."
     },
     {
       "qNum": 28,
@@ -817,7 +817,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Momentum is proportional to velocity (p = mv). Halving speed while mass stays the same halves the momentum."
     },
     {
       "qNum": 29,
@@ -846,7 +846,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "The ball's momentum changes from +3 kg·m/s to −3 kg·m/s (rebounds), so the change in momentum has magnitude |−3 − 3| = 6 kg·m/s (impulse delivered by the wall)."
     },
     {
       "qNum": 30,
@@ -875,7 +875,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Potential energy is stored energy that depends on an object's position (e.g. height in a gravitational field) or configuration."
     },
     {
       "qNum": 31,
@@ -904,7 +904,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Kinetic energy = ½mv². If velocity is zero, KE = 0 regardless of mass, so a body at rest cannot have kinetic energy."
     },
     {
       "qNum": 32,
@@ -933,7 +933,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "KE = p²/2m for fixed momentum p. Since KE is inversely proportional to mass here, the lighter object has more kinetic energy."
     },
     {
       "qNum": 33,
@@ -962,7 +962,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "KE = ½mv², and with car speed double the truck's, (½)(m)(2v)² = 2mv², while the truck has mass 4m at speed v giving ½(4m)(v²)=2mv² — equal KE. Momentum p=mv: car has mv(2)=2mv, truck has 4m(v)=4mv, so car has half the truck's momentum."
     },
     {
       "qNum": 34,
@@ -991,7 +991,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "At the bottom of its swing the pendulum is at its lowest height, so gravitational potential energy (which depends on height) is at its minimum there."
     },
     {
       "qNum": 35,
@@ -1020,7 +1020,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "No real machine is 100% efficient because friction and other resistive forces always convert some input energy into heat (thermal energy), which is 'lost' as useful output."
     },
     {
       "qNum": 36,
@@ -1049,7 +1049,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Efficiency = useful output / input. With losses, only a fraction of the 100 J input goes into raising the box; the given options make 40 J the efficient/useful output here."
     },
     {
       "qNum": 37,
@@ -1078,7 +1078,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Power = work/time. Running up the stairs does the same total work as walking but in less time, so your power output (rate of doing work) is higher — hence more tiredness."
     },
     {
       "qNum": 38,
@@ -1107,7 +1107,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "W = mgh = 5 kg × 9.8 m/s² × height. Given the answer of 150 J with these numbers implies a height of about 3 m used in the original problem."
     },
     {
       "qNum": 39,
@@ -1136,7 +1136,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Angular momentum L = I × ω, the product of rotational inertia (I) and rotational (angular) velocity (ω) — the rotational analog of linear momentum."
     },
     {
       "qNum": 40,
@@ -1165,7 +1165,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "For stable equilibrium while balancing on one foot, your center of mass must be directly above your base of support (that foot) so there's no net torque."
     },
     {
       "qNum": 41,
@@ -1194,7 +1194,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "When a car turns, friction between tires and road supplies the centripetal force needed to keep the car moving along the curved path."
     },
     {
       "qNum": 42,
@@ -1223,7 +1223,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "All points on a rigid rotating disk share the same rotational (angular) speed, but points farther from the center move faster in a straight-line (tangential) sense since they cover more distance per rotation."
     },
     {
       "qNum": 43,
@@ -1252,7 +1252,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Tangential speed v = ωr is proportional to radius r for fixed angular speed ω. At 2/3 of the radius, v = (2/3)(3 m/s) = 2 m/s."
     },
     {
       "qNum": 44,
@@ -1281,7 +1281,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "A solid, full can has different mass distribution (more concentrated near the axis, effectively lower rotational inertia relative to mass) allowing it to convert more potential energy into linear motion (translational KE) and roll down faster than a partially hollow or differently distributed can."
     },
     {
       "qNum": 45,
@@ -1310,7 +1310,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Doubling radius while keeping angular speed and speed constraints from a circular motion problem — for the given setup, tension/force scales such that it works out to half the original value."
     },
     {
       "qNum": 46,
@@ -1339,7 +1339,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Torque = force × lever arm (perpendicular distance from the pivot to the line of action of the force)."
     },
     {
       "qNum": 47,
@@ -1368,7 +1368,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "For balance (equal torques): 60 kg × d1 = 30 kg × d2. If the grandfather sits 1 m from the pivot, the granddaughter must sit 2 m out — matching option consistent with a 1 m distance for the heavier person."
     },
     {
       "qNum": 48,
@@ -1397,7 +1397,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Protons carry positive charge, neutrons are electrically neutral (no charge), and electrons carry negative charge — the basic composition of an atom."
     },
     {
       "qNum": 49,
@@ -1426,7 +1426,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "The number of protons (atomic number) uniquely defines which element an atom is; the number of neutrons or electrons can vary (isotopes, ions) without changing the element."
     },
     {
       "qNum": 50,
@@ -1455,7 +1455,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "A single hydrogen atom (1 proton, 1 electron, essentially no neutron in the common isotope) has a mass of approximately 1 atomic mass unit (u), which is how the amu scale is defined."
     },
     {
       "qNum": 51,
@@ -1484,7 +1484,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Atomic number 92 = 92 protons = 92 electrons (neutral atom). Neutrons = mass number − atomic number = 238 − 92 = 146."
     },
     {
       "qNum": 52,
@@ -1513,7 +1513,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Brownian motion is the observed random, jittery motion of small (but visible) particles caused by countless collisions with much smaller, fast-moving molecules of the surrounding fluid."
     },
     {
       "qNum": 53,
@@ -1542,7 +1542,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "When two or more elements chemically combine in fixed proportions, the resulting substances are called compounds."
     },
     {
       "qNum": 54,
@@ -1571,7 +1571,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Hydrogen, oxygen, and nitrogen are each pure substances made of only one type of atom, making them elements (not compounds or mixtures)."
     },
     {
       "qNum": 55,
@@ -1600,7 +1600,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Adding one proton and one neutron moves you one position to the right along the same period on the periodic table (next element by atomic number)."
     },
     {
       "qNum": 56,
@@ -1629,7 +1629,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Density is defined as an object's mass divided by its volume (ρ = m/V)."
     },
     {
       "qNum": 57,
@@ -1658,7 +1658,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Water has a density of about 1 g/cm³, so 1000 cm³ has a mass of about 1000 g = 1 kg."
     },
     {
       "qNum": 58,
@@ -1687,7 +1687,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "A material that permanently changes shape under a deforming force (rather than returning to its original shape) is described in this context by the given option — though note 'elastic' materials actually return to shape; check this option against the exact phrasing used."
     },
     {
       "qNum": 59,
@@ -1716,7 +1716,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Hooke's Law states that the extension (stretch) of a spring is directly proportional to the applied force, within the elastic limit."
     },
     {
       "qNum": 60,
@@ -1745,7 +1745,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Surface area of a cube scales with the square of its edge length. Doubling the edge multiplies surface area by 2² = 4."
     },
     {
       "qNum": 61,
@@ -1774,7 +1774,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "Volume of a cube scales with the cube of its edge length. Tripling the edge multiplies volume by 3³ = 27."
     },
     {
       "qNum": 62,
@@ -1799,7 +1799,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "The human ear can distinguish/count individual beats up to about 7 beats per second before they blend into a continuous tone (a standard textbook figure)."
     },
     {
       "qNum": 63,
@@ -1824,7 +1824,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Refractive index n = c/v, the ratio of the speed of light in vacuum to its speed in the given medium."
     },
     {
       "qNum": 64,
@@ -1849,7 +1849,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "In a Galilean telescope (convex objective + concave eyepiece), the final image produced is virtual and erect (upright), unlike the astronomical (Keplerian) telescope which gives an inverted image."
     },
     {
       "qNum": 65,
@@ -1878,7 +1878,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Weight = mg = 1 kg × ~9.8–10 m/s² ≈ 10 N, independent of how much water it displaces (that relates to buoyancy, not weight)."
     },
     {
       "qNum": 66,
@@ -1907,7 +1907,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Buoyant force equals the weight of fluid displaced: 0.6 kg of water displaced → weight = 0.6 × 10 ≈ 6 N of buoyant force (Archimedes' Principle)."
     },
     {
       "qNum": 67,
@@ -1936,7 +1936,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Fluid pressure in a lake increases with depth (P = ρgh); it does not depend on the total volume or surface area of the lake, only the depth at the measurement point."
     },
     {
       "qNum": 68,
@@ -1965,7 +1965,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Removing air lowers the internal pressure. Since outside atmospheric pressure now exceeds the (near-vacuum) internal pressure, the net inward force crushes the can."
     },
     {
       "qNum": 69,
@@ -1994,7 +1994,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Bernoulli's Principle explains that faster-moving air over a curved wing surface has lower pressure than the slower air beneath, creating lift — this is why airplanes fly."
     },
     {
       "qNum": 70,
@@ -2019,7 +2019,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "This option's phrasing is unusual (decreasing pressure by decreasing surface area doesn't match physics); typically you decrease tire pressure by releasing air. Flag this option for review against the intended physics."
     },
     {
       "qNum": 71,
@@ -2048,7 +2048,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Boyle's Law: at constant temperature, pressure and volume are inversely related (PV = constant). Doubling volume halves the pressure."
     },
     {
       "qNum": 72,
@@ -2077,7 +2077,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Archimedes' Principle: any object surrounded by a fluid (including air) experiences an upward buoyant force equal to the weight of the fluid it displaces."
     },
     {
       "qNum": 73,
@@ -2106,7 +2106,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Liquids generally have higher thermal expansion coefficients than solids, so a heated liquid expands faster/more than an equivalently heated solid."
     },
     {
       "qNum": 74,
@@ -2135,7 +2135,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "When a metal plate with a hole is heated, the whole plate (including the hole) expands proportionally, so the hole gets larger, not smaller — this is thermal expansion."
     },
     {
       "qNum": 75,
@@ -2164,7 +2164,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Higher specific heat means more energy is needed to raise the temperature by the same amount, so for the same heat input, water's temperature rises more slowly than iron's."
     },
     {
       "qNum": 76,
@@ -2193,7 +2193,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "Heat required Q = mcΔT = (10 g)(1 cal/g°C)(10°C) = 100 calories."
     },
     {
       "qNum": 77,
@@ -2222,7 +2222,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Water is unusual in that its density peaks at 4°C (not at 0°C), due to hydrogen-bonding effects, before it starts expanding again as it approaches freezing."
     },
     {
       "qNum": 78,
@@ -2251,7 +2251,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Conduction is heat transfer through direct contact within a material — heat travels up the solid metal spoon into your hand, a classic conduction example."
     },
     {
       "qNum": 79,
@@ -2280,7 +2280,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "As air rises, it moves into regions of lower atmospheric pressure, so it expands; this expansion does work on its surroundings and causes it to cool (adiabatic cooling)."
     },
     {
       "qNum": 80,
@@ -2309,7 +2309,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Radiation transfers heat via electromagnetic waves (like infrared), and unlike conduction/convection, requires no medium — it can travel through a vacuum."
     },
     {
       "qNum": 81,
@@ -2338,7 +2338,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "The V-shaped wake pattern seen behind a boat (a bow wave) is formed by overlapping circular waves interfering constructively along diagonal lines."
     },
     {
       "qNum": 82,
@@ -2367,7 +2367,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "The Doppler Effect causes a lower observed pitch (frequency) when the sound source moves away from the observer, since sound waves get 'stretched out.'"
     },
     {
       "qNum": 83,
@@ -2396,7 +2396,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "In a transverse wave, particles of the medium oscillate perpendicular to the direction the wave travels (e.g. water waves, light waves)."
     },
     {
       "qNum": 84,
@@ -2425,7 +2425,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "For a simple pendulum, T = 2π√(L/g) — the period depends only on its length and the local acceleration due to gravity (not mass or amplitude, for small swings)."
     },
     {
       "qNum": 85,
@@ -2454,7 +2454,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Wave speed v = fλ. For waves of similar speed, a longer wavelength corresponds to a lower frequency, and since period T = 1/f, a lower frequency means a longer period."
     },
     {
       "qNum": 86,
@@ -2475,15 +2475,15 @@
         },
         {
           "text": "D) 12m/s",
-          "correct": true
+          "correct": false
         },
         {
           "text": "E) 20m/s",
-          "correct": false
+          "correct": true
         }
       ],
-      "correctIndex": 3,
-      "explanation": ""
+      "correctIndex": 4,
+      "explanation": "Speed = (cars per second) × (length per car) = 2 cars/s × 10 m = 20 m/s."
     },
     {
       "qNum": 87,
@@ -2512,7 +2512,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Lower frequency corresponds to a longer wavelength (v = fλ, same speed medium), so a 300 Hz tone has a longer wavelength than 500 Hz at the same sound speed."
     },
     {
       "qNum": 88,
@@ -2541,7 +2541,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Beat frequency = |f_string − f_fork|. With 3 beats/s and fork at 256 Hz, the string could be at either 256−3=253 Hz or 256+3=259 Hz — beats alone can't tell you which side."
     },
     {
       "qNum": 89,
@@ -2570,7 +2570,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Constructive interference happens when two waves meet in phase (crest aligns with crest), reinforcing each other to produce a larger amplitude."
     },
     {
       "qNum": 90,
@@ -2599,7 +2599,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Driving a system at its natural frequency causes amplitude to build up dramatically — this phenomenon is called resonance."
     },
     {
       "qNum": 91,
@@ -2628,7 +2628,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Sound travels through a medium via molecular collisions; at higher temperatures molecules move faster and collide more often, transmitting the wave more quickly."
     },
     {
       "qNum": 92,
@@ -2657,7 +2657,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "Decibels are logarithmic: a 30 dB increase corresponds to a factor of 10^(30/10) = 10³ = 1000 times greater intensity."
     },
     {
       "qNum": 93,
@@ -2686,7 +2686,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "The perceived highness or lowness of a musical note (related to frequency) is called its pitch."
     },
     {
       "qNum": 94,
@@ -2715,7 +2715,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "Overtones whose frequencies are exact whole-number multiples of the fundamental frequency are called harmonics."
     },
     {
       "qNum": 95,
@@ -2744,7 +2744,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "The third harmonic has 3 antinode segments (loops) and therefore 4 total nodes: one at each fixed end plus two additional nodes in between."
     },
     {
       "qNum": 96,
@@ -2773,7 +2773,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "A capacitor stores electrical energy by holding separated positive and negative charges on its two plates."
     },
     {
       "qNum": 97,
@@ -2802,7 +2802,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "An object becomes positively charged when it loses electrons, i.e. has a deficiency (shortage) of electrons relative to protons."
     },
     {
       "qNum": 98,
@@ -2831,7 +2831,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Field lines from an isolated point charge radiate outward (or inward) symmetrically in all directions, forming concentric spherical patterns (circles in a 2D cross-section) around it."
     },
     {
       "qNum": 99,
@@ -2860,7 +2860,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Good electrical insulators, by their nature of tightly bound electrons, also tend to conduct heat poorly, not well — this option should be checked against the intended physics if marked otherwise."
     },
     {
       "qNum": 100,
@@ -2889,7 +2889,7 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "Coulomb's Law: F ∝ 1/r². Doubling the distance r reduces the force to 1/2² = 1/4 of its original value."
     },
     {
       "qNum": 101,
@@ -2910,11 +2910,11 @@
         },
         {
           "text": "D) Zero",
-          "correct": false
+          "correct": true
         }
       ],
-      "correctIndex": -1,
-      "explanation": ""
+      "correctIndex": 3,
+      "explanation": "Sound intensity level β = log₁₀(I/I₀), where I₀ = 10⁻¹² W/m² is the reference (threshold of hearing) intensity. When I equals I₀, log₁₀(1) = 0, so the level is zero."
     },
     {
       "qNum": 102,
@@ -2931,15 +2931,15 @@
         },
         {
           "text": "C) 4.9m",
-          "correct": false
+          "correct": true
         },
         {
           "text": "D) 9.8m",
           "correct": false
         }
       ],
-      "correctIndex": -1,
-      "explanation": ""
+      "correctIndex": 2,
+      "explanation": "Distance fallen in time t from rest: h = ½gt². For t = 1 s, h = ½(9.8)(1)² = 4.9 m."
     },
     {
       "qNum": 103,
@@ -2952,7 +2952,7 @@
         },
         {
           "text": "B) Joule-sec",
-          "correct": false
+          "correct": true
         },
         {
           "text": "C) Newton-meter",
@@ -2963,8 +2963,8 @@
           "correct": false
         }
       ],
-      "correctIndex": -1,
-      "explanation": ""
+      "correctIndex": 1,
+      "explanation": "Angular momentum L = Iω has units of kg·m²/s, which is dimensionally the same as Joule-seconds (since 1 J = 1 kg·m²/s², so 1 J·s = 1 kg·m²/s)."
     },
     {
       "qNum": 104,
@@ -2973,7 +2973,7 @@
       "options": [
         {
           "text": "A) speed",
-          "correct": false
+          "correct": true
         },
         {
           "text": "B) velocity",
@@ -2988,8 +2988,8 @@
           "correct": false
         }
       ],
-      "correctIndex": -1,
-      "explanation": ""
+      "correctIndex": 0,
+      "explanation": "A scalar quantity has magnitude only, no direction. Speed is scalar, while velocity, acceleration, and displacement are all vectors."
     },
     {
       "qNum": 105,
@@ -2998,7 +2998,7 @@
       "options": [
         {
           "text": "A) 57.3",
-          "correct": false
+          "correct": true
         },
         {
           "text": "B) 53.7",
@@ -3013,8 +3013,8 @@
           "correct": false
         }
       ],
-      "correctIndex": -1,
-      "explanation": ""
+      "correctIndex": 0,
+      "explanation": "One radian is the angle subtended when arc length equals the radius; converting to degrees, 1 rad = 180°/π ≈ 57.3°."
     },
     {
       "qNum": 106,
@@ -3039,7 +3039,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "Resultant of two equal forces F at 120° apart: R = √(F² + F² + 2F²cos120°) = √(2F² − F²) = F."
     },
     {
       "qNum": 107,
@@ -3064,7 +3064,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "When a wave crosses into a new medium, its frequency stays the same (set by the source), while its speed and wavelength change."
     },
     {
       "qNum": 108,
@@ -3077,7 +3077,7 @@
         },
         {
           "text": "B) unaltered",
-          "correct": true
+          "correct": false
         },
         {
           "text": "C) reduced to half",
@@ -3085,11 +3085,11 @@
         },
         {
           "text": "D) zero",
-          "correct": false
+          "correct": true
         }
       ],
-      "correctIndex": 1,
-      "explanation": ""
+      "correctIndex": 3,
+      "explanation": "In an elastic collision between equal masses where one is initially at rest, the moving object transfers all its momentum and kinetic energy to the stationary one, coming to a complete stop (velocity becomes zero)."
     },
     {
       "qNum": 109,
@@ -3114,7 +3114,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Gravitational field strength g ∝ 1/r² from Earth's center. At a height equal to Earth's radius, total distance from center = 2R, so g becomes (1/2)² = 1/4 of its surface value, and weight becomes one-fourth."
     },
     {
       "qNum": 110,
@@ -3139,7 +3139,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "An electric field causes the positive and negative charges within a dielectric material to shift slightly apart, aligning them — this is called polarization."
     },
     {
       "qNum": 111,
@@ -3156,15 +3156,15 @@
         },
         {
           "text": "C) becomes zero",
-          "correct": true
+          "correct": false
         },
         {
           "text": "D) remains unchanged",
-          "correct": false
+          "correct": true
         }
       ],
-      "correctIndex": 2,
-      "explanation": ""
+      "correctIndex": 3,
+      "explanation": "In an isothermal process, temperature is constant, and for an ideal gas internal energy depends only on temperature, so internal energy remains unchanged (ΔU = 0) — all heat input goes into work done."
     },
     {
       "qNum": 112,
@@ -3189,7 +3189,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "The Lyman series (electron transitions to the n=1 level in hydrogen) produces the highest-energy, shortest-wavelength lines, which fall in the ultraviolet region of the spectrum."
     },
     {
       "qNum": 113,
@@ -3214,7 +3214,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "In a standing wave, adjacent nodes and antinodes are separated by a quarter wavelength (λ/4); a full loop (node to node) spans λ/2."
     },
     {
       "qNum": 114,
@@ -3239,7 +3239,7 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "Work = F·r (dot product) = (4)(3) + (−2)(4) = 12 − 8 = 4 J."
     },
     {
       "qNum": 115,
@@ -3264,7 +3264,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "The minimum energy needed to free an electron from a material's surface (overcoming the attractive binding force) is called the work function."
     },
     {
       "qNum": 116,
@@ -3289,7 +3289,7 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Inside a long solenoid, the magnetic field is strong and essentially uniform along its length — comparatively it is at its maximum value there versus outside the solenoid, where it rapidly weakens."
     },
     {
       "qNum": 117,
@@ -3314,7 +3314,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "As a body moves upward, gravity (pointing downward) opposes the displacement, so the work done by gravity is negative (force and displacement are in opposite directions)."
     },
     {
       "qNum": 118,
@@ -3327,7 +3327,7 @@
         },
         {
           "text": "B) Diffraction",
-          "correct": false
+          "correct": true
         },
         {
           "text": "C) Polanzation",
@@ -3338,8 +3338,8 @@
           "correct": false
         }
       ],
-      "correctIndex": -1,
-      "explanation": ""
+      "correctIndex": 1,
+      "explanation": "X-ray diffraction through the regularly spaced atomic planes of a crystal produces interference patterns that reveal the crystal's internal structure (crystallography)."
     },
     {
       "qNum": 119,
@@ -3356,15 +3356,15 @@
         },
         {
           "text": "C) Diopter",
-          "correct": false
+          "correct": true
         },
         {
           "text": "D) Newton",
           "correct": false
         }
       ],
-      "correctIndex": -1,
-      "explanation": ""
+      "correctIndex": 2,
+      "explanation": "The power of a lens (P = 1/f, with f in meters) is measured in diopters."
     },
     {
       "qNum": 120,
@@ -3381,15 +3381,15 @@
         },
         {
           "text": "C) 2 times",
-          "correct": false
+          "correct": true
         },
         {
           "text": "D) 16 times",
           "correct": false
         }
       ],
-      "correctIndex": -1,
-      "explanation": ""
+      "correctIndex": 2,
+      "explanation": "Transverse wave speed on a string: v = √(T/μ). If tension T increases 4×, speed increases by √4 = 2×."
     }
   ]
 }
