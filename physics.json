@@ -1,0 +1,3395 @@
+{
+  "meta": {
+    "title": "Physics — MCQ Notes (KU Past Papers)",
+    "heading": "⚛️ Physics — MCQ Notes (KU Past Papers)",
+    "description": "Karachi University past-paper MCQ bank — mechanics, energy & momentum, rotation, atomic structure, fluids, heat & waves, electricity & magnetism. Source: DIETS of DICC compilation by Syed Mohsin Jamal.",
+    "footer": "🎓 Total: 120 MCQs | Source: Karachi University Past Papers (Physics)",
+    "total": 120
+  },
+  "questions": [
+    {
+      "qNum": 1,
+      "tag": "MCQ 1",
+      "question": "Q1. A book is at rest on top of a table. Which of the following is correct?",
+      "options": [
+        {
+          "text": "A) There is no force acting on the book.",
+          "correct": false
+        },
+        {
+          "text": "B) The book has no inertia.",
+          "correct": false
+        },
+        {
+          "text": "C) There is no force acting on the table.",
+          "correct": false
+        },
+        {
+          "text": "D) The book is in equilibrium.",
+          "correct": true
+        },
+        {
+          "text": "E) The inertia of the book is equal to the inertia of the table.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 2,
+      "tag": "MCQ 2",
+      "question": "Q2. The property of a moving object to continue moving is what Galileo called",
+      "options": [
+        {
+          "text": "A) Velocity.",
+          "correct": false
+        },
+        {
+          "text": "B) speed.",
+          "correct": false
+        },
+        {
+          "text": "C) acceleration",
+          "correct": false
+        },
+        {
+          "text": "D) Inertia",
+          "correct": true
+        },
+        {
+          "text": "E) Direction",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 3,
+      "tag": "MCQ 3",
+      "question": "Q3. According to Newton's First Law of Motion,",
+      "options": [
+        {
+          "text": "A) an object in motion eventually comes to a halt.",
+          "correct": false
+        },
+        {
+          "text": "B) an object at rest eventually begins to move",
+          "correct": false
+        },
+        {
+          "text": "C) an object in motion moves in a parabolic trajectory unless acted upon by a net force.",
+          "correct": false
+        },
+        {
+          "text": "D) an object at rest always remains at rest.",
+          "correct": false
+        },
+        {
+          "text": "E) an object at rest remains at rest unless acted upon by a net force.",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 4,
+      "tag": "MCQ 4",
+      "question": "Q4. If an object is moving, then the magnitude of it's cannot be zero.",
+      "options": [
+        {
+          "text": "A) speed",
+          "correct": false
+        },
+        {
+          "text": "B) velocity",
+          "correct": false
+        },
+        {
+          "text": "C) acceleration",
+          "correct": false
+        },
+        {
+          "text": "D) A and B",
+          "correct": true
+        },
+        {
+          "text": "E) A, B, and C",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 5,
+      "tag": "MCQ 5",
+      "question": "Q5. A car initially at rest accelerates in a straight line at 3 m/s². What will be its speed after 2 seconds?",
+      "options": [
+        {
+          "text": "A) 0 m/s",
+          "correct": false
+        },
+        {
+          "text": "B) 5 m/s",
+          "correct": false
+        },
+        {
+          "text": "C) 3 m/s",
+          "correct": false
+        },
+        {
+          "text": "D) 6 m/s",
+          "correct": true
+        },
+        {
+          "text": "E) 2 m/s",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 6,
+      "tag": "MCQ 6",
+      "question": "Q6. A body in free fall in a vacuum",
+      "options": [
+        {
+          "text": "A) will drop the same distance during each second of its fall.",
+          "correct": false
+        },
+        {
+          "text": "B) will have the same average speed during each second of its fall.",
+          "correct": false
+        },
+        {
+          "text": "C) will have a constant velocity during each second of its fall.",
+          "correct": false
+        },
+        {
+          "text": "D) Will not be accelerated during its fall.",
+          "correct": false
+        },
+        {
+          "text": "E) Will have the same acceleration during each second of its fall.",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 7,
+      "tag": "MCQ 7",
+      "question": "Q7. A bowling ball at a height of 36 meters above the ground is falling vertically at a rate of 12 meters per second. Which of these best describes its fate?",
+      "options": [
+        {
+          "text": "A) It will hit the ground in exactly 3 seconds at a speed of 12 m/s",
+          "correct": false
+        },
+        {
+          "text": "B) It will hit the ground in less than 3 seconds at a speed greater than 12 m/s",
+          "correct": true
+        },
+        {
+          "text": "C) It will hit the ground in more than 3 seconds at a speed less than 12 m/s",
+          "correct": false
+        },
+        {
+          "text": "D) It will hit the ground in less than 3 seconds at a speed less than 12 m/s",
+          "correct": false
+        },
+        {
+          "text": "E) It will hit the ground in more than 3 seconds at a speed greater than 12 m/s",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 8,
+      "tag": "MCQ 8",
+      "question": "Q8. The speedometer in your car tells you the _________ of your car.",
+      "options": [
+        {
+          "text": "A) acceleration",
+          "correct": false
+        },
+        {
+          "text": "B) average speed",
+          "correct": false
+        },
+        {
+          "text": "C) instantaneous speed",
+          "correct": true
+        },
+        {
+          "text": "D) velocity",
+          "correct": false
+        },
+        {
+          "text": "E) inertia",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 9,
+      "tag": "MCQ 9",
+      "question": "Q9. To report the _________ of an object, we must specify both its speed and its direction.",
+      "options": [
+        {
+          "text": "A) acceleration",
+          "correct": false
+        },
+        {
+          "text": "B) Mass",
+          "correct": false
+        },
+        {
+          "text": "C) velocity",
+          "correct": true
+        },
+        {
+          "text": "D) length",
+          "correct": false
+        },
+        {
+          "text": "E) position",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 10,
+      "tag": "MCQ 10",
+      "question": "Q10. Projectile 'A' is fired at an angle of 50° above the horizontal; projectile 'B' is fired with the same speed at an angle of 40° above the horizontal. Assuming level ground and negligible air resistance, which of the following is true?",
+      "options": [
+        {
+          "text": "A) 'A' will reach a greater height and have a greater range than 'B'.",
+          "correct": false
+        },
+        {
+          "text": "B) 'A' will reach a greater height and have the same range as 'B'.",
+          "correct": true
+        },
+        {
+          "text": "C) 'A' will reach a greater height and have a shorter range than 'B'.",
+          "correct": false
+        },
+        {
+          "text": "D) 'A' will reach the same height and have the same range as 'B'.",
+          "correct": false
+        },
+        {
+          "text": "E) 'A' will reach the same height and have a shorter range than 'B'.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 11,
+      "tag": "MCQ 11",
+      "question": "Q11. In absence of air resistance, the magnitude of the vertical component of a projectile's acceleration",
+      "options": [
+        {
+          "text": "A) is constant until the projectile hits the ground.",
+          "correct": true
+        },
+        {
+          "text": "B) always decreases with time until the projectile hits the ground.",
+          "correct": false
+        },
+        {
+          "text": "C) is equal to the magnitude of the horizontal component of the projectile's acceleration.",
+          "correct": false
+        },
+        {
+          "text": "D) increases and or decreases with time, depending on the projectile's velocity.",
+          "correct": false
+        },
+        {
+          "text": "E) always increases with time until the projectile hits the ground.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 12,
+      "tag": "MCQ 12",
+      "question": "Q12. A ball is thrown horizontally with a speed of 25 m/s from the top of a tower 20 meters high. Assuming level ground below the negligible air resistance, what will be the magnitude of the vertical velocity component when ball hits the ground?",
+      "options": [
+        {
+          "text": "A) 25 m/s",
+          "correct": false
+        },
+        {
+          "text": "B) 15 m/s",
+          "correct": false
+        },
+        {
+          "text": "C) 20 m/s",
+          "correct": true
+        },
+        {
+          "text": "D) 50 m/s",
+          "correct": false
+        },
+        {
+          "text": "E) 10 m/s",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 13,
+      "tag": "MCQ 13",
+      "question": "Q13. Which of these is the best description of the trajectory of a projectile short from the top of a high cliff at an angle of 60° below the horizontal (neglecting air resistance)?",
+      "options": [
+        {
+          "text": "A) The projectile will moves downwards at a 60° angle in a straight line at a constant speed until it stops and then falls straight down.",
+          "correct": false
+        },
+        {
+          "text": "B) The projectile will moves downwards at a 60° angle in a straight line at a gradually diminishing speed until it stops and then falls straight down.",
+          "correct": false
+        },
+        {
+          "text": "C) The projectile will moves downwards at a 60° angle in a straight line at a gradually increasing speed until it stops and then falls straight down.",
+          "correct": false
+        },
+        {
+          "text": "D) The projectile will gradually are downward, following the curve of a circle.",
+          "correct": false
+        },
+        {
+          "text": "E) The projectile will gradually are downward, following the curve of a parabola.",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 14,
+      "tag": "MCQ 14",
+      "question": "Q14. A firefighter with a mass of 70 kg slides down a vertical pole, accelerating at 2 m/s². The forces of friction that acts on the firefighter is",
+      "options": [
+        {
+          "text": "A) 70 N",
+          "correct": false
+        },
+        {
+          "text": "B) 560 N",
+          "correct": true
+        },
+        {
+          "text": "C) 140 N",
+          "correct": false
+        },
+        {
+          "text": "D) 700 N",
+          "correct": false
+        },
+        {
+          "text": "E) 0 N",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 15,
+      "tag": "MCQ 15",
+      "question": "Q15. The _________ of an object on the Earth's surface are directly proportional each other.",
+      "options": [
+        {
+          "text": "A) acceleration and mass",
+          "correct": false
+        },
+        {
+          "text": "B) mass and weight",
+          "correct": true
+        },
+        {
+          "text": "C) force and velocity",
+          "correct": false
+        },
+        {
+          "text": "D) weight and acceleration",
+          "correct": false
+        },
+        {
+          "text": "E) speed and velocity",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 16,
+      "tag": "MCQ 16",
+      "question": "Q16. The Moon's gravity is 1/6 of the Earth's gravity. The weight of a bowling ball on the Earth would be _________ its weight on the Moon.",
+      "options": [
+        {
+          "text": "A) equal to",
+          "correct": false
+        },
+        {
+          "text": "B) 1/6 of",
+          "correct": false
+        },
+        {
+          "text": "C) 6 times",
+          "correct": true
+        },
+        {
+          "text": "D) 36 times",
+          "correct": false
+        },
+        {
+          "text": "E) 1/36 of",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 17,
+      "tag": "MCQ 17",
+      "question": "Q17. When a certain net force is applied to one brick on a frictionless surface, it accelerates at 6 m/s². When the same net force is applied three bricks that are cemented together.",
+      "options": [
+        {
+          "text": "A) they accelerate at 3 m/s²",
+          "correct": false
+        },
+        {
+          "text": "B) they accelerate at 6 m/s²",
+          "correct": false
+        },
+        {
+          "text": "C) they accelerate at 18 m/s²",
+          "correct": false
+        },
+        {
+          "text": "D) they accelerate at 2 m/s²",
+          "correct": true
+        },
+        {
+          "text": "E) they do not accelerate at all",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 18,
+      "tag": "MCQ 18",
+      "question": "Q18. To accelerate a 6 kg mass at 2 m/s² requires a net force of _________.",
+      "options": [
+        {
+          "text": "A) 3 N",
+          "correct": false
+        },
+        {
+          "text": "B) 8 N",
+          "correct": false
+        },
+        {
+          "text": "C) 12 N",
+          "correct": true
+        },
+        {
+          "text": "D) 6 N",
+          "correct": false
+        },
+        {
+          "text": "E) 2 N",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 19,
+      "tag": "MCQ 19",
+      "question": "Q19. A falling object is said to reach terminal speed",
+      "options": [
+        {
+          "text": "A) when it lands on the ground",
+          "correct": false
+        },
+        {
+          "text": "B) when its air resistance equals the force of gravity on it.",
+          "correct": true
+        },
+        {
+          "text": "C) when there is no air resistance acting on it.",
+          "correct": false
+        },
+        {
+          "text": "D) when there is no gravitational force acting on it.",
+          "correct": false
+        },
+        {
+          "text": "E) when it stop falling.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 20,
+      "tag": "MCQ 20",
+      "question": "Q20. For every action there is an equal and opposite reaction. This is a statement of",
+      "options": [
+        {
+          "text": "A) Newton's First Law of Motion.",
+          "correct": false
+        },
+        {
+          "text": "B) Newton's Second Law of Motion.",
+          "correct": false
+        },
+        {
+          "text": "C) Newton's Third Law of Motion.",
+          "correct": true
+        },
+        {
+          "text": "D) Newton's Fourth Law of Motion.",
+          "correct": false
+        },
+        {
+          "text": "E) Newton's Law of Action.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 21,
+      "tag": "MCQ 21",
+      "question": "Q21. An airplane flying east at an airspeed of 200 km/h has a headwind blowing from the east at 50 km/h. How far will the plane fly relative to the ground in two hours?",
+      "options": [
+        {
+          "text": "A) 500 km",
+          "correct": false
+        },
+        {
+          "text": "B) 250 km",
+          "correct": false
+        },
+        {
+          "text": "C) 300 km",
+          "correct": true
+        },
+        {
+          "text": "D) 400 km",
+          "correct": false
+        },
+        {
+          "text": "E) 200 km",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 22,
+      "tag": "MCQ 22",
+      "question": "Q22. An airplane heading west at an airspeed of 100 km/h has a crosswind blowing from the south at 100 km/h. What will be the airplane's speed relative to the ground?",
+      "options": [
+        {
+          "text": "A) 0 km/h",
+          "correct": false
+        },
+        {
+          "text": "B) 71 km/h",
+          "correct": false
+        },
+        {
+          "text": "C) 100 km/h",
+          "correct": false
+        },
+        {
+          "text": "D) 141 km/h",
+          "correct": true
+        },
+        {
+          "text": "E) 200 km/h",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 23,
+      "tag": "MCQ 23",
+      "question": "Q23. _________ are examples of vector quantities.",
+      "options": [
+        {
+          "text": "A) Acceleration and time",
+          "correct": false
+        },
+        {
+          "text": "B) Velocity and acceleration",
+          "correct": true
+        },
+        {
+          "text": "C) Volume and velocity",
+          "correct": false
+        },
+        {
+          "text": "D) Mass and volume",
+          "correct": false
+        },
+        {
+          "text": "E) Time and mass",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 24,
+      "tag": "MCQ 24",
+      "question": "Q24. A green ball moving to the right at 3 m/s strikes a yellow ball moving to the left at 2 m/s. If the balls are equally massive and the collision is elastic.",
+      "options": [
+        {
+          "text": "A) The green ball will move to the left at 3 m/s while the yellow ball moves right at 2 m/s.",
+          "correct": false
+        },
+        {
+          "text": "B) The green ball will move to the left at 2 m/s while the yellow ball moves right at 3 m/s.",
+          "correct": true
+        },
+        {
+          "text": "C) The green ball will stop while the yellow ball moves right at 2 m/s.",
+          "correct": false
+        },
+        {
+          "text": "D) The yellow ball will stop while the green ball moves left at 3 m/s.",
+          "correct": false
+        },
+        {
+          "text": "E) Both balls will stick together and move to the right at 1 m/s.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 25,
+      "tag": "MCQ 25",
+      "question": "Q25. An impulse of 100 N-s is applied to an object. If this same impulse is delivered over a longer time interval.",
+      "options": [
+        {
+          "text": "A) the force involved will be decreased.",
+          "correct": true
+        },
+        {
+          "text": "B) the force involved will be increased.",
+          "correct": false
+        },
+        {
+          "text": "C) the momentum transferred will be increased.",
+          "correct": false
+        },
+        {
+          "text": "D) the momentum transferred will be decreased.",
+          "correct": false
+        },
+        {
+          "text": "E) the acceleration involved will be increased.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 26,
+      "tag": "MCQ 26",
+      "question": "Q26. Case 1: A net force of 10 N acts on a mass of 1 kg for a time of 0.2 s. Case 2: A net force of 20 N acts on a mass of 1 kg for a time of 0.2 s.",
+      "options": [
+        {
+          "text": "A) involve the same impulse and produce the same acceleration.",
+          "correct": false
+        },
+        {
+          "text": "B) involve the same impulse and produce the different accelerations.",
+          "correct": false
+        },
+        {
+          "text": "C) involve different impulses and produce different accelerations.",
+          "correct": true
+        },
+        {
+          "text": "D) involve different impulses and produce the same acceleration.",
+          "correct": false
+        },
+        {
+          "text": "E) produce the same change of momentum.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 27,
+      "tag": "MCQ 27",
+      "question": "Q27. Momentum is the product of",
+      "options": [
+        {
+          "text": "A) mass and velocity.",
+          "correct": true
+        },
+        {
+          "text": "B) mass and acceleration.",
+          "correct": false
+        },
+        {
+          "text": "C) velocity and acceleration.",
+          "correct": false
+        },
+        {
+          "text": "D) force and inertia.",
+          "correct": false
+        },
+        {
+          "text": "E) force and velocity.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 28,
+      "tag": "MCQ 28",
+      "question": "Q28. If a moving object cuts its speed in half, how much momentum will it have?",
+      "options": [
+        {
+          "text": "A) the same amount as before",
+          "correct": false
+        },
+        {
+          "text": "B) twice as much as before.",
+          "correct": false
+        },
+        {
+          "text": "C) one half as much as before.",
+          "correct": true
+        },
+        {
+          "text": "D) four times as much as before",
+          "correct": false
+        },
+        {
+          "text": "E) one fourth as much as before",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 29,
+      "tag": "MCQ 29",
+      "question": "Q29. A 1 kg ball moving horizontally to the right at 3 m/s strikes a wall and rebounds, moving horizontally to the left at the same speed. What is the magnitude of the change in momentum of the ball?",
+      "options": [
+        {
+          "text": "A) 0 kg-m/s",
+          "correct": false
+        },
+        {
+          "text": "B) 2 kg-m/s",
+          "correct": false
+        },
+        {
+          "text": "C) 3 kg-m/s",
+          "correct": false
+        },
+        {
+          "text": "D) 4 kg-m/s",
+          "correct": false
+        },
+        {
+          "text": "E) 6 kg-m/s",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 30,
+      "tag": "MCQ 30",
+      "question": "Q30. Potential energy is the energy possessed by an object due to",
+      "options": [
+        {
+          "text": "A) its momentum",
+          "correct": false
+        },
+        {
+          "text": "B) its position",
+          "correct": true
+        },
+        {
+          "text": "C) its velocity",
+          "correct": false
+        },
+        {
+          "text": "D) its acceleration",
+          "correct": false
+        },
+        {
+          "text": "E) its shape",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 31,
+      "tag": "MCQ 31",
+      "question": "Q31. Which of the following is true?",
+      "options": [
+        {
+          "text": "A) A body with zero velocity cannot have any potential energy.",
+          "correct": false
+        },
+        {
+          "text": "B) A body with zero acceleration cannot have any kinetic energy.",
+          "correct": false
+        },
+        {
+          "text": "C) A body with zero acceleration cannot have any potential energy.",
+          "correct": false
+        },
+        {
+          "text": "D) A body with zero velocity cannot have any kinetic energy.",
+          "correct": true
+        },
+        {
+          "text": "E) A body with zero potential energy cannot have velocity",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 32,
+      "tag": "MCQ 32",
+      "question": "Q32. If two objects of different mass have the same non-zero momentum.",
+      "options": [
+        {
+          "text": "A) the one with less mass will have the greater kinetic energy.",
+          "correct": true
+        },
+        {
+          "text": "B) the one with more mass will have the greater kinetic energy.",
+          "correct": false
+        },
+        {
+          "text": "C) they will have the same kinetic energy.",
+          "correct": false
+        },
+        {
+          "text": "D) the one with the higher speed will have the greater mass.",
+          "correct": false
+        },
+        {
+          "text": "E) the one with the lower speed will have the greater kinetic energy.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 33,
+      "tag": "MCQ 33",
+      "question": "Q33. A car travelling at 60 km/h passes a truck going 30 km/h that has four times the mass of the car. Which of the following is time?",
+      "options": [
+        {
+          "text": "A) the car and the truck have the same momentum and the same kinetic energy.",
+          "correct": false
+        },
+        {
+          "text": "B) the car has the same momentum and twice as much kinetic energy as the truck.",
+          "correct": false
+        },
+        {
+          "text": "C) the car has the same momentum and four times as much kinetic energy as the truck.",
+          "correct": false
+        },
+        {
+          "text": "D) the car has the same kinetic energy and twice as much momentum as the truck.",
+          "correct": false
+        },
+        {
+          "text": "E) the car has the same kinetic energy and half as much momentum as the truck.",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 34,
+      "tag": "MCQ 34",
+      "question": "Q34. A swinging pendulum has __________ at the bottom (middle) of its are",
+      "options": [
+        {
+          "text": "A) minimum kinetic energy.",
+          "correct": false
+        },
+        {
+          "text": "B) minimum total energy.",
+          "correct": false
+        },
+        {
+          "text": "C) minimum potential energy.",
+          "correct": true
+        },
+        {
+          "text": "D) maximum total energy.",
+          "correct": false
+        },
+        {
+          "text": "E) maximum potential energy.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 35,
+      "tag": "MCQ 35",
+      "question": "Q35. Real machines are not 100% efficient because",
+      "options": [
+        {
+          "text": "A) some of the energy input is always transformed into thermal energy.",
+          "correct": true
+        },
+        {
+          "text": "B) some of the input is always transformed into gravitational potential energy.",
+          "correct": false
+        },
+        {
+          "text": "C) the energy input is always less than the energy output.",
+          "correct": false
+        },
+        {
+          "text": "D) that would require the work output to be 100 times the work input, which is impossible.",
+          "correct": false
+        },
+        {
+          "text": "E) that would require the work input to be 100 times the work output, which is impossible.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 36,
+      "tag": "MCQ 36",
+      "question": "Q36. A physicist does 100 joules of work on a sample machine that raises a box of books through a high of 0.2 meters. If the efficiency of the machine is 60%, how much work is converted to thermal energy by this process?",
+      "options": [
+        {
+          "text": "A) 40 joules",
+          "correct": true
+        },
+        {
+          "text": "B) 60 joules",
+          "correct": false
+        },
+        {
+          "text": "C) 80 joules",
+          "correct": false
+        },
+        {
+          "text": "D) 20 joules",
+          "correct": false
+        },
+        {
+          "text": "E) 100 joules",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 37,
+      "tag": "MCQ 37",
+      "question": "Q37. When you run up two flights of stairs instead of walking up them, you feel more tired because",
+      "options": [
+        {
+          "text": "A) you do more work when you run than when you walk.",
+          "correct": false
+        },
+        {
+          "text": "B) your power output is greater when you run than when you walk.",
+          "correct": true
+        },
+        {
+          "text": "C) the gravitational is greater on a running person then on a walking person.",
+          "correct": false
+        },
+        {
+          "text": "D) the gravitational acceleration is greater on a running person then on a walking person.",
+          "correct": false
+        },
+        {
+          "text": "E) a running person has more inertia than a walking person.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 38,
+      "tag": "MCQ 38",
+      "question": "Q38. The work done against gravity in moving a box with a mass of 5 kilograms through a height of 3 meters is",
+      "options": [
+        {
+          "text": "A) 150 joules",
+          "correct": true
+        },
+        {
+          "text": "B) 150 Newton's",
+          "correct": false
+        },
+        {
+          "text": "C) 15 joules",
+          "correct": false
+        },
+        {
+          "text": "D) 15 Newton's",
+          "correct": false
+        },
+        {
+          "text": "E) 5/3 joules",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 39,
+      "tag": "MCQ 39",
+      "question": "Q39. Angular momentum is the product of",
+      "options": [
+        {
+          "text": "A) rotational inertia and rotational velocity.",
+          "correct": true
+        },
+        {
+          "text": "B) linear momentum and angle",
+          "correct": false
+        },
+        {
+          "text": "C) mass and velocity",
+          "correct": false
+        },
+        {
+          "text": "D) force and impulse",
+          "correct": false
+        },
+        {
+          "text": "E) acceleration and time",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 40,
+      "tag": "MCQ 40",
+      "question": "Q40. When you stand in equilibrium on only 1 foot,",
+      "options": [
+        {
+          "text": "A) your center of mass will be directly above that foot",
+          "correct": true
+        },
+        {
+          "text": "B) your center of mass will be directly other foot",
+          "correct": false
+        },
+        {
+          "text": "C) your center of mass will be directly above a point equidistant between your two feet.",
+          "correct": false
+        },
+        {
+          "text": "D) your rotational inertia will be zero",
+          "correct": false
+        },
+        {
+          "text": "E) you will always fall over",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 41,
+      "tag": "MCQ 41",
+      "question": "Q41. When a car rounds a curve at high speed,",
+      "options": [
+        {
+          "text": "A) the tires exert a centripetal force on the road.",
+          "correct": false
+        },
+        {
+          "text": "B) the road exerts a centripetal force on the tires",
+          "correct": true
+        },
+        {
+          "text": "C) the car exerts a centripetal force on the road",
+          "correct": false
+        },
+        {
+          "text": "D) the car body exerts a centripetal force on the tires",
+          "correct": false
+        },
+        {
+          "text": "E) there are no centripetal force involved",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 42,
+      "tag": "MCQ 42",
+      "question": "Q42. On a spinning disk point closers to the outer edge will have _______ point near the center.",
+      "options": [
+        {
+          "text": "A) the same rotational speed as and greater tangential speed than",
+          "correct": true
+        },
+        {
+          "text": "B) the same rotational speed as and lower tangential speed than",
+          "correct": false
+        },
+        {
+          "text": "C) the same tangential speed as and greater rotational speed than",
+          "correct": false
+        },
+        {
+          "text": "D) the same tangential speed as and lower rotational speed than",
+          "correct": false
+        },
+        {
+          "text": "E) lower rotational speed and higher tangential speed than",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 43,
+      "tag": "MCQ 43",
+      "question": "Q43. A merry-go round rotates 9 times each minute such that a point on its rim moves at a rate of 3 m/s. At a point 2/3 of the way out from the center to the rim, the tangential speed would be ______",
+      "options": [
+        {
+          "text": "A) 6 RPM",
+          "correct": false
+        },
+        {
+          "text": "B) 2 m/s",
+          "correct": true
+        },
+        {
+          "text": "C) 3 m/s",
+          "correct": false
+        },
+        {
+          "text": "D) 9 RPM",
+          "correct": false
+        },
+        {
+          "text": "E) 3 RPM",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 44,
+      "tag": "MCQ 44",
+      "question": "Q44. An empty soup can and a full one are rolled side-by-side down an incline. If they start together, which one will reach the bottom first?",
+      "options": [
+        {
+          "text": "A) the empty can arrives first",
+          "correct": false
+        },
+        {
+          "text": "B) the fall can arrives first.",
+          "correct": true
+        },
+        {
+          "text": "C) they will arrives together",
+          "correct": false
+        },
+        {
+          "text": "D) it depends on the diameter of the cans",
+          "correct": false
+        },
+        {
+          "text": "E) it depends on the kind of soup",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 45,
+      "tag": "MCQ 45",
+      "question": "Q45. A mass of 1 kilogram is tied to a string and swing in a horizontal circle of radius 1 meter, if the mass is then decreased to 0.5 kilogram, the potential inertia of this new system will be ______ as before.",
+      "options": [
+        {
+          "text": "A) twice as much",
+          "correct": false
+        },
+        {
+          "text": "B) four times as much",
+          "correct": false
+        },
+        {
+          "text": "C) the same",
+          "correct": false
+        },
+        {
+          "text": "D) one half as much",
+          "correct": true
+        },
+        {
+          "text": "E) one fourth as much",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 46,
+      "tag": "MCQ 46",
+      "question": "Q46. Torque is the product of",
+      "options": [
+        {
+          "text": "A) lever arm and force",
+          "correct": true
+        },
+        {
+          "text": "B) mars and radius",
+          "correct": false
+        },
+        {
+          "text": "C) rotational inertia and velocity",
+          "correct": false
+        },
+        {
+          "text": "D) force and velocity",
+          "correct": false
+        },
+        {
+          "text": "E) lever arm and rotational inertia",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 47,
+      "tag": "MCQ 47",
+      "question": "Q47. A 60-kg grandfather and his 30-kg granddaughter are balanced on a seesaw. If the granddaughter is sitting 2 meters from the pivot point, the grandfather must be sitting _______ from it",
+      "options": [
+        {
+          "text": "A) 4 meters",
+          "correct": false
+        },
+        {
+          "text": "B) 2 meters",
+          "correct": false
+        },
+        {
+          "text": "C) 3 meters",
+          "correct": false
+        },
+        {
+          "text": "D) 1 meter",
+          "correct": true
+        },
+        {
+          "text": "E) 0.5 meter",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 48,
+      "tag": "MCQ 48",
+      "question": "Q48. Protons have _____ charge, neutrons have _____ charge, and electrons have _____ charge.",
+      "options": [
+        {
+          "text": "A) negative, positive, no",
+          "correct": false
+        },
+        {
+          "text": "B) positive, no, negative",
+          "correct": true
+        },
+        {
+          "text": "C) positive, negative, no",
+          "correct": false
+        },
+        {
+          "text": "D) negative, no, positive",
+          "correct": false
+        },
+        {
+          "text": "E) no, negative, positive",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 49,
+      "tag": "MCQ 49",
+      "question": "Q49. Which of the following is true?",
+      "options": [
+        {
+          "text": "A) some atoms do not belong to any particular element",
+          "correct": false
+        },
+        {
+          "text": "B) some atoms belong to more than one element",
+          "correct": false
+        },
+        {
+          "text": "C) all atoms are identical",
+          "correct": false
+        },
+        {
+          "text": "D) the number of protons in an atom determines which elements it is",
+          "correct": true
+        },
+        {
+          "text": "E) the number of neutrons in an atom determines which elements it is",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 50,
+      "tag": "MCQ 50",
+      "question": "Q50. The mass of 1 hydrogen atom is approximately",
+      "options": [
+        {
+          "text": "A) one atomic mass unit",
+          "correct": true
+        },
+        {
+          "text": "B) two atomic mass units",
+          "correct": false
+        },
+        {
+          "text": "C) 12 atomic mass units",
+          "correct": false
+        },
+        {
+          "text": "D) 16 atomic mass units",
+          "correct": false
+        },
+        {
+          "text": "E) 1/2 atomic mass unit",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 51,
+      "tag": "MCQ 51",
+      "question": "Q51. An element with an atomic number of 92 at an atomic mass number of 238 would have",
+      "options": [
+        {
+          "text": "A) 92 protons, 146 neutrons, and 92 electrons",
+          "correct": true
+        },
+        {
+          "text": "B) 92 protons, 146 neutrons, and 238 electrons",
+          "correct": false
+        },
+        {
+          "text": "C) 92 protons, 238 neutrons, and 146 electrons",
+          "correct": false
+        },
+        {
+          "text": "D) 146 protons, 92 neutrons, and 92 electrons",
+          "correct": false
+        },
+        {
+          "text": "E) 146 protons, 92 neutrons, and 146 electrons",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 52,
+      "tag": "MCQ 52",
+      "question": "Q52. Brownian motion is the",
+      "options": [
+        {
+          "text": "A) random motion of microscopic particles being bombarded by even smaller atoms and molecules",
+          "correct": true
+        },
+        {
+          "text": "B) random motion of atoms and molecules being bombarded by larger microscopic particles",
+          "correct": false
+        },
+        {
+          "text": "C) vibration of atoms and molecules in a solid",
+          "correct": false
+        },
+        {
+          "text": "D) movement of electrons circulating within the atom",
+          "correct": false
+        },
+        {
+          "text": "E) very gradual flow of solid materials such as glass over long periods of time.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 53,
+      "tag": "MCQ 53",
+      "question": "Q53. Chemical combinations of elements are called",
+      "options": [
+        {
+          "text": "A) mixtures.",
+          "correct": false
+        },
+        {
+          "text": "B) groups.",
+          "correct": false
+        },
+        {
+          "text": "C) shells.",
+          "correct": false
+        },
+        {
+          "text": "D) nuclei.",
+          "correct": false
+        },
+        {
+          "text": "E) compounds.",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 54,
+      "tag": "MCQ 54",
+      "question": "Q54. Which of the following is a list of elements?",
+      "options": [
+        {
+          "text": "A) hydrogen, nitrogen, air",
+          "correct": false
+        },
+        {
+          "text": "B) hydrogen, oxygen, water",
+          "correct": false
+        },
+        {
+          "text": "C) hydrogen, oxygen, nitrogen",
+          "correct": true
+        },
+        {
+          "text": "D) air, nitrogen, oxygen",
+          "correct": false
+        },
+        {
+          "text": "E) water, nitrogen, oxygen",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 55,
+      "tag": "MCQ 55",
+      "question": "Q55. Where on the periodic table would we find an element with one more proton and one more electron than silver?",
+      "options": [
+        {
+          "text": "A) just above silver.",
+          "correct": false
+        },
+        {
+          "text": "B) just to the left of silver.",
+          "correct": false
+        },
+        {
+          "text": "C) just below silver.",
+          "correct": false
+        },
+        {
+          "text": "D) just to the right of silver.",
+          "correct": true
+        },
+        {
+          "text": "E) None of these – there is no such element.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 56,
+      "tag": "MCQ 56",
+      "question": "Q56. Density is",
+      "options": [
+        {
+          "text": "A) mass times volume.",
+          "correct": false
+        },
+        {
+          "text": "B) mass divided by volume.",
+          "correct": true
+        },
+        {
+          "text": "C) mass plus volume.",
+          "correct": false
+        },
+        {
+          "text": "D) volume divided by mass.",
+          "correct": false
+        },
+        {
+          "text": "E) mass minus volume.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 57,
+      "tag": "MCQ 57",
+      "question": "Q57. 1000 cubic centimeters of water should have a mass of approximately ________.",
+      "options": [
+        {
+          "text": "A) 100 grams",
+          "correct": false
+        },
+        {
+          "text": "B) 10 grams",
+          "correct": false
+        },
+        {
+          "text": "C) 1 gram",
+          "correct": false
+        },
+        {
+          "text": "D) 1 kilogram",
+          "correct": true
+        },
+        {
+          "text": "E) 1000 kilograms",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 58,
+      "tag": "MCQ 58",
+      "question": "Q58. A material is said to be _______ if it changes shape when a deforming force acts on it and returns to its original shape when the deforming force is removed.",
+      "options": [
+        {
+          "text": "A) elastic",
+          "correct": true
+        },
+        {
+          "text": "B) inelastic",
+          "correct": false
+        },
+        {
+          "text": "C) plastic",
+          "correct": false
+        },
+        {
+          "text": "D) stretchy",
+          "correct": false
+        },
+        {
+          "text": "E) rigid",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 59,
+      "tag": "MCQ 59",
+      "question": "Q59. Hooke's law relates the",
+      "options": [
+        {
+          "text": "A) distance a spring stretches to the force applied to the spring.",
+          "correct": true
+        },
+        {
+          "text": "B) distance a spring stretches to the mass applied to the spring.",
+          "correct": false
+        },
+        {
+          "text": "C) distance a spring stretches to the density applied to the spring.",
+          "correct": false
+        },
+        {
+          "text": "D) density of a spring to the force applied to the spring.",
+          "correct": false
+        },
+        {
+          "text": "E) density of a spring to the mass of the spring.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 60,
+      "tag": "MCQ 60",
+      "question": "Q60. When the length of each edge of a cube is doubled, the cube's surface area increases by a factor of",
+      "options": [
+        {
+          "text": "A) 2",
+          "correct": false
+        },
+        {
+          "text": "B) 4",
+          "correct": true
+        },
+        {
+          "text": "C) 6",
+          "correct": false
+        },
+        {
+          "text": "D) 8",
+          "correct": false
+        },
+        {
+          "text": "E) 16",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 61,
+      "tag": "MCQ 61",
+      "question": "Q61. When the length of each edge of a cube is tripled, the cube's volume",
+      "options": [
+        {
+          "text": "A) increases by a factor of 3.",
+          "correct": false
+        },
+        {
+          "text": "B) decreases by a factor of 1/3.",
+          "correct": false
+        },
+        {
+          "text": "C) increases by a factor of 9.",
+          "correct": false
+        },
+        {
+          "text": "D) decreases by a factor of 1/9.",
+          "correct": false
+        },
+        {
+          "text": "E) increases by a factor of 27.",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 62,
+      "tag": "MCQ 62",
+      "question": "Q62. Maximum number of beats per sound second is _____ which can be heard by human ear.",
+      "options": [
+        {
+          "text": "A) 4",
+          "correct": false
+        },
+        {
+          "text": "B) 6",
+          "correct": false
+        },
+        {
+          "text": "C) 7",
+          "correct": true
+        },
+        {
+          "text": "D) 8",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 63,
+      "tag": "MCQ 63",
+      "question": "Q63. Ratio of speed of light in vacuum to its speed in a medium is called.",
+      "options": [
+        {
+          "text": "A) optical density",
+          "correct": false
+        },
+        {
+          "text": "B) relative index",
+          "correct": false
+        },
+        {
+          "text": "C) refractive index",
+          "correct": true
+        },
+        {
+          "text": "D) match number",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 64,
+      "tag": "MCQ 64",
+      "question": "Q64. In Galleon telescope, the final image formed is.",
+      "options": [
+        {
+          "text": "A) real and inverted",
+          "correct": false
+        },
+        {
+          "text": "B) real and erect",
+          "correct": false
+        },
+        {
+          "text": "C) virtual and inverted",
+          "correct": false
+        },
+        {
+          "text": "D) virtual and erect",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 65,
+      "tag": "MCQ 65",
+      "question": "Q65. An object with a mass of 1 kg displaces 700 ml of water. Which of the following is true?",
+      "options": [
+        {
+          "text": "A) the weight of this object is 10 N.",
+          "correct": true
+        },
+        {
+          "text": "B) the weight of this object is 7 N.",
+          "correct": false
+        },
+        {
+          "text": "C) the weight of this object is 3 N.",
+          "correct": false
+        },
+        {
+          "text": "D) the buoyant force on this object is 3 N.",
+          "correct": false
+        },
+        {
+          "text": "E) the buoyant force on this object is 10 N.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 66,
+      "tag": "MCQ 66",
+      "question": "Q66. An object with a mass of 1 kg displaces 0.6 kg of water. Which of the following is true?",
+      "options": [
+        {
+          "text": "A) the buoyant force on this object is 10 N.",
+          "correct": false
+        },
+        {
+          "text": "B) the buoyant force on this object is 6 N.",
+          "correct": true
+        },
+        {
+          "text": "C) the buoyant force on this object is 4 N.",
+          "correct": false
+        },
+        {
+          "text": "D) the density of this object is less than that of water.",
+          "correct": false
+        },
+        {
+          "text": "E) this object will not sink in water.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 67,
+      "tag": "MCQ 67",
+      "question": "Q67. The water pressure in a lake behind a dam depends on",
+      "options": [
+        {
+          "text": "A) the volume of lake water behind the dam.",
+          "correct": false
+        },
+        {
+          "text": "B) the surface area of the lake.",
+          "correct": false
+        },
+        {
+          "text": "C) the distance from the dam at which the pressure is measured.",
+          "correct": false
+        },
+        {
+          "text": "D) the depth below the surface at which the pressure is measured.",
+          "correct": true
+        },
+        {
+          "text": "E) the number of fish in the lake.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 68,
+      "tag": "MCQ 68",
+      "question": "Q68. When air is removed from a metal can by a vacuum pump, the can buckles inwards and is crushed. This occurs because",
+      "options": [
+        {
+          "text": "A) the air pressure on the inside of the can is greater than the air pressure on the outside of the can.",
+          "correct": false
+        },
+        {
+          "text": "B) the air pressure on the outside of the can is greater than the air pressure on the inside of the can.",
+          "correct": true
+        },
+        {
+          "text": "C) the loss of air molecules from inside the can weakens the metal.",
+          "correct": false
+        },
+        {
+          "text": "D) the opposite sides of the empty can strongly attract each other.",
+          "correct": false
+        },
+        {
+          "text": "E) of Bernoulli's principle.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 69,
+      "tag": "MCQ 69",
+      "question": "Q69. Bernoulli's Principle explants why",
+      "options": [
+        {
+          "text": "A) a hot air balloon rises.",
+          "correct": false
+        },
+        {
+          "text": "B) liquid rises in a drinking straw.",
+          "correct": false
+        },
+        {
+          "text": "C) au planes fly.",
+          "correct": true
+        },
+        {
+          "text": "D) dead fish float.",
+          "correct": false
+        },
+        {
+          "text": "E) submarines can remain submerged",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 70,
+      "tag": "MCQ 70",
+      "question": "Q70. In order to decrease the pressure in an automobile tire, one normally",
+      "options": [
+        {
+          "text": "A) decreases the temperature of the tire.",
+          "correct": false
+        },
+        {
+          "text": "B) increases the volume of the tire.",
+          "correct": false
+        },
+        {
+          "text": "C) increases the density of air in the tire.",
+          "correct": false
+        },
+        {
+          "text": "D) decreases the surface area of the tire.",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 71,
+      "tag": "MCQ 71",
+      "question": "Q71. According to Boyle's Law, if the volume occupied by a certain gas is doubled,",
+      "options": [
+        {
+          "text": "A) the pressure of the gas will be doubled.",
+          "correct": false
+        },
+        {
+          "text": "B) the pressure of the gas will be quadrupled.",
+          "correct": false
+        },
+        {
+          "text": "C) the pressure of the gas will remain constant.",
+          "correct": false
+        },
+        {
+          "text": "D) the pressure of the gas will be halved.",
+          "correct": true
+        },
+        {
+          "text": "E) the number of atoms in the gas will be halved.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 72,
+      "tag": "MCQ 72",
+      "question": "Q72. Archimedes' Principle states that an object surrounded by air is buoyed up by a force equal to the",
+      "options": [
+        {
+          "text": "A) weight of the air displaces.",
+          "correct": true
+        },
+        {
+          "text": "B) weight of the object.",
+          "correct": false
+        },
+        {
+          "text": "C) total pressure on the object.",
+          "correct": false
+        },
+        {
+          "text": "D) difference between the weight of the object and the weight of the air it displaces.",
+          "correct": false
+        },
+        {
+          "text": "E) weight of Archimedes.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 73,
+      "tag": "MCQ 73",
+      "question": "Q73. In general, when a liquid is heated",
+      "options": [
+        {
+          "text": "A) it will neither expand nor contract.",
+          "correct": false
+        },
+        {
+          "text": "B) it will expend at a greater rate than a solid.",
+          "correct": true
+        },
+        {
+          "text": "C) it will expend at a lesser rate than a solid.",
+          "correct": false
+        },
+        {
+          "text": "D) it will contract at a greater rate than a solid.",
+          "correct": false
+        },
+        {
+          "text": "E) it will contract at a lesser rate than a solid.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 74,
+      "tag": "MCQ 74",
+      "question": "Q74. It a heat metal plate with a circular hole cut through it is heated,",
+      "options": [
+        {
+          "text": "A) the hole gets smaller.",
+          "correct": false
+        },
+        {
+          "text": "B) the hole gets larger.",
+          "correct": true
+        },
+        {
+          "text": "C) the hole stays exactly the same size.",
+          "correct": false
+        },
+        {
+          "text": "D) the hole may get larger or smaller, depending on the material of the plate.",
+          "correct": false
+        },
+        {
+          "text": "E) the hole may get larger or smaller, depending on how much the plate is heated.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 75,
+      "tag": "MCQ 75",
+      "question": "Q75. Water has a higher specific heat capacity than iron. This means that",
+      "options": [
+        {
+          "text": "A) water is more dense than iron.",
+          "correct": false
+        },
+        {
+          "text": "B) water is hotter than higher.",
+          "correct": false
+        },
+        {
+          "text": "C) water heats more rapidly than iron.",
+          "correct": false
+        },
+        {
+          "text": "D) water heats more slowly than iron.",
+          "correct": true
+        },
+        {
+          "text": "E) water boils at a higher temperature than iron.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 76,
+      "tag": "MCQ 76",
+      "question": "Q76. The specific heat capacity of water is 1 calorie per gram per degree Celsius. This means that it will take _______ calorie(s) to increases the temperature of 10 grams of water by 10 degrees.",
+      "options": [
+        {
+          "text": "A) 20",
+          "correct": false
+        },
+        {
+          "text": "B) 0.1",
+          "correct": false
+        },
+        {
+          "text": "C) 10",
+          "correct": false
+        },
+        {
+          "text": "D) 10",
+          "correct": false
+        },
+        {
+          "text": "E) 100",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 77,
+      "tag": "MCQ 77",
+      "question": "Q77. Water reaches its highest density at a temperature of ______ degrees Celsius.",
+      "options": [
+        {
+          "text": "A) 0",
+          "correct": false
+        },
+        {
+          "text": "B) 4",
+          "correct": true
+        },
+        {
+          "text": "C) 10",
+          "correct": false
+        },
+        {
+          "text": "D) -10",
+          "correct": false
+        },
+        {
+          "text": "E) -4",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 78,
+      "tag": "MCQ 78",
+      "question": "Q78. Which of these is an example of heat transfer by conduction?",
+      "options": [
+        {
+          "text": "A) The handle of a metal spoon becomes hot when you use it to stir a pot of soup on the stove.",
+          "correct": true
+        },
+        {
+          "text": "B) The air near the ceiling is normally warmer than air near the floor.",
+          "correct": false
+        },
+        {
+          "text": "C) You can boil a water in microwave oven.",
+          "correct": false
+        },
+        {
+          "text": "D) You feel heat from a bonfire even though you are several meters away from it.",
+          "correct": false
+        },
+        {
+          "text": "E) Smoke rises up a chimney.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 79,
+      "tag": "MCQ 79",
+      "question": "Q79. Rising air tends to.",
+      "options": [
+        {
+          "text": "A) Expand and become cooler.",
+          "correct": true
+        },
+        {
+          "text": "B) Expand and become warmer.",
+          "correct": false
+        },
+        {
+          "text": "C) Become denser and warmer.",
+          "correct": false
+        },
+        {
+          "text": "D) Become denser and cooler.",
+          "correct": false
+        },
+        {
+          "text": "E) Maintain a constant density and temperature.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 80,
+      "tag": "MCQ 80",
+      "question": "Q80. Radiation is heat transfer by.",
+      "options": [
+        {
+          "text": "A) Molecular and electronic collisions.",
+          "correct": false
+        },
+        {
+          "text": "B) Electromagnetic waves.",
+          "correct": true
+        },
+        {
+          "text": "C) Atmospheric currents.",
+          "correct": false
+        },
+        {
+          "text": "D) Hulk fluid motions.",
+          "correct": false
+        },
+        {
+          "text": "E) Direct contain.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 81,
+      "tag": "MCQ 81",
+      "question": "Q81. The pattern formed by overlapping waves in a bow wave is in the shape of the letter ____.",
+      "options": [
+        {
+          "text": "A) B",
+          "correct": false
+        },
+        {
+          "text": "B) U",
+          "correct": false
+        },
+        {
+          "text": "C) V",
+          "correct": true
+        },
+        {
+          "text": "D) I",
+          "correct": false
+        },
+        {
+          "text": "E) T",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 82,
+      "tag": "MCQ 82",
+      "question": "Q82. The Doppler Effect causes.",
+      "options": [
+        {
+          "text": "A) The observed pitch of a sound to be lower if the source of sound is approaching the observer.",
+          "correct": false
+        },
+        {
+          "text": "B) The observed pitch of a sound to be higher if the source of sound is moving away from the observer.",
+          "correct": false
+        },
+        {
+          "text": "C) The observed pitch of a sound to be lower if the source of sound is moving away from the observer.",
+          "correct": true
+        },
+        {
+          "text": "D) The speed of sound to increases if the source of sound is moving away from the observer.",
+          "correct": false
+        },
+        {
+          "text": "E) The speed of sound to decrease if the source of sound is moving away from the observer.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 83,
+      "tag": "MCQ 83",
+      "question": "Q83. In a ______ wave, the medium vibrates in a direction that is perpendicular to the direction the wave travels.",
+      "options": [
+        {
+          "text": "A) Sound",
+          "correct": false
+        },
+        {
+          "text": "B) Longitudinal",
+          "correct": false
+        },
+        {
+          "text": "C) Perpendicular",
+          "correct": false
+        },
+        {
+          "text": "D) Transverse",
+          "correct": true
+        },
+        {
+          "text": "E) Normal",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 84,
+      "tag": "MCQ 84",
+      "question": "Q84. The period of a pendulum depend on.",
+      "options": [
+        {
+          "text": "A) The mass of the pendulum and the size of the are it swings through.",
+          "correct": false
+        },
+        {
+          "text": "B) The length of the pendulum and the size of the are it swings through.",
+          "correct": false
+        },
+        {
+          "text": "C) The mass of the pendulum and the acceleration of gravity.",
+          "correct": false
+        },
+        {
+          "text": "D) The length of the pendulum and the acceleration of gravity.",
+          "correct": true
+        },
+        {
+          "text": "E) The weight of pendulum and the material it is made from.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 85,
+      "tag": "MCQ 85",
+      "question": "Q85. A wave that has a relatively long wavelength will also have a relatively.",
+      "options": [
+        {
+          "text": "A) High frequency",
+          "correct": false
+        },
+        {
+          "text": "B) Long period",
+          "correct": true
+        },
+        {
+          "text": "C) Large amplitude",
+          "correct": false
+        },
+        {
+          "text": "D) High speed",
+          "correct": false
+        },
+        {
+          "text": "E) Small amplitude",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 86,
+      "tag": "MCQ 86",
+      "question": "Q86. A train of freight cars, each 10m long, rolls by the rates of 2 cars each sound. What is the speed of train?",
+      "options": [
+        {
+          "text": "A) 10m/s",
+          "correct": false
+        },
+        {
+          "text": "B) 2m/s",
+          "correct": false
+        },
+        {
+          "text": "C) 5m/s",
+          "correct": false
+        },
+        {
+          "text": "D) 12m/s",
+          "correct": true
+        },
+        {
+          "text": "E) 20m/s",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 87,
+      "tag": "MCQ 87",
+      "question": "Q87. Compared a 500-Hz sound, a 300-Hz sound would have.",
+      "options": [
+        {
+          "text": "A) A longer wavelength and the same speed.",
+          "correct": true
+        },
+        {
+          "text": "B) A longer wavelength and the lower speed.",
+          "correct": false
+        },
+        {
+          "text": "C) A longer wavelength and the higher speed.",
+          "correct": false
+        },
+        {
+          "text": "D) A shorter wavelength and the lower speed.",
+          "correct": false
+        },
+        {
+          "text": "E) A shorter wavelength and the same speed.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 88,
+      "tag": "MCQ 88",
+      "question": "Q88. A vibrating string is being tuned to match a timing fork with a frequency of 256 Hz. When 3 beats per sound and heard, the vibration frequency of the string must be.",
+      "options": [
+        {
+          "text": "A) 256 Hz",
+          "correct": false
+        },
+        {
+          "text": "B) 253 Hz",
+          "correct": false
+        },
+        {
+          "text": "C) 259 Hz",
+          "correct": false
+        },
+        {
+          "text": "D) Either 253 or 259 Hz",
+          "correct": true
+        },
+        {
+          "text": "E) 3 Hz",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 89,
+      "tag": "MCQ 89",
+      "question": "Q89. Constructive interference of sound wave occur.",
+      "options": [
+        {
+          "text": "A) Whenever there is an echo.",
+          "correct": false
+        },
+        {
+          "text": "B) When two waves arrive at the same point in phase with each other.",
+          "correct": true
+        },
+        {
+          "text": "C) When two waves arrive at the same point out phase with each other.",
+          "correct": false
+        },
+        {
+          "text": "D) Whenever sound waves are refracted by air layers of different temperatures.",
+          "correct": false
+        },
+        {
+          "text": "E) Whenever sound waves are refracted off distant building.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 90,
+      "tag": "MCQ 90",
+      "question": "Q90. Pushing a person on a swing at the same rate as the natural frequency of the swing/pendulum is an example of.",
+      "options": [
+        {
+          "text": "A) Destructive interference.",
+          "correct": false
+        },
+        {
+          "text": "B) Constructive interference.",
+          "correct": false
+        },
+        {
+          "text": "C) Resonance.",
+          "correct": true
+        },
+        {
+          "text": "D) The Doppler Effect.",
+          "correct": false
+        },
+        {
+          "text": "E) Refraction.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 91,
+      "tag": "MCQ 91",
+      "question": "Q91. Sound travels faster in air at.",
+      "options": [
+        {
+          "text": "A) Lower temperatures because the molecules move faster and collide more frequently.",
+          "correct": false
+        },
+        {
+          "text": "B) Lower temperatures because the molecules are closer together and colli more frequently.",
+          "correct": false
+        },
+        {
+          "text": "C) Higher temperatures because the molecules move faster and collide more frequently.",
+          "correct": true
+        },
+        {
+          "text": "D) Higher temperatures because the molecules are closer together and collide more frequently.",
+          "correct": false
+        },
+        {
+          "text": "E) Lower temperatures because the air is more solid then.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 92,
+      "tag": "MCQ 92",
+      "question": "Q92. An intensity of 60 decibels is ____ times as intense as an intensity of 30 decibels.",
+      "options": [
+        {
+          "text": "A) 2",
+          "correct": false
+        },
+        {
+          "text": "B) 30",
+          "correct": false
+        },
+        {
+          "text": "C) 60",
+          "correct": false
+        },
+        {
+          "text": "D) 90",
+          "correct": false
+        },
+        {
+          "text": "E) 1000",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 93,
+      "tag": "MCQ 93",
+      "question": "Q93. The \"Highness\" or \"lowness\" of a musical tune is called ________.",
+      "options": [
+        {
+          "text": "A) Loudness",
+          "correct": false
+        },
+        {
+          "text": "B) rhythm",
+          "correct": false
+        },
+        {
+          "text": "C) Scale",
+          "correct": false
+        },
+        {
+          "text": "D) pitch",
+          "correct": true
+        },
+        {
+          "text": "E) intensity",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 94,
+      "tag": "MCQ 94",
+      "question": "Q94. Partial tones whose frequencies are whole number multiples of the fundamental frequency are called",
+      "options": [
+        {
+          "text": "A) noise",
+          "correct": false
+        },
+        {
+          "text": "B) integers",
+          "correct": false
+        },
+        {
+          "text": "C) radicals",
+          "correct": false
+        },
+        {
+          "text": "D) harmonics",
+          "correct": true
+        },
+        {
+          "text": "E) tonics",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 95,
+      "tag": "MCQ 95",
+      "question": "Q95. When a guitar string vibrates at the frequency of it's third harmonic, it will have a node at each end and _______ in between.",
+      "options": [
+        {
+          "text": "A) no nodes",
+          "correct": false
+        },
+        {
+          "text": "B) one node",
+          "correct": false
+        },
+        {
+          "text": "C) two nodes",
+          "correct": true
+        },
+        {
+          "text": "D) three nodes",
+          "correct": false
+        },
+        {
+          "text": "E) four nodes",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 96,
+      "tag": "MCQ 96",
+      "question": "Q96. A capacitor is a device used to",
+      "options": [
+        {
+          "text": "A) convert electricity into light",
+          "correct": false
+        },
+        {
+          "text": "B) convert electricity into heat",
+          "correct": false
+        },
+        {
+          "text": "C) Force current through a wire",
+          "correct": false
+        },
+        {
+          "text": "D) stored separated electrical charges",
+          "correct": true
+        },
+        {
+          "text": "E) measure the volume of a glass container",
+          "correct": false
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 97,
+      "tag": "MCQ 97",
+      "question": "Q97. A positively charged object.",
+      "options": [
+        {
+          "text": "A) has a deficiency of protons",
+          "correct": false
+        },
+        {
+          "text": "B) has a deficiency of neutrons",
+          "correct": false
+        },
+        {
+          "text": "C) has a deficiency of electrons",
+          "correct": true
+        },
+        {
+          "text": "D) has an excess of electrons",
+          "correct": false
+        },
+        {
+          "text": "E) has an excess of neutrons",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 98,
+      "tag": "MCQ 98",
+      "question": "Q98. Good electrical insulators are usually.",
+      "options": [
+        {
+          "text": "A) good thermal conductors",
+          "correct": true
+        },
+        {
+          "text": "B) Poor thermal conductors",
+          "correct": false
+        },
+        {
+          "text": "C) good electrical conductors",
+          "correct": false
+        },
+        {
+          "text": "D) poor thermal insulators",
+          "correct": false
+        },
+        {
+          "text": "E) opaque to light",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 99,
+      "tag": "MCQ 99",
+      "question": "Q99. The lines of force for a point charge",
+      "options": [
+        {
+          "text": "A) Form concentric circles about it",
+          "correct": true
+        },
+        {
+          "text": "B) extend radially outward from it",
+          "correct": false
+        },
+        {
+          "text": "C) connect points of equal electric potential",
+          "correct": false
+        },
+        {
+          "text": "D) connect points of equal charge",
+          "correct": false
+        },
+        {
+          "text": "E) Indicate the direction of motion of the point charge",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 100,
+      "tag": "MCQ 100",
+      "question": "Q100. According to Coulomb's Law, if the distance between two charges is doubled, the force each charge exerts on the other will be _______ it's previous value",
+      "options": [
+        {
+          "text": "A) the same as",
+          "correct": false
+        },
+        {
+          "text": "B) double",
+          "correct": false
+        },
+        {
+          "text": "C) One half of",
+          "correct": false
+        },
+        {
+          "text": "D) Four times",
+          "correct": false
+        },
+        {
+          "text": "E) One fourth of",
+          "correct": true
+        }
+      ],
+      "correctIndex": 4,
+      "explanation": ""
+    },
+    {
+      "qNum": 101,
+      "tag": "MCQ 101",
+      "question": "Q101. The intensity level of sound if intensity 10(-12) watt/m² in a bell is",
+      "options": [
+        {
+          "text": "A) One",
+          "correct": false
+        },
+        {
+          "text": "B) Two",
+          "correct": false
+        },
+        {
+          "text": "C) Three",
+          "correct": false
+        },
+        {
+          "text": "D) Zero",
+          "correct": false
+        }
+      ],
+      "correctIndex": -1,
+      "explanation": ""
+    },
+    {
+      "qNum": 102,
+      "tag": "MCQ 102",
+      "question": "Q102. A body of mass 10 kg start falling freely. The height lost in the 1st second is.",
+      "options": [
+        {
+          "text": "A) 49m",
+          "correct": false
+        },
+        {
+          "text": "B) 19.6m",
+          "correct": false
+        },
+        {
+          "text": "C) 4.9m",
+          "correct": false
+        },
+        {
+          "text": "D) 9.8m",
+          "correct": false
+        }
+      ],
+      "correctIndex": -1,
+      "explanation": ""
+    },
+    {
+      "qNum": 103,
+      "tag": "MCQ 103",
+      "question": "Q103. The units of angular momentum are.",
+      "options": [
+        {
+          "text": "A) Newton-sec",
+          "correct": false
+        },
+        {
+          "text": "B) Joule-sec",
+          "correct": false
+        },
+        {
+          "text": "C) Newton-meter",
+          "correct": false
+        },
+        {
+          "text": "D) Joule-meter",
+          "correct": false
+        }
+      ],
+      "correctIndex": -1,
+      "explanation": ""
+    },
+    {
+      "qNum": 104,
+      "tag": "MCQ 104",
+      "question": "Q104. Which of the following is a scalar quantity?",
+      "options": [
+        {
+          "text": "A) speed",
+          "correct": false
+        },
+        {
+          "text": "B) velocity",
+          "correct": false
+        },
+        {
+          "text": "C) acceleration",
+          "correct": false
+        },
+        {
+          "text": "D) displacement",
+          "correct": false
+        }
+      ],
+      "correctIndex": -1,
+      "explanation": ""
+    },
+    {
+      "qNum": 105,
+      "tag": "MCQ 105",
+      "question": "Q105. One radian is equal to.",
+      "options": [
+        {
+          "text": "A) 57.3",
+          "correct": false
+        },
+        {
+          "text": "B) 53.7",
+          "correct": false
+        },
+        {
+          "text": "C) 57",
+          "correct": false
+        },
+        {
+          "text": "D) 53",
+          "correct": false
+        }
+      ],
+      "correctIndex": -1,
+      "explanation": ""
+    },
+    {
+      "qNum": 106,
+      "tag": "MCQ 106",
+      "question": "Q106. If two forces of the same magnitude F are acting at an angle 120° with each other, the magnitude of their resultant will be.",
+      "options": [
+        {
+          "text": "A) 0.5 F",
+          "correct": false
+        },
+        {
+          "text": "B) F",
+          "correct": true
+        },
+        {
+          "text": "C) 2F",
+          "correct": false
+        },
+        {
+          "text": "D) zero",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 107,
+      "tag": "MCQ 107",
+      "question": "Q107. A wave enters from one medium to another medium, no change occurs in its.",
+      "options": [
+        {
+          "text": "A) speed",
+          "correct": false
+        },
+        {
+          "text": "B) amplitude",
+          "correct": false
+        },
+        {
+          "text": "C) frequency",
+          "correct": true
+        },
+        {
+          "text": "D) wavelength",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 108,
+      "tag": "MCQ 108",
+      "question": "Q108. The velocity of a body after elastic collision with a body of the same mass at rest will be.",
+      "options": [
+        {
+          "text": "A) doubled",
+          "correct": false
+        },
+        {
+          "text": "B) unaltered",
+          "correct": true
+        },
+        {
+          "text": "C) reduced to half",
+          "correct": false
+        },
+        {
+          "text": "D) zero",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 109,
+      "tag": "MCQ 109",
+      "question": "Q109. If a man go to a height, double to the radius of the earth from its surface, his weight relative to the weight on earth's surface will be.",
+      "options": [
+        {
+          "text": "A) one half",
+          "correct": false
+        },
+        {
+          "text": "B) one third",
+          "correct": false
+        },
+        {
+          "text": "C) one fourth",
+          "correct": true
+        },
+        {
+          "text": "D) one ninth",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 110,
+      "tag": "MCQ 110",
+      "question": "Q110. When a dielectric is placed in an electric field, it becomes?",
+      "options": [
+        {
+          "text": "A) negatively charge",
+          "correct": false
+        },
+        {
+          "text": "B) positively charge",
+          "correct": false
+        },
+        {
+          "text": "C) polarized",
+          "correct": true
+        },
+        {
+          "text": "D) conductive",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 111,
+      "tag": "MCQ 111",
+      "question": "Q111. The internal energy in an isothermal process.",
+      "options": [
+        {
+          "text": "A) increases",
+          "correct": false
+        },
+        {
+          "text": "B) decreases",
+          "correct": false
+        },
+        {
+          "text": "C) becomes zero",
+          "correct": true
+        },
+        {
+          "text": "D) remains unchanged",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 112,
+      "tag": "MCQ 112",
+      "question": "Q112. The frequencies in spectral lines emitted in Lyman series are in the region of.",
+      "options": [
+        {
+          "text": "A) infrared",
+          "correct": false
+        },
+        {
+          "text": "B) visible",
+          "correct": false
+        },
+        {
+          "text": "C) x-rays",
+          "correct": false
+        },
+        {
+          "text": "D) ultraviolet",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 113,
+      "tag": "MCQ 113",
+      "question": "Q113. The distance between node and anti-node in a loop is.",
+      "options": [
+        {
+          "text": "A) λ/4",
+          "correct": true
+        },
+        {
+          "text": "B) λ/2",
+          "correct": false
+        },
+        {
+          "text": "C) λ",
+          "correct": false
+        },
+        {
+          "text": "D) 2λ",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 114,
+      "tag": "MCQ 114",
+      "question": "Q114. A force F = 4i − 2j is applied in moving an object along a displacement r = 3i + 4j.",
+      "options": [
+        {
+          "text": "A) 8 J",
+          "correct": false
+        },
+        {
+          "text": "B) 12 J",
+          "correct": false
+        },
+        {
+          "text": "C) 4 J",
+          "correct": true
+        },
+        {
+          "text": "D) 20 J",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "qNum": 115,
+      "tag": "MCQ 115",
+      "question": "Q115. The energy required to overcome the binding force is called.",
+      "options": [
+        {
+          "text": "A) saturation energy",
+          "correct": false
+        },
+        {
+          "text": "B) stopping potential",
+          "correct": false
+        },
+        {
+          "text": "C) threshold potential",
+          "correct": false
+        },
+        {
+          "text": "D) work function",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": ""
+    },
+    {
+      "qNum": 116,
+      "tag": "MCQ 116",
+      "question": "Q116. The magnetic field of induction 'B' inside the solenoid is.",
+      "options": [
+        {
+          "text": "A) maximum",
+          "correct": true
+        },
+        {
+          "text": "B) normal",
+          "correct": false
+        },
+        {
+          "text": "C) minimum",
+          "correct": false
+        },
+        {
+          "text": "D) zero",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "qNum": 117,
+      "tag": "MCQ 117",
+      "question": "Q117. When a body moves vertically upward, the work done by gravitational force will be.",
+      "options": [
+        {
+          "text": "A) positive",
+          "correct": false
+        },
+        {
+          "text": "B) negative",
+          "correct": true
+        },
+        {
+          "text": "C) zero",
+          "correct": false
+        },
+        {
+          "text": "D) maximum",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "qNum": 118,
+      "tag": "MCQ 118",
+      "question": "Q118. The structure of a crystal can be studied with the help of.",
+      "options": [
+        {
+          "text": "A) Interference",
+          "correct": false
+        },
+        {
+          "text": "B) Diffraction",
+          "correct": false
+        },
+        {
+          "text": "C) Polanzation",
+          "correct": false
+        },
+        {
+          "text": "D) Refraction",
+          "correct": false
+        }
+      ],
+      "correctIndex": -1,
+      "explanation": ""
+    },
+    {
+      "qNum": 119,
+      "tag": "MCQ 119",
+      "question": "Q119. The unit of power of a lens is.",
+      "options": [
+        {
+          "text": "A) Watt",
+          "correct": false
+        },
+        {
+          "text": "B) Joule",
+          "correct": false
+        },
+        {
+          "text": "C) Diopter",
+          "correct": false
+        },
+        {
+          "text": "D) Newton",
+          "correct": false
+        }
+      ],
+      "correctIndex": -1,
+      "explanation": ""
+    },
+    {
+      "qNum": 120,
+      "tag": "MCQ 120",
+      "question": "Q120. If the tension of stretched string is increased 4 times, the speed of the transverse wave in it will increase.",
+      "options": [
+        {
+          "text": "A) 4 times",
+          "correct": false
+        },
+        {
+          "text": "B) 8 times",
+          "correct": false
+        },
+        {
+          "text": "C) 2 times",
+          "correct": false
+        },
+        {
+          "text": "D) 16 times",
+          "correct": false
+        }
+      ],
+      "correctIndex": -1,
+      "explanation": ""
+    }
+  ]
+}
