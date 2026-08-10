@@ -12,8 +12,41 @@
 
 const DATA_URL = window.MCQ_DATA_URL || "data.json";
 
+// Derive a per-subject storage prefix from the data file name so different
+// subjects (gk.json, physics.json, chemistry.json, ...) never share the
+// same bookmark/note/dark-mode keys in localStorage. Works automatically
+// for any future subject — no extra config needed per page.
+const SUBJECT_KEY = (DATA_URL.split("/").pop() || "data")
+  .replace(/\.json$/i, "")
+  .toLowerCase();
+const STORAGE_PREFIX = `mcq-${SUBJECT_KEY}`;
+
 let mcqData = []; // flat array of {idx, qNum, tag, question, options, correctIndex, explanation}
 let allCards = []; // DOM refs to each rendered .mcq-card
+
+// One-time migration: older versions of this app stored everything under
+// "gk-bm-*" / "gk-note-*" / "gk-dark" regardless of subject. Move the GK
+// page's old keys onto the new subject-prefixed scheme so existing
+// bookmarks/notes aren't lost, then leave the legacy keys alone for safety.
+(function migrateLegacyGkKeys() {
+  if (SUBJECT_KEY !== "gk") return;
+  if (localStorage.getItem("mcq-gk-migrated") === "1") return;
+  for (let i = localStorage.length - 1; i >= 0; i--) {
+    const oldKey = localStorage.key(i);
+    if (!oldKey) continue;
+    if (oldKey === "gk-dark") {
+      if (localStorage.getItem("mcq-dark") === null) {
+        localStorage.setItem("mcq-dark", localStorage.getItem(oldKey));
+      }
+    } else if (oldKey.startsWith("gk-bm-") || oldKey.startsWith("gk-note-")) {
+      const newKey = `mcq-${oldKey}`;
+      if (localStorage.getItem(newKey) === null) {
+        localStorage.setItem(newKey, localStorage.getItem(oldKey));
+      }
+    }
+  }
+  localStorage.setItem("mcq-gk-migrated", "1");
+})();
 
 // =====================================================
 //  BOOT
@@ -281,7 +314,7 @@ function jumpToQ() {
 // =====================================================
 function toggleDark() {
   const on = document.body.classList.toggle("dark");
-  localStorage.setItem("gk-dark", on ? "1" : "0");
+  localStorage.setItem("mcq-dark", on ? "1" : "0"); // shared UI preference across all subjects
   const dt = document.getElementById("dark-toggle");
   if (dt) dt.textContent = on ? "☀️ Light Mode" : "🌙 Dark Mode";
   const dtTest = document.getElementById("dark-toggle-test");
@@ -289,7 +322,7 @@ function toggleDark() {
 }
 
 function restoreDarkMode() {
-  if (localStorage.getItem("gk-dark") === "1") {
+  if (localStorage.getItem("mcq-dark") === "1") {
     document.body.classList.add("dark");
     const dt = document.getElementById("dark-toggle");
     if (dt) dt.textContent = "☀️ Light Mode";
@@ -300,7 +333,7 @@ function restoreDarkMode() {
 //  BOOKMARKS
 // =====================================================
 function toggleBookmark(qNum, card, btn) {
-  const key = `gk-bm-${qNum}`;
+  const key = `${STORAGE_PREFIX}-bm-${qNum}`;
   const isOn = localStorage.getItem(key) === "1";
   if (isOn) {
     localStorage.removeItem(key);
@@ -316,7 +349,7 @@ function toggleBookmark(qNum, card, btn) {
 }
 
 function loadBookmark(qNum, card, btn) {
-  if (localStorage.getItem(`gk-bm-${qNum}`) === "1") {
+  if (localStorage.getItem(`${STORAGE_PREFIX}-bm-${qNum}`) === "1") {
     card.classList.add("bookmarked");
     btn.classList.add("active");
   }
@@ -332,7 +365,7 @@ function toggleNoteEditor(qNum, card) {
   if (isOpen) {
     closeNoteEditor(qNum);
   } else {
-    ta.value = localStorage.getItem(`gk-note-${qNum}`) || "";
+    ta.value = localStorage.getItem(`${STORAGE_PREFIX}-note-${qNum}`) || "";
     ta.style.display = "block";
     btns.style.display = "flex";
     ta.focus();
@@ -348,7 +381,7 @@ function saveNote(qNum) {
   const disp = document.getElementById(`note-display-${qNum}`);
   const text = ta.value.trim();
   if (text) {
-    localStorage.setItem(`gk-note-${qNum}`, text);
+    localStorage.setItem(`${STORAGE_PREFIX}-note-${qNum}`, text);
     disp.textContent = "📝 " + text;
     disp.style.display = "block";
     showToast("Note saved!");
@@ -360,7 +393,7 @@ function saveNote(qNum) {
 }
 
 function deleteNote(qNum) {
-  localStorage.removeItem(`gk-note-${qNum}`);
+  localStorage.removeItem(`${STORAGE_PREFIX}-note-${qNum}`);
   const disp = document.getElementById(`note-display-${qNum}`);
   if (disp) {
     disp.textContent = "";
@@ -378,7 +411,7 @@ function closeNoteEditor(qNum) {
 }
 
 function loadNote(qNum, disp) {
-  const saved = localStorage.getItem(`gk-note-${qNum}`);
+  const saved = localStorage.getItem(`${STORAGE_PREFIX}-note-${qNum}`);
   if (saved) {
     disp.textContent = "📝 " + saved;
     disp.style.display = "block";
