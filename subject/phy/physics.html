@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="/manifest.json" rel="manifest"/>
+<!-- 1. Manifest path fix -->
+<link href="../../manifest.json" rel="manifest"/>
 <meta content="#000000" name="theme-color"/>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>General Knowledge — MCQ Notes</title>
-<link href="exam.png" rel="icon" type="image/png">
-<link href="style.css" rel="stylesheet">
+<title>Physics — MCQ Notes (KU Past Papers)</title>
+
+<!-- 2. Favicon path fix -->
+<link href="../../exam.png" rel="icon" type="image/png">
+
+<!-- 3. CSS path fix -->
+<link href="../../style.css" rel="stylesheet">
 </head>
 <body>
 <!-- ===== STICKY TOOLBAR ===== -->
 <div id="toolbar">
 <div class="toolbar-group">
-<a class="btn btn-secondary" href="index.html" style="text-decoration: none; display: inline-block">
-      🏠 Home
-    </a>
+<!-- 4. Home button link fix -->
+<a class="btn btn-secondary" href="../../index.html" style="text-decoration: none; display: inline-block">
+    🏠 Home
+  </a>
 </div>
 <div class="sep"></div>
 <div class="toolbar-group">
@@ -38,7 +44,7 @@
 <div id="test-panel">
 <div id="page-header" style="padding-top: 0">
 <h1>
-      🌍 General Knowledge — MCQ Notes
+      ⚛️ Physics — MCQ Notes (KU Past Papers)
       <span class="test-mode-label">TEST MODE</span>
 </h1>
 </div>
@@ -103,13 +109,13 @@
 <!-- ===== NOTES CONTENT ===== -->
 <div id="notes-content">
 <div id="page-header">
-<h1 id="page-title">🌍 General Knowledge — MCQ Notes</h1>
+<h1 id="page-title">⚛️ Physics — MCQ Notes (KU Past Papers)</h1>
 <p>
 <em id="page-description">Loading…</em>
 </p>
 </div>
 
-<!-- MCQ cards are built here at runtime by app.js from gk.json -->
+<!-- MCQ cards are built here at runtime by app.js from physics.json -->
 <div id="mcq-list"></div>
 
 <hr/>
@@ -121,9 +127,11 @@
 <div id="toast"></div>
 
 <script>
-  // Tell the shared engine which subject's data to load.
-  window.MCQ_DATA_URL = "gk.json";
+  // Same folder me physics.json maujood hai
+  window.MCQ_DATA_URL = "physics.json";
 </script>
-<script src="app.js"></script>
+
+<!-- 5. App.js path fix -->
+<script src="../../app.js"></script>
 </body>
 </html>
