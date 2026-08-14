@@ -119,6 +119,36 @@ function renderAllCards(list) {
   });
 
   container.appendChild(frag);
+  renumberVisibleCards();
+}
+
+// =====================================================
+//  DYNAMIC BADGE NUMBERING
+//  The little blue "MCQ N (...)" badge always counts 1..N
+//  within whatever is CURRENTLY visible (All questions, or
+//  a single topic filter) — it is NOT the same as data.qNum.
+//  qNum stays fixed forever and is what bookmarks/notes/test
+//  mode key off of, so filtering never breaks saved state.
+// =====================================================
+function renumberVisibleCards() {
+  let n = 0;
+  allCards.forEach((card) => {
+    if (card.style.display === "none") return;
+    n += 1;
+    if (card._tagEl) {
+      const suffix = extractPaperSuffix(card._paperTag);
+      card._tagEl.textContent = suffix ? `MCQ ${n} ${suffix}` : `MCQ ${n}`;
+    }
+  });
+}
+
+// Pulls a trailing "(...)" annotation — e.g. "(Past Paper 2025)" — off the
+// original static tag string, so it can be re-attached to the dynamic
+// number without dragging along the old fixed MCQ number.
+function extractPaperSuffix(tag) {
+  if (!tag) return "";
+  const m = tag.match(/\(([^)]*)\)\s*$/);
+  return m ? `(${m[1]})` : "";
 }
 
 function buildCard(data) {
@@ -135,7 +165,11 @@ function buildCard(data) {
 
   const tagEl = document.createElement("span");
   tagEl.className = "tag";
-  tagEl.textContent = data.tag || `MCQ ${data.qNum}`;
+  // Badge text is filled in by renumberVisibleCards() right after the
+  // card list is built/filtered — it reflects position within the
+  // CURRENT view (All / a specific topic), not a fixed JSON value.
+  card._tagEl = tagEl;
+  card._paperTag = data.tag || ""; // e.g. "(Past Paper 2025)" suffix, if any
   leftDiv.appendChild(tagEl);
 
   const colBtn = document.createElement("button");
@@ -336,6 +370,7 @@ function filterByTopic(topic) {
     card.style.display = show ? "" : "none";
   });
 
+  renumberVisibleCards();
   showToast(topic === "all" ? "Showing all questions" : `Filtered: ${topic}`);
 }
 
@@ -582,6 +617,9 @@ function startTest() {
   document.getElementById("test-active").style.display = "block";
   document.getElementById("test-results").style.display = "none";
 
+  const testJumpInput = document.getElementById("test-jump-input");
+  if (testJumpInput) testJumpInput.max = String(testTotal);
+
   renderTestQuestion();
 }
 
@@ -715,14 +753,16 @@ function testJump() {
     showToast("Enter a valid question number");
     return;
   }
-  const idx = testQueue.findIndex((d) => d.qNum === val);
-  if (idx === -1) {
-    showToast(`Q${val} isn't in this test session`);
+  // "val" is the position within THIS test session (1..testTotal), matching
+  // the "Question X of Y" label — not the question's original qNum. That's
+  // what the input box is next to, so jump by position.
+  if (val > testTotal) {
+    showToast(`This test only has ${testTotal} questions`);
     return;
   }
-  testCurrent = idx;
+  testCurrent = val - 1;
   renderTestQuestion();
-  showToast(`Jumped to Q${val}`);
+  showToast(`Jumped to question ${val}`);
 }
 
 // =====================================================
