@@ -67,6 +67,7 @@ async function init() {
 
     renderAllCards(mcqData);
     setupInputLimits(mcqData.length);
+    injectTopicFilterBar();
   } catch (err) {
     console.error("Failed to load MCQ data:", err);
     const container = document.getElementById("mcq-list");
@@ -286,6 +287,59 @@ function expandAll() {
 }
 
 // =====================================================
+//  TOPIC FILTER BAR (Notes view) — only appears when the
+//  JSON's questions carry a "topic" field.
+// =====================================================
+function injectTopicFilterBar() {
+  const list = document.getElementById("mcq-list");
+  if (!list || !list.parentElement) return;
+
+  const topics = [...new Set(mcqData.map((d) => d.topic).filter(Boolean))];
+  if (!topics.length) return;
+
+  const bar = document.createElement("div");
+  bar.id = "topic-filter-bar";
+  bar.style.cssText =
+    "display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px;";
+
+  function makeChip(label, value, isActive) {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "btn btn-secondary topic-chip";
+    chip.dataset.topic = value;
+    chip.textContent = label;
+    chip.style.cssText = `font-size: 0.85em; padding: 6px 14px; border-radius: 20px;${
+      isActive ? " outline: 2px solid var(--btn-primary);" : ""
+    }`;
+    chip.onclick = () => filterByTopic(value);
+    return chip;
+  }
+
+  bar.appendChild(makeChip(`📚 All (${mcqData.length})`, "all", true));
+  topics.forEach((topic) => {
+    const count = mcqData.filter((d) => d.topic === topic).length;
+    bar.appendChild(makeChip(`${topic} (${count})`, topic, false));
+  });
+
+  list.parentElement.insertBefore(bar, list);
+}
+
+function filterByTopic(topic) {
+  document.querySelectorAll(".topic-chip").forEach((chip) => {
+    chip.style.outline =
+      chip.dataset.topic === topic ? "2px solid var(--btn-primary)" : "none";
+  });
+
+  allCards.forEach((card, i) => {
+    const data = mcqData[i];
+    const show = topic === "all" || data.topic === topic;
+    card.style.display = show ? "" : "none";
+  });
+
+  showToast(topic === "all" ? "Showing all questions" : `Filtered: ${topic}`);
+}
+
+// =====================================================
 //  JUMP TO QUESTION
 // =====================================================
 function jumpToQ() {
@@ -432,10 +486,64 @@ function enterTestMode() {
     showToast("Questions are still loading, try again in a moment");
     return;
   }
+  ensureTopicSelect();
   document.body.classList.add("test-mode");
   document.getElementById("test-setup").style.display = "block";
   document.getElementById("test-active").style.display = "none";
   document.getElementById("test-results").style.display = "none";
+}
+
+// =====================================================
+//  TOPIC FILTER (only appears when the JSON's questions
+//  carry a "topic" field — e.g. subject/english/english.json.
+//  Subjects without a "topic" field are unaffected.)
+// =====================================================
+function ensureTopicSelect() {
+  if (document.getElementById("test-topic")) return; // already injected
+
+  const topics = [...new Set(mcqData.map((d) => d.topic).filter(Boolean))];
+  if (!topics.length) return; // this subject has no topics — nothing to do
+
+  const countLabel = document.getElementById("test-count")?.closest("label");
+  const row = countLabel?.parentElement;
+  if (!row) return;
+
+  const label = document.createElement("label");
+  label.style.cssText =
+    "display: flex; flex-direction: column; gap: 4px; font-size: 0.9em; font-weight: 600;";
+  label.textContent = "Topic";
+
+  const select = document.createElement("select");
+  select.id = "test-topic";
+  select.style.cssText =
+    "padding: 6px 10px; border-radius: 7px; border: 1.5px solid var(--input-border); background: var(--input-bg); color: var(--text); font-size: 1em; outline: none; cursor: pointer;";
+
+  const allOpt = document.createElement("option");
+  allOpt.value = "all";
+  allOpt.textContent = `📚 All Topics (${mcqData.length})`;
+  select.appendChild(allOpt);
+
+  topics.forEach((topic) => {
+    const count = mcqData.filter((d) => d.topic === topic).length;
+    const opt = document.createElement("option");
+    opt.value = topic;
+    opt.textContent = `${topic} (${count})`;
+    select.appendChild(opt);
+  });
+
+  select.addEventListener("change", () => {
+    const max = select.value === "all"
+      ? mcqData.length
+      : mcqData.filter((d) => d.topic === select.value).length;
+    const testCount = document.getElementById("test-count");
+    if (testCount) {
+      testCount.max = String(max);
+      if (parseInt(testCount.value) > max) testCount.value = String(max);
+    }
+  });
+
+  label.appendChild(select);
+  row.insertBefore(label, countLabel); // Topic first, then Count, then Order
 }
 
 function exitTestMode() {
@@ -446,14 +554,20 @@ function exitTestMode() {
 }
 
 function startTest() {
-  const max = mcqData.length || 1;
+  const order = document.getElementById("test-order").value;
+  const topicSel = document.getElementById("test-topic");
+  const topic = topicSel ? topicSel.value : "all";
+
+  let pool = mcqData.filter((d) => d.correctIndex >= 0);
+  if (topic && topic !== "all") {
+    pool = pool.filter((d) => d.topic === topic);
+  }
+
+  const max = pool.length || 1;
   const count = Math.min(
     max,
     Math.max(1, parseInt(document.getElementById("test-count").value) || 20),
   );
-  const order = document.getElementById("test-order").value;
-
-  let pool = mcqData.filter((d) => d.correctIndex >= 0);
 
   if (order === "shuffle") {
     pool = pool.sort(() => Math.random() - 0.5);

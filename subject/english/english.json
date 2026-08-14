@@ -3,8 +3,42 @@
     "title": "English — MCQ Notes (KU Past Papers)",
     "heading": "📚 English — MCQ Notes (KU Past Papers)",
     "description": "Karachi University past-paper MCQ bank — grammar & sentence completion, synonyms, antonyms, analogies, parts of speech, vocabulary. Source: KU_ENGLISH_PAST_PAPERS.pdf.",
-    "footer": "🎓 Total: 335 MCQs (Q1-335) | Source: Karachi University Past Papers (English)",
-    "total": 335
+    "footer": "🎓 Total: 212 MCQs (Q1-212) | Source: Karachi University Past Papers (English) + Past Paper 2024",
+    "total": 212,
+    "topics": [
+      {
+        "name": "Grammar & Sentence Completion",
+        "count": 61
+      },
+      {
+        "name": "Synonyms",
+        "count": 12
+      },
+      {
+        "name": "Antonyms",
+        "count": 10
+      },
+      {
+        "name": "Analogies",
+        "count": 10
+      },
+      {
+        "name": "Sentence Correction (Word/Phrase Usage)",
+        "count": 10
+      },
+      {
+        "name": "Vocabulary in Context",
+        "count": 14
+      },
+      {
+        "name": "Idioms & Phrases",
+        "count": 2
+      },
+      {
+        "name": "Prepositions",
+        "count": 93
+      }
+    ]
   },
   "questions": [
     {
@@ -30,7 +64,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 2,
@@ -55,7 +90,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 3,
@@ -80,7 +116,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 4,
@@ -105,7 +142,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 5,
@@ -130,7 +168,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 6,
@@ -155,7 +194,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 7,
@@ -180,7 +220,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 8,
@@ -205,7 +246,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 9,
@@ -230,7 +272,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 10,
@@ -255,7 +298,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 11,
@@ -280,7 +324,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 12,
@@ -305,7 +350,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 13,
@@ -330,7 +376,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 14,
@@ -355,7 +402,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 15,
@@ -380,7 +428,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 16,
@@ -405,7 +454,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 17,
@@ -430,7 +480,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 18,
@@ -455,7 +506,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 19,
@@ -480,7 +532,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 20,
@@ -505,7 +558,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 21,
@@ -530,7 +584,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 22,
@@ -555,7 +610,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 23,
@@ -580,7 +636,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 24,
@@ -605,7 +662,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 25,
@@ -630,7 +688,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 26,
@@ -655,7 +714,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 27,
@@ -680,7 +740,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 28,
@@ -705,7 +766,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 29,
@@ -730,7 +792,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 30,
@@ -755,7 +818,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 31,
@@ -780,7 +844,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 32,
@@ -805,7 +870,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 33,
@@ -830,7 +896,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 34,
@@ -855,7 +922,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 35,
@@ -880,7 +948,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 36,
@@ -905,7 +974,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 37,
@@ -930,7 +1000,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 38,
@@ -955,7 +1026,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 39,
@@ -980,7 +1052,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 40,
@@ -1005,7 +1078,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 41,
@@ -1030,7 +1104,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 42,
@@ -1055,7 +1130,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 43,
@@ -1080,7 +1156,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 44,
@@ -1105,7 +1182,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 45,
@@ -1130,7 +1208,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 46,
@@ -1155,7 +1234,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 47,
@@ -1180,7 +1260,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 48,
@@ -1205,7 +1286,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 49,
@@ -1230,7 +1312,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 50,
@@ -1255,7 +1338,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
       "qNum": 51,
@@ -1284,7 +1368,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 52,
@@ -1313,7 +1398,8 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 53,
@@ -1342,7 +1428,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 54,
@@ -1371,7 +1458,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 55,
@@ -1400,7 +1488,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 56,
@@ -1429,7 +1518,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 57,
@@ -1458,7 +1548,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 58,
@@ -1487,7 +1578,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 59,
@@ -1516,7 +1608,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 60,
@@ -1545,7 +1638,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
       "qNum": 61,
@@ -1574,7 +1668,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 62,
@@ -1603,7 +1698,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 63,
@@ -1632,7 +1728,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 64,
@@ -1661,7 +1758,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 65,
@@ -1690,7 +1788,8 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 66,
@@ -1719,7 +1818,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 67,
@@ -1748,7 +1848,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 68,
@@ -1777,7 +1878,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 69,
@@ -1806,7 +1908,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 70,
@@ -1835,7 +1938,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Antonyms"
     },
     {
       "qNum": 71,
@@ -1864,7 +1968,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 72,
@@ -1893,7 +1998,8 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 73,
@@ -1922,7 +2028,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 74,
@@ -1951,7 +2058,8 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 75,
@@ -1980,7 +2088,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 76,
@@ -2009,7 +2118,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 77,
@@ -2038,7 +2148,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 78,
@@ -2067,7 +2178,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 79,
@@ -2096,7 +2208,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 80,
@@ -2125,7 +2238,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Analogies"
     },
     {
       "qNum": 81,
@@ -2150,7 +2264,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 82,
@@ -2175,7 +2290,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 83,
@@ -2200,7 +2316,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 84,
@@ -2225,7 +2342,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 85,
@@ -2250,7 +2368,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 86,
@@ -2275,7 +2394,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 87,
@@ -2300,7 +2420,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 88,
@@ -2325,7 +2446,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 89,
@@ -2350,7 +2472,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 90,
@@ -2375,7 +2498,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Sentence Correction (Word/Phrase Usage)"
     },
     {
       "qNum": 91,
@@ -2404,7 +2528,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 92,
@@ -2433,7 +2558,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 93,
@@ -2462,7 +2588,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 94,
@@ -2491,7 +2618,8 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 95,
@@ -2520,7 +2648,8 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 96,
@@ -2549,7 +2678,8 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 97,
@@ -2578,7 +2708,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 98,
@@ -2607,7 +2738,8 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 99,
@@ -2636,7 +2768,8 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 100,
@@ -2665,7 +2798,8 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Vocabulary in Context"
     },
     {
       "qNum": 101,
@@ -2690,36 +2824,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
       "qNum": 102,
       "tag": "MCQ 102",
-      "question": "His mind is well attuned _____ to mine.",
-      "options": [
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 103,
-      "tag": "MCQ 103",
       "question": "This record enables me to balance _____ the facts of my life and decide what to do with it.",
       "options": [
         {
@@ -2740,36 +2850,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 104,
-      "tag": "MCQ 104",
-      "question": "Realizing he could do nothing to save his aircraft, the pilot bailed _____.",
-      "options": [
-        {
-          "text": "out",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 105,
-      "tag": "MCQ 105",
+      "qNum": 103,
+      "tag": "MCQ 103",
       "question": "We did not exactly bargain _____ him turning up like that, out of the blue.",
       "options": [
         {
@@ -2790,36 +2876,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 106,
-      "tag": "MCQ 106",
-      "question": "They had few essential supplies to begin _____, so they had to improvise.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 107,
-      "tag": "MCQ 107",
+      "qNum": 104,
+      "tag": "MCQ 104",
       "question": "We are trying to make sure that children who can best benefit _____ foster care do get it.",
       "options": [
         {
@@ -2840,36 +2902,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 108,
-      "tag": "MCQ 108",
-      "question": "In their anxiety, prisoners would often blurt _____ pieces of vital information.",
-      "options": [
-        {
-          "text": "out",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 109,
-      "tag": "MCQ 109",
+      "qNum": 105,
+      "tag": "MCQ 105",
       "question": "She shows the strain of bottled _____ emotion.",
       "options": [
         {
@@ -2890,36 +2928,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 110,
-      "tag": "MCQ 110",
-      "question": "He decided to break _____ from the party and seek re-election as an independent.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "away",
-          "correct": true
-        },
-        {
-          "text": "up",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 111,
-      "tag": "MCQ 111",
+      "qNum": 106,
+      "tag": "MCQ 106",
       "question": "There has been a complete break _____ of law and order.",
       "options": [
         {
@@ -2940,36 +2954,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 112,
-      "tag": "MCQ 112",
-      "question": "The plague broke _____ in London that summer and hundreds died.",
-      "options": [
-        {
-          "text": "out",
-          "correct": true
-        },
-        {
-          "text": "down",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 113,
-      "tag": "MCQ 113",
+      "qNum": 107,
+      "tag": "MCQ 107",
       "question": "There has been an exciting new technological break_____.",
       "options": [
         {
@@ -2990,36 +2980,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 114,
-      "tag": "MCQ 114",
-      "question": "Three minutes could bring _____ this transformation.",
-      "options": [
-        {
-          "text": "forth",
-          "correct": false
-        },
-        {
-          "text": "about",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 115,
-      "tag": "MCQ 115",
+      "qNum": 108,
+      "tag": "MCQ 108",
       "question": "I think we are agreed on the main points. Does anyone want to bring _____ anything further?",
       "options": [
         {
@@ -3040,36 +3006,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 116,
-      "tag": "MCQ 116",
-      "question": "South Africa brushed _____ the threat of tougher economic sanctions.",
-      "options": [
-        {
-          "text": "off",
-          "correct": true
-        },
-        {
-          "text": "of",
-          "correct": false
-        },
-        {
-          "text": "down",
-          "correct": false
-        },
-        {
-          "text": "aside",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 117,
-      "tag": "MCQ 117",
+      "qNum": 109,
+      "tag": "MCQ 109",
       "question": "Jamil, who has been nervous and jumpy lately, suddenly burst _____ tears.",
       "options": [
         {
@@ -3090,36 +3032,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 118,
-      "tag": "MCQ 118",
-      "question": "The eagle swooped and carried _____ sleeping lizard.",
-      "options": [
-        {
-          "text": "up",
-          "correct": false
-        },
-        {
-          "text": "down",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 119,
-      "tag": "MCQ 119",
+      "qNum": 110,
+      "tag": "MCQ 110",
       "question": "When one is adolescent one often gets caught up _____ one's thoughts and dreams.",
       "options": [
         {
@@ -3140,36 +3058,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 120,
-      "tag": "MCQ 120",
-      "question": "When Britain adopted the decimal system for its money, it changed _____ relatively smoothly.",
-      "options": [
-        {
-          "text": "over",
-          "correct": true
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 121,
-      "tag": "MCQ 121",
+      "qNum": 111,
+      "tag": "MCQ 111",
       "question": "A young officer was charged _____ the task of taking 200 prisoners to the rear.",
       "options": [
         {
@@ -3190,36 +3084,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 122,
-      "tag": "MCQ 122",
-      "question": "When the man saw the police car, he cleared _____ as fast as his legs could carry him.",
-      "options": [
-        {
-          "text": "away",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 123,
-      "tag": "MCQ 123",
+      "qNum": 112,
+      "tag": "MCQ 112",
       "question": "I am not saying I am useless, but machinery and modern techniques have come _____ to make me the odd man out.",
       "options": [
         {
@@ -3240,36 +3110,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 124,
-      "tag": "MCQ 124",
-      "question": "I came _____ an old friend in liberty market this morning.",
-      "options": [
-        {
-          "text": "around",
-          "correct": false
-        },
-        {
-          "text": "round",
-          "correct": false
-        },
-        {
-          "text": "across",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 125,
-      "tag": "MCQ 125",
+      "qNum": 113,
+      "tag": "MCQ 113",
       "question": "When he finally came round _____ writing the letter, he found his feelings were easier to express than he had expected.",
       "options": [
         {
@@ -3290,36 +3136,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 126,
-      "tag": "MCQ 126",
-      "question": "The modern child finds it difficult to conceive _____ a time when there was no radio or TV.",
-      "options": [
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 127,
-      "tag": "MCQ 127",
+      "qNum": 114,
+      "tag": "MCQ 114",
       "question": "The two were found guilty of robbery, and condemned _____ four years imprisonment.",
       "options": [
         {
@@ -3340,36 +3162,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 128,
-      "tag": "MCQ 128",
-      "question": "When everyone has been conferred _____ perhaps I can give you an answer.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 129,
-      "tag": "MCQ 129",
+      "qNum": 115,
+      "tag": "MCQ 115",
       "question": "The policemen's story conflicts _____ that of the accused.",
       "options": [
         {
@@ -3390,36 +3188,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 130,
-      "tag": "MCQ 130",
-      "question": "Confronted _____ the evidence of half a dozen witnesses, the accused broke down and confessed.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 131,
-      "tag": "MCQ 131",
+      "qNum": 116,
+      "tag": "MCQ 116",
       "question": "If you want to converse _____ Japanese people, why don't you start learning Japanese?",
       "options": [
         {
@@ -3440,36 +3214,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 132,
-      "tag": "MCQ 132",
-      "question": "In this engine the rotary section corresponds _____ the cylinders of conventional model.",
-      "options": [
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 133,
-      "tag": "MCQ 133",
+      "qNum": 117,
+      "tag": "MCQ 117",
       "question": "You can always count _____ Zaheer for help when you are in difficulties.",
       "options": [
         {
@@ -3490,36 +3240,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 134,
-      "tag": "MCQ 134",
-      "question": "Why are so many of us credited _____ little intelligence and self-determination?",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 135,
-      "tag": "MCQ 135",
+      "qNum": 118,
+      "tag": "MCQ 118",
       "question": "The truth about the human condition dawns _____ those who have the humility to recognise their unimportance.",
       "options": [
         {
@@ -3540,36 +3266,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 136,
-      "tag": "MCQ 136",
-      "question": "They are bad people to deal _____, always late in delivery dates.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 137,
-      "tag": "MCQ 137",
+      "qNum": 119,
+      "tag": "MCQ 119",
       "question": "You will notice water rising in the tube; now what do you deduce _____ that?",
       "options": [
         {
@@ -3590,36 +3292,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 138,
-      "tag": "MCQ 138",
-      "question": "I felt I must defer _____ my host's judgement.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "from",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 139,
-      "tag": "MCQ 139",
+      "qNum": 120,
+      "tag": "MCQ 120",
       "question": "He was momentarily deflected _____ his train of thought by a knock on the door.",
       "options": [
         {
@@ -3640,36 +3318,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 140,
-      "tag": "MCQ 140",
-      "question": "The rules were rigid in principle, sometimes departed _____ in practice.",
-      "options": [
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": true
-        },
-        {
-          "text": "of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 141,
-      "tag": "MCQ 141",
+      "qNum": 121,
+      "tag": "MCQ 121",
       "question": "But the splendid occasion reminded him bitterly of the opportunities he had himself been deprived _____.",
       "options": [
         {
@@ -3690,36 +3344,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 142,
-      "tag": "MCQ 142",
-      "question": "After being cut off from the main party for two weeks they began to despair _____ rejoining their companions.",
-      "options": [
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 143,
-      "tag": "MCQ 143",
+      "qNum": 122,
+      "tag": "MCQ 122",
       "question": "They could not be deviated _____ what they believed to be their duty.",
       "options": [
         {
@@ -3740,36 +3370,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 144,
-      "tag": "MCQ 144",
-      "question": "As boys, we had various ways of making the history professor distress _____ the subject of the lesson.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 145,
-      "tag": "MCQ 145",
+      "qNum": 123,
+      "tag": "MCQ 123",
       "question": "You may dislike having to depend upon him but it will be sometime before you can dispense _____ his help altogether.",
       "options": [
         {
@@ -3790,36 +3396,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 146,
-      "tag": "MCQ 146",
-      "question": "The upper classes may be dispossessed _____ their special powers and privileges by a slow process of evolution.",
-      "options": [
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 147,
-      "tag": "MCQ 147",
+      "qNum": 124,
+      "tag": "MCQ 124",
       "question": "The main cylinder will have to be drained _____ before the mechanic can change the piston rings.",
       "options": [
         {
@@ -3840,36 +3422,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 148,
-      "tag": "MCQ 148",
-      "question": "He looked cautiously to left and right and, when the flow of traffic had eased _____, crossed the road.",
-      "options": [
-        {
-          "text": "off",
-          "correct": true
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 149,
-      "tag": "MCQ 149",
+      "qNum": 125,
+      "tag": "MCQ 125",
       "question": "The strength of the European community emanates _____ the prosperous economies of relatively few member states.",
       "options": [
         {
@@ -3890,36 +3448,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 150,
-      "tag": "MCQ 150",
-      "question": "I apologize for encroaching _____ your valuable time, but I should appreciate your advice in an important matter.",
-      "options": [
-        {
-          "text": "upon",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 151,
-      "tag": "MCQ 151",
+      "qNum": 126,
+      "tag": "MCQ 126",
       "question": "The estate was so encumbered _____ debts that it was not worth buying.",
       "options": [
         {
@@ -3940,36 +3474,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 152,
-      "tag": "MCQ 152",
-      "question": "That a man should become so engrossed _____ a pursuit that he risks his life on a mountains needs explanation.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 153,
-      "tag": "MCQ 153",
+      "qNum": 127,
+      "tag": "MCQ 127",
       "question": "He had become a sort of sub-editor entrusted _____ hiring other members of staff.",
       "options": [
         {
@@ -3990,36 +3500,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 154,
-      "tag": "MCQ 154",
-      "question": "The young women was escorted _____ the court by her solicitor.",
-      "options": [
-        {
-          "text": "from",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 155,
-      "tag": "MCQ 155",
+      "qNum": 128,
+      "tag": "MCQ 128",
       "question": "After a lengthy inquiry, the management was exonerated _____ any responsibility for the fire that destroyed the factory.",
       "options": [
         {
@@ -4040,36 +3526,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 156,
-      "tag": "MCQ 156",
-      "question": "Time has expunged _____ his memory all recollections of these terrible events.",
-      "options": [
-        {
-          "text": "from",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "out",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 157,
-      "tag": "MCQ 157",
+      "qNum": 129,
+      "tag": "MCQ 129",
       "question": "Naeem neatly fended _____ a thrust at his chest.",
       "options": [
         {
@@ -4090,36 +3552,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 158,
-      "tag": "MCQ 158",
-      "question": "No, he cannot go, I have not finished _____ him yet!",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 159,
-      "tag": "MCQ 159",
+      "qNum": 130,
+      "tag": "MCQ 130",
       "question": "Do not flinch _____ the facts!",
       "options": [
         {
@@ -4140,36 +3578,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 160,
-      "tag": "MCQ 160",
-      "question": "Do not rest on your success follow _____ your success and start looking for new markets.",
-      "options": [
-        {
-          "text": "up",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 161,
-      "tag": "MCQ 161",
+      "qNum": 131,
+      "tag": "MCQ 131",
       "question": "Bandits raided the Habib Bank in Lahore this morning and got away _____ over 10 million rupees.",
       "options": [
         {
@@ -4190,36 +3604,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 162,
-      "tag": "MCQ 162",
-      "question": "If it is very urgent, I may be able to get hold _____ the doctor for you during the lunch hour.",
-      "options": [
-        {
-          "text": "of",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 163,
-      "tag": "MCQ 163",
+      "qNum": 132,
+      "tag": "MCQ 132",
       "question": "It was amazing that preparations for the landing were not got wind _____ by the enemy.",
       "options": [
         {
@@ -4240,36 +3630,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 164,
-      "tag": "MCQ 164",
-      "question": "Raza has to get off _____ people because he cannot get on with them.",
-      "options": [
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "among",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 165,
-      "tag": "MCQ 165",
+      "qNum": 133,
+      "tag": "MCQ 133",
       "question": "If the fire-station had been got _____ at once, the hotel might have been saved.",
       "options": [
         {
@@ -4290,36 +3656,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 166,
-      "tag": "MCQ 166",
-      "question": "He insisted that she remained in house, and got on _____ her book.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 167,
-      "tag": "MCQ 167",
+      "qNum": 134,
+      "tag": "MCQ 134",
       "question": "I wish I could get out _____ going to the party this evening; I don't feel like standing around making polite conversation for three hours.",
       "options": [
         {
@@ -4340,36 +3682,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 168,
-      "tag": "MCQ 168",
-      "question": "There were a number linguistic problems to be got _____ in preparing the text of the treaty.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 169,
-      "tag": "MCQ 169",
+      "qNum": 135,
+      "tag": "MCQ 135",
       "question": "Ammunition could not be got through _____ the garrison, and they were forced to surrender.",
       "options": [
         {
@@ -4390,36 +3708,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 170,
-      "tag": "MCQ 170",
-      "question": "General Zia was a much more able president then he is given credit _____.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 171,
-      "tag": "MCQ 171",
+      "qNum": 136,
+      "tag": "MCQ 136",
       "question": "All papers must be given _____ before 12 p.m. Candidates failing to observe this rule may be disqualified.",
       "options": [
         {
@@ -4440,36 +3734,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 172,
-      "tag": "MCQ 172",
-      "question": "Give _____ shooting! You will have me off the chair in a minute.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 173,
-      "tag": "MCQ 173",
+      "qNum": 137,
+      "tag": "MCQ 137",
       "question": "The general was content to give _____ a few miles of desert and retreat to a stronger fortified line.",
       "options": [
         {
@@ -4490,36 +3760,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 174,
-      "tag": "MCQ 174",
-      "question": "The public were warned not to grapple _____ the fugitive, as he was armed and dangerous.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 175,
-      "tag": "MCQ 175",
+      "qNum": 138,
+      "tag": "MCQ 138",
       "question": "When Farooq was offered a trip to Hong Kong by his employers he grasped _____ it with both hands.",
       "options": [
         {
@@ -4540,36 +3786,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 176,
-      "tag": "MCQ 176",
-      "question": "Don't let go, hang _____ tight.",
-      "options": [
-        {
-          "text": "on",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 177,
-      "tag": "MCQ 177",
+      "qNum": 139,
+      "tag": "MCQ 139",
       "question": "His temperament does not harmonize _____ a slow, even pace of life.",
       "options": [
         {
@@ -4590,36 +3812,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 178,
-      "tag": "MCQ 178",
-      "question": "Starting a new business is hedged _____ with financial and staffing problems.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "about",
-          "correct": true
-        },
-        {
-          "text": "out",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 179,
-      "tag": "MCQ 179",
+      "qNum": 140,
+      "tag": "MCQ 140",
       "question": "Their life was hedged _____ with petty restrictions.",
       "options": [
         {
@@ -4640,36 +3838,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 180,
-      "tag": "MCQ 180",
-      "question": "The best one could hope _____ was to attract no attention either way.",
-      "options": [
-        {
-          "text": "for",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 181,
-      "tag": "MCQ 181",
+      "qNum": 141,
+      "tag": "MCQ 141",
       "question": "The streets were littered with stones and bottles hurled _____ the policemen.",
       "options": [
         {
@@ -4690,36 +3864,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 182,
-      "tag": "MCQ 182",
-      "question": "When a body is immersed _____ a fluid it apparently loses weight.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 183,
-      "tag": "MCQ 183",
+      "qNum": 142,
+      "tag": "MCQ 142",
       "question": "The cabinet was impelled _____ extreme measures.",
       "options": [
         {
@@ -4740,36 +3890,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 184,
-      "tag": "MCQ 184",
-      "question": "The revolutionary leaders implanted _____ the peasants the determination to take and own the land on which they worked.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "down",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        },
-        {
-          "text": "at",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 185,
-      "tag": "MCQ 185",
+      "qNum": 143,
+      "tag": "MCQ 143",
       "question": "As there was no train until the late evening he had to imposed himself _____ his hosts for longer than he had intended.",
       "options": [
         {
@@ -4790,36 +3916,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 186,
-      "tag": "MCQ 186",
-      "question": "All the swimmers have improved _____ their previous best performance.",
-      "options": [
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 187,
-      "tag": "MCQ 187",
+      "qNum": 144,
+      "tag": "MCQ 144",
       "question": "The Government has incorporated _____ the bill, many suggestions put forward by the opposition.",
       "options": [
         {
@@ -4840,36 +3942,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 188,
-      "tag": "MCQ 188",
-      "question": "Raza would indulge _____ a short sleep in his arm chair.",
-      "options": [
-        {
-          "text": "in",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 189,
-      "tag": "MCQ 189",
+      "qNum": 145,
+      "tag": "MCQ 145",
       "question": "He was profoundly and physically infatuated _____ her.",
       "options": [
         {
@@ -4890,36 +3968,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 190,
-      "tag": "MCQ 190",
-      "question": "The whole class was infected _____ the teacher's enthusiasm for the subject.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 191,
-      "tag": "MCQ 191",
+      "qNum": 146,
+      "tag": "MCQ 146",
       "question": "It is reassuring to have friends enquire _____ you when you are ill.",
       "options": [
         {
@@ -4940,36 +3994,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 192,
-      "tag": "MCQ 192",
-      "question": "An attractive feature of the course was the way the practical work had been integrated _____ the theoretical aspects.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 193,
-      "tag": "MCQ 193",
+      "qNum": 147,
+      "tag": "MCQ 147",
       "question": "Nothing must be allowed to interfere _____ our search for the truth.",
       "options": [
         {
@@ -4990,36 +4020,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 194,
-      "tag": "MCQ 194",
-      "question": "My lord, it is obvious that the witness is being intimidated _____ remaining silent.",
-      "options": [
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": true
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 195,
-      "tag": "MCQ 195",
+      "qNum": 148,
+      "tag": "MCQ 148",
       "question": "The director was aware that he was being intrigued _____ but he had no means of finding out how and by whom.",
       "options": [
         {
@@ -5040,36 +4046,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 196,
-      "tag": "MCQ 196",
-      "question": "Recent events were jumbled _____ in her mind with scenes recalled from early childhood.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": true
-        },
-        {
-          "text": "over",
-          "correct": false
-        },
-        {
-          "text": "around",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 197,
-      "tag": "MCQ 197",
+      "qNum": 149,
+      "tag": "MCQ 149",
       "question": "Is this the way to Lahore? 'Yes just keep _____ till you reach Ravi Bridge; then you will see the signs of Lahore.'",
       "options": [
         {
@@ -5090,36 +4072,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 198,
-      "tag": "MCQ 198",
-      "question": "The woman threw her coat on a chair kicked _____ her shoes.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 199,
-      "tag": "MCQ 199",
+      "qNum": 150,
+      "tag": "MCQ 150",
       "question": "Our elder son has been knocking _____ the Europe for several months. We don't know exactly where he is or what he is doing.",
       "options": [
         {
@@ -5140,36 +4098,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 200,
-      "tag": "MCQ 200",
-      "question": "The driver was knocked _____ at the moment of impact, and could remember nothing of how the accident happened.",
-      "options": [
-        {
-          "text": "out",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "about",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 201,
-      "tag": "MCQ 201",
+      "qNum": 151,
+      "tag": "MCQ 151",
       "question": "The editor laboured _____ the manuscript till early morning.",
       "options": [
         {
@@ -5190,36 +4124,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 202,
-      "tag": "MCQ 202",
-      "question": "It seemed that he was going to lash out _____ her but he controlled himself.",
-      "options": [
-        {
-          "text": "at",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 203,
-      "tag": "MCQ 203",
+      "qNum": 152,
+      "tag": "MCQ 152",
       "question": "If he offered me a small part in his production, I'd leap _____ the chance.",
       "options": [
         {
@@ -5240,36 +4150,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 204,
-      "tag": "MCQ 204",
-      "question": "The decorations can be left _____ for another day.",
-      "options": [
-        {
-          "text": "up",
-          "correct": true
-        },
-        {
-          "text": "over",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 205,
-      "tag": "MCQ 205",
+      "qNum": 153,
+      "tag": "MCQ 153",
       "question": "I'll be lenient this time, but you won't be left _____ again.",
       "options": [
         {
@@ -5290,36 +4176,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 206,
-      "tag": "MCQ 206",
-      "question": "Who let _____ the details of the reshuffle in the department?",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "out",
-          "correct": true
-        },
-        {
-          "text": "over",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 207,
-      "tag": "MCQ 207",
+      "qNum": 154,
+      "tag": "MCQ 154",
       "question": "If you won't level _____ me we are not going to get anywhere.",
       "options": [
         {
@@ -5340,36 +4202,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 208,
-      "tag": "MCQ 208",
-      "question": "He always limbered _____ before his afternoon match.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 209,
-      "tag": "MCQ 209",
+      "qNum": 155,
+      "tag": "MCQ 155",
       "question": "Today these practices are no more, but their memories linger _____.",
       "options": [
         {
@@ -5390,36 +4228,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 210,
-      "tag": "MCQ 210",
-      "question": "I wish you'd stop listening _____ to my private conversations.",
-      "options": [
-        {
-          "text": "in",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 211,
-      "tag": "MCQ 211",
+      "qNum": 156,
+      "tag": "MCQ 156",
       "question": "You have lost all your money; now you must learn to live _____ the situation.",
       "options": [
         {
@@ -5440,36 +4254,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 212,
-      "tag": "MCQ 212",
-      "question": "We can not live _____ our moral pretension.",
-      "options": [
-        {
-          "text": "upto",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "onto",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 213,
-      "tag": "MCQ 213",
+      "qNum": 157,
+      "tag": "MCQ 157",
       "question": "A formal complaint is being lodged _____ the police inspector.",
       "options": [
         {
@@ -5490,36 +4280,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 214,
-      "tag": "MCQ 214",
-      "question": "It is a bleak look _____ for anyone hoping for quick profit.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "out",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 215,
-      "tag": "MCQ 215",
+      "qNum": 158,
+      "tag": "MCQ 158",
       "question": "Her letters betray a desperate desire not to lose touch _____ her beloved.",
       "options": [
         {
@@ -5540,36 +4306,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 216,
-      "tag": "MCQ 216",
-      "question": "I have heard many stories of bright young research workers being lured _____ only to find their position change for the work.",
-      "options": [
-        {
-          "text": "out",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "away",
-          "correct": true
-        },
-        {
-          "text": "around",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 217,
-      "tag": "MCQ 217",
+      "qNum": 159,
+      "tag": "MCQ 159",
       "question": "She was marked _____ by a fiery temper and a strain of intolerance.",
       "options": [
         {
@@ -5590,36 +4332,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 218,
-      "tag": "MCQ 218",
-      "question": "He was keen enough, but he simply did not match _____ the demands of the job.",
-      "options": [
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "upto",
-          "correct": true
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 219,
-      "tag": "MCQ 219",
+      "qNum": 160,
+      "tag": "MCQ 160",
       "question": "Some body has been meddling _____ the photographs I laid down so carefully.",
       "options": [
         {
@@ -5644,36 +4362,12 @@
         }
       ],
       "correctIndex": 4,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 220,
-      "tag": "MCQ 220",
-      "question": "It would take someone with the wisdom of Solomon to mediate _____ these two; both are so uttering convinced they are in the right.",
-      "options": [
-        {
-          "text": "between",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "among",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 221,
-      "tag": "MCQ 221",
+      "qNum": 161,
+      "tag": "MCQ 161",
       "question": "As a bright young recruit, he was moved _____ from our department to author to gain experience.",
       "options": [
         {
@@ -5694,36 +4388,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 222,
-      "tag": "MCQ 222",
-      "question": "We are moving _____ to new examination system.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": true
-        },
-        {
-          "text": "from",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 223,
-      "tag": "MCQ 223",
+      "qNum": 162,
+      "tag": "MCQ 162",
       "question": "The region is noted _____ its cattle.",
       "options": [
         {
@@ -5744,36 +4414,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 224,
-      "tag": "MCQ 224",
-      "question": "He is totally opposed _____ any change in the existing law.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "for",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 225,
-      "tag": "MCQ 225",
+      "qNum": 163,
+      "tag": "MCQ 163",
       "question": "Javed was ousted _____ his post as a result of manoeuverings by departmental rivals.",
       "options": [
         {
@@ -5794,36 +4440,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 226,
-      "tag": "MCQ 226",
-      "question": "He is not easily parted _____ his money.",
-      "options": [
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 227,
-      "tag": "MCQ 227",
+      "qNum": 164,
+      "tag": "MCQ 164",
       "question": "There high standards of craftsmanship have been passed _____ over four generations.",
       "options": [
         {
@@ -5844,36 +4466,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 228,
-      "tag": "MCQ 228",
-      "question": "All this anger that's pent _____ inside him has to break out from time to time.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 229,
-      "tag": "MCQ 229",
+      "qNum": 165,
+      "tag": "MCQ 165",
       "question": "He was very worried, so I suggested he could use some of the money, she jerked _____ at that.",
       "options": [
         {
@@ -5894,36 +4492,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 230,
-      "tag": "MCQ 230",
-      "question": "The line of action, I persisted _____, could lead to disaster.",
-      "options": [
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 231,
-      "tag": "MCQ 231",
+      "qNum": 166,
+      "tag": "MCQ 166",
       "question": "She is not very quick at picking _____ the language.",
       "options": [
         {
@@ -5944,36 +4518,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 232,
-      "tag": "MCQ 232",
-      "question": "After a day out in the field, they pitched _____ the food with a rare appetite.",
-      "options": [
-        {
-          "text": "onto",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": true
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 233,
-      "tag": "MCQ 233",
+      "qNum": 167,
+      "tag": "MCQ 167",
       "question": "Local businessmen pitched _____ an offer of Rs. 1,00,000 to cover advertising cost.",
       "options": [
         {
@@ -5994,36 +4544,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 234,
-      "tag": "MCQ 234",
-      "question": "They are planning _____ a three-fold increase in student number.",
-      "options": [
-        {
-          "text": "for",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "out",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 235,
-      "tag": "MCQ 235",
+      "qNum": 168,
+      "tag": "MCQ 168",
       "question": "Do you plan _____ staying with us for ever?",
       "options": [
         {
@@ -6044,36 +4570,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 236,
-      "tag": "MCQ 236",
-      "question": "At this age, children enjoy playing _____ pirates or kings.",
-      "options": [
-        {
-          "text": "at",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "onto",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 237,
-      "tag": "MCQ 237",
+      "qNum": 169,
+      "tag": "MCQ 169",
       "question": "The van broke through the bridge railing and plunged _____ twenty feet of water.",
       "options": [
         {
@@ -6094,36 +4596,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 238,
-      "tag": "MCQ 238",
-      "question": "He plunged _____ every debate organized by the society.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 239,
-      "tag": "MCQ 239",
+      "qNum": 170,
+      "tag": "MCQ 170",
       "question": "What are you doing poking _____ among my private papers.",
       "options": [
         {
@@ -6144,36 +4622,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 240,
-      "tag": "MCQ 240",
-      "question": "The rest of the pudding was polished _____ by the children.",
-      "options": [
-        {
-          "text": "away",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": true
-        },
-        {
-          "text": "of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 241,
-      "tag": "MCQ 241",
+      "qNum": 171,
+      "tag": "MCQ 171",
       "question": "The class teacher would pounce _____ every slip the child made, however, slight.",
       "options": [
         {
@@ -6194,36 +4648,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 242,
-      "tag": "MCQ 242",
-      "question": "Retiring members of the Board were precluded _____ seeking re-election for three years.",
-      "options": [
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 243,
-      "tag": "MCQ 243",
+      "qNum": 172,
+      "tag": "MCQ 172",
       "question": "He was presented _____ the keys of the city.",
       "options": [
         {
@@ -6244,36 +4674,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 244,
-      "tag": "MCQ 244",
-      "question": "They appear determined to press ahead _____ plans to increase the rate of Income Tax.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 245,
-      "tag": "MCQ 245",
+      "qNum": 173,
+      "tag": "MCQ 173",
       "question": "It is helpful in probing _____ the problem to make a statement about the patient's mental health and ill health.",
       "options": [
         {
@@ -6294,36 +4700,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 246,
-      "tag": "MCQ 246",
-      "question": "May we proceed _____ the election of the committee.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 247,
-      "tag": "MCQ 247",
+      "qNum": 174,
+      "tag": "MCQ 174",
       "question": "A clause in the agreement provides _____ the arbitration of all disputes by an independent body.",
       "options": [
         {
@@ -6344,36 +4726,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 248,
-      "tag": "MCQ 248",
-      "question": "She felt purged _____ all feelings of guilt.",
-      "options": [
-        {
-          "text": "of",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 249,
-      "tag": "MCQ 249",
+      "qNum": 175,
+      "tag": "MCQ 175",
       "question": "His arrival put heart _____ his subordinates.",
       "options": [
         {
@@ -6394,36 +4752,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 250,
-      "tag": "MCQ 250",
-      "question": "They did not put their trust _____ the information they received from the well tried and veteran staff of eighth army.",
-      "options": [
-        {
-          "text": "in",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 251,
-      "tag": "MCQ 251",
+      "qNum": 176,
+      "tag": "MCQ 176",
       "question": "Your proposal looks good on the paper, but I am not yet convinced it can be put _____ effect.",
       "options": [
         {
@@ -6444,36 +4778,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 252,
-      "tag": "MCQ 252",
-      "question": "There is not much optimism in the air, but at least both sides are putting a brave face _____ proceedings.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 253,
-      "tag": "MCQ 253",
+      "qNum": 177,
+      "tag": "MCQ 177",
       "question": "Then what is the trouble? 'Nothing explicit that I can put my finger _____.'",
       "options": [
         {
@@ -6494,36 +4804,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 254,
-      "tag": "MCQ 254",
-      "question": "A description of the wanted man has been put _____ to all mobile police patrol.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "about",
-          "correct": false
-        },
-        {
-          "text": "around",
-          "correct": false
-        },
-        {
-          "text": "out",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 255,
-      "tag": "MCQ 255",
+      "qNum": 178,
+      "tag": "MCQ 178",
       "question": "The committers' pro-posals were put _____ us briefly and force-fully.",
       "options": [
         {
@@ -6544,36 +4830,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 256,
-      "tag": "MCQ 256",
-      "question": "I am sure we can solve this problem if we can put our mind _____ it.",
-      "options": [
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 257,
-      "tag": "MCQ 257",
+      "qNum": 179,
+      "tag": "MCQ 179",
       "question": "He has puzzled _____ the figures for hours without being able to make head or tail of them.",
       "options": [
         {
@@ -6594,36 +4856,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 258,
-      "tag": "MCQ 258",
-      "question": "You qualify _____ the vote, but Hunza won't qualify till he is eighteen.",
-      "options": [
-        {
-          "text": "for",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 259,
-      "tag": "MCQ 259",
+      "qNum": 180,
+      "tag": "MCQ 180",
       "question": "Dangerous emissions radiate _____ plutonium.",
       "options": [
         {
@@ -6644,36 +4882,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 260,
-      "tag": "MCQ 260",
-      "question": "I tried to raise objection _____ the situation but it was no good.",
-      "options": [
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 261,
-      "tag": "MCQ 261",
+      "qNum": 181,
+      "tag": "MCQ 181",
       "question": "He rank _____ one of the most remarkable president of our time.",
       "options": [
         {
@@ -6694,36 +4908,12 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 262,
-      "tag": "MCQ 262",
-      "question": "Mr. Latif rattled _____ a list that seemed to contain everyone of any celebrity.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 263,
-      "tag": "MCQ 263",
+      "qNum": 182,
+      "tag": "MCQ 182",
       "question": "I found his company unbearable. He could rattle _____ for hours about absolutely nothing at all.",
       "options": [
         {
@@ -6744,36 +4934,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 264,
-      "tag": "MCQ 264",
-      "question": "I am afraid he can not be reasoned _____ making a public protest.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": true
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "out",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 265,
-      "tag": "MCQ 265",
+      "qNum": 183,
+      "tag": "MCQ 183",
       "question": "Investment in this area is reckoned _____ money poured down the drain.",
       "options": [
         {
@@ -6794,36 +4960,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 266,
-      "tag": "MCQ 266",
-      "question": "When you submit your claim, don't forget to reckon _____ the money spent on petrol.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        },
-        {
-          "text": "over",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 267,
-      "tag": "MCQ 267",
+      "qNum": 184,
+      "tag": "MCQ 184",
       "question": "Water can be reduced _____ oxygen and hydrogen by electrolysis.",
       "options": [
         {
@@ -6844,36 +4986,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 268,
-      "tag": "MCQ 268",
-      "question": "The minister referred _____ the importance to the nation of increased exports.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "onto",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 269,
-      "tag": "MCQ 269",
+      "qNum": 185,
+      "tag": "MCQ 185",
       "question": "I wish he would refrain _____ scattering his ash all over the carpet.",
       "options": [
         {
@@ -6894,36 +5012,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 270,
-      "tag": "MCQ 270",
-      "question": "If you would like to put in an application I am sure it will be regarded _____ sympathy.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 271,
-      "tag": "MCQ 271",
+      "qNum": 186,
+      "tag": "MCQ 186",
       "question": "He thought himself amply reimbursed _____ the loss of his cycle.",
       "options": [
         {
@@ -6944,461 +5038,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 272,
-      "tag": "MCQ 272",
-      "question": "He is not the kind of man to rejoice _____ other people's misfortunes.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 273,
-      "tag": "MCQ 273",
-      "question": "He is proud _____ his wealth.",
-      "options": [
-        {
-          "text": "On",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": false
-        },
-        {
-          "text": "Into",
-          "correct": false
-        },
-        {
-          "text": "Of",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 274,
-      "tag": "MCQ 274",
-      "question": "We are answerable _____ God.",
-      "options": [
-        {
-          "text": "To",
-          "correct": true
-        },
-        {
-          "text": "Before",
-          "correct": false
-        },
-        {
-          "text": "For",
-          "correct": false
-        },
-        {
-          "text": "Of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 275,
-      "tag": "MCQ 275",
-      "question": "He cannot stop you _____ coming here.",
-      "options": [
-        {
-          "text": "At",
-          "correct": false
-        },
-        {
-          "text": "By",
-          "correct": false
-        },
-        {
-          "text": "From",
-          "correct": true
-        },
-        {
-          "text": "To",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 276,
-      "tag": "MCQ 276",
-      "question": "He lives _____ a small income.",
-      "options": [
-        {
-          "text": "On",
-          "correct": true
-        },
-        {
-          "text": "At",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 277,
-      "tag": "MCQ 277",
-      "question": "Students are advised to write their names _____ ink.",
-      "options": [
-        {
-          "text": "Through",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": true
-        },
-        {
-          "text": "By",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 278,
-      "tag": "MCQ 278",
-      "question": "I am astonished _____ his behaviour.",
-      "options": [
-        {
-          "text": "To",
-          "correct": false
-        },
-        {
-          "text": "At",
-          "correct": true
-        },
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "On",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 279,
-      "tag": "MCQ 279",
-      "question": "A monkey is not capable _____ flying in the air.",
-      "options": [
-        {
-          "text": "At",
-          "correct": false
-        },
-        {
-          "text": "From",
-          "correct": false
-        },
-        {
-          "text": "Of",
-          "correct": true
-        },
-        {
-          "text": "With",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 280,
-      "tag": "MCQ 280",
-      "question": "Health is preferable _____ riches.",
-      "options": [
-        {
-          "text": "On",
-          "correct": false
-        },
-        {
-          "text": "Of",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": true
-        },
-        {
-          "text": "Upon",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 281,
-      "tag": "MCQ 281",
-      "question": "Every student is familiar _____ the name of Mohammad Ali Jinnah.",
-      "options": [
-        {
-          "text": "To",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": true
-        },
-        {
-          "text": "By",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 282,
-      "tag": "MCQ 282",
-      "question": "He is interested _____ stamp collection.",
-      "options": [
-        {
-          "text": "At",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": true
-        },
-        {
-          "text": "Of",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 283,
-      "tag": "MCQ 283",
-      "question": "The boat sailed _____ the bridge.",
-      "options": [
-        {
-          "text": "Through",
-          "correct": false
-        },
-        {
-          "text": "Off",
-          "correct": false
-        },
-        {
-          "text": "Under",
-          "correct": true
-        },
-        {
-          "text": "From",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 284,
-      "tag": "MCQ 284",
-      "question": "He used to live _____ comfort.",
-      "options": [
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": true
-        },
-        {
-          "text": "By",
-          "correct": false
-        },
-        {
-          "text": "On",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 285,
-      "tag": "MCQ 285",
-      "question": "He went _____ the direction of the post office.",
-      "options": [
-        {
-          "text": "In",
-          "correct": true
-        },
-        {
-          "text": "At",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": false
-        },
-        {
-          "text": "On",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 286,
-      "tag": "MCQ 286",
-      "question": "He is interested _____ stamp collection.",
-      "options": [
-        {
-          "text": "At",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": true
-        },
-        {
-          "text": "Of",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 287,
-      "tag": "MCQ 287",
-      "question": "The boat sailed _____ the bridge. [duplicate of Q211 in source]",
-      "options": [
-        {
-          "text": "Through",
-          "correct": false
-        },
-        {
-          "text": "Off",
-          "correct": false
-        },
-        {
-          "text": "Under",
-          "correct": true
-        },
-        {
-          "text": "From",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 288,
-      "tag": "MCQ 288",
-      "question": "He used to live _____ comfort. [duplicate of Q212 in source]",
-      "options": [
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": true
-        },
-        {
-          "text": "By",
-          "correct": false
-        },
-        {
-          "text": "On",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 289,
-      "tag": "MCQ 289",
-      "question": "He went _____ the direction of the post office. [duplicate of Q213 in source]",
-      "options": [
-        {
-          "text": "In",
-          "correct": true
-        },
-        {
-          "text": "At",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": false
-        },
-        {
-          "text": "On",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 290,
-      "tag": "MCQ 290",
+      "qNum": 187,
+      "tag": "MCQ 187",
       "question": "To hesitate:",
       "options": [
         {
@@ -7419,136 +5064,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Synonyms"
     },
     {
-      "qNum": 291,
-      "tag": "MCQ 291",
-      "question": "Let us him _____ producing something original.",
-      "options": [
-        {
-          "text": "On",
-          "correct": true
-        },
-        {
-          "text": "At",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": false
-        },
-        {
-          "text": "For",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 292,
-      "tag": "MCQ 292",
-      "question": "A robber broke _____ his house last night and took away a lot of valuables.",
-      "options": [
-        {
-          "text": "By",
-          "correct": false
-        },
-        {
-          "text": "On",
-          "correct": false
-        },
-        {
-          "text": "Into",
-          "correct": true
-        },
-        {
-          "text": "In",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 293,
-      "tag": "MCQ 293",
-      "question": "I invited all your friends but none of them turned _____.",
-      "options": [
-        {
-          "text": "On",
-          "correct": false
-        },
-        {
-          "text": "Off",
-          "correct": false
-        },
-        {
-          "text": "Up",
-          "correct": true
-        },
-        {
-          "text": "Into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 294,
-      "tag": "MCQ 294",
-      "question": "His reply was such _____ I expected him to give.",
-      "options": [
-        {
-          "text": "That",
-          "correct": false
-        },
-        {
-          "text": "Which",
-          "correct": false
-        },
-        {
-          "text": "As",
-          "correct": true
-        },
-        {
-          "text": "When",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 295,
-      "tag": "MCQ 295",
-      "question": "He is grateful _____ his friends.",
-      "options": [
-        {
-          "text": "For",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": true
-        },
-        {
-          "text": "By",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 296,
-      "tag": "MCQ 296",
+      "qNum": 188,
+      "tag": "MCQ 188",
       "question": "In a sentence \"no sooner\" is always followed by:",
       "options": [
         {
@@ -7569,861 +5090,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     },
     {
-      "qNum": 297,
-      "tag": "MCQ 297",
-      "question": "He was deaf _____ all our requests.",
-      "options": [
-        {
-          "text": "At",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": true
-        },
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "On",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 298,
-      "tag": "MCQ 298",
-      "question": "Regular exercise is beneficial _____ health.",
-      "options": [
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "For",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": true
-        },
-        {
-          "text": "Of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 299,
-      "tag": "MCQ 299",
-      "question": "I agreed _____ my brother's proposal and went with him.",
-      "options": [
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "Of",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": true
-        },
-        {
-          "text": "On",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 300,
-      "tag": "MCQ 300",
-      "question": "He is carrying _____ a trade in computer equipment.",
-      "options": [
-        {
-          "text": "Of",
-          "correct": false
-        },
-        {
-          "text": "Out",
-          "correct": false
-        },
-        {
-          "text": "After",
-          "correct": false
-        },
-        {
-          "text": "On",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 301,
-      "tag": "MCQ 301",
-      "question": "The Government should care _____ the victims of the recent floods.",
-      "options": [
-        {
-          "text": "For",
-          "correct": true
-        },
-        {
-          "text": "To",
-          "correct": false
-        },
-        {
-          "text": "Of",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 302,
-      "tag": "MCQ 302",
-      "question": "Wapda has cut _____ his electricity supply due to non-payments of dues.",
-      "options": [
-        {
-          "text": "Down",
-          "correct": false
-        },
-        {
-          "text": "Out",
-          "correct": false
-        },
-        {
-          "text": "Up",
-          "correct": false
-        },
-        {
-          "text": "Off",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 303,
-      "tag": "MCQ 303",
-      "question": "One of the runners dropped _____ due to an accident.",
-      "options": [
-        {
-          "text": "In",
-          "correct": false
-        },
-        {
-          "text": "Out",
-          "correct": true
-        },
-        {
-          "text": "Off",
-          "correct": false
-        },
-        {
-          "text": "Away",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 304,
-      "tag": "MCQ 304",
-      "question": "It is better for you to comply _____ your parents wishes.",
-      "options": [
-        {
-          "text": "With",
-          "correct": true
-        },
-        {
-          "text": "To",
-          "correct": false
-        },
-        {
-          "text": "By",
-          "correct": false
-        },
-        {
-          "text": "For",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 305,
-      "tag": "MCQ 305",
-      "question": "Who had been knocking _____ the door?",
-      "options": [
-        {
-          "text": "At",
-          "correct": true
-        },
-        {
-          "text": "On",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": false
-        },
-        {
-          "text": "Out",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 306,
-      "tag": "MCQ 306",
-      "question": "He lives _____ Model Town _____ Lahore.",
-      "options": [
-        {
-          "text": "In, At",
-          "correct": true
-        },
-        {
-          "text": "In, On",
-          "correct": false
-        },
-        {
-          "text": "In, In",
-          "correct": false
-        },
-        {
-          "text": "At, In",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 307,
-      "tag": "MCQ 307",
-      "question": "Finally, he was absolved _____ all the charges.",
-      "options": [
-        {
-          "text": "From",
-          "correct": true
-        },
-        {
-          "text": "Of",
-          "correct": false
-        },
-        {
-          "text": "For",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 308,
-      "tag": "MCQ 308",
-      "question": "Alcohol is injurious _____ health.",
-      "options": [
-        {
-          "text": "For",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": true
-        },
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "Of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 309,
-      "tag": "MCQ 309",
-      "question": "The old man is blind _____ one eye.",
-      "options": [
-        {
-          "text": "From",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": true
-        },
-        {
-          "text": "Of",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 310,
-      "tag": "MCQ 310",
-      "question": "It is ten O'clock _____ my watch.",
-      "options": [
-        {
-          "text": "By",
-          "correct": true
-        },
-        {
-          "text": "On",
-          "correct": false
-        },
-        {
-          "text": "In",
-          "correct": false
-        },
-        {
-          "text": "With",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 311,
-      "tag": "MCQ 311",
-      "question": "He agreed _____ my proposal.",
-      "options": [
-        {
-          "text": "With",
-          "correct": false
-        },
-        {
-          "text": "For",
-          "correct": false
-        },
-        {
-          "text": "To",
-          "correct": true
-        },
-        {
-          "text": "On",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 312,
-      "tag": "MCQ 312",
-      "question": "The policeman's story conflicts _____ that of the accused.",
-      "options": [
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 313,
-      "tag": "MCQ 313",
-      "question": "The debate adjourned _____ the following week.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 314,
-      "tag": "MCQ 314",
-      "question": "A young police officer was charged _____ the tasks of transporting the prisoners.",
-      "options": [
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "by",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 315,
-      "tag": "MCQ 315",
-      "question": "There has been a complete break _____ of law and order in the country.",
-      "options": [
-        {
-          "text": "up",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": false
-        },
-        {
-          "text": "down",
-          "correct": true
-        },
-        {
-          "text": "of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 316,
-      "tag": "MCQ 316",
-      "question": "He is very particular _____ his clothes.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "about",
-          "correct": true
-        },
-        {
-          "text": "for",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 317,
-      "tag": "MCQ 317",
-      "question": "Do not shout _____ me I am not deaf.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": true
-        },
-        {
-          "text": "upon",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 318,
-      "tag": "MCQ 318",
-      "question": "He is _____ M.A History.",
-      "options": [
-        {
-          "text": "a",
-          "correct": false
-        },
-        {
-          "text": "an",
-          "correct": true
-        },
-        {
-          "text": "the",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 319,
-      "tag": "MCQ 319",
-      "question": "The defeated army fled _____ the battlefield.",
-      "options": [
-        {
-          "text": "about",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": true
-        },
-        {
-          "text": "off",
-          "correct": false
-        },
-        {
-          "text": "by",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 320,
-      "tag": "MCQ 320",
-      "question": "They learnt to cook _____ their mothers.",
-      "options": [
-        {
-          "text": "by",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "through",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 321,
-      "tag": "MCQ 321",
-      "question": "He was _____ such a hurry that he forgot his keys.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "by",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 322,
-      "tag": "MCQ 322",
-      "question": "The fire was finally brought _____ control.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "under",
-          "correct": true
-        },
-        {
-          "text": "at",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 323,
-      "tag": "MCQ 323",
-      "question": "I was annoyed _____ my mistake.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 324,
-      "tag": "MCQ 324",
-      "question": "Is he eligible _____ this scholarship?",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 325,
-      "tag": "MCQ 325",
-      "question": "I am greatly indebted _____ you for your help.",
-      "options": [
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "of",
-          "correct": false
-        },
-        {
-          "text": "by",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 326,
-      "tag": "MCQ 326",
-      "question": "He was sorry _____ his failure.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": ""
-    },
-    {
-      "qNum": 327,
-      "tag": "MCQ 327",
-      "question": "He has resigned and will hand _____ charge of his post today?",
-      "options": [
-        {
-          "text": "out",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": true
-        },
-        {
-          "text": "off",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 328,
-      "tag": "MCQ 328",
-      "question": "His father passed _____ last night?",
-      "options": [
-        {
-          "text": "out",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": false
-        },
-        {
-          "text": "away",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 329,
-      "tag": "MCQ 329",
-      "question": "This merchant deals _____ silk goods?",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "about",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": ""
-    },
-    {
-      "qNum": 330,
-      "tag": "MCQ 330",
-      "question": "He went _____ the direction of the post office.",
-      "options": [
-        {
-          "text": "at",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": ""
-    },
-    {
-      "qNum": 331,
-      "tag": "MCQ 331",
+      "qNum": 189,
+      "tag": "MCQ 189",
       "question": "He is interested _____ coin collection.",
       "options": [
         {
@@ -8444,11 +5116,12 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 332,
-      "tag": "MCQ 332",
+      "qNum": 190,
+      "tag": "MCQ 190",
       "question": "Smoking in injurious _____ health.",
       "options": [
         {
@@ -8461,36 +5134,12 @@
         }
       ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 333,
-      "tag": "MCQ 333",
-      "question": "He agreed _____ my proposal.",
-      "options": [
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "qNum": 334,
-      "tag": "MCQ 334",
+      "qNum": 191,
+      "tag": "MCQ 191",
       "question": "The cake was shared _____ Amjad and Shakeel.",
       "options": [
         {
@@ -8511,11 +5160,12 @@
         }
       ],
       "correctIndex": 2,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
     },
     {
-      "qNum": 335,
-      "tag": "MCQ 335",
+      "qNum": 192,
+      "tag": "MCQ 192",
       "question": "The teacher asked the students to complete their assignment _____ Monday.",
       "options": [
         {
@@ -8536,7 +5186,528 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": ""
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 193,
+      "tag": "MCQ 193 (Past Paper 2024)",
+      "question": "Q193. _______ then was studying for his exams, his brother was playing games on his tablet.",
+      "options": [
+        {
+          "text": "A) Despite",
+          "correct": false
+        },
+        {
+          "text": "B) While",
+          "correct": true
+        },
+        {
+          "text": "C) Because",
+          "correct": false
+        },
+        {
+          "text": "D) Since",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 194,
+      "tag": "MCQ 194 (Past Paper 2024)",
+      "question": "Q194. It's better to speak the truth and be punished _______ tell a lie and be rewarded.",
+      "options": [
+        {
+          "text": "A) Then",
+          "correct": false
+        },
+        {
+          "text": "B) Instead",
+          "correct": false
+        },
+        {
+          "text": "C) Than",
+          "correct": true
+        },
+        {
+          "text": "D) Rather",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 195,
+      "tag": "MCQ 195 (Past Paper 2024)",
+      "question": "Q195. In the sentence: 'the factory had been set ablaze', the bold italicized expression can be replaced by:",
+      "options": [
+        {
+          "text": "A) Put in trouble",
+          "correct": false
+        },
+        {
+          "text": "B) Set on fire",
+          "correct": true
+        },
+        {
+          "text": "C) Set in train",
+          "correct": false
+        },
+        {
+          "text": "D) Scattered to pieces",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Idioms & Phrases"
+    },
+    {
+      "qNum": 196,
+      "tag": "MCQ 196 (Past Paper 2024)",
+      "question": "Q196. The economic policy of every country should aim to _______ the gap between the rich and the poor.",
+      "options": [
+        {
+          "text": "A) Tighten",
+          "correct": false
+        },
+        {
+          "text": "B) Bridge",
+          "correct": true
+        },
+        {
+          "text": "C) Empower",
+          "correct": false
+        },
+        {
+          "text": "D) Cement",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 197,
+      "tag": "MCQ 197 (Past Paper 2024)",
+      "question": "Q197. Advertising _______ used to sell products since at least as early as the invention of the printing press.",
+      "options": [
+        {
+          "text": "A) Has been",
+          "correct": true
+        },
+        {
+          "text": "B) Had been",
+          "correct": false
+        },
+        {
+          "text": "C) Has had",
+          "correct": false
+        },
+        {
+          "text": "D) Have been",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 198,
+      "tag": "MCQ 198 (Past Paper 2024)",
+      "question": "Q198. It is impossible to put up _______ some people as they are annoying beyond limits.",
+      "options": [
+        {
+          "text": "A) At",
+          "correct": false
+        },
+        {
+          "text": "B) On",
+          "correct": false
+        },
+        {
+          "text": "C) By",
+          "correct": false
+        },
+        {
+          "text": "D) With",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 199,
+      "tag": "MCQ 199 (Past Paper 2024)",
+      "question": "Q199. Children often become rebellious when parents _______ unnecessary restrictions on them.",
+      "options": [
+        {
+          "text": "A) Impeach",
+          "correct": false
+        },
+        {
+          "text": "B) Impale",
+          "correct": false
+        },
+        {
+          "text": "C) Impose",
+          "correct": true
+        },
+        {
+          "text": "D) Implement",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 200,
+      "tag": "MCQ 200 (Past Paper 2024)",
+      "question": "Q200. If you enter the competition, you must agree to abide _______ the rules.",
+      "options": [
+        {
+          "text": "A) With",
+          "correct": false
+        },
+        {
+          "text": "B) At",
+          "correct": false
+        },
+        {
+          "text": "C) To",
+          "correct": false
+        },
+        {
+          "text": "D) By",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 201,
+      "tag": "MCQ 201 (Past Paper 2024)",
+      "question": "Q201. If she _______ warm clothes, she wouldn't catch cold.",
+      "options": [
+        {
+          "text": "A) Wears",
+          "correct": false
+        },
+        {
+          "text": "B) Warn",
+          "correct": false
+        },
+        {
+          "text": "C) Wear",
+          "correct": false
+        },
+        {
+          "text": "D) Wore",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 202,
+      "tag": "MCQ 202 (Past Paper 2024)",
+      "question": "Q202. Whether to quit or continue the current job is a _______ decision for many employees who are not happy at their workplace.",
+      "options": [
+        {
+          "text": "A) Monetary",
+          "correct": false
+        },
+        {
+          "text": "B) Momentary",
+          "correct": false
+        },
+        {
+          "text": "C) Momentous",
+          "correct": true
+        },
+        {
+          "text": "D) Momentum",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 203,
+      "tag": "MCQ 203 (Past Paper 2024)",
+      "question": "Q203. _______ some teachers do not have sufficient command of the subject they teach, they fail to impart the required knowledge to their students.",
+      "options": [
+        {
+          "text": "A) Though",
+          "correct": false
+        },
+        {
+          "text": "B) While",
+          "correct": false
+        },
+        {
+          "text": "C) Although",
+          "correct": false
+        },
+        {
+          "text": "D) Since",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 204,
+      "tag": "MCQ 204 (Past Paper 2024)",
+      "question": "Q204. Identify the sentence that is ungrammatical:",
+      "options": [
+        {
+          "text": "A) I do not agree with you",
+          "correct": false
+        },
+        {
+          "text": "B) I am agree with you",
+          "correct": true
+        },
+        {
+          "text": "C) I agree with you",
+          "correct": false
+        },
+        {
+          "text": "D) I disagree with you",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 205,
+      "tag": "MCQ 205 (Past Paper 2024)",
+      "question": "Q205. Complete the sentence by choosing the correct idiomatic expression according to the context: 'Some government employees are rarely seen in their office as they visit their workplace _______.'",
+      "options": [
+        {
+          "text": "A) Once in a blue moon",
+          "correct": true
+        },
+        {
+          "text": "B) Over the moon",
+          "correct": false
+        },
+        {
+          "text": "C) In the Moon",
+          "correct": false
+        },
+        {
+          "text": "D) To the moon and back",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Idioms & Phrases"
+    },
+    {
+      "qNum": 206,
+      "tag": "MCQ 206 (Past Paper 2024)",
+      "question": "Q206. If I had been aware of the hypocrisy, I _______ them in the first place.",
+      "options": [
+        {
+          "text": "A) Won't have trusted",
+          "correct": false
+        },
+        {
+          "text": "B) Wouldn't trusted",
+          "correct": false
+        },
+        {
+          "text": "C) Couldn't trust",
+          "correct": false
+        },
+        {
+          "text": "D) Wouldn't have trusted",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 207,
+      "tag": "MCQ 207 (Past Paper 2024)",
+      "question": "Q207. The director's _______ decisions resulted in the company's financial downfall.",
+      "options": [
+        {
+          "text": "A) Judicious",
+          "correct": false
+        },
+        {
+          "text": "B) Impudent",
+          "correct": true
+        },
+        {
+          "text": "C) Scrupulous",
+          "correct": false
+        },
+        {
+          "text": "D) Imprudent",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 208,
+      "tag": "MCQ 208 (Past Paper 2024)",
+      "question": "Q208. The bold underlined word in the given sentence means: 'her altruism ... her in spend most of the time volunteering various charities.'",
+      "options": [
+        {
+          "text": "A) Selfless",
+          "correct": true
+        },
+        {
+          "text": "B) Generous",
+          "correct": false
+        },
+        {
+          "text": "C) Insufficient",
+          "correct": false
+        },
+        {
+          "text": "D) Egoistic",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Synonyms"
+    },
+    {
+      "qNum": 209,
+      "tag": "MCQ 209 (Past Paper 2024)",
+      "question": "Q209. As per the law you _______ wear a helmet when riding a motorcycle.",
+      "options": [
+        {
+          "text": "A) Must",
+          "correct": true
+        },
+        {
+          "text": "B) Should",
+          "correct": false
+        },
+        {
+          "text": "C) Can",
+          "correct": false
+        },
+        {
+          "text": "D) May",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 210,
+      "tag": "MCQ 210 (Past Paper 2024)",
+      "question": "Q210. If I _______ enough money, I would have bought a new laptop.",
+      "options": [
+        {
+          "text": "A) Would have",
+          "correct": false
+        },
+        {
+          "text": "B) Will have",
+          "correct": false
+        },
+        {
+          "text": "C) Have had",
+          "correct": true
+        },
+        {
+          "text": "D) Had had",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 211,
+      "tag": "MCQ 211 (Past Paper 2024)",
+      "question": "Q211. This task is far _______ challenging than the one we did last week.",
+      "options": [
+        {
+          "text": "A) Too",
+          "correct": false
+        },
+        {
+          "text": "B) Much",
+          "correct": false
+        },
+        {
+          "text": "C) More",
+          "correct": true
+        },
+        {
+          "text": "D) Most",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 212,
+      "tag": "MCQ 212 (Past Paper 2024)",
+      "question": "Q212. Many children are afraid _______ the dark.",
+      "options": [
+        {
+          "text": "A) With",
+          "correct": false
+        },
+        {
+          "text": "B) Of",
+          "correct": true
+        },
+        {
+          "text": "C) In",
+          "correct": false
+        },
+        {
+          "text": "D) By",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Prepositions"
     }
   ]
 }
