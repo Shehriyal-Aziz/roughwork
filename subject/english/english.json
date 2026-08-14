@@ -3,20 +3,16 @@
     "title": "English — MCQ Notes (KU Past Papers)",
     "heading": "📚 English — MCQ Notes (KU Past Papers)",
     "description": "Karachi University past-paper MCQ bank — grammar & sentence completion, synonyms, antonyms, analogies, parts of speech, vocabulary. Source: KU_ENGLISH_PAST_PAPERS.pdf.",
-    "footer": "🎓 Total: 212 MCQs (Q1-212) | Source: Karachi University Past Papers (English) + Past Paper 2024",
-    "total": 212,
+    "footer": "🎓 Total: 227 MCQs | Source: Karachi University Past Papers (English) + Past Paper 2025",
+    "total": 227,
     "topics": [
       {
-        "name": "Grammar & Sentence Completion",
-        "count": 61
-      },
-      {
         "name": "Synonyms",
-        "count": 12
+        "count": 17
       },
       {
         "name": "Antonyms",
-        "count": 10
+        "count": 14
       },
       {
         "name": "Analogies",
@@ -28,1319 +24,23 @@
       },
       {
         "name": "Vocabulary in Context",
-        "count": 14
-      },
-      {
-        "name": "Idioms & Phrases",
-        "count": 2
+        "count": 23
       },
       {
         "name": "Prepositions",
-        "count": 93
+        "count": 50
+      },
+      {
+        "name": "Grammar & Sentence Completion",
+        "count": 99
+      },
+      {
+        "name": "Idioms & Phrases",
+        "count": 4
       }
     ]
   },
   "questions": [
-    {
-      "qNum": 1,
-      "tag": "MCQ 1",
-      "question": "Q1. While UK has earned record revenue this year, _______ well behind in exports.",
-      "options": [
-        {
-          "text": "A) it still lag",
-          "correct": false
-        },
-        {
-          "text": "B) it still lags",
-          "correct": true
-        },
-        {
-          "text": "C) it lag still",
-          "correct": false
-        },
-        {
-          "text": "D) it lags still",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 2,
-      "tag": "MCQ 2",
-      "question": "Q2. Anna and Tania went shopping, but _______ couldn't find anything _______ liked.",
-      "options": [
-        {
-          "text": "A) they, those",
-          "correct": false
-        },
-        {
-          "text": "B) they, them",
-          "correct": false
-        },
-        {
-          "text": "C) those, they",
-          "correct": false
-        },
-        {
-          "text": "D) they, they",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 3,
-      "tag": "MCQ 3",
-      "question": "Q3. Nuclear energy is _______ dangerous to be used widely.",
-      "options": [
-        {
-          "text": "A) so",
-          "correct": false
-        },
-        {
-          "text": "B) such",
-          "correct": false
-        },
-        {
-          "text": "C) too",
-          "correct": true
-        },
-        {
-          "text": "D) that",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 4,
-      "tag": "MCQ 4",
-      "question": "Q4. If I have money, I _______ it tomorrow.",
-      "options": [
-        {
-          "text": "A) will purchase",
-          "correct": true
-        },
-        {
-          "text": "B) would purchase",
-          "correct": false
-        },
-        {
-          "text": "C) have purchase",
-          "correct": false
-        },
-        {
-          "text": "D) have purchased",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 5,
-      "tag": "MCQ 5",
-      "question": "Q5. Cannon had _______ unique qualities _______ it was used widely in ancient times.",
-      "options": [
-        {
-          "text": "A) such, that",
-          "correct": true
-        },
-        {
-          "text": "B) such, so",
-          "correct": false
-        },
-        {
-          "text": "C) that, since",
-          "correct": false
-        },
-        {
-          "text": "D) that, that",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 6,
-      "tag": "MCQ 6",
-      "question": "Q6. She succeeded by _______ hard.",
-      "options": [
-        {
-          "text": "A) work",
-          "correct": false
-        },
-        {
-          "text": "B) working",
-          "correct": true
-        },
-        {
-          "text": "C) continuous work",
-          "correct": false
-        },
-        {
-          "text": "D) continuous working",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 7,
-      "tag": "MCQ 7",
-      "question": "Q7. Katherine made her children _______ chores on Sunday.",
-      "options": [
-        {
-          "text": "A) make some",
-          "correct": false
-        },
-        {
-          "text": "B) take some",
-          "correct": false
-        },
-        {
-          "text": "C) do some",
-          "correct": true
-        },
-        {
-          "text": "D) does some",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 8,
-      "tag": "MCQ 8",
-      "question": "Q8. I enjoy _______ tennis.",
-      "options": [
-        {
-          "text": "A) to play",
-          "correct": false
-        },
-        {
-          "text": "B) plays",
-          "correct": false
-        },
-        {
-          "text": "C) playing",
-          "correct": true
-        },
-        {
-          "text": "D) to playing",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 9,
-      "tag": "MCQ 9",
-      "question": "Q9. Most of the guests arrived _______ buses.",
-      "options": [
-        {
-          "text": "A) with",
-          "correct": false
-        },
-        {
-          "text": "B) by",
-          "correct": false
-        },
-        {
-          "text": "C) from",
-          "correct": false
-        },
-        {
-          "text": "D) in",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 10,
-      "tag": "MCQ 10",
-      "question": "Q10. The departmental store is open _______ eight to seven.",
-      "options": [
-        {
-          "text": "A) by",
-          "correct": false
-        },
-        {
-          "text": "B) from",
-          "correct": true
-        },
-        {
-          "text": "C) between",
-          "correct": false
-        },
-        {
-          "text": "D) during",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 11,
-      "tag": "MCQ 11",
-      "question": "Q11. On leaving the shopping plaza, Kate was robbed _______ purse.",
-      "options": [
-        {
-          "text": "A) by her",
-          "correct": false
-        },
-        {
-          "text": "B) by hers",
-          "correct": false
-        },
-        {
-          "text": "C) of her",
-          "correct": true
-        },
-        {
-          "text": "D) of hers",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 12,
-      "tag": "MCQ 12",
-      "question": "Q12. If I had money, I _______ it now.",
-      "options": [
-        {
-          "text": "A) will purchase",
-          "correct": false
-        },
-        {
-          "text": "B) would purchase",
-          "correct": true
-        },
-        {
-          "text": "C) would have purchased",
-          "correct": false
-        },
-        {
-          "text": "D) have purchased",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 13,
-      "tag": "MCQ 13",
-      "question": "Q13. The man _______ you met is an anchorperson.",
-      "options": [
-        {
-          "text": "A) who",
-          "correct": false
-        },
-        {
-          "text": "B) whose",
-          "correct": false
-        },
-        {
-          "text": "C) whom",
-          "correct": true
-        },
-        {
-          "text": "D) which",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 14,
-      "tag": "MCQ 14",
-      "question": "Q14. The woman _______ is standing by the table works in electronic media.",
-      "options": [
-        {
-          "text": "A) who",
-          "correct": true
-        },
-        {
-          "text": "B) whose",
-          "correct": false
-        },
-        {
-          "text": "C) whom",
-          "correct": false
-        },
-        {
-          "text": "D) which",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 15,
-      "tag": "MCQ 15",
-      "question": "Q15. He is looking for accommodation _______ in flat or shared house.",
-      "options": [
-        {
-          "text": "A) both",
-          "correct": false
-        },
-        {
-          "text": "B) until",
-          "correct": false
-        },
-        {
-          "text": "C) neither",
-          "correct": false
-        },
-        {
-          "text": "D) either",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 16,
-      "tag": "MCQ 16",
-      "question": "Q16. You can go neither by train _______ by bus.",
-      "options": [
-        {
-          "text": "A) no",
-          "correct": false
-        },
-        {
-          "text": "B) nor",
-          "correct": true
-        },
-        {
-          "text": "C) or",
-          "correct": false
-        },
-        {
-          "text": "D) and",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 17,
-      "tag": "MCQ 17",
-      "question": "Q17. Before designing a public park, the architect must _______ the public.",
-      "options": [
-        {
-          "text": "A) consider",
-          "correct": true
-        },
-        {
-          "text": "B) considers",
-          "correct": false
-        },
-        {
-          "text": "C) recognize",
-          "correct": false
-        },
-        {
-          "text": "D) recognizes",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 18,
-      "tag": "MCQ 18",
-      "question": "Q18. When she was younger, she _______ five kilometers a day.",
-      "options": [
-        {
-          "text": "A) walked",
-          "correct": true
-        },
-        {
-          "text": "B) had walked",
-          "correct": false
-        },
-        {
-          "text": "C) has been walking",
-          "correct": false
-        },
-        {
-          "text": "D) had been walking",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 19,
-      "tag": "MCQ 19",
-      "question": "Q19. The house is large _______ is quite old-fashioned.",
-      "options": [
-        {
-          "text": "A) and",
-          "correct": false
-        },
-        {
-          "text": "B) or",
-          "correct": false
-        },
-        {
-          "text": "C) which",
-          "correct": false
-        },
-        {
-          "text": "D) but",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 20,
-      "tag": "MCQ 20",
-      "question": "Q20. We need to find _______ method to solve this problem.",
-      "options": [
-        {
-          "text": "A) other",
-          "correct": false
-        },
-        {
-          "text": "B) the other",
-          "correct": false
-        },
-        {
-          "text": "C) another",
-          "correct": true
-        },
-        {
-          "text": "D) others",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 21,
-      "tag": "MCQ 21",
-      "question": "Q21. The students in our school are _______ in other schools.",
-      "options": [
-        {
-          "text": "A) smarter",
-          "correct": false
-        },
-        {
-          "text": "B) smarter than",
-          "correct": false
-        },
-        {
-          "text": "C) smarter than those",
-          "correct": true
-        },
-        {
-          "text": "D) more smarter than",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 22,
-      "tag": "MCQ 22",
-      "question": "Q22. The number of web entrepreneurs _______ increasing every year.",
-      "options": [
-        {
-          "text": "A) is",
-          "correct": true
-        },
-        {
-          "text": "B) are",
-          "correct": false
-        },
-        {
-          "text": "C) has been",
-          "correct": false
-        },
-        {
-          "text": "D) have been",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 23,
-      "tag": "MCQ 23",
-      "question": "Q23. Write down _______ your name and roll number.",
-      "options": [
-        {
-          "text": "A) both",
-          "correct": true
-        },
-        {
-          "text": "B) either",
-          "correct": false
-        },
-        {
-          "text": "C) neither",
-          "correct": false
-        },
-        {
-          "text": "D) not only",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 24,
-      "tag": "MCQ 24",
-      "question": "Q24. Compressed Natural Gas (CNG) burns less efficiently than gasoline _______.",
-      "options": [
-        {
-          "text": "A) burn",
-          "correct": false
-        },
-        {
-          "text": "B) burns",
-          "correct": true
-        },
-        {
-          "text": "C) should burn",
-          "correct": false
-        },
-        {
-          "text": "D) would burn",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 25,
-      "tag": "MCQ 25",
-      "question": "Q25. Oxygen can be mixed with _______ gasses such as Hydrogen, Nitrogen and Chlorine.",
-      "options": [
-        {
-          "text": "A) another like",
-          "correct": false
-        },
-        {
-          "text": "B) another",
-          "correct": false
-        },
-        {
-          "text": "C) the other",
-          "correct": false
-        },
-        {
-          "text": "D) other",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 26,
-      "tag": "MCQ 26",
-      "question": "Q26. The man _______ wallet was stolen called the police.",
-      "options": [
-        {
-          "text": "A) who",
-          "correct": false
-        },
-        {
-          "text": "B) whose",
-          "correct": true
-        },
-        {
-          "text": "C) whom",
-          "correct": false
-        },
-        {
-          "text": "D) which",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 27,
-      "tag": "MCQ 27",
-      "question": "Q27. The market is nearer to them than _______.",
-      "options": [
-        {
-          "text": "A) we",
-          "correct": false
-        },
-        {
-          "text": "B) our self",
-          "correct": false
-        },
-        {
-          "text": "C) us",
-          "correct": true
-        },
-        {
-          "text": "D) ourselves",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 28,
-      "tag": "MCQ 28",
-      "question": "Q28. He takes his turn, and she takes _______.",
-      "options": [
-        {
-          "text": "A) her",
-          "correct": false
-        },
-        {
-          "text": "B) hers",
-          "correct": true
-        },
-        {
-          "text": "C) herself",
-          "correct": false
-        },
-        {
-          "text": "D) himself",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 29,
-      "tag": "MCQ 29",
-      "question": "Q29. If I had had money, I _______ it yesterday.",
-      "options": [
-        {
-          "text": "A) would purchase",
-          "correct": false
-        },
-        {
-          "text": "B) would purchased",
-          "correct": false
-        },
-        {
-          "text": "C) would have purchase",
-          "correct": false
-        },
-        {
-          "text": "D) would have purchased",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 30,
-      "tag": "MCQ 30",
-      "question": "Q30. Kate, accompanied by her brother, _______ at the party.",
-      "options": [
-        {
-          "text": "A) is",
-          "correct": false
-        },
-        {
-          "text": "B) are",
-          "correct": false
-        },
-        {
-          "text": "C) was",
-          "correct": true
-        },
-        {
-          "text": "D) were",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 31,
-      "tag": "MCQ 31",
-      "question": "Q31. White ball _______ for the first time in the 1992 Cricket World Cup.",
-      "options": [
-        {
-          "text": "A) used",
-          "correct": false
-        },
-        {
-          "text": "B) was used",
-          "correct": true
-        },
-        {
-          "text": "C) had used",
-          "correct": false
-        },
-        {
-          "text": "D) has been used",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 32,
-      "tag": "MCQ 32",
-      "question": "Q32. The new information on dengue virus caused panic in the public and government _______.",
-      "options": [
-        {
-          "text": "A) like",
-          "correct": false
-        },
-        {
-          "text": "B) likely",
-          "correct": false
-        },
-        {
-          "text": "C) alike",
-          "correct": true
-        },
-        {
-          "text": "D) dislike",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 33,
-      "tag": "MCQ 33",
-      "question": "Q33. I cannot come to see you _______ tomorrow.",
-      "options": [
-        {
-          "text": "A) by",
-          "correct": false
-        },
-        {
-          "text": "B) till",
-          "correct": false
-        },
-        {
-          "text": "C) until",
-          "correct": true
-        },
-        {
-          "text": "D) unless",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 34,
-      "tag": "MCQ 34",
-      "question": "Q34. He has been living in Switzerland _______ two years.",
-      "options": [
-        {
-          "text": "A) for",
-          "correct": true
-        },
-        {
-          "text": "B) since",
-          "correct": false
-        },
-        {
-          "text": "C) from",
-          "correct": false
-        },
-        {
-          "text": "D) until",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 35,
-      "tag": "MCQ 35",
-      "question": "Q35. She is standing _______ her boyfriend.",
-      "options": [
-        {
-          "text": "A) with",
-          "correct": false
-        },
-        {
-          "text": "B) by",
-          "correct": true
-        },
-        {
-          "text": "C) in",
-          "correct": false
-        },
-        {
-          "text": "D) for",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 36,
-      "tag": "MCQ 36",
-      "question": "Q36. He paid the dining bill _______ a credit card.",
-      "options": [
-        {
-          "text": "A) with",
-          "correct": true
-        },
-        {
-          "text": "B) by",
-          "correct": false
-        },
-        {
-          "text": "C) in",
-          "correct": false
-        },
-        {
-          "text": "D) for",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 37,
-      "tag": "MCQ 37",
-      "question": "Q37. He did not give up _______.",
-      "options": [
-        {
-          "text": "A) hope",
-          "correct": false
-        },
-        {
-          "text": "B) hopes",
-          "correct": false
-        },
-        {
-          "text": "C) to hope",
-          "correct": false
-        },
-        {
-          "text": "D) hoping",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 38,
-      "tag": "MCQ 38",
-      "question": "Q38. _______ the bad weather, the outdoor party was rescheduled.",
-      "options": [
-        {
-          "text": "A) Because of",
-          "correct": true
-        },
-        {
-          "text": "B) In order to",
-          "correct": false
-        },
-        {
-          "text": "C) Despite",
-          "correct": false
-        },
-        {
-          "text": "D) In spite of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 39,
-      "tag": "MCQ 39",
-      "question": "Q39. _______ loosing the first match, our team has won the world cup.",
-      "options": [
-        {
-          "text": "A) Because of",
-          "correct": false
-        },
-        {
-          "text": "B) In order to",
-          "correct": false
-        },
-        {
-          "text": "C) Despite",
-          "correct": true
-        },
-        {
-          "text": "D) In spite of",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 40,
-      "tag": "MCQ 40",
-      "question": "Q40. Everyone at the party _______ amazed by his performance.",
-      "options": [
-        {
-          "text": "A) is",
-          "correct": false
-        },
-        {
-          "text": "B) are",
-          "correct": false
-        },
-        {
-          "text": "C) were",
-          "correct": false
-        },
-        {
-          "text": "D) was",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 41,
-      "tag": "MCQ 41",
-      "question": "Q41. She _______ for the upcoming tennis tournament.",
-      "options": [
-        {
-          "text": "A) trains",
-          "correct": false
-        },
-        {
-          "text": "B) is training",
-          "correct": true
-        },
-        {
-          "text": "C) will train",
-          "correct": false
-        },
-        {
-          "text": "D) is going to train",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 42,
-      "tag": "MCQ 42",
-      "question": "Q42. I _______ New Zealand next year.",
-      "options": [
-        {
-          "text": "A) go",
-          "correct": false
-        },
-        {
-          "text": "B) will go",
-          "correct": false
-        },
-        {
-          "text": "C) am going",
-          "correct": false
-        },
-        {
-          "text": "D) am going to",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 43,
-      "tag": "MCQ 43",
-      "question": "Q43. There are some vacant rooms _______ in flats and shared houses.",
-      "options": [
-        {
-          "text": "A) both",
-          "correct": true
-        },
-        {
-          "text": "B) between",
-          "correct": false
-        },
-        {
-          "text": "C) either",
-          "correct": false
-        },
-        {
-          "text": "D) neither",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 44,
-      "tag": "MCQ 44",
-      "question": "Q44. The sun rises _______ the east.",
-      "options": [
-        {
-          "text": "A) in",
-          "correct": true
-        },
-        {
-          "text": "B) on",
-          "correct": false
-        },
-        {
-          "text": "C) from",
-          "correct": false
-        },
-        {
-          "text": "D) towards",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 45,
-      "tag": "MCQ 45",
-      "question": "Q45. Nitrogen gas is in abundance _______ the Earth.",
-      "options": [
-        {
-          "text": "A) in",
-          "correct": false
-        },
-        {
-          "text": "B) on",
-          "correct": true
-        },
-        {
-          "text": "C) above",
-          "correct": false
-        },
-        {
-          "text": "D) along",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 46,
-      "tag": "MCQ 46",
-      "question": "Q46. I was watching a TV program, when he _______ in.",
-      "options": [
-        {
-          "text": "A) walk",
-          "correct": false
-        },
-        {
-          "text": "B) walks",
-          "correct": false
-        },
-        {
-          "text": "C) walked",
-          "correct": true
-        },
-        {
-          "text": "D) was walking",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 47,
-      "tag": "MCQ 47",
-      "question": "Q47. We are planning _______ out to dinner tonight.",
-      "options": [
-        {
-          "text": "A) taking our guests",
-          "correct": false
-        },
-        {
-          "text": "B) guests to take",
-          "correct": false
-        },
-        {
-          "text": "C) guests taking",
-          "correct": false
-        },
-        {
-          "text": "D) to take our guests",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 48,
-      "tag": "MCQ 48",
-      "question": "Q48. She took lessons _______ how to swim.",
-      "options": [
-        {
-          "text": "A) learn",
-          "correct": false
-        },
-        {
-          "text": "B) for learning",
-          "correct": false
-        },
-        {
-          "text": "C) to learn",
-          "correct": true
-        },
-        {
-          "text": "D) learning",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 49,
-      "tag": "MCQ 49",
-      "question": "Q49. The class teacher _______ Anna move to another chair.",
-      "options": [
-        {
-          "text": "A) allows",
-          "correct": false
-        },
-        {
-          "text": "B) allowed",
-          "correct": false
-        },
-        {
-          "text": "C) let",
-          "correct": true
-        },
-        {
-          "text": "D) permitted",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 50,
-      "tag": "MCQ 50",
-      "question": "Q50. He devotes much of his time _______ for the future.",
-      "options": [
-        {
-          "text": "A) to planning",
-          "correct": true
-        },
-        {
-          "text": "B) to plan",
-          "correct": false
-        },
-        {
-          "text": "C) plan",
-          "correct": false
-        },
-        {
-          "text": "D) planning",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
     {
       "qNum": 51,
       "tag": "MCQ 51",
@@ -3790,1258 +2490,6 @@
       "topic": "Prepositions"
     },
     {
-      "qNum": 139,
-      "tag": "MCQ 139",
-      "question": "His temperament does not harmonize _____ a slow, even pace of life.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 140,
-      "tag": "MCQ 140",
-      "question": "Their life was hedged _____ with petty restrictions.",
-      "options": [
-        {
-          "text": "around",
-          "correct": true
-        },
-        {
-          "text": "about",
-          "correct": false
-        },
-        {
-          "text": "round",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 141,
-      "tag": "MCQ 141",
-      "question": "The streets were littered with stones and bottles hurled _____ the policemen.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": true
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 142,
-      "tag": "MCQ 142",
-      "question": "The cabinet was impelled _____ extreme measures.",
-      "options": [
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 143,
-      "tag": "MCQ 143",
-      "question": "As there was no train until the late evening he had to imposed himself _____ his hosts for longer than he had intended.",
-      "options": [
-        {
-          "text": "on",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 144,
-      "tag": "MCQ 144",
-      "question": "The Government has incorporated _____ the bill, many suggestions put forward by the opposition.",
-      "options": [
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 145,
-      "tag": "MCQ 145",
-      "question": "He was profoundly and physically infatuated _____ her.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "after",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 146,
-      "tag": "MCQ 146",
-      "question": "It is reassuring to have friends enquire _____ you when you are ill.",
-      "options": [
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "after",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 147,
-      "tag": "MCQ 147",
-      "question": "Nothing must be allowed to interfere _____ our search for the truth.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 148,
-      "tag": "MCQ 148",
-      "question": "The director was aware that he was being intrigued _____ but he had no means of finding out how and by whom.",
-      "options": [
-        {
-          "text": "against",
-          "correct": true
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 149,
-      "tag": "MCQ 149",
-      "question": "Is this the way to Lahore? 'Yes just keep _____ till you reach Ravi Bridge; then you will see the signs of Lahore.'",
-      "options": [
-        {
-          "text": "on",
-          "correct": true
-        },
-        {
-          "text": "up",
-          "correct": false
-        },
-        {
-          "text": "onto",
-          "correct": false
-        },
-        {
-          "text": "about",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 150,
-      "tag": "MCQ 150",
-      "question": "Our elder son has been knocking _____ the Europe for several months. We don't know exactly where he is or what he is doing.",
-      "options": [
-        {
-          "text": "about",
-          "correct": true
-        },
-        {
-          "text": "round",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "through",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 151,
-      "tag": "MCQ 151",
-      "question": "The editor laboured _____ the manuscript till early morning.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": true
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 152,
-      "tag": "MCQ 152",
-      "question": "If he offered me a small part in his production, I'd leap _____ the chance.",
-      "options": [
-        {
-          "text": "at",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "onto",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 153,
-      "tag": "MCQ 153",
-      "question": "I'll be lenient this time, but you won't be left _____ again.",
-      "options": [
-        {
-          "text": "off",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 154,
-      "tag": "MCQ 154",
-      "question": "If you won't level _____ me we are not going to get anywhere.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 155,
-      "tag": "MCQ 155",
-      "question": "Today these practices are no more, but their memories linger _____.",
-      "options": [
-        {
-          "text": "off",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": true
-        },
-        {
-          "text": "upon",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 156,
-      "tag": "MCQ 156",
-      "question": "You have lost all your money; now you must learn to live _____ the situation.",
-      "options": [
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 157,
-      "tag": "MCQ 157",
-      "question": "A formal complaint is being lodged _____ the police inspector.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 158,
-      "tag": "MCQ 158",
-      "question": "Her letters betray a desperate desire not to lose touch _____ her beloved.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 159,
-      "tag": "MCQ 159",
-      "question": "She was marked _____ by a fiery temper and a strain of intolerance.",
-      "options": [
-        {
-          "text": "of",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 160,
-      "tag": "MCQ 160",
-      "question": "Some body has been meddling _____ the photographs I laid down so carefully.",
-      "options": [
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "upto",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": true
-        }
-      ],
-      "correctIndex": 4,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 161,
-      "tag": "MCQ 161",
-      "question": "As a bright young recruit, he was moved _____ from our department to author to gain experience.",
-      "options": [
-        {
-          "text": "round",
-          "correct": false
-        },
-        {
-          "text": "around",
-          "correct": true
-        },
-        {
-          "text": "away",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 162,
-      "tag": "MCQ 162",
-      "question": "The region is noted _____ its cattle.",
-      "options": [
-        {
-          "text": "for",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 163,
-      "tag": "MCQ 163",
-      "question": "Javed was ousted _____ his post as a result of manoeuverings by departmental rivals.",
-      "options": [
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "off",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 164,
-      "tag": "MCQ 164",
-      "question": "There high standards of craftsmanship have been passed _____ over four generations.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "down",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 165,
-      "tag": "MCQ 165",
-      "question": "He was very worried, so I suggested he could use some of the money, she jerked _____ at that.",
-      "options": [
-        {
-          "text": "up",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "upon",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 166,
-      "tag": "MCQ 166",
-      "question": "She is not very quick at picking _____ the language.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "up",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 167,
-      "tag": "MCQ 167",
-      "question": "Local businessmen pitched _____ an offer of Rs. 1,00,000 to cover advertising cost.",
-      "options": [
-        {
-          "text": "in on",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "in with",
-          "correct": true
-        },
-        {
-          "text": "in for",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 168,
-      "tag": "MCQ 168",
-      "question": "Do you plan _____ staying with us for ever?",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 169,
-      "tag": "MCQ 169",
-      "question": "The van broke through the bridge railing and plunged _____ twenty feet of water.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": true
-        },
-        {
-          "text": "upon",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 170,
-      "tag": "MCQ 170",
-      "question": "What are you doing poking _____ among my private papers.",
-      "options": [
-        {
-          "text": "about",
-          "correct": true
-        },
-        {
-          "text": "around",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 171,
-      "tag": "MCQ 171",
-      "question": "The class teacher would pounce _____ every slip the child made, however, slight.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "down",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 172,
-      "tag": "MCQ 172",
-      "question": "He was presented _____ the keys of the city.",
-      "options": [
-        {
-          "text": "with",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 173,
-      "tag": "MCQ 173",
-      "question": "It is helpful in probing _____ the problem to make a statement about the patient's mental health and ill health.",
-      "options": [
-        {
-          "text": "into",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 174,
-      "tag": "MCQ 174",
-      "question": "A clause in the agreement provides _____ the arbitration of all disputes by an independent body.",
-      "options": [
-        {
-          "text": "for",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 175,
-      "tag": "MCQ 175",
-      "question": "His arrival put heart _____ his subordinates.",
-      "options": [
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 176,
-      "tag": "MCQ 176",
-      "question": "Your proposal looks good on the paper, but I am not yet convinced it can be put _____ effect.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 177,
-      "tag": "MCQ 177",
-      "question": "Then what is the trouble? 'Nothing explicit that I can put my finger _____.'",
-      "options": [
-        {
-          "text": "on",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 178,
-      "tag": "MCQ 178",
-      "question": "The committers' pro-posals were put _____ us briefly and force-fully.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 179,
-      "tag": "MCQ 179",
-      "question": "He has puzzled _____ the figures for hours without being able to make head or tail of them.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "over",
-          "correct": true
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 180,
-      "tag": "MCQ 180",
-      "question": "Dangerous emissions radiate _____ plutonium.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": true
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 181,
-      "tag": "MCQ 181",
-      "question": "He rank _____ one of the most remarkable president of our time.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "as",
-          "correct": true
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 182,
-      "tag": "MCQ 182",
-      "question": "I found his company unbearable. He could rattle _____ for hours about absolutely nothing at all.",
-      "options": [
-        {
-          "text": "on",
-          "correct": true
-        },
-        {
-          "text": "off",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 183,
-      "tag": "MCQ 183",
-      "question": "Investment in this area is reckoned _____ money poured down the drain.",
-      "options": [
-        {
-          "text": "as",
-          "correct": true
-        },
-        {
-          "text": "for",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 184,
-      "tag": "MCQ 184",
-      "question": "Water can be reduced _____ oxygen and hydrogen by electrolysis.",
-      "options": [
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "out",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 185,
-      "tag": "MCQ 185",
-      "question": "I wish he would refrain _____ scattering his ash all over the carpet.",
-      "options": [
-        {
-          "text": "in",
-          "correct": false
-        },
-        {
-          "text": "into",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "from",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 186,
-      "tag": "MCQ 186",
-      "question": "He thought himself amply reimbursed _____ the loss of his cycle.",
-      "options": [
-        {
-          "text": "from",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "for",
-          "correct": true
-        },
-        {
-          "text": "in",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
       "qNum": 187,
       "tag": "MCQ 187",
       "question": "To hesitate:",
@@ -5068,130 +2516,8 @@
       "topic": "Synonyms"
     },
     {
-      "qNum": 188,
-      "tag": "MCQ 188",
-      "question": "In a sentence \"no sooner\" is always followed by:",
-      "options": [
-        {
-          "text": "That",
-          "correct": false
-        },
-        {
-          "text": "As",
-          "correct": false
-        },
-        {
-          "text": "Then",
-          "correct": false
-        },
-        {
-          "text": "Than",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Grammar & Sentence Completion"
-    },
-    {
-      "qNum": 189,
-      "tag": "MCQ 189",
-      "question": "He is interested _____ coin collection.",
-      "options": [
-        {
-          "text": "at",
-          "correct": false
-        },
-        {
-          "text": "of",
-          "correct": false
-        },
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "in",
-          "correct": true
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 190,
-      "tag": "MCQ 190",
-      "question": "Smoking in injurious _____ health.",
-      "options": [
-        {
-          "text": "to",
-          "correct": true
-        },
-        {
-          "text": "for",
-          "correct": false
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 191,
-      "tag": "MCQ 191",
-      "question": "The cake was shared _____ Amjad and Shakeel.",
-      "options": [
-        {
-          "text": "with",
-          "correct": false
-        },
-        {
-          "text": "to",
-          "correct": false
-        },
-        {
-          "text": "between",
-          "correct": true
-        },
-        {
-          "text": "among",
-          "correct": false
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
-      "qNum": 192,
-      "tag": "MCQ 192",
-      "question": "The teacher asked the students to complete their assignment _____ Monday.",
-      "options": [
-        {
-          "text": "on",
-          "correct": false
-        },
-        {
-          "text": "by",
-          "correct": true
-        },
-        {
-          "text": "about",
-          "correct": false
-        },
-        {
-          "text": "at",
-          "correct": false
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": "",
-      "topic": "Prepositions"
-    },
-    {
       "qNum": 193,
-      "tag": "MCQ 193 (Past Paper 2024)",
+      "tag": "MCQ 193 (Past Paper 2025)",
       "question": "Q193. _______ then was studying for his exams, his brother was playing games on his tablet.",
       "options": [
         {
@@ -5217,7 +2543,7 @@
     },
     {
       "qNum": 194,
-      "tag": "MCQ 194 (Past Paper 2024)",
+      "tag": "MCQ 194 (Past Paper 2025)",
       "question": "Q194. It's better to speak the truth and be punished _______ tell a lie and be rewarded.",
       "options": [
         {
@@ -5243,7 +2569,7 @@
     },
     {
       "qNum": 195,
-      "tag": "MCQ 195 (Past Paper 2024)",
+      "tag": "MCQ 195 (Past Paper 2025)",
       "question": "Q195. In the sentence: 'the factory had been set ablaze', the bold italicized expression can be replaced by:",
       "options": [
         {
@@ -5269,7 +2595,7 @@
     },
     {
       "qNum": 196,
-      "tag": "MCQ 196 (Past Paper 2024)",
+      "tag": "MCQ 196 (Past Paper 2025)",
       "question": "Q196. The economic policy of every country should aim to _______ the gap between the rich and the poor.",
       "options": [
         {
@@ -5295,7 +2621,7 @@
     },
     {
       "qNum": 197,
-      "tag": "MCQ 197 (Past Paper 2024)",
+      "tag": "MCQ 197 (Past Paper 2025)",
       "question": "Q197. Advertising _______ used to sell products since at least as early as the invention of the printing press.",
       "options": [
         {
@@ -5321,7 +2647,7 @@
     },
     {
       "qNum": 198,
-      "tag": "MCQ 198 (Past Paper 2024)",
+      "tag": "MCQ 198 (Past Paper 2025)",
       "question": "Q198. It is impossible to put up _______ some people as they are annoying beyond limits.",
       "options": [
         {
@@ -5347,7 +2673,7 @@
     },
     {
       "qNum": 199,
-      "tag": "MCQ 199 (Past Paper 2024)",
+      "tag": "MCQ 199 (Past Paper 2025)",
       "question": "Q199. Children often become rebellious when parents _______ unnecessary restrictions on them.",
       "options": [
         {
@@ -5373,7 +2699,7 @@
     },
     {
       "qNum": 200,
-      "tag": "MCQ 200 (Past Paper 2024)",
+      "tag": "MCQ 200 (Past Paper 2025)",
       "question": "Q200. If you enter the competition, you must agree to abide _______ the rules.",
       "options": [
         {
@@ -5399,7 +2725,7 @@
     },
     {
       "qNum": 201,
-      "tag": "MCQ 201 (Past Paper 2024)",
+      "tag": "MCQ 201 (Past Paper 2025)",
       "question": "Q201. If she _______ warm clothes, she wouldn't catch cold.",
       "options": [
         {
@@ -5425,7 +2751,7 @@
     },
     {
       "qNum": 202,
-      "tag": "MCQ 202 (Past Paper 2024)",
+      "tag": "MCQ 202 (Past Paper 2025)",
       "question": "Q202. Whether to quit or continue the current job is a _______ decision for many employees who are not happy at their workplace.",
       "options": [
         {
@@ -5451,7 +2777,7 @@
     },
     {
       "qNum": 203,
-      "tag": "MCQ 203 (Past Paper 2024)",
+      "tag": "MCQ 203 (Past Paper 2025)",
       "question": "Q203. _______ some teachers do not have sufficient command of the subject they teach, they fail to impart the required knowledge to their students.",
       "options": [
         {
@@ -5477,7 +2803,7 @@
     },
     {
       "qNum": 204,
-      "tag": "MCQ 204 (Past Paper 2024)",
+      "tag": "MCQ 204 (Past Paper 2025)",
       "question": "Q204. Identify the sentence that is ungrammatical:",
       "options": [
         {
@@ -5503,7 +2829,7 @@
     },
     {
       "qNum": 205,
-      "tag": "MCQ 205 (Past Paper 2024)",
+      "tag": "MCQ 205 (Past Paper 2025)",
       "question": "Q205. Complete the sentence by choosing the correct idiomatic expression according to the context: 'Some government employees are rarely seen in their office as they visit their workplace _______.'",
       "options": [
         {
@@ -5529,7 +2855,7 @@
     },
     {
       "qNum": 206,
-      "tag": "MCQ 206 (Past Paper 2024)",
+      "tag": "MCQ 206 (Past Paper 2025)",
       "question": "Q206. If I had been aware of the hypocrisy, I _______ them in the first place.",
       "options": [
         {
@@ -5555,7 +2881,7 @@
     },
     {
       "qNum": 207,
-      "tag": "MCQ 207 (Past Paper 2024)",
+      "tag": "MCQ 207 (Past Paper 2025)",
       "question": "Q207. The director's _______ decisions resulted in the company's financial downfall.",
       "options": [
         {
@@ -5581,7 +2907,7 @@
     },
     {
       "qNum": 208,
-      "tag": "MCQ 208 (Past Paper 2024)",
+      "tag": "MCQ 208 (Past Paper 2025)",
       "question": "Q208. The bold underlined word in the given sentence means: 'her altruism ... her in spend most of the time volunteering various charities.'",
       "options": [
         {
@@ -5607,7 +2933,7 @@
     },
     {
       "qNum": 209,
-      "tag": "MCQ 209 (Past Paper 2024)",
+      "tag": "MCQ 209 (Past Paper 2025)",
       "question": "Q209. As per the law you _______ wear a helmet when riding a motorcycle.",
       "options": [
         {
@@ -5633,7 +2959,7 @@
     },
     {
       "qNum": 210,
-      "tag": "MCQ 210 (Past Paper 2024)",
+      "tag": "MCQ 210 (Past Paper 2025)",
       "question": "Q210. If I _______ enough money, I would have bought a new laptop.",
       "options": [
         {
@@ -5659,7 +2985,7 @@
     },
     {
       "qNum": 211,
-      "tag": "MCQ 211 (Past Paper 2024)",
+      "tag": "MCQ 211 (Past Paper 2025)",
       "question": "Q211. This task is far _______ challenging than the one we did last week.",
       "options": [
         {
@@ -5685,7 +3011,7 @@
     },
     {
       "qNum": 212,
-      "tag": "MCQ 212 (Past Paper 2024)",
+      "tag": "MCQ 212 (Past Paper 2025)",
       "question": "Q212. Many children are afraid _______ the dark.",
       "options": [
         {
@@ -5708,6 +3034,3070 @@
       "correctIndex": 1,
       "explanation": "",
       "topic": "Prepositions"
+    },
+    {
+      "qNum": 213,
+      "tag": "MCQ 213 (Past Paper 2025)",
+      "question": "Dash of global warming, glaciers are melting at rapid rate",
+      "options": [
+        {
+          "text": "Because",
+          "correct": true
+        },
+        {
+          "text": "Since",
+          "correct": false
+        },
+        {
+          "text": "Despite",
+          "correct": false
+        },
+        {
+          "text": "Though",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 214,
+      "tag": "MCQ 214 (Past Paper 2025)",
+      "question": "PDMA Punjab has issued and alert for the 11th spell of moonsoon rains, expected to begin on September 16th and continue – September 19th",
+      "options": [
+        {
+          "text": "Since",
+          "correct": false
+        },
+        {
+          "text": "Until",
+          "correct": true
+        },
+        {
+          "text": "From",
+          "correct": false
+        },
+        {
+          "text": "By",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 215,
+      "tag": "MCQ 215 (Past Paper 2025)",
+      "question": "Missing breakfast - impair the  body's ability to manage blood sugar effectively, potentially increasing the risk of pre-diabetes and type 2 diabetes",
+      "options": [
+        {
+          "text": "Should",
+          "correct": false
+        },
+        {
+          "text": "will",
+          "correct": false
+        },
+        {
+          "text": "Must",
+          "correct": false
+        },
+        {
+          "text": "May",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 216,
+      "tag": "MCQ 216 (Past Paper 2025)",
+      "question": "Dash the political turmoil in Nepal, the Nepalese government has decided to deactivate unregistered social media platforms",
+      "options": [
+        {
+          "text": "Owning",
+          "correct": false
+        },
+        {
+          "text": "Because",
+          "correct": false
+        },
+        {
+          "text": "After",
+          "correct": true
+        },
+        {
+          "text": "While",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 217,
+      "tag": "MCQ 217 (Past Paper 2025)",
+      "question": "Our teacher – the extent the deadline of for the submission of the assignment",
+      "options": [
+        {
+          "text": "Declined",
+          "correct": false
+        },
+        {
+          "text": "Refused",
+          "correct": true
+        },
+        {
+          "text": "Denied",
+          "correct": false
+        },
+        {
+          "text": "Rejected",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 218,
+      "tag": "MCQ 218 (Past Paper 2025)",
+      "question": "My hostel made head food poisoning because of consuming – bread yesterday",
+      "options": [
+        {
+          "text": "Stale",
+          "correct": false
+        },
+        {
+          "text": "Sour",
+          "correct": false
+        },
+        {
+          "text": "Rotten",
+          "correct": false
+        },
+        {
+          "text": "Rancid",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 219,
+      "tag": "MCQ 219 (Past Paper 2025)",
+      "question": "Since we were extremely dash after the workshop, we decided to take an off the next day",
+      "options": [
+        {
+          "text": "Exhaustive",
+          "correct": false
+        },
+        {
+          "text": "Exhausting",
+          "correct": false
+        },
+        {
+          "text": "Exhaust",
+          "correct": false
+        },
+        {
+          "text": "Exhausted",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 220,
+      "tag": "MCQ 220 (Past Paper 2025)",
+      "question": "Identify the sentence that is grammatically correct",
+      "options": [
+        {
+          "text": "One must live life to fullest",
+          "correct": false
+        },
+        {
+          "text": "One must lived life to fullest",
+          "correct": false
+        },
+        {
+          "text": "One must live life to the fullest",
+          "correct": true
+        },
+        {
+          "text": "One must be living life to the fullest",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 221,
+      "tag": "MCQ 221 (Past Paper 2025)",
+      "question": "– making tall claims, Pakistan cricket team fails to deliver good performance",
+      "options": [
+        {
+          "text": "While",
+          "correct": false
+        },
+        {
+          "text": "Since",
+          "correct": false
+        },
+        {
+          "text": "Despite",
+          "correct": true
+        },
+        {
+          "text": "Often",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 222,
+      "tag": "MCQ 222 (Past Paper 2025)",
+      "question": "Dance concrete settlements and dash greenery have turned Karachi and Lahore into urban heat islands",
+      "options": [
+        {
+          "text": "Scar",
+          "correct": true
+        },
+        {
+          "text": "Scarce",
+          "correct": false
+        },
+        {
+          "text": "Scare",
+          "correct": false
+        },
+        {
+          "text": "Scared",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 223,
+      "tag": "MCQ 223 (Past Paper 2025)",
+      "question": "Replace the bold underline word in the given sentence with the word carrying similar meaning: the presenter gave *cogent* argument which were enough to convince the audience",
+      "options": [
+        {
+          "text": "Retrievable",
+          "correct": false
+        },
+        {
+          "text": "Persuasive",
+          "correct": true
+        },
+        {
+          "text": "Irrelevant",
+          "correct": false
+        },
+        {
+          "text": "Insufficient",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 224,
+      "tag": "MCQ 224 (Past Paper 2025)",
+      "question": "What does the bold underlined word In the given sentence mean? The instruction had to write a very strong letter to the higher authorities to \"expedite\" the matter",
+      "options": [
+        {
+          "text": "To accelerate the progress of",
+          "correct": true
+        },
+        {
+          "text": "To resolve the issue",
+          "correct": false
+        },
+        {
+          "text": "To remove complications",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 225,
+      "tag": "MCQ 225 (Past Paper 2025)",
+      "question": "Choose the statement that is grammatically correct",
+      "options": [
+        {
+          "text": "by the time he arrived the examination Hall, the exam already began",
+          "correct": false
+        },
+        {
+          "text": "by the time he arrived the examination Hall, The exam has already begun",
+          "correct": false
+        },
+        {
+          "text": "by the time he arrived the examination Hall, The exam had already begun",
+          "correct": true
+        },
+        {
+          "text": "By the time he arrives the examination Hall, the exam has already begun",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 226,
+      "tag": "MCQ 226 (Past Paper 2025)",
+      "question": "I was extremely exhausted after attending consecutive meetings",
+      "options": [
+        {
+          "text": "So",
+          "correct": true
+        },
+        {
+          "text": "Although",
+          "correct": false
+        },
+        {
+          "text": "Since",
+          "correct": false
+        },
+        {
+          "text": "Because",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 227,
+      "tag": "MCQ 227 (Past Paper 2025)",
+      "question": "Add a tag question at the end of the given statement: they thoroughly enjoyed the picnic at the seaside –",
+      "options": [
+        {
+          "text": "Did they?",
+          "correct": false
+        },
+        {
+          "text": "Were they",
+          "correct": false
+        },
+        {
+          "text": "Didn't they",
+          "correct": true
+        },
+        {
+          "text": "Hadn't they",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 228,
+      "tag": "MCQ 228 (Past Paper 2025)",
+      "question": "Replaced the underlined expression by an appropriate model word from the given options: the applicants \"are required to\" submit a scanned copy of their previous educational document by tomorrow",
+      "options": [
+        {
+          "text": "Have to",
+          "correct": false
+        },
+        {
+          "text": "Should",
+          "correct": true
+        },
+        {
+          "text": "Would",
+          "correct": false
+        },
+        {
+          "text": "Make",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 229,
+      "tag": "MCQ 229 (Past Paper 2025)",
+      "question": "By looking at the huge laws the company had suffered for three conservative years, it is obvious that it – become bankrupt",
+      "options": [
+        {
+          "text": "Might",
+          "correct": false
+        },
+        {
+          "text": "May",
+          "correct": false
+        },
+        {
+          "text": "Will",
+          "correct": false
+        },
+        {
+          "text": "Is going to",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 230,
+      "tag": "MCQ 230 (Past Paper 2025)",
+      "question": "Replace the underlying word in the given sentence with an appropriate phrasal verb It was so hot that he thought he was going to *faint*",
+      "options": [
+        {
+          "text": "Blot out",
+          "correct": false
+        },
+        {
+          "text": "Blackout",
+          "correct": true
+        },
+        {
+          "text": "Plug away",
+          "correct": false
+        },
+        {
+          "text": "Pull through",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Idioms & Phrases"
+    },
+    {
+      "qNum": 231,
+      "tag": "MCQ 231 (Past Paper 2025)",
+      "question": "Unfortunately, no government in Pakistan has so far succeed in dash the standard of education in the country",
+      "options": [
+        {
+          "text": "Elevating",
+          "correct": true
+        },
+        {
+          "text": "Aggravating",
+          "correct": false
+        },
+        {
+          "text": "Implementing",
+          "correct": false
+        },
+        {
+          "text": "Eliminating",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 232,
+      "tag": "MCQ 232 (Past Paper 2025)",
+      "question": "- of admitting her folds, she become aggressive and accused her colleagues of tranishing her image",
+      "options": [
+        {
+          "text": "Indeed",
+          "correct": false
+        },
+        {
+          "text": "In fact",
+          "correct": false
+        },
+        {
+          "text": "Instead",
+          "correct": true
+        },
+        {
+          "text": "In spite",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 233,
+      "tag": "MCQ 233 (Past Paper 2025)",
+      "question": "The earthquake victims in Afghanistan are – deprived of the basic necessities of life",
+      "options": [
+        {
+          "text": "Yet",
+          "correct": false
+        },
+        {
+          "text": "Still",
+          "correct": true
+        },
+        {
+          "text": "Been",
+          "correct": false
+        },
+        {
+          "text": "Already",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 234,
+      "tag": "MCQ 234 (Past Paper 2025)",
+      "question": "The students - told to handle the apparatus with care while performing the experiment in the laboratory",
+      "options": [
+        {
+          "text": "Have been",
+          "correct": false
+        },
+        {
+          "text": "Have had",
+          "correct": false
+        },
+        {
+          "text": "Had to",
+          "correct": false
+        },
+        {
+          "text": "Must have",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 235,
+      "tag": "MCQ 235 (Past Paper 2025)",
+      "question": "The prefix 'pro-' in' proadministration means",
+      "options": [
+        {
+          "text": "Before",
+          "correct": false
+        },
+        {
+          "text": "After",
+          "correct": false
+        },
+        {
+          "text": "Is opposed to",
+          "correct": false
+        },
+        {
+          "text": "In favor of",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 236,
+      "tag": "MCQ 236 (Past Paper 2025)",
+      "question": "Which sentence in the given option is an example of an unreal condition",
+      "options": [
+        {
+          "text": "If it rains, I will go out for lunch with my friends",
+          "correct": false
+        },
+        {
+          "text": "If he woke up early, he would not be late for his classes",
+          "correct": true
+        },
+        {
+          "text": "If we make sugar in water, it dissolved",
+          "correct": false
+        },
+        {
+          "text": "Unless one works hard, one is unlikely to succeed",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 237,
+      "tag": "MCQ 237 (Past Paper 2025)",
+      "question": "The sentence, I wish we could meet again! Implies dash",
+      "options": [
+        {
+          "text": "Desire",
+          "correct": true
+        },
+        {
+          "text": "Regret!",
+          "correct": false
+        },
+        {
+          "text": "Prediction",
+          "correct": false
+        },
+        {
+          "text": "Plane",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 238,
+      "tag": "MCQ 238 (Past Paper 2025)",
+      "question": "Select the correct statement for given tag: didn't he",
+      "options": [
+        {
+          "text": "He was upset",
+          "correct": false
+        },
+        {
+          "text": "He looked upset.",
+          "correct": true
+        },
+        {
+          "text": "He didn't look",
+          "correct": false
+        },
+        {
+          "text": "he looks upset",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 239,
+      "tag": "MCQ 239 (Past Paper 2025)",
+      "question": "Replaced underlined expiration with an appropriate model work: you are strongly advised to complete the task and submit the report by tomorrow morning",
+      "options": [
+        {
+          "text": "Have to",
+          "correct": false
+        },
+        {
+          "text": "Should",
+          "correct": false
+        },
+        {
+          "text": "Must",
+          "correct": true
+        },
+        {
+          "text": "Ought to",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 240,
+      "tag": "MCQ 240 (Past Paper 2025)",
+      "question": "The suffix men is used for the formation of",
+      "options": [
+        {
+          "text": "Verbs",
+          "correct": false
+        },
+        {
+          "text": "Adjectives",
+          "correct": false
+        },
+        {
+          "text": "Nouns",
+          "correct": true
+        },
+        {
+          "text": "Adverb",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 241,
+      "tag": "MCQ 241 (Past Paper 2025)",
+      "question": "The prefix pseudo means",
+      "options": [
+        {
+          "text": "Genuine",
+          "correct": false
+        },
+        {
+          "text": "Fake",
+          "correct": true
+        },
+        {
+          "text": "Free",
+          "correct": false
+        },
+        {
+          "text": "Relevant",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 242,
+      "tag": "MCQ 242 (Past Paper 2025)",
+      "question": "Q1: If there is good documentation then there is a chance of revitalizing languages in future even after they cease to--",
+      "options": [
+        {
+          "text": "a) be spoken",
+          "correct": true
+        },
+        {
+          "text": "b) speak",
+          "correct": false
+        },
+        {
+          "text": "c) have spoken",
+          "correct": false
+        },
+        {
+          "text": "d) be speaking",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 243,
+      "tag": "MCQ 243 (Past Paper 2025)",
+      "question": "Q2:.... many people have not been vaccinated yet, the government is planning to run another awareness raising campaign.",
+      "options": [
+        {
+          "text": "a) While",
+          "correct": false
+        },
+        {
+          "text": "b) Since",
+          "correct": true
+        },
+        {
+          "text": "c) Though",
+          "correct": false
+        },
+        {
+          "text": "d) Although",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 244,
+      "tag": "MCQ 244 (Past Paper 2025)",
+      "question": "Q3: Attach a tag question at the end of the following statement: \"Pakistan is rich in natural resources, ....",
+      "options": [
+        {
+          "text": "a) is it?",
+          "correct": true
+        },
+        {
+          "text": "b) doesn't it?",
+          "correct": false
+        },
+        {
+          "text": "c) does it?",
+          "correct": false
+        },
+        {
+          "text": "d) isn't it?",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 245,
+      "tag": "MCQ 245 (Past Paper 2025)",
+      "question": "Q4: A good economic policy aims ............. the gap between the rich and the poor.",
+      "options": [
+        {
+          "text": "a) tighten",
+          "correct": true
+        },
+        {
+          "text": "b) bridge",
+          "correct": false
+        },
+        {
+          "text": "c) widen",
+          "correct": false
+        },
+        {
+          "text": "d) cement",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 246,
+      "tag": "MCQ 246 (Past Paper 2025)",
+      "question": "Q5: I have to often …......... a detour to avoid traffic jam.",
+      "options": [
+        {
+          "text": "a) take",
+          "correct": false
+        },
+        {
+          "text": "b) follow",
+          "correct": false
+        },
+        {
+          "text": "c) make",
+          "correct": true
+        },
+        {
+          "text": "d) have",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 247,
+      "tag": "MCQ 247 (Past Paper 2025)",
+      "question": "Q6: i am .... early in the morning.",
+      "options": [
+        {
+          "text": "a) used to wake up",
+          "correct": true
+        },
+        {
+          "text": "b) used to waking up",
+          "correct": false
+        },
+        {
+          "text": "c) use to wake up",
+          "correct": false
+        },
+        {
+          "text": "d) use to waking up",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 248,
+      "tag": "MCQ 248 (Past Paper 2025)",
+      "question": "Q7: Teacher to a student, \"You're wasting your time by playing online games instead of studying, If you don't focus on your studies, you ...........fail in the final exams.",
+      "options": [
+        {
+          "text": "a) will",
+          "correct": false
+        },
+        {
+          "text": "b) may",
+          "correct": false
+        },
+        {
+          "text": "c) are going to",
+          "correct": true
+        },
+        {
+          "text": "d) might",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 249,
+      "tag": "MCQ 249 (Past Paper 2025)",
+      "question": "Q8: Identify the meaning of the underlined expression in the given sentence: \"It is not advisable to announce the list of keynote speakers for the conference before formally seeking their consent.\"",
+      "options": [
+        {
+          "text": "a) permission",
+          "correct": true
+        },
+        {
+          "text": "b) opinion",
+          "correct": false
+        },
+        {
+          "text": "c) advice",
+          "correct": false
+        },
+        {
+          "text": "d) idea",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 250,
+      "tag": "MCQ 250 (Past Paper 2025)",
+      "question": "Q9: What has been done cannot be undone but you............ be extremely careful in the future.",
+      "options": [
+        {
+          "text": "a) must",
+          "correct": true
+        },
+        {
+          "text": "b) ought",
+          "correct": false
+        },
+        {
+          "text": "c) could",
+          "correct": false
+        },
+        {
+          "text": "d) would",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 251,
+      "tag": "MCQ 251 (Past Paper 2025)",
+      "question": "Q10: The computer operator has installed a new program in my laptop to make it run fast but it is not compatible... the existing programs.",
+      "options": [
+        {
+          "text": "a) with",
+          "correct": true
+        },
+        {
+          "text": "b) to",
+          "correct": false
+        },
+        {
+          "text": "c) onl",
+          "correct": false
+        },
+        {
+          "text": "d) for",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 252,
+      "tag": "MCQ 252 (Past Paper 2025)",
+      "question": "Q11: if i .... the education minister, I would bring reforms in the existing education system.",
+      "options": [
+        {
+          "text": "a) am",
+          "correct": false
+        },
+        {
+          "text": "b) was",
+          "correct": false
+        },
+        {
+          "text": "c) were",
+          "correct": true
+        },
+        {
+          "text": "d) will",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 253,
+      "tag": "MCQ 253 (Past Paper 2025)",
+      "question": "Q12: Choose the meaning that fits the underlined expression in the given sentence: \"in many universities academic degrees or awards may be revoked as a penalty for plagiarism.\"",
+      "options": [
+        {
+          "text": "a) delayed",
+          "correct": false
+        },
+        {
+          "text": "b) cancelled",
+          "correct": true
+        },
+        {
+          "text": "c) banned",
+          "correct": false
+        },
+        {
+          "text": "d) disapproved",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 254,
+      "tag": "MCQ 254 (Past Paper 2025)",
+      "question": "Q13: A student lost her leg in the bomb blast in an educational institution in Kabul in September 2022. I wish she ........... that day.",
+      "options": [
+        {
+          "text": "a) could take an off",
+          "correct": false
+        },
+        {
+          "text": "b) has taken an off",
+          "correct": false
+        },
+        {
+          "text": "c) had taken an off",
+          "correct": true
+        },
+        {
+          "text": "d) would take an off",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 255,
+      "tag": "MCQ 255 (Past Paper 2025)",
+      "question": "Q14: The discourse marker \"while\" in the sentence \"While I was preparing for the test, my brother was playing cricket outside\" is used for showing ...",
+      "options": [
+        {
+          "text": "a) result",
+          "correct": false
+        },
+        {
+          "text": "b) connection",
+          "correct": false
+        },
+        {
+          "text": "c) comparison",
+          "correct": false
+        },
+        {
+          "text": "d) contrast",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 256,
+      "tag": "MCQ 256 (Past Paper 2025)",
+      "question": "Q15: Although displaced by floods a man from Sindh has decided not to .......... aid and instead earn from his ancestral profession of boat building.",
+      "options": [
+        {
+          "text": "a) resist",
+          "correct": false
+        },
+        {
+          "text": "b) make",
+          "correct": false
+        },
+        {
+          "text": "c) approve",
+          "correct": false
+        },
+        {
+          "text": "d) take",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 257,
+      "tag": "MCQ 257 (Past Paper 2025)",
+      "question": "Q16: Around 3500 flood victims. ........ left Karachi camps for homes.",
+      "options": [
+        {
+          "text": "a) have",
+          "correct": true
+        },
+        {
+          "text": "b) have been",
+          "correct": false
+        },
+        {
+          "text": "c) has",
+          "correct": false
+        },
+        {
+          "text": "d) had been",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 258,
+      "tag": "MCQ 258 (Past Paper 2025)",
+      "question": "Q17: Indonesia.......... to host the FIFA under 20 World Cup in May and June next year.",
+      "options": [
+        {
+          "text": "a) is scheduled",
+          "correct": true
+        },
+        {
+          "text": "b) was scheduling",
+          "correct": false
+        },
+        {
+          "text": "c) has been scheduled",
+          "correct": false
+        },
+        {
+          "text": "d) will schedule",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 259,
+      "tag": "MCQ 259 (Past Paper 2025)",
+      "question": "Q18: One cannot claim to ................ Swat valley without visiting the Kamarkhwa twin waterfall in Mankiyal valley.",
+      "options": [
+        {
+          "text": "a) explored",
+          "correct": false
+        },
+        {
+          "text": "b) have explored",
+          "correct": true
+        },
+        {
+          "text": "c) exploring",
+          "correct": false
+        },
+        {
+          "text": "d) being explored",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 260,
+      "tag": "MCQ 260 (Past Paper 2025)",
+      "question": "Q19: What does the bold underlined word in the given sentence mean? \"Even though Pakistan lost to India in the match, it was heartening to see the players showing their *camaraderie*  off the pitch.\"",
+      "options": [
+        {
+          "text": "A) competitive spirit",
+          "correct": false
+        },
+        {
+          "text": "B) clear animosity",
+          "correct": false
+        },
+        {
+          "text": "C) bitter rivalry",
+          "correct": false
+        },
+        {
+          "text": "D) close friendship",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 261,
+      "tag": "MCQ 261 (Past Paper 2025)",
+      "question": "Q20: Attach a tag question at the end of the following statement: \"He hardly spends time with his parents, ......",
+      "options": [
+        {
+          "text": "A) isn't he?",
+          "correct": false
+        },
+        {
+          "text": "B) is he?",
+          "correct": true
+        },
+        {
+          "text": "C) does he?",
+          "correct": false
+        },
+        {
+          "text": "D) doesn't he?",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 262,
+      "tag": "MCQ 262 (Past Paper 2025)",
+      "question": "Sometimes we have to put – with people if we do not like",
+      "options": [
+        {
+          "text": "Up",
+          "correct": true
+        },
+        {
+          "text": "On",
+          "correct": false
+        },
+        {
+          "text": "Across",
+          "correct": false
+        },
+        {
+          "text": "Off",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 263,
+      "tag": "MCQ 263 (Past Paper 2025)",
+      "question": "When one takes a certain medicine for a long period of time, one becomes immune – it",
+      "options": [
+        {
+          "text": "With",
+          "correct": false
+        },
+        {
+          "text": "By",
+          "correct": false
+        },
+        {
+          "text": "To",
+          "correct": true
+        },
+        {
+          "text": "Of",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 264,
+      "tag": "MCQ 264 (Past Paper 2025)",
+      "question": "Millions of people are dashed by natural disasters in different parts of the world every year",
+      "options": [
+        {
+          "text": "Effected",
+          "correct": false
+        },
+        {
+          "text": "Affected",
+          "correct": true
+        },
+        {
+          "text": "Being affected",
+          "correct": false
+        },
+        {
+          "text": "Effecting",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 265,
+      "tag": "MCQ 265 (Past Paper 2025)",
+      "question": "Select the correct statement for the given tag question didn't she?",
+      "options": [
+        {
+          "text": "See you didn't look worried",
+          "correct": false
+        },
+        {
+          "text": "She was worried",
+          "correct": false
+        },
+        {
+          "text": "She looked worried",
+          "correct": true
+        },
+        {
+          "text": "She looks worried",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 266,
+      "tag": "MCQ 266 (Past Paper 2025)",
+      "question": "The computer operator has installed a new program in my laptop to make it run fast, but it is not compatible – the existing programs",
+      "options": [
+        {
+          "text": "With",
+          "correct": true
+        },
+        {
+          "text": "To",
+          "correct": false
+        },
+        {
+          "text": "On",
+          "correct": false
+        },
+        {
+          "text": "For",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 267,
+      "tag": "MCQ 267 (Past Paper 2025)",
+      "question": "Replaced underlined expression with an appropriate model work: you *are required to* work hard to win the contest",
+      "options": [
+        {
+          "text": "Have to",
+          "correct": true
+        },
+        {
+          "text": "Should",
+          "correct": false
+        },
+        {
+          "text": "Would",
+          "correct": false
+        },
+        {
+          "text": "May",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 268,
+      "tag": "MCQ 268 (Past Paper 2025)",
+      "question": "If we are not comfortable with the request, we have every right to dash it",
+      "options": [
+        {
+          "text": "Deny",
+          "correct": false
+        },
+        {
+          "text": "decline",
+          "correct": true
+        },
+        {
+          "text": "Drop",
+          "correct": false
+        },
+        {
+          "text": "Diminish",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 269,
+      "tag": "MCQ 269 (Past Paper 2025)",
+      "question": "If we hope to have any positive impact - the world, we must first start by changing ourselves for the better",
+      "options": [
+        {
+          "text": "In",
+          "correct": true
+        },
+        {
+          "text": "On",
+          "correct": false
+        },
+        {
+          "text": "Upon",
+          "correct": false
+        },
+        {
+          "text": "Around",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 270,
+      "tag": "MCQ 270 (Past Paper 2025)",
+      "question": "In the sentence: many of our youngsters are being disappointed because of unemployment decide to leave the country *for good*. The bold underlined expression means",
+      "options": [
+        {
+          "text": "Purposely",
+          "correct": false
+        },
+        {
+          "text": "Half-heartedly",
+          "correct": false
+        },
+        {
+          "text": "Temporarily",
+          "correct": false
+        },
+        {
+          "text": "Permanently",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 271,
+      "tag": "MCQ 271 (Past Paper 2025)",
+      "question": "Look at the dark clouds on the sky! It – rain",
+      "options": [
+        {
+          "text": "Might",
+          "correct": false
+        },
+        {
+          "text": "may",
+          "correct": false
+        },
+        {
+          "text": "Will",
+          "correct": false
+        },
+        {
+          "text": "Is going to",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 272,
+      "tag": "MCQ 272 (Past Paper 2025)",
+      "question": "It is raining heavily. I don't think it is dash to go out. Let's stay at home and order the food",
+      "options": [
+        {
+          "text": "To safe",
+          "correct": false
+        },
+        {
+          "text": "Very safe",
+          "correct": false
+        },
+        {
+          "text": "Extremely safe",
+          "correct": false
+        },
+        {
+          "text": "Safe enough",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 273,
+      "tag": "MCQ 273 (Past Paper 2025)",
+      "question": "Not everything going on in our heads and hurts his dish to others, nor is there always Harmony between how we see ourselves and how others see us",
+      "options": [
+        {
+          "text": "Obvious",
+          "correct": true
+        },
+        {
+          "text": "Oblivious",
+          "correct": false
+        },
+        {
+          "text": "Obliging",
+          "correct": false
+        },
+        {
+          "text": "Obnoxious",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 274,
+      "tag": "MCQ 274 (Past Paper 2025)",
+      "question": "Dictionaries are – to incorporate new entries",
+      "options": [
+        {
+          "text": "Revised",
+          "correct": true
+        },
+        {
+          "text": "Renewed",
+          "correct": false
+        },
+        {
+          "text": "Rectified",
+          "correct": false
+        },
+        {
+          "text": "Reviewed",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 275,
+      "tag": "MCQ 275 (Past Paper 2025)",
+      "question": "The high level of pollution in some cities – healthy people and seriously impact those with existing disease",
+      "options": [
+        {
+          "text": "Can effect",
+          "correct": false
+        },
+        {
+          "text": "Is effecting",
+          "correct": false
+        },
+        {
+          "text": "Is likely affecting",
+          "correct": false
+        },
+        {
+          "text": "Is likely to affect",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 276,
+      "tag": "MCQ 276 (Past Paper 2025)",
+      "question": "Conflicts stemming – racism remain a serious problem",
+      "options": [
+        {
+          "text": "Off",
+          "correct": false
+        },
+        {
+          "text": "From",
+          "correct": true
+        },
+        {
+          "text": "By",
+          "correct": false
+        },
+        {
+          "text": "Though",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 277,
+      "tag": "MCQ 277 (Past Paper 2025)",
+      "question": "There were many candidates, who had applied for the job, but all of them could not dash the test",
+      "options": [
+        {
+          "text": "Appear",
+          "correct": false
+        },
+        {
+          "text": "Gave",
+          "correct": false
+        },
+        {
+          "text": "Give",
+          "correct": false
+        },
+        {
+          "text": "Take",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 278,
+      "tag": "MCQ 278 (Past Paper 2025)",
+      "question": "Palestine has huge religious and heritage tourism potential – over $22,000 heritage sides registered in UNESCO",
+      "options": [
+        {
+          "text": "By",
+          "correct": false
+        },
+        {
+          "text": "For",
+          "correct": false
+        },
+        {
+          "text": "With",
+          "correct": true
+        },
+        {
+          "text": "In",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 279,
+      "tag": "MCQ 279 (Past Paper 2025)",
+      "question": "The suffix \"-ous\"  is used for deformation of dash in English",
+      "options": [
+        {
+          "text": "Nouns",
+          "correct": false
+        },
+        {
+          "text": "Verbs",
+          "correct": false
+        },
+        {
+          "text": "Adverbs",
+          "correct": false
+        },
+        {
+          "text": "Adjective",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 280,
+      "tag": "MCQ 280 (Past Paper 2025)",
+      "question": "Replace the bold Italian sized word in the sentence with a synonym from the given options: the tear gland contain certain psychotropic substance, which can *alleviate* feelings of anxiety and irritation",
+      "options": [
+        {
+          "text": "Reduce",
+          "correct": true
+        },
+        {
+          "text": "Heighten",
+          "correct": false
+        },
+        {
+          "text": "Aggravate",
+          "correct": false
+        },
+        {
+          "text": "Eradicate",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 281,
+      "tag": "MCQ 281 (Past Paper 2025)",
+      "question": "In order to – the gaming addiction, China has introduced new rules that limit the amount of time under 18s can spend on video games to 3 hours a week",
+      "options": [
+        {
+          "text": "Contest",
+          "correct": false
+        },
+        {
+          "text": "Complete",
+          "correct": false
+        },
+        {
+          "text": "Combat",
+          "correct": true
+        },
+        {
+          "text": "Confront",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 282,
+      "tag": "MCQ 282 (Past Paper 2025)",
+      "question": "The prefix '-mal' In malpractice means",
+      "options": [
+        {
+          "text": "Good",
+          "correct": false
+        },
+        {
+          "text": "Bad",
+          "correct": true
+        },
+        {
+          "text": "Ethical",
+          "correct": false
+        },
+        {
+          "text": "Insufficient",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 283,
+      "tag": "MCQ 283 (Past Paper 2025)",
+      "question": "The sentence if I had taken my education seriously, I would have secured first position. Implies",
+      "options": [
+        {
+          "text": "Intention",
+          "correct": false
+        },
+        {
+          "text": "Regret",
+          "correct": true
+        },
+        {
+          "text": "Desire",
+          "correct": false
+        },
+        {
+          "text": "Condition",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 284,
+      "tag": "MCQ 284 (Past Paper 2025)",
+      "question": "- I was preparing for the same. My brother was playing and online game",
+      "options": [
+        {
+          "text": "Since",
+          "correct": false
+        },
+        {
+          "text": "While",
+          "correct": true
+        },
+        {
+          "text": "Because",
+          "correct": false
+        },
+        {
+          "text": "If",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 285,
+      "tag": "MCQ 285 (Past Paper 2025)",
+      "question": "– the Pakistani cricket team played very well throughout the series, unfortunately, the team could not make it to the finals",
+      "options": [
+        {
+          "text": "Despite",
+          "correct": true
+        },
+        {
+          "text": "Indeed",
+          "correct": false
+        },
+        {
+          "text": "Even",
+          "correct": false
+        },
+        {
+          "text": "Although",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 286,
+      "tag": "MCQ 286 (Past Paper 2025)",
+      "question": "In the sentence, people who advocate. Truth are not afraid of the consequences. The word advocate is used as a/an",
+      "options": [
+        {
+          "text": "An adjective",
+          "correct": false
+        },
+        {
+          "text": "A Verb",
+          "correct": true
+        },
+        {
+          "text": "An Adverb",
+          "correct": false
+        },
+        {
+          "text": "An Object",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 287,
+      "tag": "MCQ 287 (Past Paper 2025)",
+      "question": "What does the bold tail sized word in the given sentence mean? In culture, tourism, travelers can participate in local cultural *rituals* or stay with locals in their destination to get most authentic cultural experience.",
+      "options": [
+        {
+          "text": "Genuine",
+          "correct": false
+        },
+        {
+          "text": "Traditional",
+          "correct": true
+        },
+        {
+          "text": "Unconventional",
+          "correct": false
+        },
+        {
+          "text": "Unique",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "qNum": 288,
+      "tag": "MCQ 288 (Past Paper 2025)",
+      "question": "If I – in power, I would decrease the price of petrol",
+      "options": [
+        {
+          "text": "Be",
+          "correct": false
+        },
+        {
+          "text": "Were",
+          "correct": true
+        },
+        {
+          "text": "Was",
+          "correct": false
+        },
+        {
+          "text": "Am",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 289,
+      "tag": "MCQ 289 (Past Paper 2025)",
+      "question": "Security issued, terrorism and poor law and order situation were the main reasons that impended the tourism industry and prevented tourist – visiting Pakistan in the past",
+      "options": [
+        {
+          "text": "In",
+          "correct": false
+        },
+        {
+          "text": "To",
+          "correct": false
+        },
+        {
+          "text": "For",
+          "correct": false
+        },
+        {
+          "text": "From",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 290,
+      "tag": "MCQ 290 (Past Paper 2025)",
+      "question": "Choose the correct phrasal in the given example: do not forget to test the lights when you leave the office",
+      "options": [
+        {
+          "text": "Turn up",
+          "correct": false
+        },
+        {
+          "text": "Turn down",
+          "correct": false
+        },
+        {
+          "text": "Turn off",
+          "correct": true
+        },
+        {
+          "text": "Turn in",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Idioms & Phrases"
+    },
+    {
+      "qNum": 291,
+      "tag": "MCQ 291 (Past Paper 2025)",
+      "question": "Despite being deprieved of their job during the pandemic. some people did not dash hope.",
+      "options": [
+        {
+          "text": "Lost",
+          "correct": false
+        },
+        {
+          "text": "Loose",
+          "correct": false
+        },
+        {
+          "text": "Lose",
+          "correct": true
+        },
+        {
+          "text": "Loosen",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 292,
+      "tag": "MCQ 292 (Past Paper 2025)",
+      "question": "Synonym of Advice",
+      "options": [
+        {
+          "text": "Counsel",
+          "correct": true
+        },
+        {
+          "text": "Practice",
+          "correct": false
+        },
+        {
+          "text": "Council",
+          "correct": false
+        },
+        {
+          "text": "Proposal",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Synonyms"
+    },
+    {
+      "qNum": 293,
+      "tag": "MCQ 293 (Past Paper 2025)",
+      "question": "Synonym of abstain",
+      "options": [
+        {
+          "text": "Refrain",
+          "correct": true
+        },
+        {
+          "text": "Ingest",
+          "correct": false
+        },
+        {
+          "text": "Consume",
+          "correct": false
+        },
+        {
+          "text": "Take in",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Synonyms"
+    },
+    {
+      "qNum": 294,
+      "tag": "MCQ 294 (Past Paper 2025)",
+      "question": "Synonym of Deffer",
+      "options": [
+        {
+          "text": "Differ",
+          "correct": false
+        },
+        {
+          "text": "Indifferent",
+          "correct": false
+        },
+        {
+          "text": "Postpone",
+          "correct": true
+        },
+        {
+          "text": "Defy",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Synonyms"
+    },
+    {
+      "qNum": 295,
+      "tag": "MCQ 295 (Past Paper 2025)",
+      "question": "Synonym of Decipher",
+      "options": [
+        {
+          "text": "Clear",
+          "correct": false
+        },
+        {
+          "text": "Revive",
+          "correct": false
+        },
+        {
+          "text": "Disort",
+          "correct": false
+        },
+        {
+          "text": "Interpret",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Synonyms"
+    },
+    {
+      "qNum": 296,
+      "tag": "MCQ 296 (Past Paper 2025)",
+      "question": "Synonym of VENT",
+      "options": [
+        {
+          "text": "Opening",
+          "correct": true
+        },
+        {
+          "text": "End",
+          "correct": false
+        },
+        {
+          "text": "Stodge",
+          "correct": false
+        },
+        {
+          "text": "Past tense of go",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Synonyms"
+    },
+    {
+      "qNum": 297,
+      "tag": "MCQ 297 (Past Paper 2025)",
+      "question": "Antonym of impartial",
+      "options": [
+        {
+          "text": "Hostile",
+          "correct": false
+        },
+        {
+          "text": "Need",
+          "correct": false
+        },
+        {
+          "text": "Biased",
+          "correct": true
+        },
+        {
+          "text": "Worried",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Antonyms"
+    },
+    {
+      "qNum": 298,
+      "tag": "MCQ 298 (Past Paper 2025)",
+      "question": "Antonym of military",
+      "options": [
+        {
+          "text": "Civil",
+          "correct": true
+        },
+        {
+          "text": "Militant",
+          "correct": false
+        },
+        {
+          "text": "Coup",
+          "correct": false
+        },
+        {
+          "text": "Civility",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Antonyms"
+    },
+    {
+      "qNum": 299,
+      "tag": "MCQ 299 (Past Paper 2025)",
+      "question": "Antonym of Under rein",
+      "options": [
+        {
+          "text": "Under wrap",
+          "correct": false
+        },
+        {
+          "text": "Let loose",
+          "correct": true
+        },
+        {
+          "text": "No clout",
+          "correct": false
+        },
+        {
+          "text": "Without Target",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Antonyms"
+    },
+    {
+      "qNum": 300,
+      "tag": "MCQ 300 (Past Paper 2025)",
+      "question": "Antonym of Haughty",
+      "options": [
+        {
+          "text": "Temporary",
+          "correct": false
+        },
+        {
+          "text": "Painful",
+          "correct": false
+        },
+        {
+          "text": "Proud",
+          "correct": false
+        },
+        {
+          "text": "Humble",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Antonyms"
+    },
+    {
+      "qNum": 301,
+      "tag": "MCQ 301 (Past Paper 2025)",
+      "question": "Complete the sentence: The President's speech was so ... that many people were persuaded to accept the need for change",
+      "options": [
+        {
+          "text": "Expressive",
+          "correct": false
+        },
+        {
+          "text": "Eloquent",
+          "correct": true
+        },
+        {
+          "text": "Articulate",
+          "correct": false
+        },
+        {
+          "text": "Calm",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 302,
+      "tag": "MCQ 302 (Past Paper 2025)",
+      "question": "Complete the sentence: You must take a taxi if you ....to catch the next train.",
+      "options": [
+        {
+          "text": "Intend",
+          "correct": true
+        },
+        {
+          "text": "Would intend.",
+          "correct": false
+        },
+        {
+          "text": "Will intend",
+          "correct": false
+        },
+        {
+          "text": "Intending",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 303,
+      "tag": "MCQ 303 (Past Paper 2025)",
+      "question": "Complete the sentence: Ocean currents play a .... role in setting long-term climate .....",
+      "options": [
+        {
+          "text": "Vital ... date",
+          "correct": false
+        },
+        {
+          "text": "Major ... patterns",
+          "correct": true
+        },
+        {
+          "text": "Important ... variations",
+          "correct": false
+        },
+        {
+          "text": "Unusua ... changes",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 304,
+      "tag": "MCQ 304 (Past Paper 2025)",
+      "question": "Complete the sentence: If she is not interested, we will ..... the proposal.",
+      "options": [
+        {
+          "text": "Vacant",
+          "correct": false
+        },
+        {
+          "text": "Imnulse",
+          "correct": false
+        },
+        {
+          "text": "Abandon",
+          "correct": true
+        },
+        {
+          "text": "Remove",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 305,
+      "tag": "MCQ 305 (Past Paper 2025)",
+      "question": "The current pandemic has not only shattered global economy but also resulted in education loss",
+      "options": [
+        {
+          "text": "Within",
+          "correct": false
+        },
+        {
+          "text": "Across",
+          "correct": true
+        },
+        {
+          "text": "Of",
+          "correct": false
+        },
+        {
+          "text": "By",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 306,
+      "tag": "MCQ 306 (Past Paper 2025)",
+      "question": "Most of the universities in Pakistan neither – students in a critical thinking nor do they allow open debate on controversial topic",
+      "options": [
+        {
+          "text": "Encourage",
+          "correct": true
+        },
+        {
+          "text": "Engage",
+          "correct": false
+        },
+        {
+          "text": "Indulge",
+          "correct": false
+        },
+        {
+          "text": "In culcate",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 307,
+      "tag": "MCQ 307 (Past Paper 2025)",
+      "question": "The government has issued a warning that the registration of all those ngos would be canceled that fail to comply – the rules",
+      "options": [
+        {
+          "text": "On",
+          "correct": false
+        },
+        {
+          "text": "By",
+          "correct": false
+        },
+        {
+          "text": "To",
+          "correct": false
+        },
+        {
+          "text": "With",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 308,
+      "tag": "MCQ 308 (Past Paper 2025)",
+      "question": "A protest without any clear agenda is not - to be taken seriously",
+      "options": [
+        {
+          "text": "Likely",
+          "correct": true
+        },
+        {
+          "text": "About",
+          "correct": false
+        },
+        {
+          "text": "Seem",
+          "correct": false
+        },
+        {
+          "text": "Rarely",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 309,
+      "tag": "MCQ 309 (Past Paper 2025)",
+      "question": "– it strengthens hurt and lungs, aerobil exercise is believed to be as important factor in preventing heart disease",
+      "options": [
+        {
+          "text": "Unless",
+          "correct": false
+        },
+        {
+          "text": "While",
+          "correct": false
+        },
+        {
+          "text": "Though",
+          "correct": false
+        },
+        {
+          "text": "Because",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 310,
+      "tag": "MCQ 310 (Past Paper 2025)",
+      "question": "A. Street named – mayor of the town",
+      "options": [
+        {
+          "text": "After",
+          "correct": true
+        },
+        {
+          "text": "As",
+          "correct": false
+        },
+        {
+          "text": "For",
+          "correct": false
+        },
+        {
+          "text": "By",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 311,
+      "tag": "MCQ 311 (Past Paper 2025)",
+      "question": "Money this money will be reserved- charitable purposes",
+      "options": [
+        {
+          "text": "To",
+          "correct": false
+        },
+        {
+          "text": "For",
+          "correct": true
+        },
+        {
+          "text": "At",
+          "correct": false
+        },
+        {
+          "text": "In",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Prepositions"
+    },
+    {
+      "qNum": 312,
+      "tag": "MCQ 312 (Past Paper 2025)",
+      "question": "I am just a girl – Little Rock",
+      "options": [
+        {
+          "text": "From",
+          "correct": true
+        },
+        {
+          "text": "With",
+          "correct": false
+        },
+        {
+          "text": "Along",
+          "correct": false
+        },
+        {
+          "text": "For",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 313,
+      "tag": "MCQ 313 (Past Paper 2025)",
+      "question": "The whole Nation was - the president",
+      "options": [
+        {
+          "text": "Behind",
+          "correct": true
+        },
+        {
+          "text": "After",
+          "correct": false
+        },
+        {
+          "text": "Before",
+          "correct": false
+        },
+        {
+          "text": "for",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 314,
+      "tag": "MCQ 314 (Past Paper 2025)",
+      "question": "She said I am too weak to walk",
+      "options": [
+        {
+          "text": "(a) She said that I was too weak to walk.",
+          "correct": false
+        },
+        {
+          "text": "(b) She said that she was so weak to walk.",
+          "correct": false
+        },
+        {
+          "text": "(c) She said that she was too weak to walk.",
+          "correct": true
+        },
+        {
+          "text": "(d) She told that she was too weak to walk.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 315,
+      "tag": "MCQ 315 (Past Paper 2025)",
+      "question": "Amir said to me, \"Thank you very much for your kind help today.\"",
+      "options": [
+        {
+          "text": "(a) Amir thanked him very much for my kind help that day.",
+          "correct": false
+        },
+        {
+          "text": "(b) Amir thanked me very much for his kind help that day.",
+          "correct": false
+        },
+        {
+          "text": "(c) Amir thanked me very much for my kind help that day.",
+          "correct": true
+        },
+        {
+          "text": "(d) Amir thanked me very much for my kind help today.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 316,
+      "tag": "MCQ 316 (Past Paper 2025)",
+      "question": "He said, \"How is your health now?\"",
+      "options": [
+        {
+          "text": "(a) He asked how his health was then.",
+          "correct": false
+        },
+        {
+          "text": "(b) He asked how my health was then.",
+          "correct": true
+        },
+        {
+          "text": "(c) He asked how my health is then.",
+          "correct": false
+        },
+        {
+          "text": "I He asked how my health was now.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 317,
+      "tag": "MCQ 317 (Past Paper 2025)",
+      "question": "Are you going to join school today?\" said the mother to the boy.",
+      "options": [
+        {
+          "text": "(a) The mother asked the boy weather he was going to join school that day",
+          "correct": true
+        },
+        {
+          "text": "(b) the mother asked the boy whether I was going to join school that day",
+          "correct": false
+        },
+        {
+          "text": "(c) The mother asked the boy whether he as going to join school that day.",
+          "correct": false
+        },
+        {
+          "text": "(d) The mother asked the boy whether he was going to join school today.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 318,
+      "tag": "MCQ 318 (Past Paper 2025)",
+      "question": "\"What is your name and who are you?\" said the policeman.",
+      "options": [
+        {
+          "text": "(a) The policeman asked what my name was and who I was.",
+          "correct": true
+        },
+        {
+          "text": "(b) The policeman asked what his name was and who I was.",
+          "correct": false
+        },
+        {
+          "text": "(c) The policeman asked what my name is and who I was.",
+          "correct": false
+        },
+        {
+          "text": "d) The policeman asked what my name was and who he was.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 319,
+      "tag": "MCQ 319 (Past Paper 2025)",
+      "question": "I have come here of my own free -",
+      "options": [
+        {
+          "text": "Desire",
+          "correct": false
+        },
+        {
+          "text": "Choice",
+          "correct": false
+        },
+        {
+          "text": "Will",
+          "correct": true
+        },
+        {
+          "text": "Intention",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 320,
+      "tag": "MCQ 320 (Past Paper 2025)",
+      "question": "The flower have begun to dash",
+      "options": [
+        {
+          "text": "Droop",
+          "correct": false
+        },
+        {
+          "text": "Wilt",
+          "correct": true
+        },
+        {
+          "text": "Weaken",
+          "correct": false
+        },
+        {
+          "text": "Fade",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 321,
+      "tag": "MCQ 321 (Past Paper 2025)",
+      "question": "The grumpy old man – about everything during entire trip",
+      "options": [
+        {
+          "text": "Complained",
+          "correct": true
+        },
+        {
+          "text": "Talk",
+          "correct": false
+        },
+        {
+          "text": "Mumbled",
+          "correct": false
+        },
+        {
+          "text": "Moaned",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 322,
+      "tag": "MCQ 322 (Past Paper 2025)",
+      "question": "What dash are you? The immigration officer asked the refugees",
+      "options": [
+        {
+          "text": "Citizenship",
+          "correct": false
+        },
+        {
+          "text": "Native",
+          "correct": false
+        },
+        {
+          "text": "Person",
+          "correct": true
+        },
+        {
+          "text": "Nationality",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 323,
+      "tag": "MCQ 323 (Past Paper 2025)",
+      "question": "How do you expect me to hear you as your -? The feature asked impatiently",
+      "options": [
+        {
+          "text": "Mutter",
+          "correct": false
+        },
+        {
+          "text": "Mumble",
+          "correct": false
+        },
+        {
+          "text": "Whisper",
+          "correct": true
+        },
+        {
+          "text": "Murmur",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 324,
+      "tag": "MCQ 324 (Past Paper 2025)",
+      "question": "There is a - in that company for an accountant clerk",
+      "options": [
+        {
+          "text": "Job",
+          "correct": false
+        },
+        {
+          "text": "Post",
+          "correct": false
+        },
+        {
+          "text": "Chance",
+          "correct": false
+        },
+        {
+          "text": "Vacancy",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 325,
+      "tag": "MCQ 325 (Past Paper 2025)",
+      "question": "The agreement has been ....; you are no longer responsible for the consequences.\" he said",
+      "options": [
+        {
+          "text": "(A) annulled",
+          "correct": true
+        },
+        {
+          "text": "(B) completed",
+          "correct": false
+        },
+        {
+          "text": "(C) dropped",
+          "correct": false
+        },
+        {
+          "text": "(D) stopped",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 326,
+      "tag": "MCQ 326 (Past Paper 2025)",
+      "question": "The money that Rehan had found turned out to be_",
+      "options": [
+        {
+          "text": "(A) false",
+          "correct": false
+        },
+        {
+          "text": "(B) counterfeit",
+          "correct": true
+        },
+        {
+          "text": "(C) fake",
+          "correct": false
+        },
+        {
+          "text": "(D) imitation",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 327,
+      "tag": "MCQ 327 (Past Paper 2025)",
+      "question": "Most of the people of the community signed the dash to prevent the cutting down of the trees along the streets",
+      "options": [
+        {
+          "text": "appeal",
+          "correct": false
+        },
+        {
+          "text": "Application",
+          "correct": false
+        },
+        {
+          "text": "Request",
+          "correct": false
+        },
+        {
+          "text": "Petition",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 328,
+      "tag": "MCQ 328 (Past Paper 2025)",
+      "question": "The _ young men vandalized the city.",
+      "options": [
+        {
+          "text": "(A) illegal",
+          "correct": false
+        },
+        {
+          "text": "(B) illicit",
+          "correct": false
+        },
+        {
+          "text": "(C) unlawful",
+          "correct": false
+        },
+        {
+          "text": "(D) criminal",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 329,
+      "tag": "MCQ 329 (Past Paper 2025)",
+      "question": "he was .... to me for saving his life.",
+      "options": [
+        {
+          "text": "(A) appreciative",
+          "correct": false
+        },
+        {
+          "text": "(B) indebted",
+          "correct": true
+        },
+        {
+          "text": "(C) thankful",
+          "correct": false
+        },
+        {
+          "text": "(D) obliged",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
+    },
+    {
+      "qNum": 330,
+      "tag": "MCQ 330 (Past Paper 2025)",
+      "question": "The citizens of the country were given was declining.... to have more children because the population rate was declining",
+      "options": [
+        {
+          "text": "(A) inducement",
+          "correct": false
+        },
+        {
+          "text": "(B) encouragement",
+          "correct": false
+        },
+        {
+          "text": "(C) rewards",
+          "correct": false
+        },
+        {
+          "text": "(D) incentives",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Grammar & Sentence Completion"
     }
   ]
 }
