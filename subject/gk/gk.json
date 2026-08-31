@@ -3,8 +3,8 @@
     "title": "General Knowledge — MCQ Notes",
     "heading": "🌍 General Knowledge — MCQ Notes",
     "description": "Covers: World Capitals & Currencies, Nobel Prizes & Awards, Literature, Geography, International Organizations, Pakistan Studies (Pre & Post Independence), General Science, Sports & World History — combined from multiple KU GK compilations and past-paper test banks",
-    "footer": "🎓 Total: 506 MCQs | Topics: World Capitals & Currencies • Nobel Prizes & Awards • Literature • Geography • International Organizations • Pakistan Studies • General Science • Sports • World History",
-    "total": 506
+    "footer": "🎓 Total: 524 MCQs | Topics: World Capitals & Currencies • Nobel Prizes & Awards • Literature • Geography • International Organizations • Pakistan Studies • General Science • Sports • World History",
+    "total": 524
   },
   "questions": [
     {
@@ -12656,6 +12656,456 @@
       ],
       "correctIndex": 1,
       "explanation": "Thailand was formerly known as Siam until it was officially renamed in 1939."
+    },
+    {
+      "qNum": 507,
+      "tag": "MCQ 507",
+      "question": "Q507. Simla Agreement was signed in the year?",
+      "options": [
+        {
+          "text": "A) 1906",
+          "correct": false
+        },
+        {
+          "text": "B) 1965",
+          "correct": false
+        },
+        {
+          "text": "C) 1972",
+          "correct": true
+        },
+        {
+          "text": "D) 1977",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "The Simla Agreement between Pakistan and India was signed on 2 July 1972, following the 1971 war."
+    },
+    {
+      "qNum": 508,
+      "tag": "MCQ 508",
+      "question": "Q508. When was the Simla Conference held?",
+      "options": [
+        {
+          "text": "A) 1944",
+          "correct": false
+        },
+        {
+          "text": "B) 1945",
+          "correct": true
+        },
+        {
+          "text": "C) 1956",
+          "correct": false
+        },
+        {
+          "text": "D) 1942",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "The Simla Conference was held in June–July 1945, called by Viceroy Lord Wavell to discuss the formation of a new Executive Council."
+    },
+    {
+      "qNum": 509,
+      "tag": "MCQ 509",
+      "question": "Q509. Simla deputation met Lord Minto in:",
+      "options": [
+        {
+          "text": "A) 1905",
+          "correct": false
+        },
+        {
+          "text": "B) 1906",
+          "correct": true
+        },
+        {
+          "text": "C) 1907",
+          "correct": false
+        },
+        {
+          "text": "D) 1908",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "The Simla Deputation, led by Aga Khan III, met Viceroy Lord Minto in October 1906 and led to the founding of the All-India Muslim League."
+    },
+    {
+      "qNum": 510,
+      "tag": "MCQ 510",
+      "question": "Q510. Oct 7, 1958 — First constitution was abrogated by ____________",
+      "options": [
+        {
+          "text": "A) Ayub Khan",
+          "correct": false
+        },
+        {
+          "text": "B) Yahya Khan",
+          "correct": false
+        },
+        {
+          "text": "C) Iskandar Mirza",
+          "correct": true
+        },
+        {
+          "text": "D) Zia Ul Haq",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "President Iskandar Mirza abrogated the 1956 Constitution and imposed martial law on 7 October 1958, appointing General Ayub Khan as Chief Martial Law Administrator."
+    },
+    {
+      "qNum": 511,
+      "tag": "MCQ 511",
+      "question": "Q511. General Ayub Khan abrogated which constitution?",
+      "options": [
+        {
+          "text": "A) 1956",
+          "correct": false
+        },
+        {
+          "text": "B) 1962",
+          "correct": true
+        },
+        {
+          "text": "C) 1973",
+          "correct": false
+        },
+        {
+          "text": "D) None",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "Ayub Khan abrogated the 1962 Constitution in March 1969 when he handed over power to General Yahya Khan."
+    },
+    {
+      "qNum": 512,
+      "tag": "MCQ 512",
+      "question": "Q512. Who is known as the poet of the east?",
+      "options": [
+        {
+          "text": "A) Allama Iqbal",
+          "correct": true
+        },
+        {
+          "text": "B) Mirza Ghalib",
+          "correct": false
+        },
+        {
+          "text": "C) Faiz Ahmed Faiz",
+          "correct": false
+        },
+        {
+          "text": "D) Hafeez Jullandhri",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "Allama Muhammad Iqbal is known as the \"Poet of the East\" (Shair-e-Mashriq)."
+    },
+    {
+      "qNum": 513,
+      "tag": "MCQ 513",
+      "question": "Q513. Who was the first prime minister of Pakistan?",
+      "options": [
+        {
+          "text": "A) Liaquat Ali Khan",
+          "correct": true
+        },
+        {
+          "text": "B) Khawaja Nazimuddin",
+          "correct": false
+        },
+        {
+          "text": "C) Ayub Khan",
+          "correct": false
+        },
+        {
+          "text": "D) Ghulam Muhammad",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "Liaquat Ali Khan served as Pakistan's first Prime Minister from 1947 until his assassination in 1951."
+    },
+    {
+      "qNum": 514,
+      "tag": "MCQ 514",
+      "question": "Q514. Who is the last governor-general and first president of Pakistan?",
+      "options": [
+        {
+          "text": "A) Ghulam Muhammad",
+          "correct": false
+        },
+        {
+          "text": "B) Khawaja Nazimuddin",
+          "correct": false
+        },
+        {
+          "text": "C) Iskandar Mirza",
+          "correct": true
+        },
+        {
+          "text": "D) Ayub Khan",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "Iskandar Mirza was Pakistan's last Governor-General and became its first President in 1956."
+    },
+    {
+      "qNum": 515,
+      "tag": "MCQ 515",
+      "question": "Q515. When did Allama Iqbal present his Allahabad address?",
+      "options": [
+        {
+          "text": "A) 1927",
+          "correct": false
+        },
+        {
+          "text": "B) 1928",
+          "correct": false
+        },
+        {
+          "text": "C) 1930",
+          "correct": true
+        },
+        {
+          "text": "D) 1932",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "Iqbal delivered his famous Allahabad Address, proposing a separate Muslim state in northwestern India, in December 1930."
+    },
+    {
+      "qNum": 516,
+      "tag": "MCQ 516",
+      "question": "Q516. The Muslim League was founded by:",
+      "options": [
+        {
+          "text": "A) Nawab Viqar-ul-Mulk & Nawab Mohsin-ul-Mulk",
+          "correct": true
+        },
+        {
+          "text": "B) Quaid-e-Azam",
+          "correct": false
+        },
+        {
+          "text": "C) Allama Iqbal",
+          "correct": false
+        },
+        {
+          "text": "D) Liaquat Ali Khan",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "The All-India Muslim League was founded in Dhaka in 1906, with Nawab Viqar-ul-Mulk and Nawab Mohsin-ul-Mulk among its key founders."
+    },
+    {
+      "qNum": 517,
+      "tag": "MCQ 517",
+      "question": "Q517. Who is the first governor general of Pakistan?",
+      "options": [
+        {
+          "text": "A) Liaquat Ali Khan",
+          "correct": false
+        },
+        {
+          "text": "B) Quaid-e-Azam",
+          "correct": true
+        },
+        {
+          "text": "C) Khawaja Nazimuddin",
+          "correct": false
+        },
+        {
+          "text": "D) Iskandar Mirza",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "Muhammad Ali Jinnah (Quaid-e-Azam) served as Pakistan's first Governor-General from independence in 1947 until his death in 1948."
+    },
+    {
+      "qNum": 518,
+      "tag": "MCQ 518",
+      "question": "Q518. Who gave the title of Quaid-e-Azam to Muhammad Ali Jinnah?",
+      "options": [
+        {
+          "text": "A) Allama Iqbal",
+          "correct": false
+        },
+        {
+          "text": "B) Liaquat Ali Khan",
+          "correct": false
+        },
+        {
+          "text": "C) Maulana Mazharuddin",
+          "correct": true
+        },
+        {
+          "text": "D) Mian Ferozuddin",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "The title \"Quaid-e-Azam\" (Great Leader) was conferred on Jinnah by Maulana Mazharuddin."
+    },
+    {
+      "qNum": 519,
+      "tag": "MCQ 519",
+      "question": "Q519. Radcliffe Award was announced on:",
+      "options": [
+        {
+          "text": "A) 14 Aug 1947",
+          "correct": false
+        },
+        {
+          "text": "B) 15 Aug 1947",
+          "correct": false
+        },
+        {
+          "text": "C) 17 Aug 1947",
+          "correct": true
+        },
+        {
+          "text": "D) 20 Aug 1947",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "The Radcliffe Award, which drew the boundary lines for Partition, was announced on 17 August 1947."
+    },
+    {
+      "qNum": 520,
+      "tag": "MCQ 520",
+      "question": "Q520. Pakistan became member of the United Nations in:",
+      "options": [
+        {
+          "text": "A) 14 Aug 1947",
+          "correct": false
+        },
+        {
+          "text": "B) 15 Aug 1947",
+          "correct": false
+        },
+        {
+          "text": "C) 30 Sep 1947",
+          "correct": true
+        },
+        {
+          "text": "D) 30 Oct 1947",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "Pakistan was admitted as a member of the United Nations on 30 September 1947."
+    },
+    {
+      "qNum": 521,
+      "tag": "MCQ 521",
+      "question": "Q521. Who was the first female prime minister of Pakistan?",
+      "options": [
+        {
+          "text": "A) Benazir Bhutto",
+          "correct": true
+        },
+        {
+          "text": "B) Fatima Jinnah",
+          "correct": false
+        },
+        {
+          "text": "C) Begum Ra'ana Liaquat",
+          "correct": false
+        },
+        {
+          "text": "D) Hina Rabbani Khar",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "Benazir Bhutto became Pakistan's (and the Muslim world's) first female Prime Minister in 1988."
+    },
+    {
+      "qNum": 522,
+      "tag": "MCQ 522",
+      "question": "Q522. Who is known as Madar-e-Millat?",
+      "options": [
+        {
+          "text": "A) Fatima Jinnah",
+          "correct": true
+        },
+        {
+          "text": "B) Begum Ra'ana Liaquat Ali Khan",
+          "correct": false
+        },
+        {
+          "text": "C) Benazir Bhutto",
+          "correct": false
+        },
+        {
+          "text": "D) None",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "Fatima Jinnah, sister of Quaid-e-Azam, is honored with the title \"Madar-e-Millat\" (Mother of the Nation)."
+    },
+    {
+      "qNum": 523,
+      "tag": "MCQ 523",
+      "question": "Q523. Indus Waters Treaty was signed in:",
+      "options": [
+        {
+          "text": "A) 1959",
+          "correct": false
+        },
+        {
+          "text": "B) 1961",
+          "correct": false
+        },
+        {
+          "text": "C) 1962",
+          "correct": false
+        },
+        {
+          "text": "D) 1960",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "The Indus Waters Treaty between Pakistan and India was signed in September 1960, brokered by the World Bank."
+    },
+    {
+      "qNum": 524,
+      "tag": "MCQ 524",
+      "question": "Q524. Who was the first Chief Martial Law Administrator of Pakistan?",
+      "options": [
+        {
+          "text": "A) General Yahya Khan",
+          "correct": false
+        },
+        {
+          "text": "B) General Zia-ul-Haq",
+          "correct": false
+        },
+        {
+          "text": "C) General Ayub Khan",
+          "correct": true
+        },
+        {
+          "text": "D) General Musharraf",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "General Ayub Khan was appointed Pakistan's first Chief Martial Law Administrator when martial law was imposed in 1958."
     }
   ]
 }
