@@ -1,0 +1,2626 @@
+{
+  "meta": {
+    "total": 100,
+    "topics": [
+      {
+        "name": "Computer Fundamentals & History",
+        "count": 25
+      },
+      {
+        "name": "Applications, Networking & CAD-CAM",
+        "count": 25
+      },
+      {
+        "name": "Data Processing & Systems",
+        "count": 25
+      },
+      {
+        "name": "Number Systems & Data Representation",
+        "count": 25
+      }
+    ],
+    "footer": "🎓 Total: 100 MCQs (Q1-100, Batch 1 of PDF) | Source: Computer Past Papers (Karachi University Entry Test)"
+  },
+  "questions": [
+    {
+      "qNum": 1,
+      "tag": "MCQ 1 (Past Paper)",
+      "question": "Layman, when he thinks of automation, is generally reminded of",
+      "options": [
+        {
+          "text": "network communication",
+          "correct": false
+        },
+        {
+          "text": "Computer graphics",
+          "correct": false
+        },
+        {
+          "text": "robots",
+          "correct": true
+        },
+        {
+          "text": "CAD/CAM",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 2,
+      "tag": "MCQ 2 (Past Paper)",
+      "question": "The main characteristic of fifth generation computer is",
+      "options": [
+        {
+          "text": "no use of microprocessors in them",
+          "correct": false
+        },
+        {
+          "text": "their phenomenal speed",
+          "correct": false
+        },
+        {
+          "text": "extremely low cost",
+          "correct": false
+        },
+        {
+          "text": "artificial intelligence",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 3,
+      "tag": "MCQ 3 (Past Paper)",
+      "question": "A hybrid computer is the one having combined properties of",
+      "options": [
+        {
+          "text": "Super and microcomputers",
+          "correct": false
+        },
+        {
+          "text": "Mini and microcomputer",
+          "correct": false
+        },
+        {
+          "text": "analog and digital computers",
+          "correct": true
+        },
+        {
+          "text": "none of the above",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 4,
+      "tag": "MCQ 4 (Past Paper)",
+      "question": "Which of the following qualities can not be attributed to computer.",
+      "options": [
+        {
+          "text": "High speed",
+          "correct": false
+        },
+        {
+          "text": "Emotion",
+          "correct": true
+        },
+        {
+          "text": "Accuracy",
+          "correct": false
+        },
+        {
+          "text": "Versatility",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 5,
+      "tag": "MCQ 5 (Past Paper)",
+      "question": "An A/D converter does the conversion from",
+      "options": [
+        {
+          "text": "digital to analog",
+          "correct": false
+        },
+        {
+          "text": "analog to digital",
+          "correct": true
+        },
+        {
+          "text": "voltage to ampere",
+          "correct": false
+        },
+        {
+          "text": "direct to alternate current",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 6,
+      "tag": "MCQ 6 (Past Paper)",
+      "question": "A computer device can be called programmable if",
+      "options": [
+        {
+          "text": "its operation is fixed",
+          "correct": false
+        },
+        {
+          "text": "its operation can be changed by change of commands",
+          "correct": true
+        },
+        {
+          "text": "it can not adopt to many applications by different programs",
+          "correct": false
+        },
+        {
+          "text": "none of the above",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 7,
+      "tag": "MCQ 7 (Past Paper)",
+      "question": "Large computers which can process huge data at high speeds are known as",
+      "options": [
+        {
+          "text": "networks",
+          "correct": false
+        },
+        {
+          "text": "minicomputers",
+          "correct": false
+        },
+        {
+          "text": "microcomputers",
+          "correct": false
+        },
+        {
+          "text": "mainframes",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 8,
+      "tag": "MCQ 8 (Past Paper)",
+      "question": "A mainframe is generally more powerful than a minicomputer but less powerful than a",
+      "options": [
+        {
+          "text": "microcomputer",
+          "correct": false
+        },
+        {
+          "text": "personal computer",
+          "correct": false
+        },
+        {
+          "text": "super computer",
+          "correct": true
+        },
+        {
+          "text": "none of the above",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 9,
+      "tag": "MCQ 9 (Past Paper)",
+      "question": "Which statement is true about UNIVAC - I",
+      "options": [
+        {
+          "text": "it was designed by Hollerith",
+          "correct": false
+        },
+        {
+          "text": "it supported high-level languages",
+          "correct": false
+        },
+        {
+          "text": "it was small in size compared to present day computers",
+          "correct": false
+        },
+        {
+          "text": "it was the first commercially available computer",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 10,
+      "tag": "MCQ 10 (Past Paper)",
+      "question": "A dumb terminal",
+      "options": [
+        {
+          "text": "cannot be programmed by the user",
+          "correct": true
+        },
+        {
+          "text": "can edit data",
+          "correct": false
+        },
+        {
+          "text": "can process data by itself",
+          "correct": false
+        },
+        {
+          "text": "can interact with the user in English",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 11,
+      "tag": "MCQ 11 (Past Paper)",
+      "question": "Which of the following is incorrect",
+      "options": [
+        {
+          "text": "Intel-8085 is a microprocessor used in fourth generation computers",
+          "correct": false
+        },
+        {
+          "text": "The abacus is still being used for addition",
+          "correct": false
+        },
+        {
+          "text": "The first generation computers used transistors",
+          "correct": true
+        },
+        {
+          "text": "Hollerith invented the punched card",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 12,
+      "tag": "MCQ 12 (Past Paper)",
+      "question": "Who among the following could perform duties with least mistakes, remain untired and yet not complain",
+      "options": [
+        {
+          "text": "a systems Analyst",
+          "correct": false
+        },
+        {
+          "text": "a programmer",
+          "correct": false
+        },
+        {
+          "text": "a robot",
+          "correct": true
+        },
+        {
+          "text": "an EDP manager",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 13,
+      "tag": "MCQ 13 (Past Paper)",
+      "question": "Present day computers are based on",
+      "options": [
+        {
+          "text": "analog technology",
+          "correct": false
+        },
+        {
+          "text": "hybrid technology",
+          "correct": false
+        },
+        {
+          "text": "digital technology",
+          "correct": true
+        },
+        {
+          "text": "none of the above",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 14,
+      "tag": "MCQ 14 (Past Paper)",
+      "question": "What is true about supercomputers",
+      "options": [
+        {
+          "text": "They can fit on a single small chip",
+          "correct": false
+        },
+        {
+          "text": "They are found at thousands of places around the world.",
+          "correct": false
+        },
+        {
+          "text": "They cost only few thousand rupee",
+          "correct": false
+        },
+        {
+          "text": "They can process billion of operations in a second",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 15,
+      "tag": "MCQ 15 (Past Paper)",
+      "question": "The time taken to perform an operation by a present day computer is about",
+      "options": [
+        {
+          "text": "a second",
+          "correct": true
+        },
+        {
+          "text": "a millisecond",
+          "correct": false
+        },
+        {
+          "text": "a microsecond",
+          "correct": false
+        },
+        {
+          "text": "a nanosecond",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 16,
+      "tag": "MCQ 16 (Past Paper)",
+      "question": "A digital computer is based on the principle of",
+      "options": [
+        {
+          "text": "measurement",
+          "correct": false
+        },
+        {
+          "text": "logic",
+          "correct": true
+        },
+        {
+          "text": "multiplication",
+          "correct": false
+        },
+        {
+          "text": "counting",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 17,
+      "tag": "MCQ 17 (Past Paper)",
+      "question": "A computer",
+      "options": [
+        {
+          "text": "is an intelligent machine",
+          "correct": false
+        },
+        {
+          "text": "can get tired easily",
+          "correct": false
+        },
+        {
+          "text": "may forget if you give it too much data",
+          "correct": false
+        },
+        {
+          "text": "none of the above",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 18,
+      "tag": "MCQ 18 (Past Paper)",
+      "question": "The first electronic computer of the 1st generation was",
+      "options": [
+        {
+          "text": "UNIVAC-I",
+          "correct": false
+        },
+        {
+          "text": "ENICAC",
+          "correct": true
+        },
+        {
+          "text": "MARK-I",
+          "correct": false
+        },
+        {
+          "text": "IBM-70",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 19,
+      "tag": "MCQ 19 (Past Paper)",
+      "question": "The logarithms were developed by",
+      "options": [
+        {
+          "text": "Mauchley",
+          "correct": false
+        },
+        {
+          "text": "Napier",
+          "correct": true
+        },
+        {
+          "text": "Leibnitz",
+          "correct": false
+        },
+        {
+          "text": "Charles Babbage",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 20,
+      "tag": "MCQ 20 (Past Paper)",
+      "question": "Which of the following device was responsible for transition from first to second generation computers.",
+      "options": [
+        {
+          "text": "chip",
+          "correct": false
+        },
+        {
+          "text": "transistor",
+          "correct": true
+        },
+        {
+          "text": "vacuum tube",
+          "correct": false
+        },
+        {
+          "text": "large scale integration",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 21,
+      "tag": "MCQ 21 (Past Paper)",
+      "question": "Which of the following is not true about ENIAC computer",
+      "options": [
+        {
+          "text": "it belonged to I generation",
+          "correct": false
+        },
+        {
+          "text": "it was the first programmable computer",
+          "correct": true
+        },
+        {
+          "text": "it was made by Ecket and Mauchly",
+          "correct": false
+        },
+        {
+          "text": "it consumed 150 kw of power and weighted 27 tones.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 22,
+      "tag": "MCQ 22 (Past Paper)",
+      "question": "Which of the following is not true about microcomputer",
+      "options": [
+        {
+          "text": "they can use operation systems",
+          "correct": false
+        },
+        {
+          "text": "they were introduced with third generation computers.",
+          "correct": false
+        },
+        {
+          "text": "they can not use high-level languages",
+          "correct": false
+        },
+        {
+          "text": "both b and c above are not true about microcomputer",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 23,
+      "tag": "MCQ 23 (Past Paper)",
+      "question": "Which among the following is not correct",
+      "options": [
+        {
+          "text": "Babbage invented Analytical Engine",
+          "correct": false
+        },
+        {
+          "text": "Ecket made the ENIAC computer",
+          "correct": false
+        },
+        {
+          "text": "System/360 computer belongs to 3rd generation",
+          "correct": false
+        },
+        {
+          "text": "Von Neumann developed personal computer",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 24,
+      "tag": "MCQ 24 (Past Paper)",
+      "question": "Charles Babbage was a",
+      "options": [
+        {
+          "text": "Mathematician",
+          "correct": true
+        },
+        {
+          "text": "Physician",
+          "correct": false
+        },
+        {
+          "text": "Musician",
+          "correct": false
+        },
+        {
+          "text": "Cricketer",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 25,
+      "tag": "MCQ 25 (Past Paper)",
+      "question": "The oldest device for performing calculations which is used even now is",
+      "options": [
+        {
+          "text": "Abacus",
+          "correct": true
+        },
+        {
+          "text": "Difference Engine",
+          "correct": false
+        },
+        {
+          "text": "Sextant",
+          "correct": false
+        },
+        {
+          "text": "Analytical Engine",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Computer Fundamentals & History"
+    },
+    {
+      "qNum": 26,
+      "tag": "MCQ 26 (Past Paper)",
+      "question": "WHICH OF THE FOLLOWING CONDITION IS NOT NECESSARY FOR COMPUTER TELECONFERENCING",
+      "options": [
+        {
+          "text": "THE GROUP MEMBERS MUST PARTICIPATE AT THE SAME TIME.",
+          "correct": false
+        },
+        {
+          "text": "THE GROUP MEMBERS MUST BE CONNECTED TO EACH OTHER BY NETWORKING.",
+          "correct": false
+        },
+        {
+          "text": "A GROUP MEMBERS SHOULD KNOW THE PASSWORD FOR AUTHORIZED ACCESS",
+          "correct": false
+        },
+        {
+          "text": "ALL ABOVE CONDITIONS ARE NECESSARY",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 27,
+      "tag": "MCQ 27 (Past Paper)",
+      "question": "CONFERENCING IN RELATION TO COMPUTER SYSTEMS MEANS",
+      "options": [
+        {
+          "text": "TRANSFER OF DOCUMENTS ELECTRONICALLY VIA COMPUTERS LINKED TO EACH OTHER",
+          "correct": false
+        },
+        {
+          "text": "GETTING HOOKED TO AN INTERNATIONAL NETWORK OF COMPUTER DATA.",
+          "correct": false
+        },
+        {
+          "text": "HAVING UNAUTHORIZED ACCESS TO COMPUTER DATA.",
+          "correct": false
+        },
+        {
+          "text": "ON-LINE MEETINGS USING COMPUTERS LINKED TO EACH OTHER.",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 28,
+      "tag": "MCQ 28 (Past Paper)",
+      "question": "FOR CREATING AND EDITING LEGAL DOCUMENTS WHICH APPLICATION PACKAGE WOULD BE MOST USEFUL.",
+      "options": [
+        {
+          "text": "SPREADSHEET",
+          "correct": false
+        },
+        {
+          "text": "WORDPROCESSING",
+          "correct": true
+        },
+        {
+          "text": "GRAPHICS",
+          "correct": false
+        },
+        {
+          "text": "COMMUNICATION",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 29,
+      "tag": "MCQ 29 (Past Paper)",
+      "question": "THE INVENTIONS IN THE FIELD OF ELECTRONICS AND COMMUNICATION HAVE CAUSED INCREASE IN THE",
+      "options": [
+        {
+          "text": "SPEED OF INFORMATION COMMUNICATION",
+          "correct": false
+        },
+        {
+          "text": "DISTANCE TO WHICH COMMUNICATION CAN BE MADE",
+          "correct": false
+        },
+        {
+          "text": "NUMBER OF PEOPLE WHO CAN INTERACT OVER LARGE AREA",
+          "correct": false
+        },
+        {
+          "text": "ALL OF THE ABOVE.",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 30,
+      "tag": "MCQ 30 (Past Paper)",
+      "question": "AN ALGORITHM BASICALLY IS A",
+      "options": [
+        {
+          "text": "PROCEDURE TO SOLVE A PROBLEM",
+          "correct": true
+        },
+        {
+          "text": "SOLUTION TO A PROBLEM",
+          "correct": false
+        },
+        {
+          "text": "STATEMENT OF A PROBLEM",
+          "correct": false
+        },
+        {
+          "text": "NONE OF THE ABOVE",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 31,
+      "tag": "MCQ 31 (Past Paper)",
+      "question": "THE PROGRAM USED WITH A WORDPROCESSING PACKAGE FOR AUTOMATIC INSERTION OF NAMES, ADDRESS ETC. IN SERIES OF LETTER IS CALLED.",
+      "options": [
+        {
+          "text": "LABELS",
+          "correct": false
+        },
+        {
+          "text": "DATABASE",
+          "correct": false
+        },
+        {
+          "text": "NETWORK",
+          "correct": false
+        },
+        {
+          "text": "MAILMERGE",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 32,
+      "tag": "MCQ 32 (Past Paper)",
+      "question": "CAD/CAM IS ORIENTED TOWARDS.",
+      "options": [
+        {
+          "text": "SOFTWARE",
+          "correct": true
+        },
+        {
+          "text": "HARDWARE",
+          "correct": false
+        },
+        {
+          "text": "HUMANWARE",
+          "correct": false
+        },
+        {
+          "text": "COMMUNICATIONS",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 33,
+      "tag": "MCQ 33 (Past Paper)",
+      "question": "CAD/CAM IS THE RELATIONSHIP BETWEEN",
+      "options": [
+        {
+          "text": "SCIENCE AND ENGINEERING",
+          "correct": false
+        },
+        {
+          "text": "MANUFACTURING AND MARKETING",
+          "correct": false
+        },
+        {
+          "text": "MANUFACTURING AND DESIGN",
+          "correct": true
+        },
+        {
+          "text": "MARKETING AND DESIGN.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 34,
+      "tag": "MCQ 34 (Past Paper)",
+      "question": "WHICH OF THE FOLLOWING PROGRAMS IS USEFUL FOR MERGING NAMES AND ADDRESS WITH REPETITIVE LETTERS FOR MASS MAILING.",
+      "options": [
+        {
+          "text": "WORD-PROCESSING & DATABASE INTEGRATED PROGRAM",
+          "correct": true
+        },
+        {
+          "text": "DATABASE MANAGEMENT AND SPREADSHEET PROGRAM",
+          "correct": false
+        },
+        {
+          "text": "GRAPHICS PROGRAM",
+          "correct": false
+        },
+        {
+          "text": "COMMUNICATION PROGRAM",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 35,
+      "tag": "MCQ 35 (Past Paper)",
+      "question": "THE CAD/CAM IS MAKING LARGEST IMPACT IN WHICH FIELD",
+      "options": [
+        {
+          "text": "MEDICAL",
+          "correct": true
+        },
+        {
+          "text": "ELECTRONICS",
+          "correct": false
+        },
+        {
+          "text": "SPACE",
+          "correct": false
+        },
+        {
+          "text": "EDUCATION",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 36,
+      "tag": "MCQ 36 (Past Paper)",
+      "question": "IF A HOME COMPUTER USER WANTS ACCESS TO NATIONAL DATABASE NETWORKS HE AT LEAST REQUIRES.",
+      "options": [
+        {
+          "text": "A MICROCOMPUTER, A MODEM, A TELEPHONE LINE",
+          "correct": false
+        },
+        {
+          "text": "A MICROCOMPUTER, A TELEPRINTER, A TELEPHONE LINE",
+          "correct": false
+        },
+        {
+          "text": "A MICROCOMPUTER, COMMUNICATIONS SOFTWARE, A TELEPHONE LINE",
+          "correct": false
+        },
+        {
+          "text": "A MICROCOMPUTER, A MODEM, COMMUNICATIONS SOFTWARE, A TELEPHONE LINE",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 37,
+      "tag": "MCQ 37 (Past Paper)",
+      "question": "THE BEST USE OF CAM TECHNOLOGY IS MADE IN",
+      "options": [
+        {
+          "text": "DRAFTING",
+          "correct": false
+        },
+        {
+          "text": "MANUFACTURING",
+          "correct": true
+        },
+        {
+          "text": "NUMERICAL CONTROL",
+          "correct": false
+        },
+        {
+          "text": "GEOMETRIC MODELING",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 38,
+      "tag": "MCQ 38 (Past Paper)",
+      "question": "THE CONCEPT OF SENDING/RECEIVING TEXT ETC. ON COMPUTER NETWORKS IS CALLED",
+      "options": [
+        {
+          "text": "ON-LINE DATABASE",
+          "correct": false
+        },
+        {
+          "text": "ELECTRONIC MAIL",
+          "correct": false
+        },
+        {
+          "text": "TELECONFERENCING",
+          "correct": true
+        },
+        {
+          "text": "TELEPRINTING",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 39,
+      "tag": "MCQ 39 (Past Paper)",
+      "question": "A WORDPROCESSOR CAN BE USED TO",
+      "options": [
+        {
+          "text": "EDIT DOCUMENTS",
+          "correct": false
+        },
+        {
+          "text": "PREPARE LETTERS",
+          "correct": false
+        },
+        {
+          "text": "PRINT DOCUMENTS",
+          "correct": false
+        },
+        {
+          "text": "DO ALL THE ABOVE JOBS",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 40,
+      "tag": "MCQ 40 (Past Paper)",
+      "question": "THE USE OF COMPUTER FOR ROUTINE PROCESSING OF A FIRM'S DATA IS CALLED",
+      "options": [
+        {
+          "text": "GAME APPLICATION",
+          "correct": false
+        },
+        {
+          "text": "HOME APPLICATION",
+          "correct": false
+        },
+        {
+          "text": "BUSINESS APPLICATION",
+          "correct": true
+        },
+        {
+          "text": "NONE OF THE ABOVE",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 41,
+      "tag": "MCQ 41 (Past Paper)",
+      "question": "THE USE OF COMPUTER WORK STATIONS TO SEND AND RECEIVE MESSAGE IS KNOWN AS",
+      "options": [
+        {
+          "text": "ELECTRONIC FUNS TRANSFER",
+          "correct": false
+        },
+        {
+          "text": "ELECTRONIC MESSAGE SWITCHING",
+          "correct": true
+        },
+        {
+          "text": "ELECTRONIC PUBLISHING",
+          "correct": false
+        },
+        {
+          "text": "ELECTRONIC FROM THE DESK OF",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 42,
+      "tag": "MCQ 42 (Past Paper)",
+      "question": "ON MICROCOMPUTER, THE NUMBER OF DIFFERENT APPLICATION PACKAGES AVAILABLE IN THE MARKET IS ABOUT",
+      "options": [
+        {
+          "text": "TEN",
+          "correct": false
+        },
+        {
+          "text": "ONE HUNDRED",
+          "correct": false
+        },
+        {
+          "text": "ONE THOUSAND",
+          "correct": false
+        },
+        {
+          "text": "ABOVE TEN THOUSAND",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 43,
+      "tag": "MCQ 43 (Past Paper)",
+      "question": "THE TWO ENGINEERING DISCIPLINES THAT GENERALLY SHARE COMMON DATABASES AND SYSTEM ARE",
+      "options": [
+        {
+          "text": "TESTING AND ANALYSIS",
+          "correct": false
+        },
+        {
+          "text": "MANUFACTURING AND ANALYSIS",
+          "correct": false
+        },
+        {
+          "text": "DOCUMENTATION AND GEOMETRIC MODELING",
+          "correct": false
+        },
+        {
+          "text": "CAD/CAM",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 44,
+      "tag": "MCQ 44 (Past Paper)",
+      "question": "MANAGERS WHO HAVE NO TECHNICAL KNOWLEDGE ABOUT A COMPUTER CAN BE EASILY TRAINED TO OPERATE A/AN",
+      "options": [
+        {
+          "text": "MINICOMPUTER",
+          "correct": false
+        },
+        {
+          "text": "PERSONAL COMPUTER",
+          "correct": false
+        },
+        {
+          "text": "SUPER COMPUTER",
+          "correct": false
+        },
+        {
+          "text": "MIDICOMPUTER",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 45,
+      "tag": "MCQ 45 (Past Paper)",
+      "question": "WHICH STATEMENT IS CORRECT ABOUT A COMPUTER SYSTEM",
+      "options": [
+        {
+          "text": "THE FIRST STAGE IN SYSTEM DEVELOPMENT IS IMPLEMENTATION",
+          "correct": false
+        },
+        {
+          "text": "THE LAST STEP IN SYSTEM ANALYSIS IS SYSTEM FLOWCHART",
+          "correct": false
+        },
+        {
+          "text": "SYSTEM DESIGN CAN BEGIN ONLY AFTER SYSTEM ANALYSIS",
+          "correct": true
+        },
+        {
+          "text": "SYSTEM DEVELOPMENT MEANS CREATING NEW SYSTEMS AND DISCARDING OLD ONES.",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 46,
+      "tag": "MCQ 46 (Past Paper)",
+      "question": "A COMPUTER CAN BE USED FOR",
+      "options": [
+        {
+          "text": "ANYTHING THAT A HUMAN BEING CANNOT DO",
+          "correct": false
+        },
+        {
+          "text": "ANYTHING THAT A HUMAN BEING CAN DO",
+          "correct": false
+        },
+        {
+          "text": "DOING CALCULATIONS ONLY",
+          "correct": false
+        },
+        {
+          "text": "COMPUTING, STORING, COMPARING AND RETRIEVING DATA",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 47,
+      "tag": "MCQ 47 (Past Paper)",
+      "question": "COMMUNICATION BETWEEN HUMAN BEINGS IS MADE THROUGH",
+      "options": [
+        {
+          "text": "SOUND",
+          "correct": false
+        },
+        {
+          "text": "LIGHT",
+          "correct": false
+        },
+        {
+          "text": "TOUCH",
+          "correct": false
+        },
+        {
+          "text": "ALL OF THE ABOVE",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 48,
+      "tag": "MCQ 48 (Past Paper)",
+      "question": "IN A COMMUNICATION SYSTEM THE TERM SINK REFERS TO",
+      "options": [
+        {
+          "text": "THE RECEIVING UNIT",
+          "correct": true
+        },
+        {
+          "text": "THE SENDING UNIT",
+          "correct": false
+        },
+        {
+          "text": "THAT PART OF INFORMATION WHICH CAN NOT BE COMMUNICATED",
+          "correct": false
+        },
+        {
+          "text": "NONE OF THE ABOVE",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 49,
+      "tag": "MCQ 49 (Past Paper)",
+      "question": "GRAPHIC OUTPUTS ARE SOMETIMES PREFERRED OVER TEXT OUTPUT BECAUSE",
+      "options": [
+        {
+          "text": "IT IS EASIER TO GENERATE GRAPHICS THAN TEXT",
+          "correct": false
+        },
+        {
+          "text": "GRAPHICS IS PRODUCED IN MULTICOLOR WHEREAS TEXT IS ALWAYS IN BLACK AND WHITE",
+          "correct": false
+        },
+        {
+          "text": "GRAPHICS ARE CONDENSED AND QUICKLY UNDERSTANDABLE",
+          "correct": true
+        },
+        {
+          "text": "IT ALWAYS TAKES LONGER TO GENERATE TEXT",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 50,
+      "tag": "MCQ 50 (Past Paper)",
+      "question": "WHICH TYPE OF COMPUTERS HAVE REALLY BROUGHT THE ADVANTAGES OF COMPUTERS TO HOMES AND SMALL BUSINESSES.",
+      "options": [
+        {
+          "text": "MINICOMPUTERS",
+          "correct": false
+        },
+        {
+          "text": "MICROCOMPUTERS",
+          "correct": true
+        },
+        {
+          "text": "SUPERCOMPUTERS",
+          "correct": false
+        },
+        {
+          "text": "MAINFRAMES",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Applications, Networking & CAD-CAM"
+    },
+    {
+      "qNum": 51,
+      "tag": "MCQ 51 (Past Paper)",
+      "question": "When a bank teller uses a computer terminal to know the balance in a customer's account it is an example of",
+      "options": [
+        {
+          "text": "on-line updating",
+          "correct": false
+        },
+        {
+          "text": "off-line processing",
+          "correct": false
+        },
+        {
+          "text": "on-line query",
+          "correct": true
+        },
+        {
+          "text": "on-line processing",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 52,
+      "tag": "MCQ 52 (Past Paper)",
+      "question": "Once a DBMS is installed, its maintenance and updating can generally be assigned to",
+      "options": [
+        {
+          "text": "System Analysis",
+          "correct": false
+        },
+        {
+          "text": "top level management",
+          "correct": false
+        },
+        {
+          "text": "Database Administrators",
+          "correct": true
+        },
+        {
+          "text": "Date Entry Operators",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 53,
+      "tag": "MCQ 53 (Past Paper)",
+      "question": "A Date Entry Operator",
+      "options": [
+        {
+          "text": "designs & maintains the database for the organizations",
+          "correct": false
+        },
+        {
+          "text": "feeds the data into a computer system",
+          "correct": true
+        },
+        {
+          "text": "runs the computer",
+          "correct": false
+        },
+        {
+          "text": "does all the above jobs",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 54,
+      "tag": "MCQ 54 (Past Paper)",
+      "question": "A computer generally processes",
+      "options": [
+        {
+          "text": "information",
+          "correct": false
+        },
+        {
+          "text": "program",
+          "correct": false
+        },
+        {
+          "text": "data",
+          "correct": true
+        },
+        {
+          "text": "output",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 55,
+      "tag": "MCQ 55 (Past Paper)",
+      "question": "Corrections of errors and modifications of software is the job of a",
+      "options": [
+        {
+          "text": "data entry operator",
+          "correct": false
+        },
+        {
+          "text": "System analyst",
+          "correct": false
+        },
+        {
+          "text": "maintenance programmer",
+          "correct": true
+        },
+        {
+          "text": "computer operator",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 56,
+      "tag": "MCQ 56 (Past Paper)",
+      "question": "The concept of divided computer time when each user thinks that he has exclusive use of the computer is called",
+      "options": [
+        {
+          "text": "time access",
+          "correct": false
+        },
+        {
+          "text": "time sharing",
+          "correct": true
+        },
+        {
+          "text": "time distribution",
+          "correct": false
+        },
+        {
+          "text": "on-line access",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 57,
+      "tag": "MCQ 57 (Past Paper)",
+      "question": "If a CPU can handle related processes at the same time is said to be capable of",
+      "options": [
+        {
+          "text": "multiprocessing",
+          "correct": false
+        },
+        {
+          "text": "multilinking",
+          "correct": false
+        },
+        {
+          "text": "networking",
+          "correct": false
+        },
+        {
+          "text": "multitasking",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 58,
+      "tag": "MCQ 58 (Past Paper)",
+      "question": "A program needing more than the main memory of a computer may be run by using",
+      "options": [
+        {
+          "text": "Distributed processing",
+          "correct": false
+        },
+        {
+          "text": "Time sharing",
+          "correct": false
+        },
+        {
+          "text": "Multiprocessing",
+          "correct": false
+        },
+        {
+          "text": "Overlays",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 59,
+      "tag": "MCQ 59 (Past Paper)",
+      "question": "Encoding of a information is done so that",
+      "options": [
+        {
+          "text": "information is converted to a form easy for transmission",
+          "correct": false
+        },
+        {
+          "text": "privacy is provided to the information",
+          "correct": false
+        },
+        {
+          "text": "efficiency of information transfer is increased",
+          "correct": false
+        },
+        {
+          "text": "all of the above",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 60,
+      "tag": "MCQ 60 (Past Paper)",
+      "question": "Information is basically",
+      "options": [
+        {
+          "text": "raw data",
+          "correct": false
+        },
+        {
+          "text": "data that can be used for decision making",
+          "correct": true
+        },
+        {
+          "text": "input data",
+          "correct": false
+        },
+        {
+          "text": "data that is unorganized",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 61,
+      "tag": "MCQ 61 (Past Paper)",
+      "question": "Which of the following is not an advantage usually associated with timesharing",
+      "options": [
+        {
+          "text": "many users can work simultaneously",
+          "correct": false
+        },
+        {
+          "text": "CPU time is used more effectively",
+          "correct": false
+        },
+        {
+          "text": "throughput is higher",
+          "correct": false
+        },
+        {
+          "text": "complex problems can be solved easily",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 62,
+      "tag": "MCQ 62 (Past Paper)",
+      "question": "The average number of jobs a computer can perform in a given time is known its",
+      "options": [
+        {
+          "text": "output",
+          "correct": false
+        },
+        {
+          "text": "speed",
+          "correct": false
+        },
+        {
+          "text": "throughput",
+          "correct": true
+        },
+        {
+          "text": "none of the above",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 63,
+      "tag": "MCQ 63 (Past Paper)",
+      "question": "Output from computer which is organized, useful and meaningful is called",
+      "options": [
+        {
+          "text": "program",
+          "correct": false
+        },
+        {
+          "text": "data",
+          "correct": false
+        },
+        {
+          "text": "text",
+          "correct": false
+        },
+        {
+          "text": "information",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 64,
+      "tag": "MCQ 64 (Past Paper)",
+      "question": "If a terminal is linked directly to a computer, it is an example of",
+      "options": [
+        {
+          "text": "off-line",
+          "correct": false
+        },
+        {
+          "text": "direct access",
+          "correct": false
+        },
+        {
+          "text": "serial access",
+          "correct": false
+        },
+        {
+          "text": "on-line",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 65,
+      "tag": "MCQ 65 (Past Paper)",
+      "question": "Which of the following advantages are not available with decentralized data processing",
+      "options": [
+        {
+          "text": "saving of cost",
+          "correct": false
+        },
+        {
+          "text": "all the data files needed can be kept at one place",
+          "correct": true
+        },
+        {
+          "text": "greater security and control of data",
+          "correct": false
+        },
+        {
+          "text": "reduction of backlogs",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 66,
+      "tag": "MCQ 66 (Past Paper)",
+      "question": "To process data the data processing machines need to be fed with",
+      "options": [
+        {
+          "text": "only data",
+          "correct": false
+        },
+        {
+          "text": "only instructions",
+          "correct": false
+        },
+        {
+          "text": "data and instructions both",
+          "correct": true
+        },
+        {
+          "text": "none of the above",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 67,
+      "tag": "MCQ 67 (Past Paper)",
+      "question": "What is not true about batch mode of computer operation",
+      "options": [
+        {
+          "text": "users are on-line",
+          "correct": true
+        },
+        {
+          "text": "programs are run serially",
+          "correct": false
+        },
+        {
+          "text": "it is useful for long programs",
+          "correct": false
+        },
+        {
+          "text": "all above are true for batch mode",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 68,
+      "tag": "MCQ 68 (Past Paper)",
+      "question": "A file is corrected immediately after the input of a transaction. This is an example of",
+      "options": [
+        {
+          "text": "sorting",
+          "correct": false
+        },
+        {
+          "text": "on-line updating",
+          "correct": true
+        },
+        {
+          "text": "batching",
+          "correct": false
+        },
+        {
+          "text": "off-line updating",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 69,
+      "tag": "MCQ 69 (Past Paper)",
+      "question": "Arranging data in a predetermined sequence is called",
+      "options": [
+        {
+          "text": "processing",
+          "correct": false
+        },
+        {
+          "text": "sorting",
+          "correct": true
+        },
+        {
+          "text": "coding",
+          "correct": false
+        },
+        {
+          "text": "classifying",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 70,
+      "tag": "MCQ 70 (Past Paper)",
+      "question": "The process of production of customer list in alphabetical order falls under the category of",
+      "options": [
+        {
+          "text": "editing",
+          "correct": false
+        },
+        {
+          "text": "sorting",
+          "correct": true
+        },
+        {
+          "text": "updating",
+          "correct": false
+        },
+        {
+          "text": "calculating",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 71,
+      "tag": "MCQ 71 (Past Paper)",
+      "question": "In a time-shared computer system",
+      "options": [
+        {
+          "text": "number of terminals can be connected simultaneously to a central computer",
+          "correct": false
+        },
+        {
+          "text": "number of problems can be solved by the computer simultaneously",
+          "correct": false
+        },
+        {
+          "text": "both a and b",
+          "correct": true
+        },
+        {
+          "text": "neither a nor b",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 72,
+      "tag": "MCQ 72 (Past Paper)",
+      "question": "A compute whose input/output devices are working round the clock but CPU is running only part of the time is said to be",
+      "options": [
+        {
+          "text": "extremely busy",
+          "correct": false
+        },
+        {
+          "text": "I/O bound",
+          "correct": true
+        },
+        {
+          "text": "CPU bound",
+          "correct": false
+        },
+        {
+          "text": "down loaded",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 73,
+      "tag": "MCQ 73 (Past Paper)",
+      "question": "A computer system that has a large cpu and supports peripheral equipment is said to have",
+      "options": [
+        {
+          "text": "centralized structure",
+          "correct": true
+        },
+        {
+          "text": "decentralized structure",
+          "correct": false
+        },
+        {
+          "text": "stand-alone structure",
+          "correct": false
+        },
+        {
+          "text": "distributed structure",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 74,
+      "tag": "MCQ 74 (Past Paper)",
+      "question": "The process of manipulating the data to achieve some meaningful results is called",
+      "options": [
+        {
+          "text": "information handling",
+          "correct": false
+        },
+        {
+          "text": "data sharing",
+          "correct": false
+        },
+        {
+          "text": "data distribution",
+          "correct": false
+        },
+        {
+          "text": "data processing",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 75,
+      "tag": "MCQ 75 (Past Paper)",
+      "question": "Which of the following is not true about decentralized data processing installation",
+      "options": [
+        {
+          "text": "it has its own database",
+          "correct": false
+        },
+        {
+          "text": "it cannot have its own operating system",
+          "correct": true
+        },
+        {
+          "text": "it has to be compatible with a centralized computer",
+          "correct": false
+        },
+        {
+          "text": "it has its won hardware and peripheral devices",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Data Processing & Systems"
+    },
+    {
+      "qNum": 76,
+      "tag": "MCQ 76 (Past Paper)",
+      "question": "The most commonly used character code/s for transmission is/are",
+      "options": [
+        {
+          "text": "EBCDIC",
+          "correct": false
+        },
+        {
+          "text": "ASCII",
+          "correct": true
+        },
+        {
+          "text": "both EBCDIC and ASCII",
+          "correct": false
+        },
+        {
+          "text": "neither EBCDIC nor ASCII",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 77,
+      "tag": "MCQ 77 (Past Paper)",
+      "question": "Which of the following is an example of numerical data",
+      "options": [
+        {
+          "text": "Cricket test score",
+          "correct": true
+        },
+        {
+          "text": "Employee's name",
+          "correct": false
+        },
+        {
+          "text": "Photography",
+          "correct": false
+        },
+        {
+          "text": "VIP address",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 78,
+      "tag": "MCQ 78 (Past Paper)",
+      "question": "Data items are generally classified into which type codes",
+      "options": [
+        {
+          "text": "numeric",
+          "correct": false
+        },
+        {
+          "text": "alphanumeric",
+          "correct": false
+        },
+        {
+          "text": "character",
+          "correct": false
+        },
+        {
+          "text": "all of the above",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 79,
+      "tag": "MCQ 79 (Past Paper)",
+      "question": "The binary number 10011101 is equal to the hexadecimal number",
+      "options": [
+        {
+          "text": "9E",
+          "correct": false
+        },
+        {
+          "text": "9F",
+          "correct": false
+        },
+        {
+          "text": "9D",
+          "correct": true
+        },
+        {
+          "text": "FF",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 80,
+      "tag": "MCQ 80 (Past Paper)",
+      "question": "The maximum different numbers a 16-bit binary signal can represent",
+      "options": [
+        {
+          "text": "256",
+          "correct": false
+        },
+        {
+          "text": "4096",
+          "correct": false
+        },
+        {
+          "text": "16384",
+          "correct": false
+        },
+        {
+          "text": "65536",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 81,
+      "tag": "MCQ 81 (Past Paper)",
+      "question": "The unsigned decimal equivalent of binary code 10100011 is",
+      "options": [
+        {
+          "text": "106",
+          "correct": false
+        },
+        {
+          "text": "140",
+          "correct": false
+        },
+        {
+          "text": "163",
+          "correct": true
+        },
+        {
+          "text": "156",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 82,
+      "tag": "MCQ 82 (Past Paper)",
+      "question": "The decimal number 157 is equal to the hexadecimal number",
+      "options": [
+        {
+          "text": "FF",
+          "correct": false
+        },
+        {
+          "text": "9D",
+          "correct": true
+        },
+        {
+          "text": "5A",
+          "correct": false
+        },
+        {
+          "text": "9E",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 83,
+      "tag": "MCQ 83 (Past Paper)",
+      "question": "The base of hexadecimal system can be represented in decimal system as",
+      "options": [
+        {
+          "text": "10 x 2^0",
+          "correct": false
+        },
+        {
+          "text": "1 x 2^1",
+          "correct": false
+        },
+        {
+          "text": "1 x 2^3",
+          "correct": false
+        },
+        {
+          "text": "1 x 2^4",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 84,
+      "tag": "MCQ 84 (Past Paper)",
+      "question": "The binary-coded-decimal code 01100111 is equal to the decimal-digit code",
+      "options": [
+        {
+          "text": "103",
+          "correct": false
+        },
+        {
+          "text": "76",
+          "correct": false
+        },
+        {
+          "text": "67",
+          "correct": true
+        },
+        {
+          "text": "-67",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 85,
+      "tag": "MCQ 85 (Past Paper)",
+      "question": "The number ABC in Hexadecimal system is equivalent to which number in decimal system",
+      "options": [
+        {
+          "text": "10x256 + 11x16 + 12",
+          "correct": true
+        },
+        {
+          "text": "10x100 + 11x10 + 12",
+          "correct": false
+        },
+        {
+          "text": "10x16 + 11x16 + 12x16",
+          "correct": false
+        },
+        {
+          "text": "A x100 + B x10 + C x1",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 86,
+      "tag": "MCQ 86 (Past Paper)",
+      "question": "The value of binary number 1111001 in hex system is",
+      "options": [
+        {
+          "text": "1111001",
+          "correct": false
+        },
+        {
+          "text": "121",
+          "correct": false
+        },
+        {
+          "text": "79",
+          "correct": true
+        },
+        {
+          "text": "none of the above",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 87,
+      "tag": "MCQ 87 (Past Paper)",
+      "question": "The maximum number of characters that can be represented by using EBCDIC Code is",
+      "options": [
+        {
+          "text": "255",
+          "correct": false
+        },
+        {
+          "text": "64",
+          "correct": false
+        },
+        {
+          "text": "256",
+          "correct": true
+        },
+        {
+          "text": "264",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 88,
+      "tag": "MCQ 88 (Past Paper)",
+      "question": "The decimal equivalent of the signed binary code 10100100 is",
+      "options": [
+        {
+          "text": "-166",
+          "correct": false
+        },
+        {
+          "text": "+166",
+          "correct": false
+        },
+        {
+          "text": "92",
+          "correct": false
+        },
+        {
+          "text": "-92",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 89,
+      "tag": "MCQ 89 (Past Paper)",
+      "question": "The decimal number 80 can be represented in BCD code as",
+      "options": [
+        {
+          "text": "100000001",
+          "correct": false
+        },
+        {
+          "text": "010100000",
+          "correct": false
+        },
+        {
+          "text": "00100000",
+          "correct": false
+        },
+        {
+          "text": "10000000",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 90,
+      "tag": "MCQ 90 (Past Paper)",
+      "question": "The decimal equivalent of the hexadecimal number 3E8 is",
+      "options": [
+        {
+          "text": "8350",
+          "correct": false
+        },
+        {
+          "text": "1000",
+          "correct": true
+        },
+        {
+          "text": "1576",
+          "correct": false
+        },
+        {
+          "text": "1025",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 91,
+      "tag": "MCQ 91 (Past Paper)",
+      "question": "EBCDIC refer to",
+      "options": [
+        {
+          "text": "the size of internal memory of a computer",
+          "correct": false
+        },
+        {
+          "text": "an international code for transmission of information",
+          "correct": false
+        },
+        {
+          "text": "an interface for connecting input/output to computer",
+          "correct": false
+        },
+        {
+          "text": "a code for interchange of information",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 92,
+      "tag": "MCQ 92 (Past Paper)",
+      "question": "The decimal number 2048 when converted to binary equivalent will be",
+      "options": [
+        {
+          "text": "100011100011",
+          "correct": false
+        },
+        {
+          "text": "100000000000",
+          "correct": true
+        },
+        {
+          "text": "001111110111",
+          "correct": false
+        },
+        {
+          "text": "000000001000",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 93,
+      "tag": "MCQ 93 (Past Paper)",
+      "question": "Hexadecimal systems has a base of",
+      "options": [
+        {
+          "text": "2",
+          "correct": false
+        },
+        {
+          "text": "10",
+          "correct": false
+        },
+        {
+          "text": "16",
+          "correct": true
+        },
+        {
+          "text": "6",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 94,
+      "tag": "MCQ 94 (Past Paper)",
+      "question": "The two's complement in binary system is useful for expressing",
+      "options": [
+        {
+          "text": "positive numbers",
+          "correct": false
+        },
+        {
+          "text": "negative numbers",
+          "correct": true
+        },
+        {
+          "text": "both positive and negative numbers",
+          "correct": false
+        },
+        {
+          "text": "neither positive nor negative numbers",
+          "correct": false
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 95,
+      "tag": "MCQ 95 (Past Paper)",
+      "question": "Which of the following technique/s is/are used in Binary system to transform subtraction into addition",
+      "options": [
+        {
+          "text": "ones complement",
+          "correct": false
+        },
+        {
+          "text": "twos complement",
+          "correct": false
+        },
+        {
+          "text": "both ones and twos complements",
+          "correct": true
+        },
+        {
+          "text": "both nines and tens complements",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 96,
+      "tag": "MCQ 96 (Past Paper)",
+      "question": "How many minimum bits are sufficient to encode all the alphabets, 0-9 numbers and 40 special characters",
+      "options": [
+        {
+          "text": "four",
+          "correct": false
+        },
+        {
+          "text": "six",
+          "correct": false
+        },
+        {
+          "text": "seven",
+          "correct": true
+        },
+        {
+          "text": "eight",
+          "correct": false
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 97,
+      "tag": "MCQ 97 (Past Paper)",
+      "question": "The result of truncating the decimal number -22.56 is",
+      "options": [
+        {
+          "text": "-22",
+          "correct": true
+        },
+        {
+          "text": "-23",
+          "correct": false
+        },
+        {
+          "text": "0",
+          "correct": false
+        },
+        {
+          "text": "-22.56",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 98,
+      "tag": "MCQ 98 (Past Paper)",
+      "question": "A group of characters that has some meaning as a unit is known as a",
+      "options": [
+        {
+          "text": "word",
+          "correct": true
+        },
+        {
+          "text": "file",
+          "correct": false
+        },
+        {
+          "text": "record",
+          "correct": false
+        },
+        {
+          "text": "field",
+          "correct": false
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 99,
+      "tag": "MCQ 99 (Past Paper)",
+      "question": "EBCDIC was developed by",
+      "options": [
+        {
+          "text": "NASA",
+          "correct": false
+        },
+        {
+          "text": "APPLE",
+          "correct": false
+        },
+        {
+          "text": "IEEE",
+          "correct": false
+        },
+        {
+          "text": "IBM",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    },
+    {
+      "qNum": 100,
+      "tag": "MCQ 100 (Past Paper)",
+      "question": "The number (8E) is written in",
+      "options": [
+        {
+          "text": "octal",
+          "correct": false
+        },
+        {
+          "text": "binary",
+          "correct": false
+        },
+        {
+          "text": "decimal",
+          "correct": false
+        },
+        {
+          "text": "hexadecimal",
+          "correct": true
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": "",
+      "topic": "Number Systems & Data Representation"
+    }
+  ]
+}

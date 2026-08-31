@@ -3435,7 +3435,7 @@
     {
       "qNum": 138,
       "tag": "MCQ 138",
-      "question": "Q138. Liaqat Ali Khan was assassinated in Rawalpindi on ---",
+      "question": "Q138. Liaqat Ali Khan was assassinated in Rawalpindi at liaquat bag on ---",
       "options": [
         {
           "text": "A) 17 Nov, 1951",
@@ -3455,7 +3455,7 @@
         }
       ],
       "correctIndex": 3,
-      "explanation": "Liaquat Ali Khan, Pakistan's first Prime Minister, was assassinated in Rawalpindi on October 16, 1951."
+      "explanation": "Liaquat Ali Khan, Pakistan's first Prime Minister, was assassinated in Rawalpindi  at liaquat bag on October 16, 1951."
     },
     {
       "qNum": 139,
@@ -3505,7 +3505,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": "Pakistan's first constitution was drafted and adopted in 1956."
+      "explanation": "Pakistan's first constitution was drafted and adopted and enforced in 1956."
     },
     {
       "qNum": 141,
@@ -3688,19 +3688,19 @@
       "question": "Q148. In which year Pakistan became nuclear power?",
       "options": [
         {
-          "text": "A) 1997",
+          "text": "A) 14 aug 1997",
           "correct": false
         },
         {
-          "text": "B) 1998",
+          "text": "B) 28 may 1998",
           "correct": true
         },
         {
-          "text": "C) 2002",
+          "text": "C) 6 sep 1998",
           "correct": false
         },
         {
-          "text": "D) 2000",
+          "text": "D) 23 March 1999",
           "correct": false
         }
       ],
@@ -9188,15 +9188,15 @@
       "question": "Q368. In Pakistan the first martial law was imposed on",
       "options": [
         {
-          "text": "A) August 1956",
+          "text": "A) August 1958",
           "correct": false
         },
         {
-          "text": "B) September 1956",
+          "text": "B) September 1958",
           "correct": false
         },
         {
-          "text": "C) October 1956",
+          "text": "C) October 1958",
           "correct": true
         },
         {

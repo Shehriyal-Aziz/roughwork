@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="/manifest.json" rel="manifest"/>
+<meta content="#000000" name="theme-color"/>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Computer — MCQ Notes (KU Past Papers)</title>
+
+<!-- 1. exam.png ka path fix kiya -->
+<link href="../../exam.png" rel="icon" type="image/png">
+
+<!-- 2. style.css ka path fix kiya -->
+<link href="../../style.css" rel="stylesheet">
+</head>
+<body>
+<!-- ===== STICKY TOOLBAR ===== -->
+<div id="toolbar">
+<div class="toolbar-group">
+<!-- 3. Home link (index.html) ka path fix kiya -->
+<a class="btn btn-secondary" href="../../index.html" style="text-decoration: none; display: inline-block">
+    🏠 Home
+  </a>
+</div>
+<div class="sep"></div>
+<div class="toolbar-group">
+<input id="jump-input" min="1" placeholder="Q #" title="Jump to question number" type="number"/>
+<button class="btn btn-primary" onclick="jumpToQ()">Jump</button>
+</div>
+<div class="sep"></div>
+<div class="toolbar-group">
+<button class="btn btn-secondary" onclick="collapseAll()">📕 Collapse All</button>
+<button class="btn btn-secondary" onclick="expandAll()">📖 Expand All</button>
+</div>
+<div class="sep"></div>
+<div class="toolbar-group" id="toolbar-right">
+<button class="btn btn-secondary" id="dark-toggle" onclick="toggleDark()">🌙 Dark Mode</button>
+<button class="btn btn-danger" onclick="enterTestMode()">🧪 Test Mode</button>
+</div>
+</div>
+
+<!-- ===== TEST PANEL (hidden in notes mode) ===== -->
+<div id="test-panel">
+<div id="page-header" style="padding-top: 0">
+<h1>
+      📚 Computer — MCQ Notes (KU Past Papers)
+      <span class="test-mode-label">TEST MODE</span>
+</h1>
+</div>
+<div id="test-setup">
+<div style="background: var(--card-bg); border-radius: 12px; padding: 28px 30px; box-shadow: 0 4px 16px var(--shadow); margin-bottom: 20px;">
+<h2 style="color: var(--heading); margin-top: 0">⚙️ Configure Test</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 20px;">
+<label style="display: flex; flex-direction: column; gap: 4px; font-size: 0.9em; font-weight: 600;">
+      Number of Questions
+      <input id="test-count" min="5" style="width: 100px; padding: 6px 10px; border-radius: 7px; border: 1.5px solid var(--input-border); background: var(--input-bg); color: var(--text); font-size: 1em; outline: none;" type="number" value="20"/>
+</label>
+<label style="display: flex; flex-direction: column; gap: 4px; font-size: 0.9em; font-weight: 600;">
+      Order
+      <select id="test-order" style="padding: 6px 10px; border-radius: 7px; border: 1.5px solid var(--input-border); background: var(--input-bg); color: var(--text); font-size: 1em; outline: none; cursor: pointer;">
+<option value="shuffle">🔀 Shuffle (Random)</option>
+<option value="sequential">📋 Sequential (1→N)</option>
+</select>
+</label>
+</div>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<button class="btn btn-danger" onclick="startTest()">▶ Start Test</button>
+<button class="btn btn-secondary" onclick="exitTestMode()">✖ Back to Notes</button>
+</div>
+</div>
+</div>
+<div id="test-active" style="display: none">
+<div class="test-card">
+<div class="test-topbar">
+<div class="test-progress" id="test-progress-label">Question 1 of 20</div>
+<div class="test-topbar-actions">
+<input id="test-jump-input" min="1" placeholder="Go to #" title="Jump to test question number" type="number"/>
+<button class="btn btn-secondary test-jump-btn" onclick="testJump()">Go</button>
+<button class="btn btn-secondary" id="dark-toggle-test" onclick="toggleDark()">🌙</button>
+<button class="btn btn-danger" onclick="exitTestMode()">✖ Exit</button>
+</div>
+</div>
+<div class="test-body">
+<div class="tag" id="test-q-tag">MCQ</div>
+<div class="test-question" id="test-question"></div>
+<ul class="test-options" id="test-options"></ul>
+<div class="test-explanation" id="test-explanation"></div>
+</div>
+<div class="test-nav">
+<button class="btn btn-secondary" id="btn-prev" onclick="testNav(-1)">← Prev <span class="kbd-hint">◀</span></button>
+<div class="test-nav-hint">↑↓ choose • Enter confirm</div>
+<button class="btn btn-primary" id="btn-next" onclick="testNav(1)">Next → <span class="kbd-hint">▶</span></button>
+<button class="btn btn-success" id="btn-finish" onclick="finishTest()" style="display: none">🏁 Finish</button>
+</div>
+</div>
+</div>
+<div id="test-results">
+<div class="score-circle" id="score-display">0<span>/ 0</span></div>
+<h2 id="result-msg"></h2>
+<p id="result-detail" style="color: var(--text-muted)"></p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 16px;">
+<button class="btn btn-primary" onclick="retryTest()">🔄 Retry</button>
+<button class="btn btn-secondary" onclick="exitTestMode()">📖 Back to Notes</button>
+</div>
+</div>
+</div>
+
+<!-- ===== NOTES CONTENT ===== -->
+<div id="notes-content">
+<div id="page-header">
+<h1 id="page-title">📚 Computer — MCQ Notes (KU Past Papers)</h1>
+<p>
+<em id="page-description">Loading…</em>
+</p>
+</div>
+
+<!-- MCQ cards are built here at runtime by app.js from english.json -->
+<div id="mcq-list"></div>
+
+<hr/>
+<p id="page-footer" style="text-align: center; color: #6366f1; font-size: 0.9em; font-weight: bold;"></p>
+</div>
+<!-- end notes-content -->
+
+<!-- TOAST -->
+<div id="toast"></div>
+
+<script>
+  // Same folder me english.json maujood hai
+  window.MCQ_DATA_URL = "comp.json";
+</script>
+
+<!-- 4. app.js ka path fix kiya -->
+<script src="../../app.js"></script>
+</body>
+</html>
