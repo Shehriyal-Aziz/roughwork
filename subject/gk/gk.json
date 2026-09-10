@@ -221,7 +221,7 @@
           "correct": false
         },
         {
-          "text": "C) Bacha Khan (Khan Abdul Ghaffar Khan)",
+          "text": "C) Bacha Khan ",
           "correct": true
         },
         {
@@ -1117,15 +1117,15 @@
           "correct": true
         },
         {
-          "text": "B) Canberra (Australia)",
+          "text": "B) Canberra ",
           "correct": false
         },
         {
-          "text": "C) Vienna (Austria)",
+          "text": "C) Vienna ",
           "correct": false
         },
         {
-          "text": "D) Baku (Azerbaijan)",
+          "text": "D) Baku ",
           "correct": false
         }
       ],
@@ -1196,11 +1196,11 @@
           "correct": false
         },
         {
-          "text": "C) Doha (Qatar)",
+          "text": "C) Doha ",
           "correct": false
         },
         {
-          "text": "D) Jeddah (Saudi Arabia)",
+          "text": "D) Jeddah ",
           "correct": false
         }
       ],
@@ -1692,7 +1692,7 @@
           "correct": false
         },
         {
-          "text": "B) Herodotus (Greek historian)",
+          "text": "B) Herodotus ",
           "correct": true
         },
         {
@@ -1705,7 +1705,7 @@
         }
       ],
       "correctIndex": 1,
-      "explanation": "Herodotus, a Greek writer, is widely regarded as the author of the first systematic history book, 'The Histories.'"
+      "explanation": "Herodotus, a Greek writer wrote a book greek historian , is widely regarded as the author of the first systematic history book, 'The Histories.'"
     },
     {
       "qNum": 69,
@@ -2146,7 +2146,7 @@
           "correct": false
         },
         {
-          "text": "C) Pacific (Mariana Trench)",
+          "text": "C) Pacific ",
           "correct": true
         },
         {
@@ -2417,7 +2417,7 @@
           "correct": false
         },
         {
-          "text": "B) New York (USA)",
+          "text": "B) New York ",
           "correct": true
         },
         {
