@@ -552,6 +552,26 @@ let testAnswers = {};
 let testTotal = 0;
 let kbFocusIdx = -1; // keyboard-highlighted option index
 
+// Returns a COPY of the question with its options array shuffled into a
+// random order, and correctIndex recalculated to point at wherever the
+// correct option landed. The original mcqData object is never mutated,
+// so Notes view keeps showing options in their fixed JSON order.
+function shuffleQuestionOptions(data) {
+  if (!data.options || data.options.length < 2) return data; // nothing to shuffle
+
+  const order = data.options.map((_, i) => i);
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+
+  return {
+    ...data,
+    options: order.map((origIdx) => data.options[origIdx]),
+    correctIndex: order.indexOf(data.correctIndex),
+  };
+}
+
 function enterTestMode() {
   if (!mcqData.length) {
     showToast("Questions are still loading, try again in a moment");
@@ -644,7 +664,7 @@ function startTest() {
     pool = pool.sort(() => Math.random() - 0.5);
   }
 
-  testQueue = pool.slice(0, count);
+  testQueue = pool.slice(0, count).map(shuffleQuestionOptions);
   testTotal = testQueue.length;
   testCurrent = 0;
   testAnswers = {};
@@ -777,6 +797,7 @@ function retryTest() {
   if (document.getElementById("test-order")?.value === "shuffle") {
     testQueue = testQueue.sort(() => Math.random() - 0.5);
   }
+  testQueue = testQueue.map(shuffleQuestionOptions);
   document.getElementById("test-results").style.display = "none";
   document.getElementById("test-active").style.display = "block";
   renderTestQuestion();
