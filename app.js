@@ -421,27 +421,63 @@ function restoreDarkMode() {
 // =====================================================
 //  BOOKMARKS
 // =====================================================
-function toggleBookmark(qNum, card, btn) {
+// Shared read/write helpers — keyed by qNum, so a question's bookmark
+// state is the same whether it was set from the Notes view or from
+// Test mode.
+function isBookmarked(qNum) {
+  return localStorage.getItem(`${STORAGE_PREFIX}-bm-${qNum}`) === "1";
+}
+
+function setBookmarked(qNum, on) {
   const key = `${STORAGE_PREFIX}-bm-${qNum}`;
-  const isOn = localStorage.getItem(key) === "1";
-  if (isOn) {
-    localStorage.removeItem(key);
-    card.classList.remove("bookmarked");
-    btn.classList.remove("active");
-    showToast(`Q${qNum} bookmark removed`);
-  } else {
+  if (on) {
     localStorage.setItem(key, "1");
-    card.classList.add("bookmarked");
-    btn.classList.add("active");
-    showToast(`Q${qNum} bookmarked ⭐`);
+  } else {
+    localStorage.removeItem(key);
   }
 }
 
+// Keeps the Notes-view card (if it's been rendered) visually in sync
+// whenever a bookmark is toggled from somewhere else, e.g. Test mode.
+function syncBookmarkCard(qNum, on) {
+  const card = document.getElementById(`card-q${qNum}`);
+  if (!card) return;
+  card.classList.toggle("bookmarked", on);
+  const btn = card.querySelector(".card-actions .icon-btn");
+  if (btn) btn.classList.toggle("active", on);
+}
+
+function toggleBookmark(qNum, card, btn) {
+  const on = !isBookmarked(qNum);
+  setBookmarked(qNum, on);
+  card.classList.toggle("bookmarked", on);
+  btn.classList.toggle("active", on);
+  showToast(on ? `Q${qNum} bookmarked ⭐` : `Q${qNum} bookmark removed`);
+}
+
 function loadBookmark(qNum, card, btn) {
-  if (localStorage.getItem(`${STORAGE_PREFIX}-bm-${qNum}`) === "1") {
+  if (isBookmarked(qNum)) {
     card.classList.add("bookmarked");
     btn.classList.add("active");
   }
+}
+
+// Bookmark toggle for Test mode — no .mcq-card involved, just the
+// single test-panel button, plus keeping the Notes-view card in sync.
+function toggleTestBookmark() {
+  const data = testQueue[testCurrent];
+  if (!data) return;
+  const on = !isBookmarked(data.qNum);
+  setBookmarked(data.qNum, on);
+  updateTestBookmarkBtn(data.qNum);
+  syncBookmarkCard(data.qNum, on);
+  showToast(on ? `Q${data.qNum} bookmarked ⭐` : `Q${data.qNum} bookmark removed`);
+}
+
+function updateTestBookmarkBtn(qNum) {
+  const btn = document.getElementById("test-bookmark-btn");
+  if (!btn) return;
+  btn.classList.toggle("active", isBookmarked(qNum));
 }
 
 // =====================================================
@@ -646,6 +682,8 @@ function renderTestQuestion() {
     dtTest.textContent = document.body.classList.contains("dark")
       ? "☀️"
       : "🌙";
+
+  updateTestBookmarkBtn(data.qNum);
 
   optUl.innerHTML = "";
   const answered = testAnswers[testCurrent];

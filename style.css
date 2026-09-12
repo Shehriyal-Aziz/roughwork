@@ -1,4 +1,4 @@
-      /* ===== CSS VARIABLES (Light Mode) ===== */
+/* ===== CSS VARIABLES (Light Mode) ===== */
       :root {
         --bg: #f4f6f9;
         --card-bg: #fff;
@@ -887,4 +887,3 @@
           font-size: 0.88em;
         }
       }
-    
