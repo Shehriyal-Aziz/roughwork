@@ -3592,11 +3592,11 @@
         },
         {
           "text": "Had to",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Must have",
-          "correct": true
+          "correct": false
         }
       ],
       "correctIndex": 2,
@@ -3710,7 +3710,7 @@
     {
       "qNum": 239,
       "tag": "MCQ 239 (Past Paper 2025)",
-      "question": "Replaced underlined expiration with an appropriate model work: you are strongly advised to complete the task and submit the report by tomorrow morning",
+      "question": "Replaced itialized exprresion with an appropriate model work: *you are strongly advised to* complete the task and submit the report by tomorrow morning",
       "options": [
         {
           "text": "Have to",
@@ -3736,7 +3736,7 @@
     {
       "qNum": 240,
       "tag": "MCQ 240 (Past Paper 2025)",
-      "question": "The suffix men is used for the formation of",
+      "question": "The suffix '-ment' is used for the formation of",
       "options": [
         {
           "text": "Verbs",
@@ -3870,11 +3870,11 @@
       "options": [
         {
           "text": "a) tighten",
-          "correct": true
+          "correct": false
         },
         {
           "text": "b) bridge",
-          "correct": false
+          "correct": true
         },
         {
           "text": "c) widen",
@@ -3885,7 +3885,7 @@
           "correct": false
         }
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "",
       "topic": "Grammar & Sentence Completion"
     },
@@ -3896,7 +3896,7 @@
       "options": [
         {
           "text": "a) take",
-          "correct": false
+          "correct": true
         },
         {
           "text": "b) follow",
@@ -3904,14 +3904,14 @@
         },
         {
           "text": "c) make",
-          "correct": true
+          "correct": false
         },
         {
           "text": "d) have",
           "correct": false
         }
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "",
       "topic": "Grammar & Sentence Completion"
     },
@@ -3948,7 +3948,7 @@
       "options": [
         {
           "text": "a) will",
-          "correct": false
+          "correct": true
         },
         {
           "text": "b) may",
@@ -3956,14 +3956,14 @@
         },
         {
           "text": "c) are going to",
-          "correct": true
+          "correct": false
         },
         {
           "text": "d) might",
           "correct": false
         }
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "",
       "topic": "Grammar & Sentence Completion"
     },
@@ -4074,7 +4074,7 @@
     {
       "qNum": 253,
       "tag": "MCQ 253 (Past Paper 2025)",
-      "question": "Q12: Choose the meaning that fits the underlined expression in the given sentence: \"in many universities academic degrees or awards may be revoked as a penalty for plagiarism.\"",
+      "question": "Q12: Choose the meaning that fits the underlined expression in the given sentence: \"in many universities academic degrees or awards may be *revoked* as a penalty for plagiarism.\"",
       "options": [
         {
           "text": "a) delayed",
