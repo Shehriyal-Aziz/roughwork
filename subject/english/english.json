@@ -3168,7 +3168,7 @@
     {
       "qNum": 218,
       "tag": "MCQ 218 (Past Paper 2025)",
-      "question": "My hostel made head food poisoning because of consuming ___ bread yesterday",
+      "question": "My hostel maid had food poisoning because of consuming ___ bread yesterday",
       "options": [
         {
           "text": "Stale",
@@ -3584,7 +3584,7 @@
       "options": [
         {
           "text": "Have been",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Have had",
@@ -3592,14 +3592,14 @@
         },
         {
           "text": "Had to",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Must have",
           "correct": false
         }
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "",
       "topic": "Grammar & Sentence Completion"
     },
@@ -4360,7 +4360,7 @@
     {
       "qNum": 264,
       "tag": "MCQ 264 (Past Paper 2025)",
-      "question": "Millions of people are _____ed by natural disasters in different parts of the world every year",
+      "question": "Millions of people are _____ by natural disasters in different parts of the world every year",
       "options": [
         {
           "text": "Effected",
@@ -4594,7 +4594,7 @@
     {
       "qNum": 273,
       "tag": "MCQ 273 (Past Paper 2025)",
-      "question": "Not everything going on in our heads and hurts his dish to others, nor is there always Harmony between how we see ourselves and how others see us",
+      "question": "Not everything going on in our heads and hearts is ____  to others, nor is there always Harmony between how we see ourselves and how others see us",
       "options": [
         {
           "text": "Obvious",
@@ -4880,7 +4880,7 @@
     {
       "qNum": 284,
       "tag": "MCQ 284 (Past Paper 2025)",
-      "question": "____ I was preparing for the same. My brother was playing and online game",
+      "question": "____ I was preparing for the exam. My brother was playing and online game",
       "options": [
         {
           "text": "Since",
@@ -5426,7 +5426,7 @@
     {
       "qNum": 305,
       "tag": "MCQ 305 (Past Paper 2025)",
-      "question": "The current pandemic has not only shattered global economy but also resulted in education loss",
+      "question": "The current pandemic has not only shattered global economy but also resulted in education loss ____ worldwide",
       "options": [
         {
           "text": "Within",
