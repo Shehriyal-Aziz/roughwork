@@ -4910,7 +4910,7 @@
       "options": [
         {
           "text": "Despite",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Indeed",
@@ -4922,10 +4922,10 @@
         },
         {
           "text": "Although",
-          "correct": false
+          "correct": true
         }
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "",
       "topic": "Grammar & Sentence Completion"
     },
@@ -5894,7 +5894,7 @@
     {
       "qNum": 323,
       "tag": "MCQ 323 (Past Paper 2025)",
-      "question": "How do you expect me to hear you as your ____? The feature asked impatiently",
+      "question": "How do you expect me to hear you as you ____? The feature asked impatiently",
       "options": [
         {
           "text": "Mutter",
@@ -6076,7 +6076,7 @@
     {
       "qNum": 330,
       "tag": "MCQ 330 (Past Paper 2025)",
-      "question": "The citizens of the country were given was declining.... to have more children because the population rate was declining",
+      "question": "The citizens of the country were given ____ to have more children because the population rate was declining.",
       "options": [
         {
           "text": "(A) inducement",
